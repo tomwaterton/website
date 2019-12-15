@@ -11,10 +11,10 @@ function NotFoundPage() {
 
       <section>
         <div class="padding-bt">
-          <p class="description">Error: 404</p>
           <h1>
               Hmm, we can't seem to find that page...
           </h1>
+          <p class="description">Error: 404</p>
           </div>
       </section>
 
