@@ -2,16 +2,16 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import article_1_Illustration from "../images/article_thumbnail_1.jpg";
-import article_2_Illustration from "../images/article_thumbnail_2.jpg";
-import article_3_Illustration from "../images/article_thumbnail_3.jpg";
-import article_4_Illustration from "../images/article_thumbnail_4.png";
-import article_5_Illustration from "../images/article_thumbnail_5.png";
-import article_6_Illustration from "../images/article_thumbnail_6.jpg";
-import article_7_Illustration from "../images/article_thumbnail_7.jpg";
-import article_8_Illustration from "../images/article_thumbnail_8.jpeg";
-import article_9_Illustration from "../images/article_thumbnail_9.jpg";
-import article_10_Illustration from "../images/article_thumbnail_10.jpg";
+import article_1_Illustration from "../images/articles/article_thumbnail_1.jpg";
+import article_2_Illustration from "../images/articles/article_thumbnail_2.jpg";
+import article_3_Illustration from "../images/articles/article_thumbnail_3.jpg";
+import article_4_Illustration from "../images/articles/article_thumbnail_4.png";
+import article_5_Illustration from "../images/articles/article_thumbnail_5.png";
+import article_6_Illustration from "../images/articles/article_thumbnail_6.jpg";
+import article_7_Illustration from "../images/articles/article_thumbnail_7.jpg";
+import article_8_Illustration from "../images/articles/article_thumbnail_8.jpeg";
+import article_9_Illustration from "../images/articles/article_thumbnail_9.jpg";
+import article_10_Illustration from "../images/articles/article_thumbnail_10.jpg";
 
 function ArticlesPage() {
   return (
@@ -22,318 +22,325 @@ function ArticlesPage() {
       />
 
       <section className="flex flex-col md:flex-row items-center">
-        <div className="md:w-2/3 md:mr-8">
+        <div className="md:mr-8">
             <h1>Articles</h1>
             <p class="description">Some of my recent articles.</p>
         </div>
       </section>
 
-
 	<section>
+    <ul class="c-tile-list">
 
-<ul class="c-tile-list">
-
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col1" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">
-		  <img class="article-thumbnail"
-			alt="Article image"
-			src={article_10_Illustration}
-		  />
-		</a>
-      </div>
-
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a Content Designer</a>
-        </h2>
-      </div>
-
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			10 min read
-        </span>
-
-        <date class="c-article-tile__date" itemprop="datePublished">
-			Jun 18 2019
-        </date>
-      </footer>
-    </article>
-  </li>
-
-
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col2" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302">
-	      <img class="article-thumbnail"
-            alt="Article image"
-            src={article_9_Illustration}
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04" target="_blank">
+          <img class="article-thumbnail"
+          alt="Article image"
+          src={article_10_Illustration}
           />
-		</a>
-      </div>
+        </a>
+          </div>
 
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302">On Content Design (a poem)</a>
-        </h2>
-      </div>
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04" target="_blank">
+            Confessions of a Content Designer</a>
+            </h2>
+          </div>
 
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			3 min read
-        </span>
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+            10 min read
+            </span>
 
-        <date class="c-article-tile__date" itemprop="datePublished">
-        	Feb 11, 2019
-        </date>
-      </footer>
-    </article>
-  </li>
+            <date class="c-article-tile__date" itemprop="datePublished">
+            Jun 18, 2019
+            </date>
+          </footer>
+        </article>
+      </li>
 
 
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53">
-	      <img class="article-thumbnail"
-            alt="Article image"
-            src={article_8_Illustration}
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302" target="_blank">
+            <img class="article-thumbnail"
+                alt="Article image"
+                src={article_9_Illustration}
+              />
+        </a>
+          </div>
+
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302" target="_blank">
+            On Content Design (a poem)</a>
+            </h2>
+          </div>
+
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+          3 min read
+            </span>
+
+            <date class="c-article-tile__date" itemprop="datePublished">
+              Feb 11, 2019
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53" target="_blank">
+            <img class="article-thumbnail"
+                alt="Article image"
+                src={article_8_Illustration}
+              />
+        </a>
+          </div>
+
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53" target="_blank">
+            How to punctuate like a pro</a>
+            </h2>
+          </div>
+
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+          9 min read
+            </span>
+
+            <date class="c-article-tile__date" itemprop="datePublished">
+              Oct 20, 2018
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5" target="_blank">
+          <img class="article-thumbnail"
+          alt="Article image"
+          src={article_7_Illustration}
           />
-		</a>
-      </div>
+        </a>
+          </div>
 
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53">How to punctuate like a pro</a>
-        </h2>
-      </div>
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5" target="_blank">
+            Taking responsibility for our communication</a>
+            </h2>
+          </div>
 
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			9 min read
-        </span>
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+            7 min read
+            </span>
 
-        <date class="c-article-tile__date" itemprop="datePublished">
-        	Oct 20, 2018
-        </date>
-      </footer>
-    </article>
-  </li>
-
-
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col1" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5">
-		  <img class="article-thumbnail"
-			alt="Article image"
-			src={article_7_Illustration}
-		  />
-		</a>
-      </div>
-
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5">Taking responsibility for our communication</a>
-        </h2>
-      </div>
-
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			7 min read
-        </span>
-
-        <date class="c-article-tile__date" itemprop="datePublished">
-			Jul 20 2018
-        </date>
-      </footer>
-    </article>
-  </li>
+            <date class="c-article-tile__date" itemprop="datePublished">
+            Jul 20, 2018
+            </date>
+          </footer>
+        </article>
+      </li>
 
 
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col2" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015">
-	      <img class="article-thumbnail"
-            alt="Article image"
-            src={article_6_Illustration}
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015" target="_blank">
+            <img class="article-thumbnail"
+                alt="Article image"
+                src={article_6_Illustration}
+              />
+        </a>
+          </div>
+
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015" target="_blank">
+            Why I read</a>
+            </h2>
+          </div>
+
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+            8 min read
+            </span>
+
+            <date class="c-article-tile__date" itemprop="datePublished">
+            May 02, 2018
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50" target="_blank">
+            <img class="article-thumbnail"
+                alt="Article image"
+                src={article_5_Illustration}
+              />
+        </a>
+          </div>
+
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50" target="_blank">
+            Failing fast, using feedback loops, and the benefits of iterative design</a>
+            </h2>
+          </div>
+
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+            8 min read
+            </span>
+
+            <date class="c-article-tile__date" itemprop="datePublished">
+            Feb 20, 2018
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/@tomwaterton/how-to-emphasize-key-words-in-your-text-b8738f146972" target="_blank">
+          <img class="article-thumbnail"
+          alt="Article image"
+          src={article_4_Illustration}
           />
-		</a>
-      </div>
+        </a>
+          </div>
 
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015">Why I read</a>
-        </h2>
-      </div>
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/@tomwaterton/how-to-emphasize-key-words-in-your-text-b8738f146972" target="_blank">
+            How to emphasize key words in your text</a>
+            </h2>
+          </div>
 
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			8 min read
-        </span>
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+            6 min read
+            </span>
 
-        <date class="c-article-tile__date" itemprop="datePublished">
-			May 02 2018
-        </date>
-      </footer>
-    </article>
-  </li>
+            <date class="c-article-tile__date" itemprop="datePublished">
+            Sep 13, 2017
+            </date>
+          </footer>
+        </article>
+      </li>
 
 
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50">
-	      <img class="article-thumbnail"
-            alt="Article image"
-            src={article_5_Illustration}
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3" target="_blank">
+            <img class="article-thumbnail"
+                alt="Article image"
+                src={article_3_Illustration}
+              />
+        </a>
+          </div>
+
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3" target="_blank">
+            Creating a culture of design</a>
+            </h2>
+          </div>
+
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+            9 min read
+            </span>
+
+            <date class="c-article-tile__date" itemprop="datePublished">
+            Jun 08, 2017
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/@tomwaterton/whats-your-passion-c570374a8810" target="_blank">
+            <img class="article-thumbnail"
+                alt="Article image"
+                src={article_2_Illustration}
+              />
+        </a>
+          </div>
+
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/@tomwaterton/whats-your-passion-c570374a8810" target="_blank">
+            What’s your passion?</a>
+            </h2>
+          </div>
+
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+            4 min read
+            </span>
+
+            <date class="c-article-tile__date" itemprop="datePublished">
+            Jul 18, 2016
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li class="c-tile-list__item">
+        <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div class="c-article-tile__header">
+          <a href="https://medium.com/@tomwaterton/tell-me-a-story-a809032e95d5" target="_blank">
+          <img class="article-thumbnail"
+          alt="Article image"
+          src={article_1_Illustration}
           />
-		</a>
-      </div>
+        </a>
+          </div>
 
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50">Failing fast, using feedback loops, and the benefits of iterative design</a>
-        </h2>
-      </div>
+          <div class="c-article-tile__body">
+            <h2 class="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/@tomwaterton/tell-me-a-story-a809032e95d5" target="_blank">
+            Tell me a story</a>
+            </h2>
+          </div>
 
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			8 min read
-        </span>
+          <footer class="c-article-tile__footer">
+            <span class="c-article-tile__read-time">
+            4 min read
+            </span>
 
-        <date class="c-article-tile__date" itemprop="datePublished">
-			Feb 20 2018
-        </date>
-      </footer>
-    </article>
-  </li>
+            <date class="c-article-tile__date" itemprop="datePublished">
+            Jul 03, 2016
+            </date>
+          </footer>
+        </article>
+      </li>
 
-
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col1" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/@tomwaterton/how-to-emphasize-key-words-in-your-text-b8738f146972">
-		  <img class="article-thumbnail"
-			alt="Article image"
-			src={article_4_Illustration}
-		  />
-		</a>
-      </div>
-
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/@tomwaterton/how-to-emphasize-key-words-in-your-text-b8738f146972">How to emphasize key words in your text</a>
-        </h2>
-      </div>
-
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			6 min read
-        </span>
-
-        <date class="c-article-tile__date" itemprop="datePublished">
-			Sep 13 2017
-        </date>
-      </footer>
-    </article>
-  </li>
-
-
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col2" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3">
-	      <img class="article-thumbnail"
-            alt="Article image"
-            src={article_3_Illustration}
-          />
-		</a>
-      </div>
-
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3">Creating a culture of design</a>
-        </h2>
-      </div>
-
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			9 min read
-        </span>
-
-        <date class="c-article-tile__date" itemprop="datePublished">
-			Jun 08 2017
-        </date>
-      </footer>
-    </article>
-  </li>
-
-
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/@tomwaterton/whats-your-passion-c570374a8810">
-	      <img class="article-thumbnail"
-            alt="Article image"
-            src={article_2_Illustration}
-          />
-		</a>
-      </div>
-
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/@tomwaterton/whats-your-passion-c570374a8810">What’s your passion?</a>
-        </h2>
-      </div>
-
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			4 min read
-        </span>
-
-        <date class="c-article-tile__date" itemprop="datePublished">
-			Jul 18 2016
-        </date>
-      </footer>
-    </article>
-  </li>
-
-
-  <li class="c-tile-list__item">
-    <article class="c-article-tile col1" itemscope itemtype="http://schema.org/Article">
-      <div class="c-article-tile__header">
-	    <a href="https://medium.com/@tomwaterton/tell-me-a-story-a809032e95d5">
-		  <img class="article-thumbnail"
-			alt="Article image"
-			src={article_1_Illustration}
-		  />
-		</a>
-      </div>
-
-      <div class="c-article-tile__body">
-        <h2 class="c-article-tile__title" itemprop="headline">
-          <a href="https://medium.com/@tomwaterton/tell-me-a-story-a809032e95d5">Tell me a story</a>
-        </h2>
-      </div>
-
-      <footer class="c-article-tile__footer">
-        <span class="c-article-tile__read-time">
-			4 min read
-        </span>
-
-        <date class="c-article-tile__date" itemprop="datePublished">
-			Jul 03 2016
-        </date>
-      </footer>
-    </article>
-  </li>
-
-</ul>
-
+      </ul>
       </section>
     </Layout>
   );

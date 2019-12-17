@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import dogIllustration from "../images/dog-illustration.svg";
+import dogIllustration from "../images/tailwind/dog-illustration.svg";
 
 function ContentDesignPage() {
   return (
@@ -14,6 +14,11 @@ function ContentDesignPage() {
 
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:mr-8">
+          <h1 class="standout">Content design</h1>
+          <p class="description">Some introductory text to go here...</p>
+
+          <p><br/></p>
+
           <blockquote className="border-l-4 border-gray-900 font-serif leading-loose pl-4 text-justify">
             The point is... to live one's life in the full complexity of what
             one is, which is something much darker, more contradictory, more of

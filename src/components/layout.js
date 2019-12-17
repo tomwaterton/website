@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 import React from "react";
 
 import Header from "./header";
-import linkedin from "../images/linkedin.svg";
-import twitter from "../images/twitter.svg";
-import email from "../images/email.png";
+import linkedin from "../images/footer/linkedin.svg";
+import twitter from "../images/footer/twitter.svg";
+import email from "../images/footer/email.png";
 
 function Layout({ children }) {
   return (
@@ -38,7 +38,7 @@ function Layout({ children }) {
           </ul>
         </div>
 
-        <div className="attribution">Created using the <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" target="_blank">tailwind</a> Gatsby starter theme</div>
+        <div className="attribution">Site adapted from the <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" target="_blank">tailwind</a> Gatsby starter theme</div>
 
         </nav>
       </footer>
