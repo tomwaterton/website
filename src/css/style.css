@@ -1,20 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("/header/header.css");
+
+/* Contents */
+
+
+
+html {
+  font-size: 20px;
+}
 
 /* header banner */
 .header-700 {
     background-color: #fff;
 }
 
+/* The following entry just applies to the site name */
 .site-name {
     color: grey;
     font-weight: 700;
 }
 
+.site-name a {
+  padding: 16px 30px;
+}
+
 .site-name a:hover {
-    color: #505050;
-  }
+  color: #505050;
+  background-color: #ffff99;
+}
 
 .navbar {
     overflow: hidden;
@@ -68,49 +83,56 @@
   }
 
 /* Adds background color to nav items on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffff99;
 /*
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #dedede;
-  }
+  background-color: #dedede;
 */
+ }
 
 /* Adds background color to nav items in dropdown list on hover */
 .dropdown-content a:hover {
-    background-color: #dedede;
-  }
+  background-color: #ffff99;
+/*
+  background-color: #dedede;
+*/  
+}
 
 .dropdown:hover .dropdown-content {
-    display: block;
-  }
+  display: block;
+}
 
 
 
 /* Main page area */
 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
+  color: #c69;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #c69;
 }
 
 .description {
-    font-style: italic;
-    color: grey;
-    padding-bottom: 1rem;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: grey;
+  padding-bottom: 1rem;
 }
 
 /* Article page */
-.articles {
-  padding: 20px 0;
+.sub-heading {
+  padding-top: 2rem;
 }
 
-.articles p {
-  font-weight: 600;
+.tom-max-width {
+  max-width: 64rem;
 }
 
-.articles li {
-  color: grey;
-  font-size: 0.7rem;
-}
-
-.articles ul {
+/* Patents page */
+.publishes ul {
   display: block;
   list-style-type: disc;
   margin-top: 1em;
@@ -118,11 +140,27 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   padding-left: 40px;
+  padding-bottom: 40px;
 }
 
-.articles a:hover {
-  background-color: #dedede;
+.publishes li {
+  font-size: 0.9rem;
 }
+
+.publishes a {
+  color: #2980b9;
+}
+
+.publishes a:hover {
+  text-decoration: underline;
+}
+
+.date {
+  font-size: 0.9rem;
+  padding-left: 10px;
+  color: grey;
+}
+
 
 /* 404 page */
 
@@ -199,7 +237,8 @@ h1 {
   }
 
 .attribution {
-    font-size: 0.75rem;
+  font-size: .7rem;
+  padding-top: 8px;
 }
 
 .attribution a {
@@ -237,15 +276,15 @@ h1 {
 .c-tile-list__item {
   display: flex; /* 1 */
   flex-direction: column; /* 1 */
-  flex: 0 0 300px; /* 2 */
+  flex: 0 0 31%; /* 2 */
   margin: 10px; /* 3 */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 6px;
 }
 
 .c-tile-list__item:hover {
-  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+  box-shadow: 2px 10px 20px 2px rgba(0,0,0,0.2);
 }
 
 
@@ -322,6 +361,7 @@ h1 {
 .c-article-tile__title:not(:hover):not(:active) > a {
   color: inherit; /* 1 */
 }
+
 
 /**
  * 1. Bottom align the footer in the tile.
