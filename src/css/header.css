@@ -1,0 +1,95 @@
+/* header banner */
+.header-700 {
+    background-color: #fff;
+}
+
+/* The following entry just applies to the site name */
+.site-name a {
+  font-weight: 600;
+/* color: grey; */
+}
+
+/* To define the size of the yellow area upon hover */
+/*
+/* .site-name a {
+/*  padding: 16px 30px 16px 30px;
+} */
+
+.site-name a:hover {
+  color: #505050;
+  text-decoration: none;
+/* background-color: #f6e05e; */
+/* background-color: #ffff99; */
+}
+
+
+/* The top-right hand navigation menu*/
+.navbar {
+    overflow: hidden;
+  }
+
+.navbar a {
+  float: left;
+  color: grey;
+  text-align: center;
+  padding: 16px 30px;
+  text-decoration: none;
+}
+/* Changes color of nav item text on hover */
+.navbar a:hover {
+  color: #505050;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: grey;
+  padding: 16px 30px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: inherit;
+  font-size: 1rem;
+}
+
+/* Adds background color to top level nav items on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f6e05e;
+  /* background-color: #ffff99; */
+/* background-color: #dedede; */
+}
+
+/* Adds background color to nav items in dropdown list on hover */
+.dropdown-content a:hover {
+  background-color: #f6e05e;
+/* background-color: #ffff99; */
+/* background-color: #dedede; */  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

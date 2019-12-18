@@ -1,0 +1,37 @@
+/* Footer background */
+.bg-footer-700 {
+    background-color: #e0e0e0;
+}
+
+
+/* For the social media icons/links bottom-left */
+.social-media img {
+    max-width: 32px;
+}
+
+.social-media ul {
+    display:inline-flex;
+}
+
+.social-media li {
+    margin-left: 1rem;
+    list-style: none;
+}
+
+
+/* For the attribution text bottom-right */
+.attribution {
+  font-size: .7rem;
+  padding-top: 8px;
+  color: grey;
+}
+
+.attribution a {
+    font-weight: 500;
+    color: #505050;
+}
+
+.attribution a:hover {
+    color: #505050;
+    text-decoration: underline;
+}

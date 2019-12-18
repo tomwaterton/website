@@ -1,0 +1,10 @@
+.date {
+  font-size: 0.9rem;
+  padding-left: 4px;
+  color: grey;
+}
+
+.fyi {
+  color: grey;
+  font-style: italic;
+}
