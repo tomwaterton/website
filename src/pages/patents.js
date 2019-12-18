@@ -19,11 +19,11 @@ function PatentsPage() {
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:mr-8">
             <h1>Patents</h1>
-            <p class="description">To date I have 3 granted patents — with a further 6 patents pending.</p>
+            <p class="description">To date I have 3 granted patents and a further 6 patents pending.</p>
         </div>
       </section>
 
-	<section>
+	<section class="padding-tb">
     <ul class="c-tile-list">
 
       <li class="c-tile-list__item">
@@ -130,13 +130,13 @@ function PatentsPage() {
 
           <div class="c-article-tile__body">
             <h2 class="c-article-tile__title" itemprop="headline">
-            <em>(Plus 6 other patents pending)</em>
+            <span class="fyi">...Plus 6 other patents pending</span>
             </h2>
           </div>
 
           <footer class="c-article-tile__footer">
             <span class="c-article-tile__read-time">
-                &nbsp;
+                Currently with the US Patent Office
             </span>
 
             <date class="c-article-tile__date" itemprop="datePublished">

@@ -9,12 +9,12 @@ function ContentDesignPage() {
     <Layout>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="content design"
+        title="Content design"
       />
 
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:mr-8">
-          <h1 class="standout">Content design</h1>
+          <h1>Content design</h1>
           <p class="description">Some introductory text to go here...</p>
 
           <p><br/></p>

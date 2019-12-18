@@ -1,181 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("/header/header.css");
-
-/* Contents */
-
-
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./404.css");
+@import url("./patents.css");
+@import url("./tiles.css");
 
 html {
   font-size: 20px;
 }
 
-/* header banner */
-.header-700 {
-    background-color: #fff;
+a {
+  color: #2980b9;
 }
 
-/* The following entry just applies to the site name */
-.site-name {
-    color: grey;
-    font-weight: 700;
+a:hover {
+  text-decoration: underline;
 }
 
-.site-name a {
-  padding: 16px 30px;
-}
-
-.site-name a:hover {
-  color: #505050;
-  background-color: #ffff99;
-}
-
-.navbar {
-    overflow: hidden;
-  }
-
-.navbar a {
-    float: left;
-    color: grey;
-    text-align: center;
-    padding: 16px 30px;
-    text-decoration: none;
-  }
-/* Changes color of nav item text on hover */
-.navbar a:hover {
-    color: #505050;
-  }
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-  }
-
-.dropdown .dropbtn {
-    border: none;
-    outline: none;
-    color: grey;
-    padding: 16px 30px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-
-.dropdown-content a {
-    float: none;
-    color: grey;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    font-size: inherit;
-    font-size: 1rem;
-  }
-
-/* Adds background color to nav items on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #ffff99;
-/*
-  background-color: #dedede;
-*/
- }
-
-/* Adds background color to nav items in dropdown list on hover */
-.dropdown-content a:hover {
-  background-color: #ffff99;
-/*
-  background-color: #dedede;
-*/  
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-
-/* Main page area */
 h1 {
   font-size: 2rem;
+  font-weight: 500;
   color: #c69;
 }
 
 h2 {
   font-size: 1.3rem;
+  font-weight: 500;
   color: #c69;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .description {
   font-size: 0.9rem;
   font-style: italic;
   color: grey;
-  padding-bottom: 1rem;
 }
 
-/* Article page */
-.sub-heading {
-  padding-top: 2rem;
+/* Used on several pages to pad between title&desc and the main block of content */
+.padding-tb {
+  padding-top: 1.3rem;
+  padding-bottom: 2rem;
 }
 
-.tom-max-width {
-  max-width: 64rem;
-}
-
-/* Patents page */
-.publishes ul {
+ul {
   display: block;
   list-style-type: disc;
-  margin-top: 1em;
-  margin-bottom: 1 em;
-  margin-left: 0;
-  margin-right: 0;
+  padding-top: 10px;
   padding-left: 40px;
-  padding-bottom: 40px;
 }
 
-.publishes li {
-  font-size: 0.9rem;
-}
-
-.publishes a {
-  color: #2980b9;
-}
-
-.publishes a:hover {
-  text-decoration: underline;
-}
-
-.date {
-  font-size: 0.9rem;
-  padding-left: 10px;
-  color: grey;
-}
-
-
-/* 404 page */
-
-.padding-bt {
-  padding-bottom: 3rem;
-}
-
+/* To create left and right sections */
 .left {
   max-width: 50%;
   float: left;
-}
-
-.left img {
-
-  margin: auto;
 }
 
 .right {
@@ -183,258 +65,11 @@ h2 {
   float: left;
 }
 
-.right ul {
-  display: block;
-  list-style-type: disc;
-  margin-top: 1em;
-  margin-bottom: 1 em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 40px;
+/* To horizontally centre images within left and right sections */
+.left img {
+  margin: auto;
 }
 
-.links-404-page a {
-  color: grey;
-  font-size: 0.8rem;
-}
-
-.links-404-page a:hover {
-  color: black;
-}
-
-
-
-/* footer */
-.bg-footer-700 {
-    color: grey;
-    background-color: #e0e0e0;
-}
-
-.bg-footer-700 a {
-    color: #505050;
-}
-
-.social-media {
-    font-size: 0.75rem;
-}
-
-.social-media img {
-    max-width: 32px;
-}
-
-.social-media ul {
-    display:inline-flex;
-}
-
-.social-media li {
-    margin-left: 1rem;
-    font-weight: 500;
-}
-
-.social-media a:hover {
-    color: #505050;
-    text-decoration: underline;
-  }
-
-.attribution {
-  font-size: .7rem;
-  padding-top: 8px;
-}
-
-.attribution a {
-    font-weight: 500;
-}
-
-.attribution a:hover {
-    color: #505050;
-    text-decoration: underline;
-}
-
-
-
-/* -------------------------------------------------------------------------- *\
- * .c-tile-list
- * -------------------------------------------------------------------------- */
-
-/**
- * 1. Reset default list styles
- * 2. Flexbox used for a grid-like layout for the tiles.
- */
- .c-tile-list {
-  list-style: none; /* 1 */
-  margin: 0; /* 1 */
-  padding: 0; /* 1 */
-  display: flex; /* 2 */
-  flex-wrap: wrap; /* 2 */
-}
-
-/**
- * 1. Flexbox used for equal-height tiles on a same line.
- * 2. Make sure a time never looks distorded.
- * 3. Spacing between tiles.
- */
-.c-tile-list__item {
-  display: flex; /* 1 */
-  flex-direction: column; /* 1 */
-  flex: 0 0 31%; /* 2 */
-  margin: 10px; /* 3 */
-  box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 6px;
-}
-
-.c-tile-list__item:hover {
-  box-shadow: 2px 10px 20px 2px rgba(0,0,0,0.2);
-}
-
-
-/* -------------------------------------------------------------------------- *\
- * .c-article-tile
- * -------------------------------------------------------------------------- */
-
-/**
- * 1. Make it possible to bottom align the footer in a tile that has a minimum
- *    height.
- * 2. Make sure the tile spread across the full height of the parent if inside
- *    a flex container.
- */
-.c-article-tile {
-  display: flex; /* 1 */
-  flex-direction: column; /* 1 */
-  flex: 1 0 auto; /* 2 */
-  background-color: rgb(255, 255, 255);
-}
-
-.c-article-tile a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.c-article-tile__header,
-.c-article-tile__body,
-.c-article-tile__footer {
-  display: flex;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.c-article-tile__header,
-.c-article-tile__footer {
-  font-size: 60%;
-}
-
-.c-article-tile__header {
-  padding: 0;
-  border-bottom: 2px solid;
-}
-
-.article-thumbnail {
-  border-radius: 6px 6px 0 0;
-}
-
-.c-article-tile__category {
-  font-weight: bold;
-}
-
-/**
- * 1. Right align the comment count container in the header.
- */
-.c-article-tile__comment-count {
-  margin-left: auto; /* 1 */
-}
-
-.c-article-tile__body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.c-article-tile__title {
-  margin: 0;
-  color: #333;
-  font-size: 110%;
-}
-
-/**
- * 1. Make the title link inherit the color only when not active / hovered,
- *    effectively making it themed when active / hovered.
- */
-.c-article-tile__title:not(:hover):not(:active) > a {
-  color: inherit; /* 1 */
-}
-
-
-/**
- * 1. Bottom align the footer in the tile.
- * 2. Prevent any content from the footer from wrapping, effectively forcing it
- *    on a single line at all time.
- */
-.c-article-tile__footer {
-  padding-top: 10px;
-  padding-bottom: 15px;
-  margin-top: auto; /* 1 */
-  white-space: nowrap; /* 2 */
-  color: #949494;
-}
-
-/**
- * 1. Prevent the read-time and the date from overlapping in case they both don’t
- *    fit on the line; add an ellipsis to the read-time name.
- * 2. Visually no effect when both the read-time and the date fit; however make
- *    sure they are slightly spaced from each other if they meet on the line.
- */
-.c-article-tile__read-time {
-  text-overflow: ellipsis; /* 1 */
-  overflow: hidden; /* 1 */
-  margin-right: 5px; /* 2 */
-}
-
-/**
- * 1. Right align the date container in the footer.
- */
-.c-article-tile__date {
-  margin-left: auto; /* 1 */
-}
-
-
-/* -------------------------------------------------------------------------- *\
- * [Theming] .c-article-tile
- * -------------------------------------------------------------------------- */
-
- .c-article-tile {
-   border-radius: 6px;
- }
-
-.c-article-tile.col1,
-.c-article-tile.col1 a {
-  color: #c69;
-}
-
-.c-article-tile.col2,
-.c-article-tile.col2 a {
-  color: #2abc67;
-}
-
-.c-article-tile.col3,
-.c-article-tile.col3 a {
-  color: #2980b9;
-}
-
-
-/* -------------------------------------------------------------------------- *\
- * Global styles
- * -------------------------------------------------------------------------- */
-
-* {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-.icon {
-  width: 1em;
-  height: 1em;
-  fill: currentcolor;
-  vertical-align: top;
+.right img {
+  margin: auto;
 }
