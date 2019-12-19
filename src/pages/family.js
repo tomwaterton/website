@@ -2,10 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import profile_1_Illustration from "../images/family/profile_lady_left.png";
-import profile_2_Illustration from "../images/family/profile_child_right.jpg";
-import profile_3_Illustration from "../images/family/profile_child_left.jpg";
-
+import family_photo from "../images/family/family_photo.jpg";
 
 
 function FamilyPage() {
@@ -19,77 +16,61 @@ function FamilyPage() {
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:mr-8">
           <h1>Family</h1>
-          <p class="description">Some introductory text to go here...</p>
         </div>
       </section>
 
-  <section class="padding-tb">
+      <section class="padding-tb">
 
-      <section>
-        <div class="left">
-          <h2>Laura</h2>
-          <div class="italic">
-            (aka Lou-Lou, Mrs W., Badger, Love-Bug, Floozy Pants, etc.)
+        <div class="row">
+          <div class="column">
+            <p>A short paragraph of text will go here...
+            A short paragraph of text will go here...
+            A short paragraph of text will go here...
+            A short paragraph of text will go here...
+            </p>
           </div>
-          <div>
-            Part chef, part writer, part gardener...<br/>
-            Co-partner in raising our daughters (aka the girls, the smalls, the squirrels, etc.)<br/>
-            Most likely to be found: in the garden.
-          </div>
-        </div>
-        <div class="right">
-        <h2>&nbsp;</h2>
+          <div class="column">
             <img
-              alt="Ghost getting abducted by aliens"
-              className="block w-1/2"
-              src={profile_1_Illustration}
+              alt="Family photo"
+              className="block w-1/2 tilt"
+              src={family_photo}
             />
+          </div>
         </div>
-      </section>
 
-      <section>
-        <div class="left">
-          <h2>&nbsp;</h2>
-            <img
-              alt="Ghost getting abducted by aliens"
-              className="block w-1/2"
-              src={profile_2_Illustration}
-            />
-        </div>
-        <div class="right">
-          <h2>Thea</h2>
-            <div class="italic">
-              (aka Thea-Pearl, Gorgeous Chops, Chops, Chopper, etc.)
+        <div class="row">
+          <div class="column-1-3">
+            <h2>Laura</h2>
+            <p class="small-text-italic">(aka Lou-Lou, Mrs W., Badger, Love-Bug, Floozy Pants, etc.)</p>
+            <div class="small-text">
+              <p>Part chef, part writer, part gardener...</p>
+              <p>Co-partner in raising our daughters (aka the girls, the smalls, the squirrels, etc.)</p>
+              <p>Most likely to be found: gardening.</p>
             </div>
-            <div>
-            Some more text to go here...<br/>
-            Most likely to be found: reading a book.
+          </div>
+
+          <div class="column-1-3">
+            <h2>Thea</h2>
+            <p class="small-text-italic">(aka Thea-Pearl, Gorgeous Chops, Chops, Chopper, etc.)</p>
+            <div class="small-text">
+              <p>Some more text to go here...</p>
+              <p>Some more text to go here...</p>
+              <p>Most likely to be found: doing a craft activity.</p>
             </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="left">
-        <h2>Harriet</h2>
-          <div class="italic">
-          (aka Hattie, Hattie-Cakes, Hattie-Wu, Wombat-Wu, Wu, Hats, Hat-Splats, The Joker, etc.)
           </div>
-          <div>
-            Some more text to go here...<br/>
-            Most likely to be found: wiggling her bottom and laughing.
+
+          <div class="column-1-3">
+            <h2>Harriet</h2>
+            <p class="small-text-italic">(aka Hattie, Hattie-Cakes, Hattie-Wu, Wombat-Wu, Hats, Hat-Splats, The Joker, etc.)</p>
+            <div class="small-text">
+              <p>Some more text to go here...</p>
+              <p>Some more text to go here...</p>
+              <p>Most likely to be found: making someone laugh.</p>
+            </div>
           </div>
         </div>
-        <div class="right">
-        <h2>&nbsp;</h2>
-            <img
-              alt="Ghost getting abducted by aliens"
-              className="block w-1/2"
-              src={profile_3_Illustration}
-            />
-        </div>
-      </section>
 
-  </section>
+      </section>
 
     </Layout>
   );
