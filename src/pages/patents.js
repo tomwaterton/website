@@ -150,7 +150,7 @@ function PatentsPage() {
       </section>
 
 
-      <section className="flex flex-col md:flex-row items-center">
+      <section className="flex flex-col md:flex-row items-center padding-tb">
         <div className="md:mr-8">
             <h2 class="sub-heading">Other inventions</h2>
             <p class="description">I have also had a number of other technical inventions published on <a href="https://ip.com/" target="_blank">IP.com</a>.</p>
