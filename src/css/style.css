@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @import url("./404.css");
+@import url("./books.css");
+@import url("./cryptic-crosswords.css");
 @import url("./family.css");
 @import url("./footer.css");
 @import url("./header.css");
@@ -29,6 +31,11 @@ h1 {
 
 h2 {
   font-size: 1.3rem;
+  font-weight: 500;
+  color: #c69;
+}
+
+h3 {
   font-weight: 500;
   color: #c69;
 }
@@ -63,16 +70,15 @@ ul {
 }
 
 /* Used on several pages to provide vertical heading around a section */
-.padding-tb {
-  padding-top: 1.3rem;
+.padding-bottom {
   padding-bottom: 2rem;
 }
+
 
 /* To provide the full-width row and split column layouts */
 .row {
   display: flex;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 /* Create two equal columns that sits next to each other */

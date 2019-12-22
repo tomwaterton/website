@@ -12,10 +12,15 @@ function ContentDesignPage() {
         title="Content design"
       />
 
+  <section class="row">
+    <div class="column">
+      <h1>Content design</h1>
+      <p class="description">Some introductory text to go here...</p>
+    </div>
+  </section>
+
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:mr-8">
-          <h1>Content design</h1>
-          <p class="description">Some introductory text to go here...</p>
 
           <p><br/></p>
 
@@ -36,6 +41,7 @@ function ContentDesignPage() {
           <img alt="A dog relaxing" src={dogIllustration} />
         </figure>
       </section>
+
     </Layout>
   );
 }

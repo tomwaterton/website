@@ -3,6 +3,12 @@
     background-color: #fff;
 }
 
+/* The following ensures the site name lines up with content in the main... */
+/* ...section, which also has padding of 10px */
+.site-name {
+  padding-left: 10px;
+}
+
 /* The following entry just applies to the site name */
 .site-name a {
   font-weight: 600;
