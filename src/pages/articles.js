@@ -2,16 +2,16 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import article_1_Illustration from "../images/articles/article_thumbnail_1.jpg";
-import article_2_Illustration from "../images/articles/article_thumbnail_2.jpg";
-import article_3_Illustration from "../images/articles/article_thumbnail_3.jpg";
-import article_4_Illustration from "../images/articles/article_thumbnail_4.png";
-import article_5_Illustration from "../images/articles/article_thumbnail_5.png";
-import article_6_Illustration from "../images/articles/article_thumbnail_6.jpg";
-import article_7_Illustration from "../images/articles/article_thumbnail_7.jpg";
-import article_8_Illustration from "../images/articles/article_thumbnail_8.jpeg";
-import article_9_Illustration from "../images/articles/article_thumbnail_9.jpg";
 import article_10_Illustration from "../images/articles/article_thumbnail_10.jpg";
+import article_9_Illustration from "../images/articles/article_thumbnail_9.jpg";
+import article_8_Illustration from "../images/articles/article_thumbnail_8.jpeg";
+import article_7_Illustration from "../images/articles/article_thumbnail_7.jpg";
+import article_6_Illustration from "../images/articles/article_thumbnail_6.jpg";
+import article_5_Illustration from "../images/articles/article_thumbnail_5.png";
+import article_4_Illustration from "../images/articles/article_thumbnail_4.png";
+import article_3_Illustration from "../images/articles/article_thumbnail_3.jpg";
+import article_2_Illustration from "../images/articles/article_thumbnail_2.jpg";
+import article_1_Illustration from "../images/articles/article_thumbnail_1.jpg";
 
 function ArticlesPage() {
   return (
@@ -21,14 +21,16 @@ function ArticlesPage() {
         title="Articles"
       />
 
-      <section className="flex flex-col md:flex-row items-center">
-        <div className="md:mr-8">
-            <h1>Articles</h1>
-            <p class="description">Some of my recent articles.</p>
-        </div>
-      </section>
+  <section class="row">
+    <div class="column">
+      <h1>Articles</h1>
+      <p class="description">Some of my recent articles.</p>
+    </div>
+  </section>
 
-	<section class="padding-tb">
+
+  <section className="flex flex-col md:flex-row items-center padding-bottom">
+
     <ul class="c-tile-list">
 
       <li class="c-tile-list__item">
@@ -340,8 +342,9 @@ function ArticlesPage() {
         </article>
       </li>
 
-      </ul>
-      </section>
+    </ul>
+  </section>
+
     </Layout>
   );
 }

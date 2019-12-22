@@ -22,8 +22,8 @@ function Header() {
       </div>
 
       <div class="navbar">
-        <a href="/content-design">Content design</a>
-        <a href="/articles">Articles</a>
+        <a href="content-design">Content design</a>
+        <a href="articles">Articles</a>
         <div class="dropdown">
           <button class="dropbtn">More
             <i class="fa fa-caret-down"></i>
@@ -31,8 +31,8 @@ function Header() {
           <div class="dropdown-content">
             <a href="patents">Patents</a>
             <a href="cryptic-crosswords">Cryptic crosswords</a>
-            <a href="brewing">Brewing</a>
-            <a href="reading">Reading</a>
+            <a href="beer">Beer</a>
+            <a href="books">Books</a>
             <a href="family">Family</a>
           </div>
         </div>

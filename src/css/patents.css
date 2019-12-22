@@ -8,3 +8,7 @@
   color: grey;
   font-style: italic;
 }
+
+.patent-background {
+  background-color: aliceblue !important;
+}
