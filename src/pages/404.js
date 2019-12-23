@@ -33,8 +33,8 @@ function NotFoundPage() {
           <li><a href="/articles">Articles</a></li>
           <li><a href="/patents">Patents</a></li>
           <li><a href="/cryptic-crosswords">Cryptic crosswords</a></li>
-          <li><a href="/beer">Beer</a></li>
-          <li><a href="/books">Books</a></li>
+          <li><a href="/brewing">Brewing</a></li>
+          <li><a href="/reading">Reading</a></li>
           <li><a href="/family">Family</a></li>
         </ul>
     </div>

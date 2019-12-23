@@ -1,3 +1,14 @@
 .crossword-background {
   background-color: antiquewhite !important;
 }
+
+.instruction {
+  font-size: 0.8rem;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.small-lead-in {
+  font-size: 0.8rem;
+  padding-top: 6px;
+}

@@ -12,7 +12,7 @@
     -ms-transform: rotate(3deg); /* IE 9 */
     -webkit-transform: rotate(3deg); /* Safari 3-8 */
     transform: rotate(3deg);
-    border: 10px solid lightgrey;
+    border: 8px solid goldenrod;
     margin: auto;
     max-width: 300px;
   }

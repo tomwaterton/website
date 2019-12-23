@@ -4,17 +4,17 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 
-function BeerPage() {
+function BrewingPage() {
   return (
     <Layout>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Beer"
+        title="Brewing"
       />
 
   <section class="row">
     <div class="column">
-      <h1>Beer</h1>
+      <h1>Brewing</h1>
       <p class="description">Some text to go here...</p>
     </div>
   </section>
@@ -23,4 +23,4 @@ function BeerPage() {
   );
 }
 
-export default BeerPage;
+export default BrewingPage;
