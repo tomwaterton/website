@@ -2,9 +2,9 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import crossword_3_Illustration from "../images/crosswords/generic_crossword.jpg";
-import crossword_2_Illustration from "../images/crosswords/my_crossword_2.png";
-import crossword_1_Illustration from "../images/crosswords/my_crossword_1.png";
+import crossword_03_thumbnail from "../images/crosswords/generic_crossword_thumbnail.jpg";
+import crossword_02_thumbnail from "../images/crosswords/crossword_02_thumbnail.png";
+import crossword_01_thumbnail from "../images/crosswords/crossword_01_thumbnail.png";
 
 
 function CrypticCrosswordsPage() {
@@ -18,7 +18,7 @@ function CrypticCrosswordsPage() {
   <section class="row">
     <div class="column">
       <h1>Cryptic crosswords</h1>
-      <p class="description">Some cryptic crosswords that I've created (under the pseudonym Matthew Aroston).</p>
+      <p class="description">Some cryptic crosswords that I've created.</p>
     </div>
   </section>
 
@@ -29,9 +29,10 @@ function CrypticCrosswordsPage() {
       <li class="c-tile-list__item">
         <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div class="c-article-tile__header">
-          <img class="article-thumbnail"
+          <img
+          class="article-thumbnail"
           alt="Crossword image"
-          src={crossword_3_Illustration}
+          src={crossword_03_thumbnail}
           />
           </div>
 
@@ -57,17 +58,17 @@ function CrypticCrosswordsPage() {
       <li class="c-tile-list__item">
         <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div class="c-article-tile__header">
-          <a href="/" target="_blank">
+          <a href="/crossword_02" target="_blank">
             <img class="article-thumbnail"
                 alt="Crossword image"
-                src={crossword_2_Illustration}
+                src={crossword_02_thumbnail}
               />
         </a>
           </div>
 
           <div class="c-article-tile__body">
             <h2 class="c-article-tile__title" itemprop="headline">
-              <a href="/" target="_blank">
+              <a href="/crossword_02" target="_blank">
               Cryptic crossword #2</a>
             </h2>
           </div>
@@ -88,17 +89,17 @@ function CrypticCrosswordsPage() {
       <li class="c-tile-list__item">
         <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div class="c-article-tile__header">
-          <a href="/" target="_blank">
+          <a href="/crossword_01" target="_blank">
             <img class="article-thumbnail"
                 alt="Crossword image"
-                src={crossword_1_Illustration}
+                src={crossword_01_thumbnail}
               />
         </a>
           </div>
 
           <div class="c-article-tile__body">
             <h2 class="c-article-tile__title" itemprop="headline">
-              <a href="/" target="_blank">
+              <a href="/crossword_01" target="_blank">
               Cryptic crossword #1</a>
             </h2>
           </div>
@@ -120,8 +121,8 @@ function CrypticCrosswordsPage() {
 
   <section class="row">
     <div class="column">
-      <p class="description">If you have any feedback on any of these or would like clues or answers, 
-      do <a href="mailto:tomwaterton@gmail.com">get in touch</a> with me.</p>
+      <p class="description">If you have any feedback on any of my crosswords or would like clues or answers, 
+      do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crossword">get in touch</a> with me.</p>
     </div>
   </section>
 

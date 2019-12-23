@@ -74,6 +74,7 @@
 .c-article-tile__header {
   padding: 0;
   border-bottom: 2px solid;
+  flex-direction: column;
 }
 
 .article-thumbnail {

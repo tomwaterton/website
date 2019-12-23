@@ -16,11 +16,11 @@ function FamilyPage() {
   <section class="row">
     <div class="column">
       <h1>Family</h1>
-      <p>A short paragraph of text will go here...
+      <p class="description">A short paragraph of text will go here...
       A short paragraph of text will go here...
       A short paragraph of text will go here...
       </p>
-      <p>A short paragraph of text will go here...
+      <p class="description">A short paragraph of text will go here...
       A short paragraph of text will go here...
       A short paragraph of text will go here...
       </p>
@@ -33,6 +33,13 @@ function FamilyPage() {
       />
     </div>
   </section>
+
+
+  <section class="row">
+    <div class="column">
+    </div>
+  </section>
+
 
   <section class="row">
     <div class="column">
@@ -51,17 +58,17 @@ function FamilyPage() {
         <div class="small-text">
           <p>Some more text to go here...</p>
           <p>Some more text to go here...</p>
-          <p>Most likely to be found: doing a craft activity.</p>
+          <p>Often found: doing a craft activity.</p>
         </div>
     </div>
 
     <div class="column">
       <h2>Harriet</h2>
-        <p class="small-text-italic">(aka Hattie, Hats, Hat-Splats, Wu, etc.)</p>
+        <p class="small-text-italic">(aka Hattie, Hats, Hat-Splats, Woo, etc.)</p>
         <div class="small-text">
           <p>Some more text to go here...</p>
           <p>Some more text to go here...</p>
-          <p>Most likely to be found: doing a craft activity.</p>
+          <p>Often found: making someone laugh.</p>
         </div>
     </div>
   </section>
