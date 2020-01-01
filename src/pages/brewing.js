@@ -15,7 +15,7 @@ function BrewingPage() {
   <section class="row">
     <div class="column">
       <h1>Brewing</h1>
-      <p class="description">Some text to go here...</p>
+      <p class="description">Content to be added here soon... Cheers!</p>
     </div>
   </section>
 

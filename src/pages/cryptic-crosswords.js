@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import crossword_03_thumbnail from "../images/crosswords/generic_crossword_thumbnail.jpg";
+import crossword_03_thumbnail from "../images/crosswords/crossword_03_thumbnail.png";
 import crossword_02_thumbnail from "../images/crosswords/crossword_02_thumbnail.png";
 import crossword_01_thumbnail from "../images/crosswords/crossword_01_thumbnail.png";
 
@@ -29,26 +29,29 @@ function CrypticCrosswordsPage() {
       <li class="c-tile-list__item">
         <article class="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div class="c-article-tile__header">
-          <img
-          class="article-thumbnail"
-          alt="Crossword image"
-          src={crossword_03_thumbnail}
-          />
+          <a href="/crossword_03" target="_blank">
+            <img
+              class="article-thumbnail"
+              alt="Crossword image"
+              src={crossword_03_thumbnail}
+              />
+            </a>
           </div>
 
           <div class="c-article-tile__body">
             <h2 class="c-article-tile__title" itemprop="headline">
-                Cryptic crossword #3
+              <a href="/crossword_03" target="_blank">
+                Cryptic crossword #3</a>
             </h2>
           </div>
 
           <footer class="c-article-tile__footer">
             <span class="c-article-tile__read-time">
-                Difficulty: ???
+                Difficulty: Easy
             </span>
 
             <date class="c-article-tile__date" itemprop="datePublished">
-                Coming soon...
+                Dec 2019
             </date>
           </footer>
         </article>
@@ -63,7 +66,7 @@ function CrypticCrosswordsPage() {
                 alt="Crossword image"
                 src={crossword_02_thumbnail}
               />
-        </a>
+            </a>
           </div>
 
           <div class="c-article-tile__body">

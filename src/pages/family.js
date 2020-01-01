@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import family_photo from "../images/family/family_photo.jpg";
+import family_photo from "../images/family/family_2019.jpg";
 
 
 function FamilyPage() {
@@ -28,7 +28,7 @@ function FamilyPage() {
     <div class="column">
       <img
         alt="Family photo"
-        className="block tilt"
+        className="block tilt-portrait"
         src={family_photo}
       />
     </div>
@@ -44,9 +44,10 @@ function FamilyPage() {
   <section class="row">
     <div class="column">
       <h2>Laura</h2>
-        <p class="small-text-italic">(aka Lou-Lou, Mrs W., Love-Bug, Badger, etc.)</p>
+        <p class="small-text-italic">(aka Lou-Lou, Louella, Mrs W., etc.)</p>
         <div class="small-text">
-          <p>Part philosopher, chef, writer, and gardener, Laura is the one who keeps the rest of us fed, clothed, and loved.</p>
+          <p>Part philosopher, chef, writer, and gardener, Laura...
+            Laura is the one who keeps the rest of us fed, clothed, and loved.</p>
           <p>Co-partner in raising our daughters (aka the girls, the smalls, the squirrels, etc.)</p>
           <p>Often found: gardening.</p>
         </div>
@@ -54,7 +55,7 @@ function FamilyPage() {
 
     <div class="column">
       <h2>Thea</h2>
-        <p class="small-text-italic">(aka Thea-Pearl, Gorgeous Chops, Chops, etc.)</p>
+        <p class="small-text-italic">(aka Thea-Pearl, Gorgeous-Chops, etc.)</p>
         <div class="small-text">
           <p>Some more text to go here...</p>
           <p>Some more text to go here...</p>

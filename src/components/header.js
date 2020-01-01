@@ -31,8 +31,8 @@ function Header() {
           <div class="dropdown-content">
             <a href="patents">Patents</a>
             <a href="cryptic-crosswords">Cryptic crosswords</a>
-            <a href="brewing">Brewing</a>
             <a href="reading">Reading</a>
+            <a href="brewing">Brewing</a>
             <a href="family">Family</a>
           </div>
         </div>
