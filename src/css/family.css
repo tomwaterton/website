@@ -1,11 +1,10 @@
-.tilt {
+.tilt-portrait {
     -ms-transform: rotate(-3deg); /* IE 9 */
     -webkit-transform: rotate(-3deg); /* Safari 3-8 */
     transform: rotate(-3deg);
-/*    border: 10px solid darkgoldenrod; */
-    border: 8px solid goldenrod;
+    border: 6px solid goldenrod;
     margin: auto;
-    max-width: 300px;
+    max-height: 300px;
   }
 
   .small-text p {

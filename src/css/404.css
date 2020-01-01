@@ -2,11 +2,3 @@
   max-width: 300px;
   margin: auto;
 }
-
-.ul-small {
-  display: block;
-  list-style-type: disc;
-  padding-top: 10px;
-  padding-left: 40px;
-  font-size: 0.9rem;
-}

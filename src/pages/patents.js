@@ -2,10 +2,10 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import patent_pending_Illustration from "../images/patents/patent_pending.jpg";
-import patent_1_Illustration from "../images/patents/patent_1_image.png";
-import patent_2_Illustration from "../images/patents/patent_2_image.png";
 import patent_3_Illustration from "../images/patents/patent_3_image.png";
+import patent_2_Illustration from "../images/patents/patent_2_image.png";
+import patent_1_Illustration from "../images/patents/patent_1_image.png";
+import patent_pending_Illustration from "../images/patents/patent_pending.jpg";
 
 
 function PatentsPage() {

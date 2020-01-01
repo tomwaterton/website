@@ -2,19 +2,19 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import crossword_02 from "../images/crosswords/cryptic_crossword_02.png";
+import crossword_03 from "../images/crosswords/cryptic_crossword_03.png";
 
-function Crossword_02Page() {
+function Crossword_03Page() {
   return (
     <Layout>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="Crossword #02"
+        title="Crossword #03"
       />
 
   <section class="row">
     <div class="column">
-    <h2>Cryptic crossword #02</h2>
+    <h2>Cryptic crossword #03</h2>
     <p class="description">If you have any feedback on any of my crosswords or would like clues or answers, 
       do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crossword">get in touch</a> with me.</p>
     </div>
@@ -25,7 +25,7 @@ function Crossword_02Page() {
       <img
         alt="Cryptic crossword #02"
         className="block"
-        src={crossword_02}
+        src={crossword_03}
       />
     </div>
   </section>
@@ -42,4 +42,4 @@ function Crossword_02Page() {
   );
 }
 
-export default Crossword_02Page;
+export default Crossword_03Page;

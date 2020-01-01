@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import bookshelves_photo from "../images/books/bookshelves.jpg";
+import bookshelves_photo from "../images/reading/bookshelves.jpg";
 
 function ReadingPage() {
   return (
@@ -16,16 +16,18 @@ function ReadingPage() {
     <div class="column">
       <h1>Reading</h1>
       <p class="description">I'm an incurable bookworm so I always have a book on the go. 
-      Here are some highlights from the last few years:</p>
-        <ul class="ul-small">
+      Here are some highlights from the last few years.</p>
+        <ul class="ul-small-2">
           <li><a href="#non-fiction">Non-fiction</a></li>
           <li><a href="#fiction">Fiction</a></li>
         </ul>
+        <p class="description">For each book I've written a one sentence description and provided 
+        a link to further information.</p>
     </div>
     <div class="column">
       <img
         alt="Bookselves photo"
-        className="block tilt"
+        className="block tilt-landscape"
         src={bookshelves_photo}
       />
     </div>
@@ -103,7 +105,7 @@ function ReadingPage() {
   <section class="row">
     <div class="column books">
       <h2><a id="fiction"></a>Fiction</h2>
-      <p class="description">Selecting highlights is much harder here, but I've limited myself to 20 novels...</p>
+      <p class="description">There are so many novels that I love, but to prevent you scrolling for ever I've limited myself to 20 here.</p>
         <ul>
           <li>
               <a href="https://en.wikipedia.org/wiki/My_Family_and_Other_Animals" target="_blank">My Family and Other Animals</a> by Gerald Durrell
@@ -115,7 +117,7 @@ function ReadingPage() {
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Tender_Is_the_Night" target="_blank">Tender is the Night</a> by F. Scott Fitzgerald
-              <p>Many people know Fitzgerald’s most famous work, The Great Gatsby, but Tender is, I think, perhaps an even greater achievement.</p>
+              <p>The Great Gatsby is Fitzgerald’s most famous work, but Tender is, I think, perhaps an even greater achievement.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/The_Great_Gatsby" target="_blank">The Great Gatsby</a> by F. Scott Fitzgerald

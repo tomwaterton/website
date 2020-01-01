@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url("./404.css");
-@import url("./books.css");
 @import url("./cryptic-crosswords.css");
 @import url("./family.css");
 @import url("./footer.css");
 @import url("./header.css");
 @import url("./patents.css");
+@import url("./reading.css");
 @import url("./tiles.css");
 
 
@@ -45,6 +45,24 @@ ul {
   list-style-type: disc;
   padding-top: 10px;
   padding-left: 40px;
+}
+
+.ul-small {
+  display: block;
+  list-style-type: disc;
+  padding-top: 10px;
+  padding-left: 40px;
+  font-size: 0.9rem;
+}
+
+/* Used in the intro paragraph on the Reading page */
+.ul-small-2 {
+  display: block;
+  list-style-type: disc;
+  padding-top: 10px;
+  padding-left: 40px;
+  font-size: 0.9rem;
+  padding-bottom: 10px /* This is the delta */
 }
 
 .italic {
