@@ -16,14 +16,13 @@ function FamilyPage() {
   <section class="row">
     <div class="column">
       <h1>Family</h1>
-      <p class="description">A short paragraph of text will go here...
-      A short paragraph of text will go here...
-      A short paragraph of text will go here...
-      </p>
-      <p class="description">A short paragraph of text will go here...
-      A short paragraph of text will go here...
-      A short paragraph of text will go here...
-      </p>
+      <p class="description">Family. There's nothing quite like it. 
+      A collection of people closely connected by genetics, home life, and very often 
+      all manner of endearing eccentricities.</p>
+      <p class="description">So much else can and does change in life, but family remains, well, family. 
+      We share moments of joy, sadness, excitement, and cake together.</p>
+      <p class="description">My family means everything to me. They are my fellow adventurers in life 
+      and they continue to inspire and surprise me.</p>
     </div>
     <div class="column">
       <img
@@ -42,33 +41,36 @@ function FamilyPage() {
 
 
   <section class="row">
-    <div class="column">
+    <div class="column-1-3">
       <h2>Laura</h2>
         <p class="small-text-italic">(aka Lou-Lou, Louella, Mrs W., etc.)</p>
         <div class="small-text">
-          <p>Part philosopher, chef, writer, and gardener, Laura...
-            Laura is the one who keeps the rest of us fed, clothed, and loved.</p>
-          <p>Co-partner in raising our daughters (aka the girls, the smalls, the squirrels, etc.)</p>
+          <p>Philosopher, chef, writer, gardener, and all-round good egg. 
+            Laura is the one who keeps the rest of us fed, clothed, sane, and loved.</p>
+          <p>Laura is also co-partner with me in the sitcom that is raising our two dotty daughters (aka the girls, the smalls, the squirrels, etc.)</p>
           <p>Often found: gardening.</p>
         </div>
     </div>
 
-    <div class="column">
+    <div class="column-1-3">
       <h2>Thea</h2>
         <p class="small-text-italic">(aka Thea-Pearl, Gorgeous-Chops, etc.)</p>
         <div class="small-text">
-          <p>Some more text to go here...</p>
-          <p>Some more text to go here...</p>
-          <p>Often found: doing a craft activity.</p>
+          <p>Thea is our wonderful caring, sensitive, book-loving daughter.</p>
+          <p>As a lover of all animals, Thea currently talks of becoming a vet some day. 
+            In the meantime she tends to our fish, her stick insects and her hamster. </p>
+          <p>Often found: making a card for someone.</p>
         </div>
     </div>
 
-    <div class="column">
+    <div class="column-1-3">
       <h2>Harriet</h2>
         <p class="small-text-italic">(aka Hattie, Hats, Hat-Splats, Woo, etc.)</p>
         <div class="small-text">
-          <p>Some more text to go here...</p>
-          <p>Some more text to go here...</p>
+          <p>Harriet is our laid-back, frock-wearing, bare-footed, free spirited daughter.</p>
+          <p>When she grows up, Harriet tells us that she is going to be a horse-rider, ballerina, and artist.
+            In addition to these noble aims, we suspect she'll always be a natural joker. 
+          </p>
           <p>Often found: making someone laugh.</p>
         </div>
     </div>

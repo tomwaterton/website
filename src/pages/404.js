@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import abductionIllustration from "../images/tailwind/abduction-illustration.svg";
+import MagnifyingGlassIllustration from "../images/404/magnifying-glass.jpg";
 
 function NotFoundPage() {
   return (
@@ -22,7 +23,7 @@ function NotFoundPage() {
       <img
         alt="Ghost getting abducted by aliens"
         className="block max-300"
-        src={abductionIllustration}
+        src={MagnifyingGlassIllustration}
       />
     </div>
     <div class="column">
@@ -36,6 +37,7 @@ function NotFoundPage() {
           <li><a href="/reading">Reading</a></li>
           <li><a href="/brewing">Brewing</a></li>
           <li><a href="/family">Family</a></li>
+          <li><a href="/about">About this site</a></li>
         </ul>
     </div>
   </section>

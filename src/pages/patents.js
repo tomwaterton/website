@@ -19,7 +19,7 @@ function PatentsPage() {
 <section class="row">
     <div class="column">
       <h1>Patents</h1>
-      <p class="description">To date, I have 3 issued patents and a further 6 patents pending.</p>
+      <p class="description">I enjoy inventing and currently have 3 issued patents - with a further 6 patents pending.</p>
     </div>
   </section>
 
@@ -153,8 +153,8 @@ function PatentsPage() {
 
   <section class="row">
     <div class="column">
-      <h2>Other inventions</h2>
-      <p class="description">I have also had a number of other technical inventions published on <a href="https://ip.com/" target="_blank">IP.com</a>.</p>
+      <h2>Other (non-patented) inventions</h2>
+      <p class="description">I've also had a number of other technical inventions published on <a href="https://ip.com/" target="_blank">IP.com</a>.</p>
         <ul>
           <li>
               <a href="https://priorart.ip.com/IPCOM/000259301" target="_blank">Movement of autonomous vehicles to optimize availability of parking</a>

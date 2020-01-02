@@ -3,8 +3,24 @@
     background-color: #e0e0e0;
 }
 
+/* For the footer text bottom-left */
+.footer-info {
+  padding-left: 10px;
+  font-size: .8rem;
+  padding-top: 16px;
+  color: grey;
+}
 
-/* For the social media icons/links bottom-left */
+.footer-info a {
+    color: grey;
+}
+
+.footer-info a:hover {
+    color: #505050;
+    text-decoration: underline;
+}
+
+/* For the social media icons/links bottom-right */
 .social-media img {
     max-width: 32px;
 }
@@ -16,22 +32,4 @@
 .social-media li {
     margin-left: 1rem;
     list-style: none;
-}
-
-
-/* For the attribution text bottom-right */
-.attribution {
-  font-size: .7rem;
-  padding-top: 8px;
-  color: grey;
-}
-
-.attribution a {
-    font-weight: 500;
-    color: #505050;
-}
-
-.attribution a:hover {
-    color: #505050;
-    text-decoration: underline;
 }

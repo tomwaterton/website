@@ -18,6 +18,11 @@ function Layout({ children }) {
       <footer className="bg-footer-700">
         <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
 
+        <div class="footer-info">
+            &copy; Tom Waterton, 2020. 
+            (<a href="/about">About this site</a>)&nbsp;
+        </div>
+
         <div className="social-media">
           <ul>
             <li>
@@ -37,8 +42,6 @@ function Layout({ children }) {
             </li>
           </ul>
         </div>
-
-        <div className="attribution">Site adapted from the <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" target="_blank">tailwind</a> Gatsby starter theme</div>
 
         </nav>
       </footer>
