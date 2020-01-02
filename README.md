@@ -1,8 +1,8 @@
 ## About
 
-This is a little personal site built by and for Tom Waterton.
+This is a personal website built by and for Tom Waterton.
 
-The site can be access here: `<coming soon...>`
+The site can be accessed here: `<coming soon...>`
 
 
 ## Attribution
