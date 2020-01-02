@@ -47,7 +47,7 @@ function CrypticCrosswordsPage() {
 
           <footer class="c-article-tile__footer">
             <span class="c-article-tile__read-time">
-                Difficulty: Easy
+                Difficulty: Medium
             </span>
 
             <date class="c-article-tile__date" itemprop="datePublished">
