@@ -9,6 +9,7 @@
 .books p {
   padding-bottom: 6px;
   font-size: 0.9rem;
+  font-weight: 300;
   font-style: italic;
   color: grey;
 }
