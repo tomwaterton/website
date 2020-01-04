@@ -27,7 +27,7 @@ function NotFoundPage() {
       />
     </div>
     <div class="column">
-      <p class="description">Pages you can visit:</p>
+      <p class="description">Why not try one of these pages instead:</p>
         <ul class="ul-small">
           <li><a href="/">Home page</a></li>
           <li><a href="/content-design">Content design</a></li>

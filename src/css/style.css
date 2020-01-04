@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url("./404.css");
+@import url("./about.css");
 @import url("./cryptic-crosswords.css");
 @import url("./family.css");
 @import url("./footer.css");
 @import url("./header.css");
+@import url("./home.css");
 @import url("./patents.css");
 @import url("./reading.css");
 @import url("./tiles.css");
@@ -65,10 +67,6 @@ ul {
   padding-bottom: 10px /* This is the delta */
 }
 
-.italic {
-  font-style: italic;
-}
-
 .description {
   font-size: 0.9rem;
   font-style: italic;
@@ -78,6 +76,10 @@ ul {
 /* Used on several pages to provide vertical heading around a section */
 .padding-bottom {
   padding-bottom: 2rem;
+}
+
+.padding-bottom-small {
+  padding-bottom: 1rem;
 }
 
 /* To provide the full-width row and split column layouts */

@@ -18,9 +18,12 @@ function Layout({ children }) {
       <footer className="bg-footer-700">
         <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
 
+        <div class="footer-copyright">
+            &copy; Tom Waterton, 2020
+        </div>
+
         <div class="footer-info">
-            &copy; Tom Waterton, 2020. 
-            (<a href="/about">About this site</a>)&nbsp;
+            <a href="/about">About this site</a>
         </div>
 
         <div className="social-media">

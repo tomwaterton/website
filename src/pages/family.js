@@ -56,7 +56,7 @@ function FamilyPage() {
       <h2>Thea</h2>
         <p class="small-text-italic">(aka Thea-Pearl, Gorgeous-Chops, etc.)</p>
         <div class="small-text">
-          <p>Thea is our wonderful caring, sensitive, book-loving daughter.</p>
+          <p>Thea is our wonderful, caring, sensitive, book-loving daughter.</p>
           <p>As a lover of all animals, Thea currently talks of becoming a vet some day. 
             In the meantime she tends to our fish, her stick insects and her hamster. </p>
           <p>Often found: making a card for someone.</p>

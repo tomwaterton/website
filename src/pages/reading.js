@@ -44,7 +44,7 @@ function ReadingPage() {
           </li>
           <li>
               <a href="https://www.amazon.co.uk/Rising-Strong-Bren%C3%A9-Brown/dp/0091955033" target="_blank">Rising Strong</a> by Brené Brown
-              <p>...</p>
+              <p>A book about being brave, trying, sometimes failing, then rising again, dusting ourselves off, and owning our stories.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Quiet:_The_Power_of_Introverts_in_a_World_That_Can%27t_Stop_Talking" target="_blank">Quiet</a> by Susan Cain
@@ -52,7 +52,7 @@ function ReadingPage() {
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Creativity,_Inc." target="_blank">Creativity, Inc</a> by Ed Catmull
-              <p>...</p>
+              <p>Packed with insights about creating and maintaining a creative organization, written by a former president of Pixar.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People" target="_blank">The 7 Habits of Highly Successful People</a> by Stephen R. Covey
@@ -64,15 +64,15 @@ function ReadingPage() {
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/David_and_Goliath_(book)" target="_blank">David and Goliath</a> by Malcolm Gladwell
-              <p>...</p>
+              <p>A book about underdogs and the many areas of life in which reality is often counter-intuitive.</p>
           </li>
           <li>
               <a href="https://www.contentstrategy.com/content-strategy-for-the-web" target="_blank">Content Strategy for the Web</a> by Kristina Halvorson
-              <p>...</p>
+              <p>Content strategy, governance, steakholder management, data-driven decision making, and much more besides.</p>
           </li>
           <li>
               <a href="https://www.amazon.co.uk/Dialogue-Art-Thinking-Together-Communicating/dp/0385479999" target="_blank">Dialogue and the Art of Thinking Together</a> by William Isaacs
-              <p>A fascinating study into how people can learn to better collaborate together.</p>
+              <p>A thorough and fascinating study into how people can learn to better collaborate together.</p>
           </li>
           <li>
               <a href="https://itrevolution.com/book/the-phoenix-project/" target="_blank">The Phoenix Project</a> by G. Kim, K. Behr, and G. Spafford
@@ -80,7 +80,7 @@ function ReadingPage() {
           </li>
           <li>
               <a href="http://freakonomics.com/books/" target="_blank">Freakonomics</a> and <a href="http://freakonomics.com/books/" target="_blank">SuperFreakonomics</a> by Steven D. Levitt and Stephen J. Dubner
-              <p>...</p>
+              <p>Applying economic theories to some of life's many riddles, such as why do drug dealers still live with their moms?</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things" target="_blank">The Design of Everyday Things</a> by Don Norman
