@@ -16,11 +16,11 @@ function AboutPage() {
   <section class="row">
     <div class="column">
       <h1>About this site</h1>
-      <p class="description">I'm no web developer, but I do like to learn new things, so 
+      <p class="description">I'm not much of a web developer, but I do like to learn new things, so 
       I recently set myself the challenge of creating my own website.</p>
-      <p class="description padding-bottom-small">Here you'll find some of the random things that float through 
-      my mind and which make up my life.</p>
-      <p class="description padding-bottom-small">Tom</p>
+      <p class="description padding-bottom-small">Here you'll find some information about my work, 
+      as well as some of my thoughts, hobbies, and interests.</p>
+      <p class="description padding-bottom-small">Enjoy!</p>
       <img
         alt="Typewriter icon"
         className="block site-icon padding-bottom"
@@ -45,7 +45,7 @@ function AboutPage() {
         <li>I use <a href="https://github.com/" target="_blank">GitHub</a> as my source repository.</li>
         <li>And I use <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> to host the site.</li>
       </ul>
-      <p class="description">If you spot any bugs, please do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20website">get in touch</a> with me.
+      <p class="description">If you spot any bugs, or simply want to say hello, please do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20website">get in touch</a> with me.
       </p>
     </div>
   </section>
