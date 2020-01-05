@@ -96,7 +96,7 @@ function ReadingPage() {
           </li>
           <li>
               <a href="https://margaretwheatley.com/books-products/books/leadership-new-science/" target="_blank">Leadership and the New Science</a> by Margaret Wheatley
-              <p>A book that challenges commonly-held perspectives on leadership, management, and how organizations actually best flourish.</p>
+              <p>A book that challenges commonly-held perspectives on leadership, management, and how organizations best flourish.</p>
           </li>
         </ul>
     </div>
@@ -110,15 +110,11 @@ function ReadingPage() {
         <ul>
           <li>
               <a href="https://en.wikipedia.org/wiki/My_Family_and_Other_Animals" target="_blank">My Family and Other Animals</a> by Gerald Durrell
-              <p>The wonderful adventures of the young naturalist as he and his eccentric family moved from England to Corfu in the 1930s.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Magus_(novel)" target="_blank">The Magus</a> by John Fowles
-              <p>On a Greek island, a young Englishman meets a wealthy and mysterious recluse and becomes embroiled in psychological games.</p>
+              <p>The adventures of the young naturalist as he and his eccentric family moved from England to Corfu in the 1930s.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/The_Great_Gatsby" target="_blank">The Great Gatsby</a> by F. Scott Fitzgerald
-              <p>A heady portrait of the Roaring Twenties, where unbounded riches, decadence, and idealism are forced, ultimately, to sober up.</p>
+              <p>A portrait of the Roaring Twenties, where unbounded riches, decadence, and idealism are forced, ultimately, to sober up.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Tender_Is_the_Night" target="_blank">Tender is the Night</a> by F. Scott Fitzgerald
@@ -127,6 +123,10 @@ function ReadingPage() {
           <li>
               <a href="https://en.wikipedia.org/wiki/Howards_End" target="_blank">Howards End</a> by E. M. Forster
               <p>A brilliant novel exploring our desire to know and to be known — or as the epitaph puts it, to “Only connect”.</p>
+          </li>
+          <li>
+              <a href="https://en.wikipedia.org/wiki/The_Magus_(novel)" target="_blank">The Magus</a> by John Fowles
+              <p>On a Greek island, a young man meets a wealthy and mysterious recluse and becomes embroiled in psychological games.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Sophie%27s_World" target="_blank">Sophie’s World</a> by Jostein Gaarder
@@ -166,7 +166,7 @@ function ReadingPage() {
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/East_of_Eden_(novel)" target="_blank">East of Eden</a> by John Steinbeck
-              <p>A wonderful, rolling epic about two families living in the Salinas Valley in California at the beginning of the twentieth century.</p>
+              <p>An epic tale of two families living in the Salinas Valley in California at the beginning of the twentieth century.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/The_Secret_History" target="_blank">The Secret History</a> by Donna Tartt
@@ -174,7 +174,7 @@ function ReadingPage() {
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Anna_Karenina" target="_blank">Anna Karenina</a> by Leo Tolstoy
-              <p>A complex, sprawling novel, with many memorable characters, which is often hailed as the greatest work of world literature.</p>
+              <p>A complex, sprawling novel, with many memorable characters; often hailed as the greatest work of world literature.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Brideshead_Revisited" target="_blank">Brideshead Revisited</a> by Evelyn Waugh
@@ -182,7 +182,7 @@ function ReadingPage() {
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/The_Code_of_the_Woosters" target="_blank">The Code of the Woosters</a> by P. G. Wodehouse
-              <p>This is perhaps a peculiarly British form of comedy, but I could happily read a Jeeves and Wooster novel any day of the year.</p>
+              <p>A peculiarly British form of comedy, but I could happily read a Jeeves and Wooster novel any day of the year.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/To_the_Lighthouse" target="_blank">To the Lighthouse</a> by Virginia Woolf
