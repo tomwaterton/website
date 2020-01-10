@@ -12,29 +12,26 @@ function Crossword_03Page() {
         title="Crossword #03"
       />
 
+  <div class="print-only">
+      A free cryptic crossword by Meles. Visit <strong>www.tomwaterton.com</strong> for more.
+  </div>
+
   <section class="row">
     <div class="column">
-    <h2>Cryptic crossword #03</h2>
-    <p class="description">If you have any feedback on any of my crosswords or would like clues or answers, 
-      do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crossword">get in touch</a> with me.</p>
+      <h2 class="do-not-print">Cryptic crossword #03</h2>
+      <p class="description do-not-print">To print a copy of this crossword, press <strong>Cmd+P</strong> (on a Mac) or <strong>Ctrl+P</strong> (on Windows) </p>
+      <p class="description do-not-print">If you have any feedback on this crossword or would like clues or answers, 
+      do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crossword%20number_03">get in touch</a> with me.</p>
     </div>
   </section>
 
   <section class="row">
     <div class="column">
       <img
-        alt="Cryptic crossword #02"
-        className="block"
+        alt="Cryptic crossword #03"
+        className="block crossword-border"
         src={crossword_03}
       />
-    </div>
-  </section>
-
-  <section class="row">
-    <div class="column">
-      <h3>To print a copy of this crossword:</h3>
-      <p class="instruction">1) Right-click the image above and select <strong>Open Image in New Tab</strong>.</p>
-      <p class="instruction">2) In the new tab press <strong>Cmd+P</strong> (Mac) or <strong>Ctrl+P</strong> (Windows) to open the print dialog.</p>
     </div>
   </section>
 
