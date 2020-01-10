@@ -17,7 +17,7 @@ function ReadingPage() {
       <h1>Reading</h1>
       <p class="description">I'm an incurable bookworm so I always have a book or two on the go. 
       Here are some highlights from the last few years.</p>
-        <ul class="ul-small-2">
+        <ul class="ul-small-2 do-not-print">
           <li><a href="#non-fiction">Non-fiction</a></li>
           <li><a href="#fiction">Fiction</a></li>
         </ul>
@@ -27,7 +27,7 @@ function ReadingPage() {
     <div class="column">
       <img
         alt="Bookselves photo"
-        className="block tilt-landscape"
+        className="block tilt-landscape do-not-print"
         src={bookshelves_photo}
       />
     </div>

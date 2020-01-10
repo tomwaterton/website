@@ -12,3 +12,7 @@
   font-size: 0.8rem;
   padding-top: 6px;
 }
+
+.crossword-border {
+  border: solid 1px grey;
+}
