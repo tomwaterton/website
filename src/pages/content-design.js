@@ -12,10 +12,10 @@ function ContentDesignPage() {
         title="Content design"
       />
 
-  <section class="row">
-    <div class="column">
+  <section className="row">
+    <div className="column">
       <h1>Content design</h1>
-      <p class="description">Some introductory text to go here...</p>
+      <p className="description">Some introductory text to go here...</p>
     </div>
   </section>
 

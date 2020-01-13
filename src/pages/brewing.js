@@ -14,12 +14,12 @@ function BrewingPage() {
         title="Brewing"
       />
 
-  <section class="row">
-    <div class="column">
+  <section className="row">
+    <div className="column">
       <h1>Brewing</h1>
-      <p class="description">Content to be added here soon... Cheers!</p>
+      <p className="description">Content to be added here soon... Cheers!</p>
     </div>
-    <div class="column">
+    <div className="column">
       <img
         alt="Bookselves photo"
         className="block tilt-landscape"
@@ -28,24 +28,24 @@ function BrewingPage() {
     </div>
   </section>
 
-  <section class="row">
-    <div class="column">
+  <section className="row">
+    <div className="column">
       <img
         alt="Bookselves photo"
         className="block"
         src={brewing_kit_photo}
       />
     </div>
-    <div class="column">
-      <p class="description">Text for section 2</p>
+    <div className="column">
+      <p className="description">Text for section 2</p>
     </div>
   </section>
 
-  <section class="row">
-    <div class="column">
-      <p class="description">Text for section 3</p>
+  <section className="row">
+    <div className="column">
+      <p className="description">Text for section 3</p>
     </div>
-    <div class="column">
+    <div className="column">
       <img
         alt="Bookselves photo"
         className="block tilt-landscape"

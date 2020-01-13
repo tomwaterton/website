@@ -19,10 +19,10 @@ function IndexPage() {
           src={TomPhoto}
         />
 
-        <h1 class="padding-bottom-small">
+        <h1 className="padding-bottom-small">
           Hi, I'm Tom.
         </h1>
-        <p class="lead padding-bottom-small">I'm an experienced <a href="/content-design">Content Designer</a>.
+        <p className="lead padding-bottom-small">I'm an experienced <a href="/content-design">Content Designer</a>.
         <br/>I live in Hampshire in the UK, and I currently work for <a href="https://www.ibm.com/design/" target="_blank">IBM Design</a>.
         </p>
 
