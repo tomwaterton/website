@@ -12,19 +12,19 @@ function ReadingPage() {
         title="Reading"
       />
 
-  <section class="row">
-    <div class="column">
+  <section className="row">
+    <div className="column">
       <h1>Reading</h1>
-      <p class="description">I'm an incurable bookworm so I always have a book or two on the go. 
+      <p className="description">I'm an incurable bookworm so I always have a book or two on the go. 
       Here are some highlights from the last few years.</p>
-        <ul class="ul-small-2 do-not-print">
+        <ul className="ul-small-2 do-not-print">
           <li><a href="#non-fiction">Non-fiction</a></li>
           <li><a href="#fiction">Fiction</a></li>
         </ul>
-        <p class="description">For each book I've written a one sentence description and provided 
+        <p className="description">For each book I've written a one sentence description and provided 
         a link to further information.</p>
     </div>
-    <div class="column">
+    <div className="column">
       <img
         alt="Bookselves photo"
         className="block tilt-landscape do-not-print"
@@ -34,8 +34,8 @@ function ReadingPage() {
   </section>
 
 
-  <section class="row">
-    <div class="column books">
+  <section className="row">
+    <div className="column books">
       <h2><a id="non-fiction"></a>Non-fiction</h2>
         <ul>
           <li>
@@ -102,11 +102,11 @@ function ReadingPage() {
     </div>
   </section>
 
-  <section class="row">
-    <div class="column">
+  <section className="row">
+    <div className="column">
       <h2><a id="fiction"></a>Fiction</h2>
-      <p class="description">There are so many novels that I love, but to prevent you scrolling for ever I've limited myself to 20 novels here.</p>
-      <div class="books">
+      <p className="description">There are so many novels that I love, but to prevent you scrolling for ever I've limited myself to 20 novels here.</p>
+      <div className="books">
         <ul>
           <li>
               <a href="https://en.wikipedia.org/wiki/My_Family_and_Other_Animals" target="_blank">My Family and Other Animals</a> by Gerald Durrell

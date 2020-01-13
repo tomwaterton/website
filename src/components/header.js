@@ -17,18 +17,18 @@ function Header() {
     <header className="header-700">
       <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
 
-      <div class="site-name">
+      <div className="site-name">
         <a href="/">tomwaterton.com</a>
       </div>
 
-      <div class="navbar">
+      <div className="navbar">
         <a href="content-design">Content design</a>
         <a href="articles">Articles</a>
-        <div class="dropdown">
-          <button class="dropbtn">More
-            <i class="fa fa-caret-down"></i>
+        <div className="dropdown">
+          <button className="dropbtn">More
+            <i className="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-content">
+          <div className="dropdown-content">
             <a href="patents">Patents</a>
             <a href="cryptic-crosswords">Cryptic crosswords</a>
             <a href="reading">Reading</a>
