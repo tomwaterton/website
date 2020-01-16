@@ -19,7 +19,7 @@ function PatentsPage() {
 <section className="row">
     <div className="column">
       <h1>Patents</h1>
-      <p className="description">I enjoy inventing and currently have 3 issued patents - with a further 6 patents pending.</p>
+      <p className="description">I enjoy inventing and currently have 3 issued patents — with a further 6 patents pending.</p>
     </div>
   </section>
 
@@ -156,6 +156,14 @@ function PatentsPage() {
       <h2>Other (non-patented) inventions</h2>
       <p className="description">I've also had a number of other technical inventions published on <a href="https://ip.com/" target="_blank">IP.com</a>.</p>
         <ul>
+          <li>
+              <a href="https://priorart.ip.com/IPCOM/000260981" target="_blank">Conference call quick join for co-located participants</a>
+              <span className="date">(Jan 14, 2020)</span>
+          </li>
+          <li>
+              <a href="https://priorart.ip.com/IPCOM/000260980" target="_blank">Method to share a link to an email with other recipients over instant messaging</a>
+              <span className="date">(Jan 14, 2020)</span>
+          </li>
           <li>
               <a href="https://priorart.ip.com/IPCOM/000259301" target="_blank">Movement of autonomous vehicles to optimize availability of parking</a>
               <span className="date">(Jul 26, 2019)</span>

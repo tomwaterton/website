@@ -21,13 +21,13 @@ function ReadingPage() {
           <li><a href="#non-fiction">Non-fiction</a></li>
           <li><a href="#fiction">Fiction</a></li>
         </ul>
-        <p className="description">For each book I've written a one sentence description and provided 
-        a link to further information.</p>
+        <p className="description">For each book I've provided a link to further information 
+        and written my own one-sentence description.</p>
     </div>
     <div className="column">
       <img
         alt="Bookselves photo"
-        className="block tilt-landscape do-not-print"
+        className="block tilt-landscape-left do-not-print"
         src={bookshelves_photo}
       />
     </div>

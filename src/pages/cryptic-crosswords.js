@@ -18,7 +18,7 @@ function CrypticCrosswordsPage() {
   <section className="row">
     <div className="column">
       <h1>Cryptic crosswords</h1>
-      <p className="description">Some cryptic crosswords that I've created (under my cruciverbalist pseudonym 'Meles').</p>
+      <p className="description">Some cryptic crosswords that I've created (under the pseudonym 'Meles').</p>
     </div>
   </section>
 
@@ -125,7 +125,7 @@ function CrypticCrosswordsPage() {
   <section className="row">
     <div className="column">
       <p className="description">If you have any feedback on any of my crosswords or would like clues or answers, 
-      do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crossword">get in touch</a> with me.</p>
+      do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crosswords">get in touch</a> with me.</p>
     </div>
   </section>
 
