@@ -27,7 +27,7 @@ function FamilyPage() {
     <div className="column">
       <img
         alt="Family photo"
-        className="block tilt-portrait"
+        className="block tilt-portrait-left"
         src={family_photo}
       />
     </div>
@@ -67,7 +67,7 @@ function FamilyPage() {
       <h2>Harriet</h2>
         <p className="small-text-italic">(aka Hattie, Hats, Hat-Splats, Woo, etc.)</p>
         <div className="small-text">
-          <p>Harriet is our laid-back, frock-wearing, bare-footed, free spirited daughter.</p>
+          <p>Harriet is our laid-back, frock-wearing, bare-footed, free-spirited daughter.</p>
           <p>When she grows up, Harriet tells us that she is going to be a horse-rider, ballerina, and artist.
             In addition to these noble aims, we suspect she'll always be a natural joker. 
           </p>

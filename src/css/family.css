@@ -1,20 +1,10 @@
-.tilt-portrait {
-    -ms-transform: rotate(-3deg); /* IE 9 */
-    -webkit-transform: rotate(-3deg); /* Safari 3-8 */
-    transform: rotate(-3deg);
-    border: 6px solid goldenrod;
-    margin: auto;
-    max-height: 300px;
-  }
+.small-text p {
+  font-size: 0.8rem;
+}
 
-  .small-text p {
-    font-size: 0.8rem;
-    padding-top: 6px;
-  }
-
-  .small-text-italic {
-    font-size: 0.8rem;
-    padding-top: 6px;
-    font-style: italic;
-    color: grey;
-  }
+.small-text-italic {
+  font-size: 0.8rem;
+  padding-top: 6px;
+  font-style: italic;
+  color: grey;
+}
