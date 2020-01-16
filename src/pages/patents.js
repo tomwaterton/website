@@ -12,7 +12,7 @@ function PatentsPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`patents`, `ip`, `inventions`, `inventing`, `tom`, `waterton`]}
         title="Patents"
       />
 

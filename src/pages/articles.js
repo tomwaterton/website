@@ -17,7 +17,7 @@ function ArticlesPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`articles`, `tom`, `waterton`, `content`, `design`]}
         title="Articles"
       />
 

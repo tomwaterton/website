@@ -12,7 +12,7 @@ function BrewingPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`brewing`, `beer`, `ale`, `tom`, `waterton`]}
         title="Brewing"
       />
 
@@ -43,7 +43,7 @@ function BrewingPage() {
         className="block section-photos"
         src={brewing_kit_photo}
       />
-      <p className="small-text-italic">
+      <p className="caption-text">
         My brewing kit
       </p>
     </div>
@@ -54,7 +54,7 @@ function BrewingPage() {
         className="block section-photos"
         src={sparging_photo}
       />
-      <p className="small-text-italic">
+      <p className="caption-text">
         Pouring liquor through the grain
       </p>
     </div>
@@ -67,7 +67,7 @@ function BrewingPage() {
         className="block section-photos"
         src={adding_hops_photo}
       />
-      <p className="small-text-italic">
+      <p className="caption-text">
         Adding hops to the wort
       </p>
     </div>
@@ -78,7 +78,7 @@ function BrewingPage() {
         className="block section-photos"
         src={siphoning_photo}
       />
-      <p className="small-text-italic">
+      <p className="caption-text">
         Siphoning the wort from pan to brew bin
       </p>
     </div>
