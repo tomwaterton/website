@@ -9,7 +9,7 @@ function FamilyPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`family`, `tom`, `waterton`]}
         title="Family"
       />
 
@@ -47,7 +47,8 @@ function FamilyPage() {
         <div className="small-text">
           <p>Philosopher, chef, writer, gardener, and all-round good egg. 
             Laura is the one who keeps the rest of us fed, clothed, sane, and loved.</p>
-          <p>Laura is also co-partner with me in the sitcom that is raising our two dotty daughters (aka the girls, the smalls, the squirrels, etc.)</p>
+          <p>Laura is also co-partner with me in the sitcom that is raising our two dotty daughters 
+            (aka <span className="italic">the girls, the smalls, the squirrels,</span> etc.)</p>
           <p>Often found: gardening.</p>
         </div>
     </div>

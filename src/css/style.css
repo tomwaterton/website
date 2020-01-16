@@ -3,11 +3,12 @@
 @tailwind utilities;
 @import url("./404.css");
 @import url("./about.css");
+@import url("./brewing.css");
 @import url("./cryptic-crosswords.css");
 @import url("./family.css");
 @import url("./footer.css");
 @import url("./header.css");
-@import url("./home.css");
+@import url("./index.css");
 @import url("./patents.css");
 @import url("./reading.css");
 @import url("./tiles.css");
@@ -20,6 +21,11 @@ html {
 }
 
 p {
+  padding-bottom: 6px;
+}
+
+.medium-text {
+  font-size: 0.9rem;
   padding-bottom: 6px;
 }
 
@@ -39,11 +45,6 @@ h1 {
 
 h2 {
   font-size: 1.3rem;
-  font-weight: 500;
-  color: #c69;
-}
-
-h3 {
   font-weight: 500;
   color: #c69;
 }
@@ -167,10 +168,6 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
   padding-top: 20px;
-}
-
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {

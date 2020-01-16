@@ -1,10 +1,11 @@
+.small-text-italic {
+  font-size: 0.8rem;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  font-style: italic;
+}
+
 .small-text p {
   font-size: 0.8rem;
 }
 
-.small-text-italic {
-  font-size: 0.8rem;
-  padding-top: 6px;
-  font-style: italic;
-  color: grey;
-}

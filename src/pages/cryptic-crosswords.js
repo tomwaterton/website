@@ -11,7 +11,7 @@ function CrypticCrosswordsPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`cryptic`, `crosswords`, `tom`, `waterton`]}
         title="Cryptic crosswords"
       />
 
@@ -123,8 +123,8 @@ function CrypticCrosswordsPage() {
   </section>
 
   <section className="row">
-    <div className="column">
-      <p className="description">If you have any feedback on any of my crosswords or would like clues or answers, 
+    <div className="column medium-text">
+      <p>If you have any feedback on any of my crosswords or would like clues or answers, 
       do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crosswords">get in touch</a> with me.</p>
     </div>
   </section>

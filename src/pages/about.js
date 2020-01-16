@@ -9,7 +9,7 @@ function AboutPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`about`, `tom`, `waterton`, `content`, `design`]}
         title="About"
       />
 
@@ -37,7 +37,7 @@ function AboutPage() {
   </section>
 
   <section className="row">
-    <div className="column">
+    <div className="column medium-text">
       <h2>Technical details</h2>
       <ul className="padding-bottom">
         <li>I built this site using the free and open source <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> React framework.</li>
@@ -45,7 +45,7 @@ function AboutPage() {
         <li>I use <a href="https://github.com/" target="_blank">GitHub</a> as my source repository.</li>
         <li>And I use <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> to host the site.</li>
       </ul>
-      <p className="description">If you spot any bugs, or simply want to say hello, please do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20website">get in touch</a> with me.
+      <p>If you spot any bugs, or simply want to say hello, please do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20website">get in touch</a> with me.
       </p>
     </div>
   </section>

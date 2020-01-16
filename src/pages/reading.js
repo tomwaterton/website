@@ -8,7 +8,7 @@ function ReadingPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`reading`, `books`, `learning`, `tom`, `waterton`]}
         title="Reading"
       />
 
