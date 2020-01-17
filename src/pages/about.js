@@ -19,11 +19,10 @@ function AboutPage() {
       <p className="description">I'm not a web developer, but I do like to learn new things, so 
       I recently set myself the challenge of creating my own website.</p>
       <p className="description padding-bottom-small">Here you'll find some information about my work, 
-      as well as some of my thoughts, hobbies, and interests.</p>
-      <p className="description padding-bottom-small">Enjoy!</p>
+      as well as some of my thoughts, hobbies, and interests. Enjoy!</p>
       <img
         alt="Typewriter icon"
-        className="block site-icon padding-bottom"
+        className="block site-icon"
         src={TypewriterIllustration}
       />
     </div>
@@ -33,6 +32,11 @@ function AboutPage() {
         className="block tilt-landscape-left"
         src={AboutIllustration}
       />
+    </div>
+  </section>
+
+  <section className="row">
+    <div className="column">
     </div>
   </section>
 

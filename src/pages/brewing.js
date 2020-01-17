@@ -38,6 +38,11 @@ function BrewingPage() {
 
   <section className="row">
     <div className="column">
+    </div>
+  </section>
+
+  <section className="row">
+    <div className="column">
       <img
         alt="Photo of my brewing kit"
         className="block section-photos"
