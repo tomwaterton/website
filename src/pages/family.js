@@ -75,6 +75,10 @@ function FamilyPage() {
           <p>Often found: making someone laugh.</p>
         </div>
     </div>
+
+    <div className="column-1-3">
+      <h2>&nbsp;</h2>
+    </div>
   </section>
 
     </Layout>
