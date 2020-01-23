@@ -6,13 +6,13 @@ import linkedin from "../images/footer/linkedin.svg";
 import twitter from "../images/footer/twitter.svg";
 import email from "../images/footer/email.png";
 
-function Layout({ children }) {
+function Layout(props) {
   return (
     <div className="flex flex-col font-sans min-h-screen text-gray-900">
       <Header />
 
-      <main className="flex flex-col flex-1 max-w-4xl mx-auto px-4 py-8 md:p-8 w-full">
-        {children}
+      <main>
+        {props.children}
       </main>
 
       <footer className="bg-footer-700">
@@ -29,17 +29,17 @@ function Layout({ children }) {
         <div className="social-media">
           <ul>
             <li>
-              <a href="https://www.linkedin.com/in/tomwaterton/" target="_blank">
+              <a href="https://www.linkedin.com/in/tomwaterton/">
                 <img alt="LinkedIn" src={linkedin} />
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/tomwaterton" target="_blank">
+              <a href="https://twitter.com/tomwaterton">
                 <img alt="Twitter" src={twitter} />
               </a>
             </li>
             <li>
-              <a href="mailto:tomwaterton@gmail.com" target="_blank">
+              <a href="mailto:tomwaterton@gmail.com">
                 <img alt="Email" src={email} />
               </a>
             </li>

@@ -1,0 +1,33 @@
+.conference {
+    font-weight: 500;
+    color: #c69;
+}
+
+/* Background colors for the sections on the Content design page */
+.bleed {
+  background: grey;
+  margin-bottom: 2px;
+}
+
+.bleed1 {
+  background: #d0e2ff;  /* Blue 20 */
+}
+
+.bleed2 {
+  background: #e0e0e0;  /* Gray 20 */
+}
+
+.bleed3 {
+  background: #d0e2ff;  /* Blue 20 */
+}
+/* End */
+
+
+
+/*
+  background: #d0e2ff;  (Blue 20)
+  background: #78a9ff;  (Blue 40)
+
+  background: #e0e0e0;  (Gray 20)
+  background: #a8a8a8;  (Gray 40)
+*/

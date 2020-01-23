@@ -1,6 +1,6 @@
 import React from "react";
-
 import Layout from "../components/layout";
+import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import article_10_Illustration from "../images/articles/article_thumbnail_10.jpg";
 import article_9_Illustration from "../images/articles/article_thumbnail_9.jpg";
@@ -21,6 +21,7 @@ function ArticlesPage() {
         title="Articles"
       />
 
+<ContentWidth>
   <section className="row">
     <div className="column">
       <h1>Articles</h1>
@@ -36,7 +37,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04" target="_blank">
+          <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">
           <img className="article-thumbnail"
           alt="Article image"
           src={article_10_Illustration}
@@ -46,7 +47,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04" target="_blank">
+              <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">
             Confessions of a Content Designer</a>
             </h2>
           </div>
@@ -67,7 +68,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302" target="_blank">
+          <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_9_Illustration}
@@ -77,7 +78,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302" target="_blank">
+              <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302">
             On Content Design (a poem)</a>
             </h2>
           </div>
@@ -98,7 +99,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53" target="_blank">
+          <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_8_Illustration}
@@ -108,7 +109,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53" target="_blank">
+              <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53">
             How to punctuate like a pro</a>
             </h2>
           </div>
@@ -129,7 +130,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5" target="_blank">
+          <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5">
           <img className="article-thumbnail"
           alt="Article image"
           src={article_7_Illustration}
@@ -139,7 +140,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5" target="_blank">
+              <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5">
             Taking responsibility for our communication</a>
             </h2>
           </div>
@@ -160,7 +161,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015" target="_blank">
+          <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_6_Illustration}
@@ -170,7 +171,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015" target="_blank">
+              <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015">
             Why I read</a>
             </h2>
           </div>
@@ -191,7 +192,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50" target="_blank">
+          <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_5_Illustration}
@@ -201,7 +202,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50" target="_blank">
+              <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50">
             Failing fast, using feedback loops, and the benefits of iterative design</a>
             </h2>
           </div>
@@ -222,7 +223,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/@tomwaterton/how-to-emphasize-key-words-in-your-text-b8738f146972" target="_blank">
+          <a href="https://medium.com/@tomwaterton/how-to-emphasize-key-words-in-your-text-b8738f146972">
           <img className="article-thumbnail"
           alt="Article image"
           src={article_4_Illustration}
@@ -232,7 +233,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/@tomwaterton/how-to-emphasize-key-words-in-your-text-b8738f146972" target="_blank">
+              <a href="https://medium.com/@tomwaterton/how-to-emphasize-key-words-in-your-text-b8738f146972">
             How to emphasize key words in your text</a>
             </h2>
           </div>
@@ -253,7 +254,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3" target="_blank">
+          <a href="https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_3_Illustration}
@@ -263,7 +264,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3" target="_blank">
+              <a href="https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3">
             Creating a culture of design</a>
             </h2>
           </div>
@@ -284,7 +285,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/@tomwaterton/whats-your-passion-c570374a8810" target="_blank">
+          <a href="https://medium.com/@tomwaterton/whats-your-passion-c570374a8810">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_2_Illustration}
@@ -294,7 +295,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/@tomwaterton/whats-your-passion-c570374a8810" target="_blank">
+              <a href="https://medium.com/@tomwaterton/whats-your-passion-c570374a8810">
             What’s your passion?</a>
             </h2>
           </div>
@@ -315,7 +316,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://medium.com/@tomwaterton/tell-me-a-story-a809032e95d5" target="_blank">
+          <a href="https://medium.com/@tomwaterton/tell-me-a-story-a809032e95d5">
           <img className="article-thumbnail"
           alt="Article image"
           src={article_1_Illustration}
@@ -325,7 +326,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/@tomwaterton/tell-me-a-story-a809032e95d5" target="_blank">
+              <a href="https://medium.com/@tomwaterton/tell-me-a-story-a809032e95d5">
             Tell me a story</a>
             </h2>
           </div>
@@ -345,6 +346,7 @@ function ArticlesPage() {
     </ul>
   </section>
 
+  </ContentWidth>
     </Layout>
   );
 }

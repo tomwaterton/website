@@ -1,6 +1,6 @@
 import React from "react";
-
 import Layout from "../components/layout";
+import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import crossword_03_thumbnail from "../images/crosswords/crossword_03_thumbnail.png";
 import crossword_02_thumbnail from "../images/crosswords/crossword_02_thumbnail.png";
@@ -15,10 +15,11 @@ function CrypticCrosswordsPage() {
         title="Cryptic crosswords"
       />
 
+<ContentWidth>
   <section className="row">
     <div className="column">
       <h1>Cryptic crosswords</h1>
-      <p className="description">Some cryptic crosswords that I've created (under the pseudonym 'Meles').</p>
+      <p className="description">Some cryptic crosswords that I've composed (under the pseudonym 'Meles').</p>
     </div>
   </section>
 
@@ -29,7 +30,7 @@ function CrypticCrosswordsPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/crosswords/03" target="_blank">
+          <a href="/crosswords/03">
             <img
               className="article-thumbnail"
               alt="Crossword image"
@@ -40,7 +41,7 @@ function CrypticCrosswordsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="/crosswords/03" target="_blank">
+              <a href="/crosswords/03">
                 Cryptic crossword #3</a>
             </h2>
           </div>
@@ -61,7 +62,7 @@ function CrypticCrosswordsPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/crosswords/02" target="_blank">
+          <a href="/crosswords/02">
             <img className="article-thumbnail"
                 alt="Crossword image"
                 src={crossword_02_thumbnail}
@@ -71,7 +72,7 @@ function CrypticCrosswordsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="/crosswords/02" target="_blank">
+              <a href="/crosswords/02">
               Cryptic crossword #2</a>
             </h2>
           </div>
@@ -92,7 +93,7 @@ function CrypticCrosswordsPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/crosswords/01" target="_blank">
+          <a href="/crosswords/01">
             <img className="article-thumbnail"
                 alt="Crossword image"
                 src={crossword_01_thumbnail}
@@ -102,7 +103,7 @@ function CrypticCrosswordsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="/crosswords/01" target="_blank">
+              <a href="/crosswords/01">
               Cryptic crossword #1</a>
             </h2>
           </div>
@@ -129,7 +130,7 @@ function CrypticCrosswordsPage() {
     </div>
   </section>
 
-
+  </ContentWidth>
     </Layout>
   );
 }

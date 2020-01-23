@@ -1,6 +1,6 @@
 import React from "react";
-
 import Layout from "../../components/layout";
+import ContentWidth from "../../components/contentWidth";
 import SEO from "../../components/seo";
 import crossword_03 from "../../images/crosswords/cryptic_crossword_03.png";
 
@@ -16,6 +16,7 @@ function Crossword_03Page() {
         title="Crossword #03"
       />
 
+<ContentWidth>
   <div className="print-only">
     A free cryptic crossword by <strong>Meles</strong>. Visit <strong>www.tomwaterton.com</strong> for more.
   </div>
@@ -46,6 +47,7 @@ function Crossword_03Page() {
     </div>
   </section>
 
+  </ContentWidth>
     </Layout>
   );
 }
