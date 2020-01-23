@@ -1,6 +1,6 @@
 import React from "react";
-
 import Layout from "../components/layout";
+import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import family_photo from "../images/family/family_2019.jpg";
 
@@ -13,6 +13,7 @@ function FamilyPage() {
         title="Family"
       />
 
+<ContentWidth>
   <section className="row">
     <div className="column">
       <h1>Family</h1>
@@ -81,6 +82,7 @@ function FamilyPage() {
     </div>
   </section>
 
+  </ContentWidth>
     </Layout>
   );
 }

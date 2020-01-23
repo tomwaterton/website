@@ -1,6 +1,6 @@
 import React from "react";
-
 import Layout from "../components/layout";
+import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import cheers_photo from "../images/brewing/cheers.jpg";
 import brewing_kit_photo from "../images/brewing/brewing_kit.jpeg";
@@ -16,6 +16,7 @@ function BrewingPage() {
         title="Brewing"
       />
 
+<ContentWidth>
   <section className="row">
     <div className="column">
       <h1>Brewing</h1>
@@ -90,6 +91,7 @@ function BrewingPage() {
 
   </section>
 
+  </ContentWidth>
     </Layout>
   );
 }

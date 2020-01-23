@@ -1,6 +1,6 @@
 import React from "react";
-
 import Layout from "../components/layout";
+import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import abductionIllustration from "../images/tailwind/abduction-illustration.svg";
 import MagnifyingGlassIllustration from "../images/404/magnifying-glass.jpg";
@@ -10,6 +10,7 @@ function NotFoundPage() {
     <Layout>
       <SEO title="404: Not found" />
 
+<ContentWidth>
   <section className="row">
     <div className="column">
       <h1>Hmm, we can't seem to find that page...</h1>
@@ -42,6 +43,7 @@ function NotFoundPage() {
     </div>
   </section>
 
+  </ContentWidth>
     </Layout>
   );
 }
