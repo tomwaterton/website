@@ -49,6 +49,8 @@ function AboutPage() {
         <li>To get started, I used the <a href="https://github.com/taylorbryant/gatsby-starter-tailwind">Tailwind</a> Gatsby starter theme, which I then adapted to suit my needs.</li>
         <li>I use <a href="https://github.com/">GitHub</a> as my source repository.</li>
         <li>And I use <a href="https://pages.github.com/">GitHub Pages</a> to host the site.</li>
+        <li><span className="description">Props to the talented&nbsp;
+        <a href="https://www.linkedin.com/in/peter-loveland-75a73294/">Peter Loveland</a> for his Gatsby help (and puns) along the way.</span></li>
       </ul>
       <p>If you spot any bugs, or simply want to say hello, please do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20website">get in touch</a> with me.
       </p>

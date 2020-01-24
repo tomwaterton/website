@@ -12,7 +12,7 @@ function Crossword_03Page() {
   return (
     <Layout>
       <SEO
-        keywords={[`cryptic`, `crosswords`, `tom`, `waterton`]}
+        keywords={[`cryptic`, `crosswords`, `meles`, `tom`, `waterton`]}
         title="Crossword #03"
       />
 

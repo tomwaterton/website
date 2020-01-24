@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
+import crossword_04_thumbnail from "../images/crosswords/crossword_04_thumbnail.png";
 import crossword_03_thumbnail from "../images/crosswords/crossword_03_thumbnail.png";
 import crossword_02_thumbnail from "../images/crosswords/crossword_02_thumbnail.png";
 import crossword_01_thumbnail from "../images/crosswords/crossword_01_thumbnail.png";
@@ -27,12 +28,44 @@ function CrypticCrosswordsPage() {
 
     <ul className="c-tile-list">
 
+    <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="/crosswords/04">
+            <img
+              className="article-thumbnail crossword-thumbnail"
+              alt="Crossword image"
+              src={crossword_04_thumbnail}
+              />
+            </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <a href="/crosswords/04">
+                Cryptic crossword #4</a>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+                Difficulty: Medium
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+                Feb 2020
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
           <a href="/crosswords/03">
             <img
-              className="article-thumbnail"
+              className="article-thumbnail crossword-thumbnail"
               alt="Crossword image"
               src={crossword_03_thumbnail}
               />
@@ -63,7 +96,7 @@ function CrypticCrosswordsPage() {
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
           <a href="/crosswords/02">
-            <img className="article-thumbnail"
+            <img className="article-thumbnail crossword-thumbnail"
                 alt="Crossword image"
                 src={crossword_02_thumbnail}
               />
@@ -94,7 +127,7 @@ function CrypticCrosswordsPage() {
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
           <a href="/crosswords/01">
-            <img className="article-thumbnail"
+            <img className="article-thumbnail crossword-thumbnail"
                 alt="Crossword image"
                 src={crossword_01_thumbnail}
               />
