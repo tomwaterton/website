@@ -9,3 +9,7 @@
   font-size: 0.8rem;
 }
 
+.sep-bar {
+  border-left: solid #e0e0e0 3px;
+  padding-left: 10px;
+}
