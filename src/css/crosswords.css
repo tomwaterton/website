@@ -1,18 +1,10 @@
-.crossword-background {
-  background-color: antiquewhite !important;
+/* Styles used on the Cryptic crossword pages */
+.crossword-thumbnail {
+  border: 8px solid #fff;
+  border-bottom: none;
 }
 
-.instruction {
-  font-size: 0.8rem;
-  padding-top: 4px;
-  padding-left: 10px;
-}
-
-.small-lead-in {
-  font-size: 0.8rem;
-  padding-top: 6px;
-}
-
+/* Styles used on the individual crossword pages */
 .crossword-border {
   border: solid 1px grey;
 }
