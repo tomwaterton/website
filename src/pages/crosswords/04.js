@@ -17,8 +17,9 @@ function Crossword_04Page() {
       />
 
 <ContentWidth>
-  <div className="print-only">
-    A free cryptic crossword by <strong>Meles</strong>. Visit <strong>www.tomwaterton.com</strong> for more.
+<div className="print-only">
+    A free cryptic crossword by <span className="pseudonym">Meles</span>. 
+    Visit <span className="url">www.tomwaterton.com</span> for more.
   </div>
 
   <section className="row">

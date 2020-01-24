@@ -1,10 +1,21 @@
-/* Styles used on the Cryptic crossword pages */
+/* Styles used on the main Cryptic crossword page */
 .crossword-thumbnail {
   border: 8px solid #fff;
   border-bottom: none;
 }
 
 /* Styles used on the individual crossword pages */
+.pseudonym {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.url {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
 .crossword-border {
   border: solid 1px grey;
 }
