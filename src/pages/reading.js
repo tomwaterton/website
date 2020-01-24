@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import bookshelves_photo from "../images/reading/bookshelves.jpg";
+import Tom_on_books_photo from "../images/reading/Tom_on_books.jpg";
 
 function ReadingPage() {
   return (
@@ -16,20 +16,20 @@ function ReadingPage() {
   <section className="row">
     <div className="column">
       <h1>Reading</h1>
-      <p className="description">I'm an incurable bookworm so I always have a book or two on the go. 
+      <p className="description">I'm an incurable bookworm so I always have at least one book on the go. 
       Here are some highlights from the last few years.</p>
         <ul className="ul-small-2 do-not-print">
           <li><a href="#non-fiction">Non-fiction</a></li>
           <li><a href="#fiction">Fiction</a></li>
         </ul>
         <p className="description">For each book I've provided a link to further information 
-        and written my own one-sentence description.</p>
+        and written a one-sentence description.</p>
     </div>
     <div className="column">
       <img
-        alt="Bookselves photo"
+        alt="Photo of me reading, lying on a mass of books"
         className="block tilt-landscape-left do-not-print"
-        src={bookshelves_photo}
+        src={Tom_on_books_photo}
       />
     </div>
   </section>
