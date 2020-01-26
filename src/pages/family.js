@@ -82,6 +82,13 @@ function FamilyPage() {
           </div>
       </div>
     </div>
+
+    <div className="column-1-3">
+      <div className="small-text">
+        <p>&nbsp;</p>
+      </div>
+    </div>
+
   </section>
 
   </ContentWidth>
