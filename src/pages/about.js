@@ -18,7 +18,7 @@ function AboutPage() {
     <div className="column">
       <h1>About this site</h1>
       <p className="description">I'm not a web developer, but I do like to learn new things, so 
-      I recently set myself the challenge of creating my own website.</p>
+      at the beginning of 2020 I set myself the challenge of creating my own website.</p>
       <p className="description padding-bottom-small">Here you'll find some information about my work, 
       as well as some of my thoughts, hobbies, and interests. Enjoy!</p>
       <img

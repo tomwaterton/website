@@ -1,33 +1,56 @@
+.panel h2 {
+  color: #c69;
+}
+
+.panel p {
+  font-size: 0.9rem;
+  color: #262626;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.speaking li {
+  padding-bottom: 12px;
+  font-size: 0.8rem;
+}
+
 .conference {
-    font-weight: 500;
-    color: #c69;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #c69;
 }
 
-/* Background colors for the sections on the Content design page */
-.bleed {
-  background: grey;
-  margin-bottom: 2px;
-}
-
+/* Background colors for the full-width panels on the Content design page */
 .bleed1 {
-  background: #d0e2ff;  /* Blue 20 */
-}
-
-.bleed2 {
   background: #e0e0e0;  /* Gray 20 */
 }
 
+.bleed2 {
+  background: #fff;  /* i.e. no backgroud colour */
+}
+
 .bleed3 {
-  background: #d0e2ff;  /* Blue 20 */
+  background: #a6c8ff;  /* Blue 40 */
 }
 /* End */
 
-
+.panel-images {
+  border-radius: 6px;
+  box-shadow: 2px 4px 6px 2px rgba(0,0,0,.2);
+}
 
 /*
-  background: #d0e2ff;  (Blue 20)
-  background: #78a9ff;  (Blue 40)
+#edf5ff;  (Blue 10)
+#d0e2ff;  (Blue 20)
+#a6c8ff;  (Blue 30)
+#78a9ff;  (Blue 40)
+#4589ff;  (Blue 50)
 
-  background: #e0e0e0;  (Gray 20)
-  background: #a8a8a8;  (Gray 40)
+#f4f4f4;  (Gray 10)
+#e0e0e0;  (Gray 20 - what I use for the footer)
+#a8a8a8;  (Gray 40)
+#6f6f6f;  (Gray 60)
+#262626;  (Gray 90)
 */
