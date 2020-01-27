@@ -6,7 +6,7 @@ import Tom_at_work_photo from "../images/content-design/Tom_at_work.jpg";
 import ES_UI_image from "../images/content-design/Event_Streams_UI.png";
 import Carbon_image from "../images/content-design/Carbon.png";
 import CD_Guild_image from "../images/content-design/CD_Guild.png";
-import speaking_image from "../images/content-design/speaking.jpeg";
+import microphone_image from "../images/content-design/microphone.png";
 
 function ContentDesignPage() {
   return (
@@ -20,8 +20,9 @@ function ContentDesignPage() {
 <section className="row">
     <div className="column">
       <h1>Content design</h1>
-      <p className="description">I'm a writer and a designer.</p>
-      <p className="description">I was one of the first Content Designers to be hired into IBM Design.</p>
+      <p className="description">I work as a content designer, which basically means that I specialise in communicating 
+      information in the best way possible.</p>
+      <p className="description">I predominantly work content that makes up part of the in-product user experience.</p>
       <p className="description">Content strategy, content audit, terminology audit, information architecture, etc.</p>
       <p className="description">I write about all of this in more detail in my article:&nbsp;
       <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a Content Designer</a>.</p>
@@ -165,7 +166,7 @@ function ContentDesignPage() {
     <div className="column">
       <img className="panel-images"
         alt="Photo of me speaking"
-        src={speaking_image}
+        src={microphone_image}
       />
     </div>
   </section>

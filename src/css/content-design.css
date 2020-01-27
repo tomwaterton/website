@@ -27,7 +27,7 @@
   background: #e0e0e0;  /* Gray 20 */
 }
 
-.bleed2 {
+.bleed2, .bleed4 {
   background: #fff;  /* i.e. no backgroud colour */
 }
 
