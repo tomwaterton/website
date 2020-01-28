@@ -20,13 +20,9 @@ function BrewingPage() {
   <section className="row">
     <div className="column">
       <h1>Brewing</h1>
-      <p className="description">Content to be added here soon... Cheers!</p>
-      <p className="description">More text to go here... More text to go here... More text to go here... 
-      More text to go here... More text to go here... More text to go here... More text to go here... 
-      More text to go here... More text to go here... More text to go here... More text to go here...</p>
-      <p className="description">More text to go here... More text to go here... More text to go here... 
-      More text to go here... More text to go here... More text to go here... More text to go here... 
-      More text to go here... More text to go here... More text to go here... More text to go here...</p>
+      <p className="description">This page is still under construction...</p>
+      <p className="description">More content to be added here soon...</p>
+      <p className="description">In the meantime: Cheers!</p>
     </div>
     <div className="column">
     <img

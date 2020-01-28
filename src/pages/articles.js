@@ -48,7 +48,7 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">
-            Confessions of a Content Designer</a>
+            Confessions of a content designer</a>
             </h2>
           </div>
 
@@ -79,7 +79,7 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302">
-            On Content Design (a poem)</a>
+            On Content Design</a> (a poem)
             </h2>
           </div>
 
