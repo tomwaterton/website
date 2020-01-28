@@ -122,7 +122,7 @@ function ContentDesignPage() {
       />
     </div>
     <div className="column panel">
-      <p>Along with the talented MB, I set up and co-lead the IBM-wide Content Design Guild</p>
+      <p>Along with the talented Maranda Bodas, I set up and co-lead the IBM-wide Content Design Guild</p>
       <p>Some intro text to go here... blah... blah...</p>
       <p>Some intro text to go here... blah... blah...</p>
       <p>Some intro text to go here... blah... blah...</p>
