@@ -2,7 +2,7 @@
 
 This is a personal website built by and for Tom Waterton.
 
-The site can be accessed here: `<coming soon...>`
+The site can be accessed here: https://tomwaterton.github.io/website/
 
 
 ## Attribution
