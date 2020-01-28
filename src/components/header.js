@@ -22,7 +22,7 @@ function Header() {
       </div>
 
       <div className="navbar">
-        <Link to="/content-design">Content Design</Link>
+        <Link to="/content-design">Content design</Link>
         <Link to="/articles">Articles</Link>
         <div className="dropdown">
           <button className="dropbtn">More
