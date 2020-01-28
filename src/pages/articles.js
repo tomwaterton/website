@@ -79,7 +79,7 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302">
-            On Content Design</a> (a poem)
+            On Content Design (a poem)</a>
             </h2>
           </div>
 
