@@ -21,7 +21,7 @@ function BrewingPage() {
     <div className="column">
       <h1>Brewing</h1>
       <p className="description">This page is still under construction...</p>
-      <p className="description">More content to be added here soon...</p>
+      <p className="description">More content coming soon...</p>
       <p className="description">In the meantime: Cheers!</p>
     </div>
     <div className="column">

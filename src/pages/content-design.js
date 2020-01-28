@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import Tom_at_work_photo from "../images/content-design/Tom_at_work.jpg";
+import Tom_at_work_3_2_photo from "../images/content-design/Tom_at_work_3_2.jpg";
 import ES_UI_image from "../images/content-design/Event_Streams_UI.png";
 import Carbon_image from "../images/content-design/Carbon.png";
 import CD_Guild_image from "../images/content-design/CD_Guild.png";
@@ -20,18 +20,19 @@ function ContentDesignPage() {
 <section className="row">
     <div className="column">
       <h1>Content design</h1>
-      <p className="description">I'm a content designer, which if you're not familiar with this term, basically means that I'm a designer 
+      <p className="description">If you're not familiar with this term, you can think of me as a designer 
       with a specialism in writing and communication.</p>
       <p className="description">I work closely with user researchers, UX designers, and engineering colleagues to craft delightful experiences for users
-      of IBM products. When I'm not writing or advising on in-product content, I help teams with terminology guidance, content strategy, 
-      run content crits, and conduct content audits.</p>
+      of IBM products.</p>
+      <p className="description">When I'm not writing or advising on in-product content, I help teams with terminology guidance, content strategy, 
+      run content critiques, and conduct content audits.</p>
       <p className="description">For more info, see my article: <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a content designer</a>.</p>
     </div>
     <div className="column">
       <img
         alt="Photo of me working on some designs with colleagues"
         className="block tilt-landscape-left"
-        src={Tom_at_work_photo}
+        src={Tom_at_work_3_2_photo}
       />
     </div>
   </section>
@@ -50,16 +51,18 @@ function ContentDesignPage() {
         alt="Screenshot of the IBM Event Streams UI"
         src={ES_UI_image}
       />
-      <p className="caption-text">[Temporary placeholder image - to be improved / replaced]</p>
+      <p className="caption-text">[Temporary placeholder image - to be replaced]</p>
     </div>
     <div className="column panel medium-text">
       <ul>
-        <li>I work with lots of different product teams. For example, in the first half of 2019 I spent time working with 
-          the <span className="strong">IBM Event Streams</span> product team.</li>
-        <li>I started by running a content audit to help them work out what content they already had published (and where), 
-          what user needs the content addressed, what needed updating or removing, and where there were gaps.</li>
-        <li>As well as contributing to the in-product content, I also helped the design team design 
-        a new set of <a href="https://www.ibm.com/cloud/event-streams">marketing pages</a> for the product.</li>
+        <li>I work with lots of different IBM product teams. For example, in the first half of 2019, I spent time working 
+          with the <span className="strong">IBM Event Streams</span> team.</li>
+          <li>I worked with colleagues from marketing, engineering, product management, design, and sales to understand our 
+            customers' end-to-end experience.</li>
+        <li>I ran a content audit to help the team work out what content they already had published, what user needs it 
+          addressed, and what needed removing, updating, or creating.</li>
+        <li>As well as contributing to the in-product content, I also helped the team design a new 
+          set of <a href="https://www.ibm.com/cloud/event-streams">marketing pages</a>.</li>
         <li>I also contributed to their <a href="https://ibm.github.io/event-streams/">docs site</a> — which went on to win 
         an <a href="https://uktcawards.com/winners-2019/">ISTC Technical Communication award</a> later in the year.</li>
       </ul>
@@ -71,15 +74,21 @@ function ContentDesignPage() {
 <ContentWidth bgColour="2">
   <section className="row">
     <div colspan="2" className="column panel">
-      <h2>Writing and sharing content guidance</h2>
+      <h2>Writing content guidance for IBM product teams (and beyond)</h2>
     </div>
   </section>
   <section className="row">
     <div className="column panel medium-text">
       <ul>
-        <li>Some intro text here...</li>
-        <li>I'm the primary contributor to the content guidelines in <a href="https://www.carbondesignsystem.com/guidelines/content/general/">Carbon</a> — IBM's awesome open source design system, which our products all now use</li>
-        <li>Some more text here...</li>
+        <li>Back in 2016, I was asked to produce IBM Design's first voice and tone guide. 
+          This guide was to contain guidance on all written aspects of our product user interfaces.</li>
+        <li>I conducted thorough research to understand what aspects of writing designers and engineers were struggling with.</li>
+        <li>I also put a lot of thought into how we could best design and deliver the guidance so that it would be as fun, useful, 
+          and easy to use as possible. (I've written a little about this process in <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">this article</a>.)</li>
+        <li>Later, as IBM moved to using its awesome <a href="https://www.carbondesignsystem.com/">Carbon Design System</a> for 
+        all of its new product UIs, I began contributing significantly to the <a href="https://www.carbondesignsystem.com/guidelines/content/general">content guidelines</a> within Carbon.</li>
+        <li>This is something that I and others continue to evolve — inspired by the knowledge that this open source Carbon Design 
+          System is used by all IBM product teams, as well as many people outside of IBM.</li>
       </ul>
     </div>
     <div className="column">
@@ -87,7 +96,7 @@ function ContentDesignPage() {
         alt="Screenshot of the IBM Carbon Design System"
         src={Carbon_image}
       />
-      <p className="caption-text">[Temporary placeholder image - to be improved / replaced]</p>
+      <p className="caption-text">[Temporary placeholder image - to be replaced]</p>
     </div>
   </section>
 </ContentWidth>
@@ -105,7 +114,7 @@ function ContentDesignPage() {
         alt="Screenshot of our IBM Content Design Guild Slack channel"
         src={CD_Guild_image}
       />
-      <p className="caption-text">[Temporary placeholder image - to be improved / replaced]</p>
+      <p className="caption-text">[Temporary placeholder image - to be replaced]</p>
     </div>
     <div className="column panel medium-text">
       <ul>
@@ -150,7 +159,7 @@ function ContentDesignPage() {
       </ul>
     </div>
     <div className="column">
-      <img className="panel-images"
+      <img className="panel-images-no-margin"
         alt="Photo of me speaking"
         src={microphone_image}
       />
