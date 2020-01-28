@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -23,8 +24,8 @@ function IndexPage() {
         <h1 className="padding-bottom-small">
           Hi, I'm Tom.
         </h1>
-        <p className="lead padding-bottom-small">I'm an experienced <a href="/content-design">Content Designer</a>.
-        <br/>I live in Hampshire in the UK, and I currently work for <a href="https://www.ibm.com/design/">IBM Design</a>.
+        <p className="lead padding-bottom-small">I'm an experienced <Link to="/content-design">Content Designer</Link>.<br/>
+        I live in Hampshire in the UK, and I currently work for <a href="https://www.ibm.com/design/">IBM Design</a>.
         </p>
       </section>
 

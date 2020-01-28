@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import PropTypes from "prop-types";
 import React from "react";
 
@@ -23,7 +24,7 @@ function Layout(props) {
         </div>
 
         <div className="footer-info">
-            <a href="/about">About this site</a>
+          <Link to="/about">About this site</Link>
         </div>
 
         <div className="social-media">

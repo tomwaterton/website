@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -22,7 +23,7 @@ function NotFoundPage() {
   <section className="row">
     <div className="column">
       <img
-        alt="Ghost getting abducted by aliens"
+        alt="Photo of a magnifying glass"
         className="block max-300"
         src={MagnifyingGlassIllustration}
       />
@@ -30,15 +31,15 @@ function NotFoundPage() {
     <div className="column">
       <p className="description">Why not try one of these pages instead:</p>
         <ul className="ul-small">
-          <li><a href="/">Home page</a></li>
-          <li><a href="/content-design">Content design</a></li>
-          <li><a href="/articles">Articles</a></li>
-          <li><a href="/patents">Patents</a></li>
-          <li><a href="/cryptic-crosswords">Cryptic crosswords</a></li>
-          <li><a href="/reading">Reading</a></li>
-          <li><a href="/brewing">Brewing</a></li>
-          <li><a href="/family">Family</a></li>
-          <li><a href="/about">About this site</a></li>
+          <li><Link to="/">Home page</Link></li>
+          <li><Link to="/content-design">Content design</Link></li>
+          <li><Link to="/articles">Articles</Link></li>
+          <li><Link to="/patents">Patents</Link></li>
+          <li><Link to="/cryptic-crosswords">Cryptic crosswords</Link></li>
+          <li><Link to="/reading">Reading</Link></li>
+          <li><Link to="/brewing">Brewing</Link></li>
+          <li><Link to="/family">Family</Link></li>
+          <li><Link to="/about">About this site</Link></li>
         </ul>
     </div>
   </section>

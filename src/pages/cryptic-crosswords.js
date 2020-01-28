@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -31,19 +32,18 @@ function CrypticCrosswordsPage() {
     <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/crosswords/04">
+          <Link to="/crosswords/04">
             <img
               className="article-thumbnail crossword-thumbnail"
               alt="Crossword image"
               src={crossword_04_thumbnail}
               />
-            </a>
+          </Link>
           </div>
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="/crosswords/04">
-                Cryptic crossword #4</a>
+              <Link to="/crosswords/04">Cryptic crossword #4</Link>
             </h2>
           </div>
 
@@ -63,19 +63,18 @@ function CrypticCrosswordsPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/crosswords/03">
+          <Link to="/crosswords/03">
             <img
               className="article-thumbnail crossword-thumbnail"
               alt="Crossword image"
               src={crossword_03_thumbnail}
               />
-            </a>
+          </Link>
           </div>
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="/crosswords/03">
-                Cryptic crossword #3</a>
+            <Link to="/crosswords/03">Cryptic crossword #3</Link>
             </h2>
           </div>
 
@@ -95,18 +94,17 @@ function CrypticCrosswordsPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/crosswords/02">
+          <Link to="/crosswords/02">
             <img className="article-thumbnail crossword-thumbnail"
                 alt="Crossword image"
                 src={crossword_02_thumbnail}
               />
-            </a>
+          </Link>
           </div>
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="/crosswords/02">
-              Cryptic crossword #2</a>
+              <Link to="/crosswords/02">Cryptic crossword #2</Link>
             </h2>
           </div>
 
@@ -126,18 +124,17 @@ function CrypticCrosswordsPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/crosswords/01">
+          <Link to="/crosswords/01">
             <img className="article-thumbnail crossword-thumbnail"
                 alt="Crossword image"
                 src={crossword_01_thumbnail}
               />
-        </a>
+          </Link>
           </div>
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="/crosswords/01">
-              Cryptic crossword #1</a>
+              <Link to="/crosswords/01">Cryptic crossword #1</Link>
             </h2>
           </div>
 
