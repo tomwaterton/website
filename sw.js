@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-cd6385c876bb6cb666f6.js"
+    "url": "webpack-runtime-22bdccd27a832a3156f2.js"
   },
   {
     "url": "styles.ec9f6516461c30db4de2.css"
@@ -39,14 +39,14 @@ self.__precacheManifest = [
     "url": "commons-43035771704cb1133b65.js"
   },
   {
-    "url": "app-93c6c9183f867008225f.js"
+    "url": "app-e75462ebc4674bd236c8.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-c8f4ca6175399afc2590.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b6bc7a52c41bfb3be121d0ebb43c4dfc"
+    "revision": "048ab9dba3439c53d4d92d9ed394ac65"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -142,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/tomwaterton`), ``)
+  pathname = pathname.replace(new RegExp(`^/website`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/tomwaterton/app-93c6c9183f867008225f.js`))) {
+  if (!resources || !(await caches.match(`/website/app-e75462ebc4674bd236c8.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/tomwaterton/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/website/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
