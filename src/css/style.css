@@ -3,7 +3,6 @@
 @tailwind utilities;
 @import url("./404.css");
 @import url("./about.css");
-@import url("./brewing.css");
 @import url("./content-design.css");
 @import url("./crosswords.css");
 @import url("./family.css");
@@ -156,6 +155,15 @@ ul {
   max-width: 400px;
   border-radius: 6px;
   box-shadow: 2px 4px 6px 2px rgba(0,0,0,.2);
+}
+
+.caption-text {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: gray;
+  text-align: center;
 }
 
 .print-only {

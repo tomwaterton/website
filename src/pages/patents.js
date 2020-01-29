@@ -32,11 +32,11 @@ function PatentsPage() {
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
           <a href="https://patents.google.com/patent/US10320978B2/">
-          <img className="article-thumbnail"
-          alt="Patent image"
-          src={patent_3_Illustration}
-          />
-        </a>
+            <img className="article-thumbnail"
+              alt="Patent image"
+              src={patent_3_Illustration}
+            />
+          </a>
           </div>
 
           <div className="c-article-tile__body">
@@ -67,7 +67,7 @@ function PatentsPage() {
                 alt="Patent image"
                 src={patent_2_Illustration}
               />
-        </a>
+          </a>
           </div>
 
           <div className="c-article-tile__body">
@@ -97,8 +97,8 @@ function PatentsPage() {
             <img className="article-thumbnail"
                 alt="Patent image"
                 src={patent_1_Illustration}
-              />
-        </a>
+            />
+          </a>
           </div>
 
           <div className="c-article-tile__body">
