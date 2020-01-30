@@ -79,6 +79,12 @@
   flex-direction: column;
 }
 
+.article-subhead {
+  font-size: 70%;
+  font-weight: 300;
+  font-style: italic;
+}
+
 .article-thumbnail {
   border-radius: 6px 6px 0 0;
 }

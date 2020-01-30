@@ -8,6 +8,7 @@ import article_8_Illustration from "../images/articles/article_thumbnail_8.jpeg"
 import article_7_Illustration from "../images/articles/article_thumbnail_7.jpg";
 import article_6_Illustration from "../images/articles/article_thumbnail_6.jpg";
 import article_5_Illustration from "../images/articles/article_thumbnail_5.png";
+import article_5b_Illustration from "../images/articles/article_thumbnail_5b.png";
 import article_4_Illustration from "../images/articles/article_thumbnail_4.png";
 import article_3_Illustration from "../images/articles/article_thumbnail_3.jpg";
 import article_2_Illustration from "../images/articles/article_thumbnail_2.jpg";
@@ -183,6 +184,37 @@ function ArticlesPage() {
 
             <date className="c-article-tile__date" itemprop="datePublished">
             May 02, 2018
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="/">
+            <img className="article-thumbnail"
+                alt="Article image"
+                src={article_5b_Illustration}
+              />
+        </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+            <a href="/">
+              The creation of a studio</a><br/><span className="article-subhead">(published in Variable magazine)</span>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+            4 min read
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+            Apr, 2018
             </date>
           </footer>
         </article>
