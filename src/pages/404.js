@@ -3,7 +3,6 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import abductionIllustration from "../images/tailwind/abduction-illustration.svg";
 import MagnifyingGlassIllustration from "../images/404/magnifying-glass.jpg";
 
 function NotFoundPage() {
