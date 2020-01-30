@@ -3,10 +3,7 @@ import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import cheers_photo from "../images/brewing/cheers.jpg";
-import brewing_kit_photo from "../images/brewing/brewing_kit.jpeg";
-import sparging_photo from "../images/brewing/sparging.jpg";
 import adding_hops_photo from "../images/brewing/adding_hops.jpeg";
-import siphoning_photo from "../images/brewing/siphoning.jpg";
 
 function BrewingPage() {
   return (
@@ -39,50 +36,18 @@ function BrewingPage() {
   </section>
 
   <section className="row">
-    <div className="column">
-      <img
-        alt="Photo of my brewing kit"
-        className="block section-photos"
-        src={brewing_kit_photo}
-      />
-      <p className="caption-text">
-        My brewing kit
-      </p>
-    </div>
-
-    <div className="column">
-      <img
-        alt="Photo of me rinsing the grain"
-        className="block section-photos"
-        src={sparging_photo}
-      />
-      <p className="caption-text">
-        Pouring liquor through the grain
-      </p>
-    </div>
-  </section>
-
-  <section className="row">
   <div className="column">
       <img
         alt="Photo of adding hops to the wort"
-        className="block section-photos"
+        className="panel-images"
         src={adding_hops_photo}
       />
       <p className="caption-text">
         Adding hops to the wort
       </p>
     </div>
-
-    <div className="column">
-    <img
-        alt="Photo of me siphoning the wort from the pot to the brew bin"
-        className="block section-photos"
-        src={siphoning_photo}
-      />
-      <p className="caption-text">
-        Siphoning the wort from pan to brew bin
-      </p>
+    <div className="column small-text">
+      <p>In essence, beer is made by soaking barley in water until enzymes are activated, which turn the grains’ starches into sugars. Hops are then used to add bitterness and flavor. Finally, yeast is added to ferment the brew (i.e. turn the sugars into carbon dioxide and alcohol)</p>
     </div>
 
   </section>

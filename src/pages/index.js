@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import TomPhoto from "../images/home/Tom_Waterton_photo.png";
+import TomPhoto from "../images/index/Tom_Waterton_photo.png";
 
 function IndexPage() {
   return (

@@ -95,7 +95,7 @@ function ContentDesignPage() {
         alt="Screenshot of the IBM Carbon Design System"
         src={Carbon_image}
       />
-      <p className="caption-text">Carbon Design System > <a href="https://www.carbondesignsystem.com/guidelines/content/general">Content guidance</a></p>
+      <p className="caption-text">Carbon Design System > <a href="https://www.carbondesignsystem.com/guidelines/content/general">Content guidelines</a></p>
     </div>
   </section>
 </ContentWidth>
@@ -119,7 +119,7 @@ function ContentDesignPage() {
       <ul>
         <li>As recently as 2018, many people in IBM hadn't even heard of a content designer let alone worked with one.</li>
         <li>So I got together with the talented <a href="http://www.marandabodas.com/">Maranda Bodas</a> and 
-        a handful of others, and we formed a small community of practice, which we called the IBM Content Design Guild.</li>
+        a handful of others, and we formed a small community of practice, which we called the <span className="strong">IBM Content Design Guild</span>.</li>
         <li>From an inital meeting with just 7 of us, our community has grown month by month, and we now have over 
           300 people engaged with us, including UX designers, marketers, and tech writers as well as our content designers.</li>
         <li>We hold lively meetings where we share best practices and resources and we've spun up various work groups.</li>
