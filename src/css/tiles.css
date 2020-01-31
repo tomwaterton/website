@@ -83,6 +83,7 @@
   font-size: 70%;
   font-weight: 300;
   font-style: italic;
+  color: gray;
 }
 
 .article-thumbnail {
@@ -157,9 +158,9 @@
   * [Theming] .c-article-tile
   * -------------------------------------------------------------------------- */
 
-  .c-article-tile {
-    border-radius: 6px;
-  }
+.c-article-tile {
+  border-radius: 6px;
+}
 
 .c-article-tile.col1,
 .c-article-tile.col1 a {

@@ -48,8 +48,9 @@ function AboutPage() {
         <li>I built this site using the free and open source <a href="https://www.gatsbyjs.org/">Gatsby</a> React framework.</li>
         <li>To get started, I used the <a href="https://github.com/taylorbryant/gatsby-starter-tailwind">Tailwind</a> Gatsby starter theme, which I then adapted to suit my needs.</li>
         <li>I use <a href="https://github.com/">GitHub</a> as my source repository.</li>
-        <li>And I use <a href="https://pages.github.com/">GitHub Pages</a> to host the site.</li>
-        <li>(Props to the talented <a href="https://www.linkedin.com/in/peter-loveland-75a73294/">Peter Loveland</a> 🙌 for his Gatsby help — and puns — along the way.)</li>
+        <li>I use <a href="https://pages.github.com/">GitHub Pages</a> to host the site.</li>
+        <li>I use <a href="www.google.com/analytics">Google Analytics</a> to analyse site traffic. (Thanks to both my visitors...)</li>
+        <li>Props to the talented <a href="https://www.linkedin.com/in/peter-loveland-75a73294/">Peter Loveland</a> 🙌 for his Gatsby help (and puns) as I was developing the site.</li>
       </ul>
       <p>If you spot any bugs, or simply want to say hello, please do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20website">get in touch</a> with me.
       </p>

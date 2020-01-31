@@ -49,17 +49,17 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">
-            Confessions of a content designer</a>
+              Confessions of a content designer</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-            10 min read
+              10 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-            Jun 18, 2019
+              Jun 18, 2019
             </date>
           </footer>
         </article>
@@ -80,13 +80,13 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302">
-            On Content Design (a poem)</a>
+              On Content Design</a><br/><span className="article-subhead">(A poem)</span>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-          3 min read
+              3 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
@@ -111,13 +111,13 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53">
-            How to punctuate like a pro</a>
+              How to punctuate like a pro</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-          9 min read
+              9 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
@@ -142,17 +142,17 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5">
-            Taking responsibility for our communication</a>
+              Taking responsibility for our communication</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-            7 min read
+              7 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-            Jul 20, 2018
+              Jul 20, 2018
             </date>
           </footer>
         </article>
@@ -173,17 +173,17 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015">
-            Why I read</a>
+              Why I read</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-            8 min read
+              8 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-            May 02, 2018
+              May 02, 2018
             </date>
           </footer>
         </article>
@@ -193,7 +193,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/">
+          <a href="/the_creation_of_a_studio.png">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_5b_Illustration}
@@ -203,18 +203,18 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-            <a href="/">
-              The creation of a studio</a><br/><span className="article-subhead">(published in Variable magazine)</span>
+            <a href="/the_creation_of_a_studio.png">
+              The creation of a studio</a><br/><span className="article-subhead">(Published in Variable magazine)</span>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-            4 min read
+              4 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-            Apr, 2018
+              Apr, 2018
             </date>
           </footer>
         </article>
@@ -235,17 +235,17 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50">
-            Failing fast, using feedback loops, and the benefits of iterative design</a>
+              Failing fast, using feedback loops, and the benefits of iterative design</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-            8 min read
+              8 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-            Feb 20, 2018
+              Feb 20, 2018
             </date>
           </footer>
         </article>
@@ -266,17 +266,17 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/@tomwaterton/how-to-emphasize-key-words-in-your-text-b8738f146972">
-            How to emphasize key words in your text</a>
+              How to emphasize key words in your text</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-            6 min read
+              6 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-            Sep 13, 2017
+              Sep 13, 2017
             </date>
           </footer>
         </article>
@@ -297,17 +297,17 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3">
-            Creating a culture of design</a>
+              Creating a culture of design</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-            9 min read
+              9 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-            Jun 08, 2017
+              Jun 08, 2017
             </date>
           </footer>
         </article>
@@ -328,17 +328,17 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/@tomwaterton/whats-your-passion-c570374a8810">
-            What’s your passion?</a>
+              What’s your passion?</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-            4 min read
+              4 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-            Jul 18, 2016
+              Jul 18, 2016
             </date>
           </footer>
         </article>
@@ -359,17 +359,17 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://medium.com/@tomwaterton/tell-me-a-story-a809032e95d5">
-            Tell me a story</a>
+              Tell me a story</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-            4 min read
+              4 min read
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-            Jul 03, 2016
+              Jul 03, 2016
             </date>
           </footer>
         </article>
