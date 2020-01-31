@@ -61,9 +61,9 @@ function FamilyPage() {
         <h2>Thea</h2>
           <p className="small-text-italic">(aka Thea-Pearl, Gorgeous-Chops, etc.)</p>
           <div className="small-text">
-            <p>Thea is our wonderful, caring, sensitive, book-loving daughter.</p>
-            <p>As a lover of all animals, Thea currently talks of becoming a vet some day. 
-              In the meantime she tends to our fish, our hamster, and her stick insects (Sticky and Twig). </p>
+            <p>Thea is our thoughtful, caring, sensitive, book-loving daughter.</p>
+            <p>As a huge fan of animals, Thea currently talks of becoming a vet some day. 
+              In the meantime she tends to our fish, our hamster, and her stick insects (Sticky and Twig).</p>
             <p>Often found: making a card for someone.</p>
           </div>
       </div>
@@ -76,8 +76,7 @@ function FamilyPage() {
           <div className="small-text">
             <p>Harriet is our laid-back, frock-wearing, bare-footed, free-spirited daughter.</p>
             <p>When she grows up, Harriet tells us that she is going to be a horse-rider, ballerina, and artist.
-              In addition to these noble aims, we suspect she'll always be a natural joker. 
-            </p>
+              In addition to these noble aims, we suspect she'll always be a natural joker.</p>
             <p>Often found: making someone laugh.</p>
           </div>
       </div>

@@ -20,7 +20,7 @@ function ContentDesignPage() {
 <section className="row">
     <div className="column">
       <h1>Content design</h1>
-      <p className="description">I'm an experienced content designer. If you're not familiar with this term, I'm essentially a designer 
+      <p className="description">I'm an experienced content designer. If you're not familiar with this term, think of me as a designer 
       with a specialism in writing and communication.</p>
       <p className="description">I work closely with user researchers, UX designers, and engineers to craft delightful user experiences for users
       of IBM products.</p>
@@ -57,7 +57,7 @@ function ContentDesignPage() {
       <ul>
         <li>I work with lots of different IBM product teams. For example, in 2019, I joined 
            the <span className="strong">IBM Event Streams</span> team for 5 months.</li>
-          <li>I worked with broad team members from marketing, engineering, product management, design, and sales to understand our 
+          <li>I worked with colleagues from marketing, engineering, product management, design, and sales to understand our 
             customers' end-to-end experience.</li>
         <li>I ran a content audit to help the team work out what content they already had published, what user needs it 
           addressed, and what needed removing, updating, or creating.</li>
@@ -121,9 +121,10 @@ function ContentDesignPage() {
         <li>So I got together with the talented <a href="http://www.marandabodas.com/">Maranda Bodas</a> and 
         a handful of others, and we formed a small community of practice, which we called the <span className="strong">IBM Content Design Guild</span>.</li>
         <li>From an inital meeting with just 7 of us, our community has grown month by month, and we now have over 
-          300 people engaged with us, including UX designers, marketers, and tech writers as well as our content designers.</li>
-        <li>We hold lively meetings where we share best practices and resources and we've spun up various work groups.</li>
-        <li>It's continues to be a real pleasure co-leading this wonderful and growing community.</li>
+          300 people engaged with us, including UX designers, marketers, and tech writers, as well as content designers.</li>
+        <li>We hold lively meetings where we share best practices and resources and we've spun up various work groups, covering 
+          different aspects of content design.</li>
+        <li>It continues to be a real pleasure co-leading this wonderful and growing content community.</li>
       </ul>
     </div>
   </section>

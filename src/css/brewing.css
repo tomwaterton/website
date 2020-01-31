@@ -1,0 +1,10 @@
+.brewing-images {
+  border-radius: 6px;
+  box-shadow: 2px 4px 6px 2px rgba(0,0,0,.2);
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.sep-bar h2 {
+  padding-bottom: 8px;
+}
