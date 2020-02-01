@@ -46,52 +46,53 @@ function BrewingPage() {
   <section className="row">
     <div className="column-1-3">
       <div className="sep-bar">
-        <h2>Heading...</h2>
+        <h2>Beer brewing basics</h2>
           <div className="small-text">
             <p>In essence, beer is made by soaking barley in water until enzymes are activated, which turn 
-            the grains’ starches into sugars. Hops are then used to add bitterness and flavor. Finally, 
-            yeast is added to ferment the brew (i.e. turn the sugars into carbon dioxide and alcohol)</p>
+            the grains’ starches into sugars.</p>
+            <p>Different hops are then used to add bitterness, flavor, and aroma.</p>
+            <p>Finally, yeast is added to ferment the brew — i.e. turn the sugars into carbon dioxide and alcohol.</p>
           </div>
           <img
             alt="Photo of adding hops to the wort"
             className="brewing-images"
             src={adding_hops_photo}
           />
-      <p className="caption-text">Adding hops to the wort</p>
+      <p className="caption-text">[Photo of brew kit or action?]</p>
       </div>
     </div>
 
     <div className="column-1-3">
       <div className="sep-bar">
-        <h2>Heading...</h2>
+        <h2>Getting stuck in</h2>
           <div className="small-text">
-          <p>In essence, beer is made by soaking barley in water until enzymes are activated, which turn 
-            the grains’ starches into sugars. Hops are then used to add bitterness and flavor. Finally, 
-            yeast is added to ferment the brew (i.e. turn the sugars into carbon dioxide and alcohol)</p>
+            <p>Paragraph 1...</p>
+            <p>Paragraph 2...</p>
+            <p>Paragraph 3...</p>
           </div>
           <img
             alt="Photo of adding hops to the wort"
             className="brewing-images"
             src={adding_hops_photo}
           />
-          <p className="caption-text">Adding hops to the wort</p>
+          <p className="caption-text">[Photo of me brewing?]</p>
       </div>
     </div>
 
     <div className="column-1-3">
       <div className="sep-bar">
-        <h2>Heading...</h2>
+        <h2>Enjoying the output</h2>
           <div className="small-text">
-          <p>In essence, beer is made by soaking barley in water until enzymes are activated, which turn 
-            the grains’ starches into sugars. Hops are then used to add bitterness and flavor. Finally, 
-            yeast is added to ferment the brew (i.e. turn the sugars into carbon dioxide and alcohol)</p>
+            <p>Paragraph 1...</p>
+            <p>Paragraph 2...</p>
+            <p>Paragraph 3...</p>
           </div>
           <img
             alt="Photo of adding hops to the wort"
             className="brewing-images"
             src={adding_hops_photo}
           />
-      <p className="caption-text">Adding hops to the wort</p>
+      <p className="caption-text">[Photo of people sampling home brew?]</p>
       </div>
     </div>
 
