@@ -74,7 +74,7 @@ function ContentDesignPage() {
 <ContentWidth bgColour="2">
   <section className="row">
     <div colspan="2" className="column panel">
-      <h2>Writing content guidance for IBM product teams (and beyond)</h2>
+      <h2>Writing content guidance for IBM</h2>
     </div>
   </section>
   <section className="row">

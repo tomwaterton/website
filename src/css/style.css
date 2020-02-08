@@ -21,6 +21,11 @@ html {
   font-size: 20px;
 }
 
+/* Without the following the style breaks on mobiles */
+body {
+  min-width: fit-content;
+}
+
 /* So when you resize screen, extra space is applied to main... */
 /* ...not to the header or footer */
 main {
