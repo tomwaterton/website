@@ -26,7 +26,7 @@ function BrewingPage() {
       of trying to produce a certain type of beer and the creativity of playing around with different 
       hops and flavours.</p>
       <p className="description">I also love the sociable side of brewing. I often brew with others and 
-      love being able to share the results with friends and family.</p>
+      enjoy being able to share the results with friends and family.</p>
     </div>
     <div className="column">
     <img
@@ -46,7 +46,7 @@ function BrewingPage() {
   <section className="row">
     <div className="column-1-3">
       <div className="sep-bar">
-        <h2>Beer brewing basics</h2>
+        <h2>The basic theory</h2>
           <div className="small-text">
             <p>In essence, beer is made by soaking barley in water until enzymes are activated, which turn 
             the grains’ starches into sugars.</p>

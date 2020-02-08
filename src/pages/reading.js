@@ -80,6 +80,10 @@ function ReadingPage() {
               <p>A good portrayal of life inside a siloed IT department and what DevOps really has to offer.</p>
           </li>
           <li>
+              <a href="https://www.thesprintbook.com/">Sprint</a> by Jake Knapp
+              <p>How to approach opportunities and challenges by ideating, prototyping, testing, and getting feedback — all within 5 days.</p>
+          </li>
+          <li>
               <a href="http://freakonomics.com/books/">Freakonomics</a> and <a href="http://freakonomics.com/books/">SuperFreakonomics</a> by Steven D. Levitt and Stephen J. Dubner
               <p>Applying economic theories to some of life's many riddles, such as why do drug dealers still live at home with their moms?</p>
           </li>
