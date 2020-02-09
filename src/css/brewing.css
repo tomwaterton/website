@@ -8,3 +8,7 @@
 .sep-bar h2 {
   padding-bottom: 8px;
 }
+
+.set-height {
+  min-height: 210px;
+}
