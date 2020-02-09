@@ -3,7 +3,9 @@ import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import cheers_photo from "../images/brewing/cheers.jpg";
+import brewing_kit_photo from "../images/brewing/brewing_kit.jpeg";
 import adding_hops_photo from "../images/brewing/adding_hops.jpeg";
+import sharing_beer_photo from "../images/brewing/sharing_beer.jpg";
 
 function BrewingPage() {
   return (
@@ -47,52 +49,49 @@ function BrewingPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>The basic theory</h2>
-          <div className="small-text">
-            <p>In essence, beer is made by soaking barley in water until enzymes are activated, which turn 
+          <div className="small-text set-height">
+            <p>Beer is made by soaking barley in water until enzymes are activated, which turn 
             the grains’ starches into sugars.</p>
-            <p>Different hops are then used to add bitterness, flavor, and aroma.</p>
-            <p>Finally, yeast is added to ferment the brew — i.e. turn the sugars into carbon dioxide and alcohol.</p>
+            <p>Different hops are then used to add bitterness, flavor, and aroma to the beer.</p>
+            <p>Finally, yeast is added to ferment the brew — that is, turn the sugars into carbon dioxide and alcohol.</p>
           </div>
           <img
-            alt="Photo of adding hops to the wort"
+            alt="Photo of my brewing kit"
             className="brewing-images"
-            src={adding_hops_photo}
+            src={brewing_kit_photo}
           />
-      <p className="caption-text">[Photo of brew kit or action?]</p>
       </div>
     </div>
 
     <div className="column-1-3">
       <div className="sep-bar">
-        <h2>Getting stuck in</h2>
-          <div className="small-text">
-            <p>Paragraph 1...</p>
-            <p>Paragraph 2...</p>
-            <p>Paragraph 3...</p>
+        <h2>Experimenting</h2>
+          <div className="small-text set-height">
+            <p>Most of my brews so far have been variations on traditional English ale, pale ale, and IPA recipes, using hops such as Challenger, Goldings, Cascade (UK), and Fuggles.</p>
+            <p>To get that extra hoppy taste, I often add in other hops when the wort is in the barrel.</p>
+            <p>Sometimes I also add fruit (orange peel, grapefruit, hawthorn berries, etc.).</p>
           </div>
           <img
             alt="Photo of adding hops to the wort"
             className="brewing-images"
             src={adding_hops_photo}
           />
-          <p className="caption-text">[Photo of me brewing?]</p>
       </div>
     </div>
 
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>Enjoying the output</h2>
-          <div className="small-text">
-            <p>Paragraph 1...</p>
-            <p>Paragraph 2...</p>
-            <p>Paragraph 3...</p>
+          <div className="small-text set-height">
+            <p>After patiently waiting 3-5 weeks for the brew to ferment and condition, the time finally comes to test your latest creation!</p>
+            <p>There's nothing better than getting together with friends, family, or colleagues and being able to hand out some home brew for all to try. Cheers!</p>
+            <p>It's then time to start planning the next brew...</p>
           </div>
           <img
-            alt="Photo of adding hops to the wort"
+            alt="Photo of beer glasses"
             className="brewing-images"
-            src={adding_hops_photo}
+            src={sharing_beer_photo}
           />
-      <p className="caption-text">[Photo of people sampling home brew?]</p>
       </div>
     </div>
 
