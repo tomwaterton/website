@@ -3,7 +3,7 @@ module.exports = {
     title: `tomwaterton.com`,
     description: `A personal website for Tom Waterton`,
     author: `Tom Waterton`,
-    siteUrl: 'https://tomwaterton.com/'
+    siteUrl: 'https://www.tomwaterton.com'
   },
   pathPrefix: "/",
   plugins: [

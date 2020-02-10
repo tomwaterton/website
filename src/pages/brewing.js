@@ -67,7 +67,7 @@ function BrewingPage() {
       <div className="sep-bar">
         <h2>Experimenting</h2>
           <div className="small-text set-height">
-            <p>Most of my brews so far have been variations on traditional English ale, pale ale, and IPA recipes, using hops such as Challenger, Goldings, Cascade (UK), and Fuggles.</p>
+            <p>Most of my brews so far have been variations on traditional English ale and IPA recipes, using hops such as Challenger, Goldings, Cascade (UK), and Fuggles.</p>
             <p>To get that extra hoppy taste, I often add in other hops when the wort is in the barrel.</p>
             <p>Sometimes I also add fruit (orange peel, grapefruit, hawthorn berries, etc.).</p>
           </div>
