@@ -84,7 +84,7 @@ function BrewingPage() {
         <h2>Enjoying the output</h2>
           <div className="small-text set-height">
             <p>After patiently waiting 3-5 weeks for the brew to ferment and condition, the time finally comes to test your latest creation!</p>
-            <p>There's nothing better than getting together with friends, family, or colleagues and being able to hand out some home brew for all to try. Cheers!</p>
+            <p>There's nothing better than getting together with friends, family, or colleagues and being able to hand out some home brew for all to try.</p>
             <p>It's then time to start planning the next brew...</p>
           </div>
           <img
