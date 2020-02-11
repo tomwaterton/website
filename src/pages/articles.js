@@ -193,7 +193,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/website/the_creation_of_a_studio.png">
+          <a href="/the_creation_of_a_studio.png">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_5b_Illustration}
@@ -203,7 +203,7 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-            <a href="/website/the_creation_of_a_studio.png">
+            <a href="/the_creation_of_a_studio.png">
               The creation of a studio</a><br/><span className="article-subhead">(Published in Variable magazine)</span>
             </h2>
           </div>
