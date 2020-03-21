@@ -20,7 +20,7 @@ function PatentsPage() {
 <section className="row">
     <div className="column">
       <h1>Patents</h1>
-      <p className="description">I enjoy inventing and currently have 3 issued patents — with a further 6 patents pending.</p>
+      <p className="description">I enjoy inventing and currently have 3 issued patents — with a further 7 patents pending.</p>
     </div>
   </section>
 
@@ -132,7 +132,7 @@ function PatentsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-            <span className="fyi">...Plus 6 other patents pending</span>
+            <span className="fyi">...Plus 7 other patents pending</span>
             </h2>
           </div>
 
