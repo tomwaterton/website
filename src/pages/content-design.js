@@ -144,22 +144,22 @@ function ContentDesignPage() {
         <li>
           Building a content design practice in the enterprise<br/>
           <span className="conference">Utterly Content conference</span>
-          <span className="date">(Gateshead, UK; April 2020)</span>
+          <span className="date">(Gateshead, UK; Oct 2020)</span>
         </li>
         <li>
           Establishing end-to-end content collaboration squads<br/>
           <span className="conference">ContentCon</span>
-          <span className="date">(Hursley, UK; October 2019)</span>
+          <span className="date">(Hursley, UK; Oct 2019)</span>
         </li>
         <li>
           Failing fast, using feedback loops, and the benefits of iterative design<br/>
           <span className="conference">IBM Think conference</span>
-          <span className="date">(Las Vegas, USA; March 2018)</span>
+          <span className="date">(Las Vegas, USA; Mar 2018)</span>
         </li>
         <li>
           Achieving a consistent design language across your portfolio<br/>
           <span className="conference">IBM InterConnect conference</span>
-          <span className="date">(Las Vegas, USA; March 2017)</span>
+          <span className="date">(Las Vegas, USA; Mar 2017)</span>
         </li>
       </ul>
     </div>

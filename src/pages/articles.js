@@ -2,13 +2,14 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
+import article_12_Illustration from "../images/articles/article_thumbnail_12.jpg";
+import article_11_Illustration from "../images/articles/article_thumbnail_11.jpg";
 import article_10_Illustration from "../images/articles/article_thumbnail_10.jpg";
-import article_9_Illustration from "../images/articles/article_thumbnail_9.jpg";
-import article_8_Illustration from "../images/articles/article_thumbnail_8.jpeg";
+import article_9_Illustration from "../images/articles/article_thumbnail_9.jpeg";
+import article_8_Illustration from "../images/articles/article_thumbnail_8.jpg";
 import article_7_Illustration from "../images/articles/article_thumbnail_7.jpg";
-import article_6_Illustration from "../images/articles/article_thumbnail_6.jpg";
+import article_6_Illustration from "../images/articles/article_thumbnail_6.png";
 import article_5_Illustration from "../images/articles/article_thumbnail_5.png";
-import article_5b_Illustration from "../images/articles/article_thumbnail_5b.png";
 import article_4_Illustration from "../images/articles/article_thumbnail_4.png";
 import article_3_Illustration from "../images/articles/article_thumbnail_3.jpg";
 import article_2_Illustration from "../images/articles/article_thumbnail_2.jpg";
@@ -35,13 +36,44 @@ function ArticlesPage() {
 
     <ul className="c-tile-list">
 
+    <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="https://medium.com/design-ibm/towards-more-radical-collaboration-a02c21837c5b">
+          <img className="article-thumbnail"
+          alt="Article image"
+          src={article_12_Illustration}
+          />
+        </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/design-ibm/towards-more-radical-collaboration-a02c21837c5b">
+              Towards more radical collaboration</a>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+              10 min read
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+              Mar 20, 2020
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
           <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">
           <img className="article-thumbnail"
           alt="Article image"
-          src={article_10_Illustration}
+          src={article_11_Illustration}
           />
         </a>
           </div>
@@ -72,7 +104,7 @@ function ArticlesPage() {
           <a href="https://medium.com/design-ibm/on-content-design-d8f9830ff302">
             <img className="article-thumbnail"
                 alt="Article image"
-                src={article_9_Illustration}
+                src={article_10_Illustration}
               />
         </a>
           </div>
@@ -103,7 +135,7 @@ function ArticlesPage() {
           <a href="https://medium.com/@tomwaterton/how-to-punctuate-like-a-pro-f1cb66b87f53">
             <img className="article-thumbnail"
                 alt="Article image"
-                src={article_8_Illustration}
+                src={article_9_Illustration}
               />
         </a>
           </div>
@@ -134,7 +166,7 @@ function ArticlesPage() {
           <a href="https://medium.com/design-ibm/taking-responsibility-for-our-communication-b677100d61f5">
           <img className="article-thumbnail"
           alt="Article image"
-          src={article_7_Illustration}
+          src={article_8_Illustration}
           />
         </a>
           </div>
@@ -165,7 +197,7 @@ function ArticlesPage() {
           <a href="https://medium.com/@tomwaterton/why-i-read-d044f8a01015">
             <img className="article-thumbnail"
                 alt="Article image"
-                src={article_6_Illustration}
+                src={article_7_Illustration}
               />
         </a>
           </div>
@@ -196,7 +228,7 @@ function ArticlesPage() {
           <a href="/the_creation_of_a_studio.png">
             <img className="article-thumbnail"
                 alt="Article image"
-                src={article_5b_Illustration}
+                src={article_6_Illustration}
               />
         </a>
           </div>
