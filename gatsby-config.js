@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Personal website for Tom Waterton`,
+        name: `Content design, articles, crosswords, and more.`,
         short_name: `tomwaterton.com`,
         start_url: `/`,
         background_color: `#ffffff`,
