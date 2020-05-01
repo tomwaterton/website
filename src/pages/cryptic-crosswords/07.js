@@ -2,18 +2,18 @@ import React from "react";
 import Layout from "../../components/layout";
 import ContentWidth from "../../components/contentWidth";
 import SEO from "../../components/seo";
-import crossword_06 from "../../images/crosswords/cryptic_crossword_06.png";
+import crossword_07 from "../../images/crosswords/cryptic_crossword_07.png";
 
 function printPage() {
   window.print()
 }
 
-function Crossword_06Page() {
+function Crossword_07Page() {
   return (
     <Layout>
       <SEO
         keywords={[`cryptic`, `crosswords`, `meles`, `tom`, `waterton`]}
-        title="Crossword #06"
+        title="Crossword #07"
       />
 
 <ContentWidth>
@@ -24,10 +24,10 @@ function Crossword_06Page() {
 
   <section className="row">
     <div className="column">
-      <h2 className="do-not-print">Cryptic crossword #06</h2>
+      <h2 className="do-not-print">Cryptic crossword #07</h2>
 
       <p className="description do-not-print">If you have any feedback on this crossword or would like clues or answers, 
-        do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crossword%20number_06">
+        do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crossword%20number_07">
         get in touch</a> with me.
       </p>
 
@@ -41,9 +41,9 @@ function Crossword_06Page() {
   <section className="row">
     <div className="column">
       <img
-        alt="Cryptic crossword #06"
+        alt="Cryptic crossword #07"
         className="block crossword-border"
-        src={crossword_06}
+        src={crossword_07}
       />
     </div>
   </section>
@@ -53,4 +53,4 @@ function Crossword_06Page() {
   );
 }
 
-export default Crossword_06Page;
+export default Crossword_07Page;
