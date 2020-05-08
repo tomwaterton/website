@@ -2,9 +2,11 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import patent_3_Illustration from "../images/patents/patent_3_image.png";
-import patent_2_Illustration from "../images/patents/patent_2_image.png";
-import patent_1_Illustration from "../images/patents/patent_1_image.png";
+import patent_05_Illustration from "../images/patents/patent_05_image.png";
+import patent_04_Illustration from "../images/patents/patent_04_image.png";
+import patent_03_Illustration from "../images/patents/patent_03_image.png";
+import patent_02_Illustration from "../images/patents/patent_02_image.png";
+import patent_01_Illustration from "../images/patents/patent_01_image.png";
 import patent_pending_Illustration from "../images/patents/patent_pending.jpg";
 
 
@@ -20,7 +22,7 @@ function PatentsPage() {
 <section className="row">
     <div className="column">
       <h1>Patents</h1>
-      <p className="description">I enjoy inventing and currently have 3 issued patents — with a further 7 patents pending.</p>
+      <p className="description">I enjoy inventing and have the following patents issued (with a further 4 patents pending).</p>
     </div>
   </section>
 
@@ -28,31 +30,32 @@ function PatentsPage() {
   <section className="flex flex-col md:flex-row items-center padding-bottom">
     <ul className="c-tile-list">
 
-      <li className="c-tile-list__item">
+
+    <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://patents.google.com/patent/US10320978B2/">
+          <a href="https://patents.google.com/patent/US20200112636A1/">
             <img className="article-thumbnail"
               alt="Patent image"
-              src={patent_3_Illustration}
+              src={patent_05_Illustration}
             />
           </a>
           </div>
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://patents.google.com/patent/US10320978B2/">
-              Call filtering to a user equipment</a>
+              <a href="https://patents.google.com/patent/US20200112636A1/">
+              Communication filtering</a>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-                #US10320978B2
+              #US20200112636A1
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-                Jun 11, 2019
+                Apr 09, 2020
             </date>
           </footer>
         </article>
@@ -62,28 +65,90 @@ function PatentsPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://patents.google.com/patent/US20180288223A1/">
+          <a href="https://patents.google.com/patent/US20200089847A1/">
+            <img className="article-thumbnail"
+              alt="Patent image"
+              src={patent_04_Illustration}
+            />
+          </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <a href="https://patents.google.com/patent/US20200089847A1/">
+              Verifying A User Of A Computer System</a>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+                #US20200089847A1
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+                Mar 19, 2020
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="https://patents.google.com/patent/US20200066004A1/">
+            <img className="article-thumbnail"
+              alt="Patent image"
+              src={patent_03_Illustration}
+            />
+          </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <a href="https://patents.google.com/patent/US20200066004A1/">
+              Text focus for head mounted displays</a>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+                #US20200066004A1
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+                Feb 27, 2020
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="https://patents.google.com/patent/US10009462B1/">
             <img className="article-thumbnail"
                 alt="Patent image"
-                src={patent_2_Illustration}
+                src={patent_02_Illustration}
               />
           </a>
           </div>
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://patents.google.com/patent/US20180288223A1/">
-              Call filtering to a user equipment</a>
+              <a href="https://patents.google.com/patent/US10009462B1/">
+              Call filtering to a user equipment</a><br/><span className="article-subhead">(3 patents)</span>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-                #US20180288223A1
+                #US10009462B1<br/>#US10320978B2<br/>#US20190260874A1
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-              Oct 04, 2018
+              Jun 26, 2018<br/>Jun 11, 2019<br/>Aug 22, 2019
             </date>
           </footer>
         </article>
@@ -96,7 +161,7 @@ function PatentsPage() {
           <a href="https://patents.google.com/patent/US9740765B2/">
             <img className="article-thumbnail"
                 alt="Patent image"
-                src={patent_1_Illustration}
+                src={patent_01_Illustration}
             />
           </a>
           </div>
@@ -132,7 +197,7 @@ function PatentsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-            <span className="fyi">...Plus 7 other patents pending</span>
+            <span className="fyi">...Plus 4 other patents pending</span>
             </h2>
           </div>
 
