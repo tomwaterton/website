@@ -76,6 +76,10 @@ function ReadingPage() {
               <p>A thorough and fascinating study into how groups of people can learn to better collaborate together.</p>
           </li>
           <li>
+              <a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">Thinking, Fast and Slow</a> by Daniel Kahneman
+              <p>An exploration into the different modes of thinking ("fast" and "slow") and the cognitive biases associated with each.</p>
+          </li>
+          <li>
               <a href="https://itrevolution.com/book/the-phoenix-project/">The Phoenix Project</a> by G. Kim, K. Behr, and G. Spafford
               <p>A good portrayal of life inside a siloed IT department and what DevOps really has to offer.</p>
           </li>
