@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
+import patent_06_Illustration from "../images/patents/patent_06_image.png";
 import patent_05_Illustration from "../images/patents/patent_05_image.png";
 import patent_04_Illustration from "../images/patents/patent_04_image.png";
 import patent_03_Illustration from "../images/patents/patent_03_image.png";
@@ -37,7 +38,7 @@ function PatentsPage() {
           <a href="https://patents.google.com/patent/US20200112636A1/">
             <img className="article-thumbnail"
               alt="Patent image"
-              src={patent_05_Illustration}
+              src={patent_06_Illustration}
             />
           </a>
           </div>
@@ -45,7 +46,7 @@ function PatentsPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="https://patents.google.com/patent/US20200112636A1/">
-              Communication filtering</a>
+              Filtering unsolicited incoming calls</a>
             </h2>
           </div>
 
@@ -55,7 +56,38 @@ function PatentsPage() {
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-                Apr 09, 2020
+                May 19, 2020
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="https://patents.google.com/patent/US20200125154A1/">
+            <img className="article-thumbnail"
+              alt="Patent image"
+              src={patent_05_Illustration}
+            />
+          </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <a href="https://patents.google.com/patent/US20200125154A1/">
+              Power management</a>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+              US20200125154A1
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+                Apr 23, 2020
             </date>
           </footer>
         </article>
