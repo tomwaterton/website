@@ -35,7 +35,7 @@ function PatentsPage() {
     <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://patents.google.com/patent/US20200112636A1/">
+          <a href="https://patents.google.com/patent/US10659606B2/">
             <img className="article-thumbnail"
               alt="Patent image"
               src={patent_06_Illustration}
@@ -45,7 +45,7 @@ function PatentsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://patents.google.com/patent/US20200112636A1/">
+              <a href="https://patents.google.com/patent/US10659606B2/">
               Filtering unsolicited incoming calls</a>
             </h2>
           </div>
