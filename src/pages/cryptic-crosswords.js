@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
+import crossword_08_thumbnail from "../images/crosswords/crossword_04_thumbnail.png";
 import crossword_07_thumbnail from "../images/crosswords/crossword_07_thumbnail.png";
 import crossword_06_thumbnail from "../images/crosswords/crossword_06_thumbnail.png";
 import crossword_05_thumbnail from "../images/crosswords/crossword_05_thumbnail.png";
@@ -31,6 +32,38 @@ function CrypticCrosswordsPage() {
   <section className="flex flex-col md:flex-row items-center padding-bottom">
 
     <ul className="c-tile-list">
+
+
+    <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <Link to="/cryptic-crosswords/08">
+            <img
+              className="article-thumbnail crossword-thumbnail"
+              alt="Crossword image"
+              src={crossword_08_thumbnail}
+              />
+          </Link>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <Link to="/cryptic-crosswords/08">Cryptic crossword #8</Link>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+              <em>Argue about a child (6)</em>
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+                Jun 2020
+            </date>
+          </footer>
+        </article>
+      </li>
+
 
     <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
