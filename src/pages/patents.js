@@ -254,6 +254,10 @@ function PatentsPage() {
       <h2>Other (non-patented) inventions</h2>
       <p className="description">I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
         <ul>
+        <li>
+              <a href="https://priorart.ip.com/IPCOM/000262444">Detection of password-like strings based on organizational criteria</a>
+              <span className="date">(Jun 01, 2020)</span>
+          </li>
           <li>
               <a href="https://priorart.ip.com/IPCOM/000260981">Conference call quick join for co-located participants</a>
               <span className="date">(Jan 14, 2020)</span>
