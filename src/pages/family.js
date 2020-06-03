@@ -48,9 +48,9 @@ function FamilyPage() {
           <p className="small-text-italic">(aka Lou-Lou, Louella, Mrs W., etc.)</p>
           <div className="small-text">
             <p>Philosopher, chef, writer, gardener, and all-round good egg. 
-              Laura is the one who keeps the rest of us fed, clothed, sane, and loved.</p>
+              Laura is the one who keeps the rest of us fed, sane, and loved.</p>
             <p>Laura is also co-partner with me in the sitcom that is raising our two dotty daughters 
-              (aka the smalls, the squirrels, etc.)</p>
+              (aka the smalls).</p>
             <p>Often found: gardening.</p>
           </div>
       </div>
@@ -62,7 +62,7 @@ function FamilyPage() {
           <p className="small-text-italic">(aka Thea-Pearl, Gorgeous-Chops, etc.)</p>
           <div className="small-text">
             <p>Thea is our thoughtful, caring, sensitive, book-loving daughter.</p>
-            <p>As a huge fan of animals, Thea currently talks of becoming a vet some day. 
+            <p>As a fan of animals, Thea currently talks of becoming a vet some day. 
               In the meantime she tends to our fish, our hamster, and her stick insects (Sticky and Twig).</p>
             <p>Often found: making a card for someone.</p>
           </div>
