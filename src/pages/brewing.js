@@ -67,7 +67,7 @@ function BrewingPage() {
       <div className="sep-bar">
         <h2>Experimenting</h2>
           <div className="small-text set-height">
-            <p>Most of my brews so far have been variations on traditional English ale and IPA recipes, using hops such as Challenger, Goldings, Cascade (UK), and Fuggles.</p>
+            <p>Most of my brews so far have been variations on traditional English ale and IPA recipes, using hops such as Challenger, Goldings, Cascade, and Fuggles.</p>
             <p>To get that extra hoppy taste, I often add in other hops when the wort is in the barrel.</p>
             <p>Sometimes I also add fruit (orange peel, grapefruit, hawthorn berries, etc.).</p>
           </div>
@@ -83,9 +83,9 @@ function BrewingPage() {
       <div className="sep-bar">
         <h2>Enjoying the output</h2>
           <div className="small-text set-height">
-            <p>After patiently waiting 3-5 weeks for the brew to ferment and condition, the time finally comes to test your latest creation!</p>
+            <p>After patiently waiting 3-5 weeks for the brew to ferment and condition, the time finally comes to test your latest creation.</p>
             <p>There's nothing better than getting together with friends, family, or colleagues and being able to hand out some home brew for all to try.</p>
-            <p>Cheers!</p>
+            <p>It's then onto the next brew...</p>
           </div>
           <img
             alt="Photo of beer glasses"
