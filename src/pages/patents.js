@@ -52,7 +52,7 @@ function PatentsPage() {
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-              #US20200112636A1
+              #US10659606B2
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
@@ -254,7 +254,11 @@ function PatentsPage() {
       <h2>Other (non-patented) inventions</h2>
       <p className="description">I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
         <ul>
-        <li>
+          <li>
+              <a href="https://priorart.ip.com/IPCOM/000262489">System to determine the relevance of social media posts based on other users' responses</a>
+              <span className="date">(Jun 05, 2020)</span>
+          </li>
+          <li>
               <a href="https://priorart.ip.com/IPCOM/000262444">Detection of password-like strings based on organizational criteria</a>
               <span className="date">(Jun 01, 2020)</span>
           </li>
