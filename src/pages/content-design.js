@@ -141,10 +141,15 @@ function ContentDesignPage() {
     <div className="column medium-text speaking">
       <p className="description">I've also had the privilege of speaking at a few conferences:</p>
       <ul className="padding-bottom">
+      <li>
+          Breaking down content silos<br/>
+          <span className="conference"><a href="https://www.buttonconf.com/">Button content conference</a></span>
+          <span className="date">(online, Oct 2020)</span>
+        </li>
         <li>
           Building a content design practice in the enterprise<br/>
-          <span className="conference">Utterly Content conference</span>
-          <span className="date">(Gateshead, UK; Oct 2020)</span>
+          <span className="conference"><a href="https://www.utterlycontent.com/">Utterly content conference</a></span>
+          <span className="date">(online, Oct 2020)</span>
         </li>
         <li>
           Establishing end-to-end content collaboration squads<br/>

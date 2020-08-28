@@ -22,8 +22,8 @@ function FamilyPage() {
       all manner of endearing eccentricities.</p>
       <p className="description">So much else can and does change in life, but family remains, well, family. 
       We share moments of joy, sadness, excitement, and cake together.</p>
-      <p className="description">My family means everything to me. They are my fellow adventurers in life 
-      and they continue to inspire and surprise me.</p>
+      <p className="description">My family means everything to me. They're my fellow adventurers in life 
+      and they continue to surprise, delight, amuse, and inspire me.</p>
     </div>
     <div className="column">
       <img

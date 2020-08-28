@@ -23,7 +23,7 @@ function PatentsPage() {
 <section className="row">
     <div className="column">
       <h1>Patents</h1>
-      <p className="description">I enjoy inventing and have the following patents issued (with a further 4 patents pending).</p>
+      <p className="description">I enjoy inventing and have the following patents issued (with a further 5 patents pending).</p>
     </div>
   </section>
 
@@ -229,7 +229,7 @@ function PatentsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-            <span className="fyi">...Plus 4 other patents pending</span>
+            <span className="fyi">...Plus 5 other patents pending</span>
             </h2>
           </div>
 
@@ -254,6 +254,10 @@ function PatentsPage() {
       <h2>Other (non-patented) inventions</h2>
       <p className="description">I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
         <ul>
+          <li>
+              <a href="https://priorart.ip.com/IPCOM/000263350">Use of geolocation to enhance accuracy of social media handles and hashtags suggested and used</a>
+              <span className="date">(Aug 21, 2020)</span>
+          </li>
           <li>
               <a href="https://priorart.ip.com/IPCOM/000262489">System to determine the relevance of social media posts based on other users' responses</a>
               <span className="date">(Jun 05, 2020)</span>
