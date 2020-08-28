@@ -100,6 +100,10 @@ function ReadingPage() {
               <p>I work as a Content Designer, so it’s perhaps no surprise that I’m a big fan of this little book.</p>
           </li>
           <li>
+              <a href="https://en.wikipedia.org/wiki/Factfulness:_Ten_Reasons_We're_Wrong_About_the_World_%E2%80%93_and_Why_Things_Are_Better_Than_You_Think">Factfulness</a> by Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund
+              <p>A fact-based, enlightening, and hope-filled book about what the world is really like.</p>
+          </li>
+          <li>
               <a href="https://en.wikipedia.org/wiki/The_Lean_Startup">The Lean Startup</a> by Eric Ries
               <p>I read this a couple of years ago and it has definitely had a huge impact on how I now approach any new venture.</p>
           </li>
