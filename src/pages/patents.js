@@ -176,11 +176,11 @@ function PatentsPage() {
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-                #US10009462B1<br/>#US10320978B2<br/>#US20190260874A1
+                #US10009462B1<br/>#US10320978B2<br/>#US10764433B2
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-              Jun 26, 2018<br/>Jun 11, 2019<br/>Aug 22, 2019
+              Jun 26, 2018<br/>Jun 11, 2019<br/>Sep 01, 2020
             </date>
           </footer>
         </article>
@@ -254,6 +254,10 @@ function PatentsPage() {
       <h2>Other (non-patented) inventions</h2>
       <p className="description">I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
         <ul>
+          <li>
+              <a href="https://priorart.ip.com/IPCOM/000263471">System to automatically identify when new IM messages might be better suited to a thread</a>
+              <span className="date">(Sep 02, 2020)</span>
+          </li>
           <li>
               <a href="https://priorart.ip.com/IPCOM/000263350">Use of geolocation to enhance accuracy of social media handles and hashtags suggested and used</a>
               <span className="date">(Aug 21, 2020)</span>
