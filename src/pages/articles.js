@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
+import article_13_Illustration from "../images/articles/article_thumbnail_13.jpg";
 import article_12_Illustration from "../images/articles/article_thumbnail_12.jpg";
 import article_11_Illustration from "../images/articles/article_thumbnail_11.jpg";
 import article_10_Illustration from "../images/articles/article_thumbnail_10.jpg";
@@ -35,6 +36,37 @@ function ArticlesPage() {
   <section className="flex flex-col md:flex-row items-center padding-bottom">
 
     <ul className="c-tile-list">
+
+    <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="https://medium.com/@tomwaterton/the-danger-of-being-too-safe-8266babc3c0c">
+          <img className="article-thumbnail"
+          alt="Article image"
+          src={article_13_Illustration}
+          />
+        </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <a href="https://medium.com/@tomwaterton/the-danger-of-being-too-safe-8266babc3c0c">
+              The danger of being too safe</a>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+              7 min read
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+              Oct 05, 2020
+            </date>
+          </footer>
+        </article>
+      </li>
+
 
     <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
