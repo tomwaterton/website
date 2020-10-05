@@ -23,12 +23,10 @@ function BrewingPage() {
       I love a traditional English bitter in the springtime, a light, hoppy IPA in the summer, 
       an amber ale in the autumn, and a hearty porter or stout in the winter. </p>
       <p className="description">I also like learning and discovering how things are made, and so a few 
-      years back I started learning how to brew beer myself.</p>
-      <p className="description">I'm far from being a master brewer, but I do enjoy the challenge 
-      of trying to produce a certain type of beer and the creativity of playing around with different 
-      hops and flavours.</p>
-      <p className="description">I also love the sociable side of brewing. I often brew with others and 
+      years back I started learning how to brew beer myself. I'm far from being a master brewer, but I do 
+      enjoy the challenge. I also love the sociable side of brewing. I often brew with others and 
       enjoy being able to share the results with friends and family.</p>
+      <p className="description">See my article <a href="/articles/Brewing_a_Mayflower_pale_ale.pdf">Brewing a Mayflower pale ale</a> for more details.</p>
     </div>
     <div className="column">
     <img
