@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
+import article_14_Illustration from "../images/articles/article_thumbnail_14.jpg";
 import article_13_Illustration from "../images/articles/article_thumbnail_13.jpg";
 import article_12_Illustration from "../images/articles/article_thumbnail_12.jpg";
 import article_11_Illustration from "../images/articles/article_thumbnail_11.jpg";
@@ -43,7 +44,7 @@ function ArticlesPage() {
           <a href="https://medium.com/@tomwaterton/the-danger-of-being-too-safe-8266babc3c0c">
           <img className="article-thumbnail"
           alt="Article image"
-          src={article_13_Illustration}
+          src={article_14_Illustration}
           />
         </a>
           </div>
@@ -74,7 +75,7 @@ function ArticlesPage() {
           <a href="https://medium.com/design-ibm/towards-more-radical-collaboration-a02c21837c5b">
           <img className="article-thumbnail"
           alt="Article image"
-          src={article_12_Illustration}
+          src={article_13_Illustration}
           />
         </a>
           </div>
@@ -93,6 +94,37 @@ function ArticlesPage() {
 
             <date className="c-article-tile__date" itemprop="datePublished">
               Mar 20, 2020
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="/articles/Brewing_a_Mayflower_pale_ale.pdf">
+          <img className="article-thumbnail"
+          alt="Article image"
+          src={article_12_Illustration}
+          />
+        </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <a href="/articles/Brewing_a_Mayflower_pale_ale.pdf">
+              Brewing a Mayflower pale ale</a><br/><span className="article-subhead">(Magazine article; PDF download)</span>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+              6 min read
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+              Feb 28, 2020
             </date>
           </footer>
         </article>
@@ -257,7 +289,7 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/articles/the_creation_of_a_studio.png">
+          <a href="/articles/The_creation_of_a_studio.pdf">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_6_Illustration}
@@ -267,8 +299,8 @@ function ArticlesPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-            <a href="/articles/the_creation_of_a_studio.png">
-              The creation of a studio</a><br/><span className="article-subhead">(Published in Variable magazine)</span>
+            <a href="/articles/The_creation_of_a_studio.pdf">
+              The creation of a studio</a><br/><span className="article-subhead">(Magazine article; PDF download)</span>
             </h2>
           </div>
 
