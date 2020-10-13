@@ -255,6 +255,10 @@ function PatentsPage() {
       <p className="description">I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
         <ul>
           <li>
+              <a href="https://priorart.ip.com/IPCOM/00263834">Scheduling meetings containing multiple segments where some attendees are only needed in some segments</a>
+              <span className="date">(Oct 09, 2020)</span>
+          </li>
+          <li>
               <a href="https://priorart.ip.com/IPCOM/000263471">System to automatically identify when new IM messages might be better suited to a thread</a>
               <span className="date">(Sep 02, 2020)</span>
           </li>
