@@ -17,37 +17,39 @@ function Layout(props) {
       </main>
 
       <footer className="bg-footer-700">
-        <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
-
-        <div className="footer-copyright">
-            &copy; Tom Waterton, 2020
-        </div>
-
-        <div className="footer-info">
-          <Link to="/about">About this site</Link>
-        </div>
-
-        <div className="social-media">
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/tomwaterton/">
-                <img alt="LinkedIn" src={linkedin} />
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/tomwaterton">
-                <img alt="Twitter" src={twitter} />
-              </a>
-            </li>
-            <li>
-              <a href="mailto:tomwaterton@gmail.com">
-                <img alt="Email" src={email} />
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        </nav>
+        <div className="container text-center justify-between max-w-5xl mx-auto p-4 md:p-8">
+            <div className="w-full flex flex-wrap md:flex-no-wrap items-center justify-center md:justify-between px-6">
+              <div className="flex flex-col md:flex-row items-center w-full text-sm">
+                <div className="footer-copyright">
+                    &copy; Tom Waterton, 2020.
+                </div>
+                <div className="footer-info hover:textDecoration">
+                  <Link to="/about">About this site</Link>
+                </div>
+              </div>
+              <div className="flex items-center md:mt-0">
+                <div className="social-media">
+                  <ul>
+                    <li>
+                      <a href="https://www.linkedin.com/in/tomwaterton/">
+                        <img alt="LinkedIn" src={linkedin} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/tomwaterton">
+                        <img alt="Twitter" src={twitter} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:tomwaterton@gmail.com">
+                        <img alt="Email" src={email} />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
       </footer>
     </div>
   );

@@ -18,7 +18,7 @@ function ReadingPage() {
       <h1>Reading</h1>
       <p className="description">I'm an incurable bookworm so I always have at least one book on the go. 
       Here are some highlights from the last few years.</p>
-        <ul className="ul-small-2 do-not-print">
+        <ul className="ul-small py-4 do-not-print">
           <li><a href="#non-fiction">Non-fiction</a></li>
           <li><a href="#fiction">Fiction</a></li>
         </ul>

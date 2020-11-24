@@ -3,8 +3,9 @@
   body {background-color: #fff;}
   .c-tile-list__item {min-width: fit-content;}
   .c-article-tile__title {font-size: 90%;}
+  .site-name {font-size: 0.9rem;}
   .navbar a {padding: 16px 12px;}
-  .navbar a {font-size: 0.9rem;}
+  
   .dropdown .dropbtn {padding: 16px 12px;}
   .dropdown .dropbtn {font-size: 0.9rem;}
   .lead {font-size: 0.9rem;}
@@ -16,11 +17,8 @@
   .c-tile-list__item {max-width: 46%;}
   .c-tile-list__item {min-width: 32%;}
   .c-article-tile__title {font-size: 90%;}
-  .dropdown-content a {font-size: 0.9rem;}
   .navbar a {padding: 16px 18px;}
-  .navbar a {font-size: 0.9rem;}
   .dropdown .dropbtn {padding: 16px 18px;}
-  .dropdown .dropbtn {font-size: 0.9rem;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -28,11 +26,9 @@
   body {background-color: #fff;}
   .c-tile-list__item {max-width: 31%;}
   .c-tile-list__item {min-width: unset;}
-  .c-article-tile__title {font-size: 90%;}
+  .c-article-tile__title {font-size: 100%;}
   .navbar a {padding: 16px 21px;}
-  .navbar a {font-size: 1rem;}
   .dropdown .dropbtn {padding: 16px 21px;}
-  .dropdown .dropbtn {font-size: 1rem;}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

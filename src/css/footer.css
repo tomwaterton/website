@@ -5,26 +5,20 @@
 
 /* For the footer text bottom-left */
 .footer-copyright {
-  font-size: .8rem;
-  padding-top: 16px;
   color: grey;
 }
 
 .footer-info {
-  font-size: .8rem;
+  padding: 8px;
   color: grey;
-  padding-top: 16px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .footer-info a {
-    color: grey;
+  color: grey;
 }
 
 .footer-info a:hover {
-    color: #505050;
-    text-decoration: underline;
+  color: #505050;
 }
 
 /* For the social media icons/links bottom-right */
@@ -33,10 +27,12 @@
 }
 
 .social-media ul {
+    padding: 10px 0 0 0;
     display:inline-flex;
 }
 
 .social-media li {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     list-style: none;
 }

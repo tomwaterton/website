@@ -18,9 +18,12 @@
 /* This parent entry contains all on-screen styles */
 @media screen {
 
-html {
+/* Leaving for reference... */
+/* 
+html { 
   font-size: 20px;
 }
+*/
 
 /* Without the following the style breaks on mobiles */
 body {
@@ -38,7 +41,7 @@ p {
 }
 
 .medium-text {
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-bottom: 6px;
 }
 
@@ -80,21 +83,9 @@ ul {
   list-style-type: disc;
   padding-top: 10px;
   padding-left: 40px;
-  font-size: 0.9rem;
-}
-
-/* Used in the intro paragraph on the Reading page */
-.ul-small-2 {
-  display: block;
-  list-style-type: disc;
-  padding-top: 10px;
-  padding-left: 40px;
-  font-size: 0.9rem;
-  padding-bottom: 10px /* This is the delta */
 }
 
 .description {
-  font-size: 0.9rem;
   font-style: italic;
   color: grey;
 }

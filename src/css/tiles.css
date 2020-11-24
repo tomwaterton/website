@@ -69,17 +69,20 @@
 
 .c-article-tile__header,
 .c-article-tile__footer {
-  font-size: 60%;
+  font-size: 80%;
+}
+
+.c-article-tile__body {
+  border-top: 2px solid;
 }
 
 .c-article-tile__header {
   padding: 0;
-  border-bottom: 2px solid;
   flex-direction: column;
 }
 
 .article-subhead {
-  font-size: 70%;
+  font-size: 0.8rem;
   font-weight: 300;
   font-style: italic;
   color: gray;

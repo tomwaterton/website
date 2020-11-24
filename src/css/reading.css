@@ -1,5 +1,4 @@
 .books li {
-  font-size: 0.9rem;
 }
 
 .books a {
@@ -8,7 +7,6 @@
 
 .books p {
   padding-bottom: 6px;
-  font-size: 0.8rem;
   font-weight: 300;
   font-style: italic;
   color: grey;

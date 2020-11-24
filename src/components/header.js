@@ -14,8 +14,8 @@ function Header() {
   `);
 
   return (
-    <header className="header-700">
-      <div className="flex flex-wrap items-center justify-between max-w-4xl mx-auto p-4 md:p-8">
+    <header className="header-700 lg:text-lg md:text-base sm:text-sm">
+      <div className="flex flex-wrap items-center justify-between max-w-5xl mx-auto p-4 md:p-8">
 
       <div className="site-name">
         <Link to="/">tomwaterton.com</Link>

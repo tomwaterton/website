@@ -114,7 +114,7 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
               <a href="/articles/Brewing_a_Mayflower_pale_ale.pdf">
-              Brewing a Mayflower pale ale</a><br/><span className="article-subhead">(Magazine article; PDF download)</span>
+              Brewing a Mayflower pale ale</a><br/><span className="article-subhead">(Article for Variable magazine)</span>
             </h2>
           </div>
 
@@ -300,7 +300,7 @@ function ArticlesPage() {
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
             <a href="/articles/The_creation_of_a_studio.pdf">
-              The creation of a studio</a><br/><span className="article-subhead">(Magazine article; PDF download)</span>
+              The creation of a studio</a><br/><span className="article-subhead">(Article for Variable magazine)</span>
             </h2>
           </div>
 

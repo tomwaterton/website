@@ -1,13 +1,13 @@
 .small-text-italic {
   color: grey;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-top: 6px;
   padding-bottom: 8px;
   font-style: italic;
 }
 
 .small-text p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .sep-bar {
