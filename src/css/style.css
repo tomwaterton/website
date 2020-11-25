@@ -9,7 +9,6 @@
 @import url("./family.css");
 @import url("./footer.css");
 @import url("./header.css");
-@import url("./index.css");
 @import url("./patents.css");
 @import url("./reading.css");
 @import url("./responsive.css");
@@ -137,7 +136,7 @@ ul {
 }
 
 .tilt-landscape-left , .tilt-landscape-right {
-  max-width: 400px;
+  max-width: 80%;
 }
 
 .tilt-portrait-left, .tilt-landscape-left, .tilt-portrait-right, .tilt-landscape-right {

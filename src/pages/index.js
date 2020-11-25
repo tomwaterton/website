@@ -17,15 +17,15 @@ function IndexPage() {
       <section className="text-center">
         <img
           alt="Photo of Tom Waterton"
-          className="block mx-auto w-1/2 padding-bottom"
+          className="block mx-auto max-w-xs pb-8"
           src={TomPhoto}
         />
 
         <h1 className="padding-bottom-small">
           Hi, I'm Tom.
         </h1>
-        <p className="lead padding-bottom-small">I'm an experienced <Link to="/content-design">Content Designer</Link>.</p>
-        <p className="lead padding-bottom-small">I work for <a href="https://www.ibm.com/design/">IBM Design</a> and live in Hampshire, England.</p>
+        <p className="text-xl padding-bottom-small">I'm an experienced <Link to="/content-design">Content Designer</Link>.</p>
+        <p className="text-xl padding-bottom-small">I work for <a href="https://www.ibm.com/design/">IBM Design</a> and live in Hampshire, England.</p>
       </section>
 
       </ContentWidth>
