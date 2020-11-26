@@ -1,0 +1,20 @@
+.quote-mark {
+  min-width: 8rem;
+}
+
+/* Used to remove vertical padding from the quotation mark svg images */
+.column-no-padding {
+  flex: 50%;
+  min-width: 20rem;
+}
+
+/* Break point style to hide quotation mark svg images */
+@media only screen and (max-width: 879px) {
+  .hide-small {display: none;}
+  .quote-mark {min-width: 4rem;}
+}
+
+/* Break point style to show quotation mark svg images */
+@media only screen and (min-width: 880px) {
+    .show-small {display: none;}
+  }

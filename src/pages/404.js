@@ -26,6 +26,7 @@ function NotFoundPage() {
           <li><Link to="/">Home page</Link></li>
           <li><Link to="/experience">Experience and skills</Link></li>
           <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/testimonials">Testimonials</Link></li>
           <li><Link to="/articles">Articles</Link></li>
           <li><Link to="/patents">Patents</Link></li>
           <li><Link to="/cryptic-crosswords">Cryptic crosswords</Link></li>
