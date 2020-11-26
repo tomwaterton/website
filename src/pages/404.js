@@ -21,17 +21,11 @@ function NotFoundPage() {
 
   <section className="row">
     <div className="column">
-      <img
-        alt="Photo of a magnifying glass"
-        className="block max-300"
-        src={MagnifyingGlassIllustration}
-      />
-    </div>
-    <div className="column">
       <p className="description">Why not try one of these pages instead:</p>
         <ul className="ul-small">
           <li><Link to="/">Home page</Link></li>
-          <li><Link to="/content-design">Content design</Link></li>
+          <li><Link to="/experience">Experience and skills</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
           <li><Link to="/articles">Articles</Link></li>
           <li><Link to="/patents">Patents</Link></li>
           <li><Link to="/cryptic-crosswords">Cryptic crosswords</Link></li>
@@ -40,6 +34,13 @@ function NotFoundPage() {
           <li><Link to="/family">Family</Link></li>
           <li><Link to="/about">About this site</Link></li>
         </ul>
+    </div>
+    <div className="column">
+      <img
+        alt="Photo of a magnifying glass"
+        className="block max-w-xs"
+        src={MagnifyingGlassIllustration}
+      />
     </div>
   </section>
 

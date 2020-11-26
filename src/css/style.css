@@ -1,15 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("./404.css");
-@import url("./about.css");
 @import url("./brewing.css");
-@import url("./content-design.css");
 @import url("./crosswords.css");
-@import url("./family.css");
 @import url("./footer.css");
 @import url("./header.css");
 @import url("./patents.css");
+@import url("./portfolio.css");
 @import url("./reading.css");
 @import url("./tiles.css");
 
@@ -34,8 +31,16 @@ main {
   flex-grow: 1;
 }
 
+p, ul, li {
+  color: dimgray;
+}
+
 p {
   padding-bottom: 6px;
+}
+
+.black-text {
+  color: black;
 }
 
 .medium-text {
@@ -55,6 +60,7 @@ h1 {
   font-size: 2rem;
   font-weight: 500;
   color: #c69;
+  padding-bottom: 0.5rem;
 }
 
 h2 {
@@ -66,7 +72,9 @@ h2 {
 h3 {
   font-size: 1.1rem;
   font-weight: 500;
-  margin-left: 40px;
+  margin-left: 10px;
+  color: dimgray;
+  font-style: italic;
 }
 
 ul {
@@ -81,11 +89,22 @@ ul {
   list-style-type: disc;
   padding-top: 10px;
   padding-left: 40px;
+
 }
 
 .description {
   font-style: italic;
-  color: grey;
+}
+
+.bullet-header {
+  font-style: italic;
+  color: gray;
+  padding-left: 10px;
+}
+
+.sep-bar {
+  border-left: solid #e0e0e0 3px;
+  padding-left: 10px;
 }
 
 /* Used on several pages to provide vertical heading around a section */
@@ -156,9 +175,9 @@ ul {
 .caption-text {
   padding-top: 8px;
   padding-bottom: 8px;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   font-style: italic;
-  color: gray;
+  color: dimgray;
   text-align: center;
 }
 

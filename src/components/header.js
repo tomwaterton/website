@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <header className="header-700 2xl:text-lg xl:text-lg lg:text-lg md:text-base sm:text-sm xs:text-sm">
-      <div className="flex flex-wrap items-center max-w-5xl mx-auto p-4 xl:p-8 lg:p-8 md:p-8 sm:p-4 xs:p-4">
+      <div className="flex flex-wrap items-center max-w-5xl mx-auto p-4 pt-8">
 
         <div className="home-icon xl:w-10 lg:w-10 md:w-8 sm:w-8 xs:w-8 ">
           <Link to="/">
@@ -33,8 +33,16 @@ function Header() {
           <span className="vertical-divider pl-4 sm:hidden xs:hidden">|</span>
         </div>
 
-        <div className="navbar">
-          <Link to="/content-design">Content design</Link>
+        <div className="navbar sm:pl-4 xs:pl-4">
+          <div className="dropdown">
+            <button className="dropbtn">Content design
+              <i className="fa fa-caret-down"></i>
+            </button>
+            <div className="dropdown-content">
+            <Link to="/experience">Experience and skills</Link>
+              <Link to="/portfolio">Portfolio</Link>
+            </div>
+          </div>
         </div>
 
         <div className="navbar">

@@ -4,17 +4,12 @@
 }
 
 /* For the footer text bottom-left */
-.footer-copyright {
-  color: grey;
+.footer-copyright, .footer-info a {
+  color: dimgray;
 }
 
 .footer-info {
   padding: 8px;
-  color: grey;
-}
-
-.footer-info a {
-  color: grey;
 }
 
 .footer-info a:hover {

@@ -47,7 +47,7 @@ function BrewingPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>The basic theory</h2>
-          <div className="small-text set-height">
+          <div className="text-sm set-height">
             <p>Beer is made by soaking barley in water until enzymes are activated, which turn 
             the grains’ starches into sugars.</p>
             <p>Different hops are then used to add bitterness, flavor, and aroma to the beer.</p>
@@ -64,7 +64,7 @@ function BrewingPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>Experimenting</h2>
-          <div className="small-text set-height">
+          <div className="text-sm set-height">
             <p>Most of my brews so far have been variations on traditional English ale and IPA recipes, using hops such as Challenger, Goldings, Cascade, and Fuggles.</p>
             <p>To get that extra hoppy taste, I often add in other hops when the wort is in the barrel.</p>
             <p>Sometimes I also add fruit (orange peel, grapefruit, hawthorn berries, etc.).</p>
@@ -80,9 +80,9 @@ function BrewingPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>Enjoying the output</h2>
-          <div className="small-text set-height">
+          <div className="text-sm set-height">
             <p>After patiently waiting 3-5 weeks for the brew to ferment and condition, the time finally comes to test your latest creation.</p>
-            <p>There's nothing better than getting together with friends, family, or colleagues and being able to hand out some home brew for all to try.</p>
+            <p>There's nothing better than getting together with friends, family, or colleagues and being able to hand out some home brew for everyone to try.</p>
             <p>It's then onto the next brew...</p>
           </div>
           <img
@@ -94,7 +94,7 @@ function BrewingPage() {
     </div>
 
     <div className="column-1-3">
-      <div className="small-text">
+      <div className="text-sm">
         <p>&nbsp;</p>
       </div>
     </div>

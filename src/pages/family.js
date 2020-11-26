@@ -45,8 +45,8 @@ function FamilyPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>Laura</h2>
-          <p className="small-text-italic">(aka Lou-Lou, Louella, Mrs W., etc.)</p>
-          <div className="small-text">
+          <p className="black-text text-sm italic">(aka Lou-Lou, Louella, Mrs W., etc.)</p>
+          <div className="text-sm">
             <p>Philosopher, chef, writer, gardener, and all-round good egg. 
               Laura is the one who keeps the rest of us fed, sane, and loved.</p>
             <p>Laura is also co-partner with me in the sitcom that is raising our two dotty daughters 
@@ -59,8 +59,8 @@ function FamilyPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>Thea</h2>
-          <p className="small-text-italic">(aka Thea-Pearl, Gorgeous-Chops, etc.)</p>
-          <div className="small-text">
+          <p className="black-text text-sm italic">(aka Thea-Pearl, Gorgeous-Chops, etc.)</p>
+          <div className="text-sm">
             <p>Thea is our thoughtful, caring, sensitive, book-loving daughter.</p>
             <p>As a fan of animals, Thea currently talks of becoming a vet some day. 
               In the meantime she tends to our fish, our hamster, and her stick insects (Sticky and Twig).</p>
@@ -72,8 +72,8 @@ function FamilyPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>Harriet</h2>
-          <p className="small-text-italic">(aka Hattie, Hats, Hat-Splats, Woo, etc.)</p>
-          <div className="small-text">
+          <p className="black-text text-sm italic">(aka Hattie, Hats, Hat-Splats, Woo, etc.)</p>
+          <div className="text-sm">
             <p>Harriet is our laid-back, frock-wearing, bare-footed, free-spirited daughter.</p>
             <p>When she grows up, Harriet tells us that she is going to be a horse-rider, ballerina, and artist.
               In addition to these noble aims, we suspect she'll always be a natural joker.</p>
@@ -83,7 +83,7 @@ function FamilyPage() {
     </div>
 
     <div className="column-1-3">
-      <div className="small-text">
+      <div className="text-sm">
         <p>&nbsp;</p>
       </div>
     </div>
