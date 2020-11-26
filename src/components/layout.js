@@ -17,9 +17,9 @@ function Layout(props) {
       </main>
 
       <footer className="bg-footer-700">
-        <div className="container text-center justify-between max-w-5xl mx-auto p-4 md:p-8">
-            <div className="w-full flex flex-wrap md:flex-no-wrap items-center justify-center md:justify-between px-6">
-              <div className="flex flex-col md:flex-row items-center w-full text-sm">
+        <div className="container text-center justify-between max-w-5xl mx-auto p-6">
+            <div className="w-full flex xs:flex-wrap sm:flex-wrap items-center justify-center md:justify-between px-6">
+              <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center w-full text-sm">
                 <div className="footer-copyright">
                     &copy; Tom Waterton, 2020.
                 </div>

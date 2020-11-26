@@ -191,3 +191,33 @@ html {
   box-sizing: border-box;
 }
 
+
+/* -------------------------------------------------------------------------- *\
+  * Break point styles for responsive tiles
+  * -------------------------------------------------------------------------- */
+
+
+/* Extra small devices (phones, 425px and down) */
+@media only screen and (max-width: 425px) {
+  .c-tile-list__item {min-width: fit-content;}
+  .c-article-tile__title {font-size: 90%;}
+}
+
+/* Small devices (larger phones, 425px and up) */
+@media only screen and (min-width: 425px) {
+  .c-tile-list__item {max-width: 46%;}
+  .c-tile-list__item {min-width: 32%;}
+  .c-article-tile__title {font-size: 90%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .c-tile-list__item {max-width: 31%;}
+  .c-tile-list__item {min-width: unset;}
+  .c-article-tile__title {font-size: 100%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .c-article-tile__title {font-size: 100%;}
+}

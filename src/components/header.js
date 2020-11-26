@@ -1,5 +1,6 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
+import TypewriterIllustration from "../images/favicon/typewriter.svg";
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -14,29 +15,46 @@ function Header() {
   `);
 
   return (
-    <header className="header-700 lg:text-lg md:text-base sm:text-sm">
-      <div className="flex flex-wrap items-center justify-between max-w-5xl mx-auto p-4 md:p-8">
+    <header className="header-700 2xl:text-lg xl:text-lg lg:text-lg md:text-base sm:text-sm xs:text-sm">
+      <div className="flex flex-wrap items-center max-w-5xl mx-auto p-4 xl:p-8 lg:p-8 md:p-8 sm:p-4 xs:p-4">
 
-      <div className="site-name">
-        <Link to="/">tomwaterton.com</Link>
-      </div>
+        <div className="home-icon xl:w-10 lg:w-10 md:w-8 sm:w-8 xs:w-8 ">
+          <Link to="/">
+            <img
+              alt="Typewriter icon"
+              className=""
+              src={TypewriterIllustration}
+            />
+          </Link>
+        </div>
 
-      <div className="navbar">
-        <Link to="/content-design">Content design</Link>
-        <Link to="/articles">Articles</Link>
-        <div className="dropdown">
-          <button className="dropbtn">More
-            <i className="fa fa-caret-down"></i>
-          </button>
-          <div className="dropdown-content">
-            <Link to="/patents">Patents</Link>
-            <Link to="/cryptic-crosswords">Cryptic crosswords</Link>
-            <Link to="/reading">Reading</Link>
-            <Link to="/brewing">Brewing</Link>
-            <Link to="/family">Family</Link>
+        <div className="site-name sm:hidden xs:hidden pl-4">
+          <Link to="/">tomwaterton.com</Link>
+          <span className="vertical-divider pl-4 sm:hidden xs:hidden">|</span>
+        </div>
+
+        <div className="navbar">
+          <Link to="/content-design">Content design</Link>
+        </div>
+
+        <div className="navbar">
+          <Link to="/articles">Articles</Link>
+        </div>
+
+        <div className="navbar">
+          <div className="dropdown">
+            <button className="dropbtn">More...
+              <i className="fa fa-caret-down"></i>
+            </button>
+            <div className="dropdown-content">
+              <Link to="/patents">Patents</Link>
+              <Link to="/cryptic-crosswords">Cryptic crosswords</Link>
+              <Link to="/reading">Reading</Link>
+              <Link to="/brewing">Brewing</Link>
+              <Link to="/family">Family</Link>
+            </div>
           </div>
         </div>
-      </div>
 
       </div>
     </header>

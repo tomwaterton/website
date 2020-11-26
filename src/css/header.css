@@ -5,6 +5,10 @@
 
 /* The following ensures the site name lines up with content in the main... */
 /* ...section, which also has padding of 10px */
+.home-icon {
+  padding-left: 10px;
+}
+
 .site-name {
   padding-left: 10px;
 }
@@ -28,6 +32,9 @@
 /* background-color: #ffff99; */
 }
 
+.vertical-divider {
+  color: grey;
+}
 
 /* The top-right hand navigation menu*/
 .navbar {
