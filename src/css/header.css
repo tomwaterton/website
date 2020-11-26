@@ -16,20 +16,13 @@
 /* The following entry just applies to the site name */
 .site-name a {
   font-weight: 600;
-/* color: grey; */
 }
 
-/* To define the size of the yellow area upon hover */
-/*
-/* .site-name a {
-/*  padding: 16px 30px 16px 30px;
-} */
+
 
 .site-name a:hover {
   color: #505050;
   text-decoration: none;
-/* background-color: #f6e05e; */
-/* background-color: #ffff99; */
 }
 
 .vertical-divider {
@@ -45,7 +38,6 @@
   float: left;
   color: grey;
   text-align: center;
-  padding: 16px 21px;
   text-decoration: none;
 }
 /* Changes color of nav item text on hover */
@@ -63,7 +55,6 @@
   border: none;
   outline: none;
   color: grey;
-  padding: 16px 21px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -90,19 +81,23 @@
 }
 
 /* Adds background color to top level nav items on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
   background-color: #f6e05e;
-  /* background-color: #ffff99; */
-/* background-color: #dedede; */
-}
-
-/* Adds background color to nav items in dropdown list on hover */
-.dropdown-content a:hover {
-  background-color: #f6e05e;
-/* background-color: #ffff99; */
-/* background-color: #dedede; */  
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+/* Reduces the horizontal padding on navbar at 639px and below */
+@media only screen and (max-width: 639px) {
+  .navbar a {padding: 16px 12px;}
+  .dropdown .dropbtn {padding: 16px 12px;}
+}
+
+/* Standard horizontal padding on navbar at 640px and up */
+@media only screen and (min-width: 640px) {
+  .navbar a {padding: 16px 21px;}
+  .dropdown .dropbtn {padding: 16px 21px;}
 }
