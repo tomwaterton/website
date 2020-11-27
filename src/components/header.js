@@ -41,6 +41,7 @@ function Header() {
             <div className="dropdown-content">
             <Link to="/experience">Experience and skills</Link>
               <Link to="/portfolio">Portfolio</Link>
+              <Link to="/speaking">Speaking</Link>
               <Link to="/testimonials">Testimonials</Link>
             </div>
           </div>

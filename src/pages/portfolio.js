@@ -2,9 +2,9 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import ES_UI_image from "../images/content-design/Event_Streams_UI.png";
-import Carbon_image from "../images/content-design/Carbon.png";
-import CD_Guild_image from "../images/content-design/CD_Guild.png";
+import ES_UI_image from "../images/portfolio/Event_Streams_UI.png";
+import Carbon_image from "../images/portfolio/Carbon.png";
+import CD_Guild_image from "../images/portfolio/CD_Guild.png";
 
 function PortfolioPage() {
   return (
@@ -111,6 +111,13 @@ function PortfolioPage() {
           different aspects of content design.</li>
         <li>It continues to be a real pleasure co-leading this wonderful and growing content community.</li>
       </ul>
+    </div>
+  </section>
+</ContentWidth>
+
+<ContentWidth bgColour="2">
+  <section className="row">
+    <div className="column panel">
     </div>
   </section>
 </ContentWidth>

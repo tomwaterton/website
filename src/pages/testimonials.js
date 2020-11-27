@@ -9,8 +9,8 @@ function TestimonialsPage() {
     return (
       <Layout fullWidth={true}>
         <SEO
-          keywords={[`content`, `design`, `strategy`, `copy`, `writing`, `editing`, `ux`, `testimonials`, `references`, `tom`, `waterton`]}
-          title="Experience and skills"
+          keywords={[`content`, `design`, `strategy`, `ux`, `testimonials`, `references`, `tom`, `waterton`]}
+          title="Testimonials"
         />
   
   <ContentWidth>

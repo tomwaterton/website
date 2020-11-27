@@ -8,6 +8,7 @@
 @import url("./patents.css");
 @import url("./portfolio.css");
 @import url("./reading.css");
+@import url("./speaking.css");
 @import url("./testimonials.css");
 @import url("./tiles.css");
 
@@ -45,7 +46,6 @@ p {
 }
 
 .medium-text {
-  font-size: 1rem;
   padding-bottom: 6px;
 }
 
@@ -151,7 +151,7 @@ ul {
 }
 
 .tilt-portrait-left, .tilt-portrait-right {
-  max-height: 300px;
+  max-height: 16rem;
 }
 
 .tilt-landscape-left , .tilt-landscape-right {
@@ -185,6 +185,12 @@ ul {
 .print-only {
   display: none;
 }
+
+/* Break point style to limit size of tilt landscape images */
+@media only screen and (max-width: 879px) {
+  .tilt-landscape-left {max-height: 12rem;}
+}
+
 
 /* End of on-screen styles */
 }

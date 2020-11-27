@@ -21,11 +21,12 @@ function NotFoundPage() {
 
   <section className="row">
     <div className="column">
-      <p className="description">Why not try one of these pages instead:</p>
+      <p className="description">Perhaps you were looking for one of these pages:</p>
         <ul className="ul-small">
           <li><Link to="/">Home page</Link></li>
           <li><Link to="/experience">Experience and skills</Link></li>
           <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/speaking">Speaking</Link></li>
           <li><Link to="/testimonials">Testimonials</Link></li>
           <li><Link to="/articles">Articles</Link></li>
           <li><Link to="/patents">Patents</Link></li>

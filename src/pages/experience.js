@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import Tom_at_work_photo from "../images/content-design/Tom_at_work.jpg";
+import Tom_at_work_photo from "../images/experience/Tom_at_work.jpg";
 
 
 function ExperiencePage() {
