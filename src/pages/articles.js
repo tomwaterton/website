@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -103,18 +104,18 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/articles/Brewing_a_Mayflower_pale_ale.pdf">
+          <Link to="/articles/Brewing_a_Mayflower_pale_ale.pdf">
           <img className="article-thumbnail"
           alt="Article image"
           src={article_12_Illustration}
           />
-        </a>
+        </Link>
           </div>
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="/articles/Brewing_a_Mayflower_pale_ale.pdf">
-              Brewing a Mayflower pale ale</a><br/><span className="article-subhead">(Article for Variable magazine)</span>
+              <Link to="/articles/Brewing_a_Mayflower_pale_ale.pdf">
+              Brewing a Mayflower pale ale</Link><br/><span className="article-subhead">(Article for Variable magazine)</span>
             </h2>
           </div>
 
@@ -289,18 +290,18 @@ function ArticlesPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="/articles/The_creation_of_a_studio.pdf">
+          <Link to="/articles/The_creation_of_a_studio.pdf">
             <img className="article-thumbnail"
                 alt="Article image"
                 src={article_6_Illustration}
               />
-        </a>
+        </Link>
           </div>
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-            <a href="/articles/The_creation_of_a_studio.pdf">
-              The creation of a studio</a><br/><span className="article-subhead">(Article for Variable magazine)</span>
+            <Link to="/articles/The_creation_of_a_studio.pdf">
+              The creation of a studio</Link><br/><span className="article-subhead">(Article for Variable magazine)</span>
             </h2>
           </div>
 

@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -18,7 +19,9 @@ function PortfolioPage() {
 <section className="row">
     <div className="column">
       <h1>Portfolio</h1>
-      <p className="description">Some of my recent work.</p>
+      <p className="description">Examples of some of my recent work.</p>
+      <p className="description">(You may also be interested in reading 
+      about my <Link to="/experience">experience and skills</Link>.)</p>
     </div>
   </section>
 </ContentWidth>
@@ -48,7 +51,8 @@ function PortfolioPage() {
           addressed, and what needed removing, updating, or creating.</li>
         <li>As well as helping to improve the in-product content, I also helped the team design a new 
           set of <a href="https://www.ibm.com/cloud/event-streams">marketing pages</a>.</li>
-        <li>The team won an <a href="https://uktcawards.com/winners-2019/">external award</a> for 
+        <li>The team won a <a href="https://www.indigoawards.com/winners/731">external design award</a> 🏆 for the product and a 
+        separate <a href="https://uktcawards.com/winners-2019/">external design award</a> 🏆 for 
         the product <a href="https://ibm.github.io/event-streams/">docs site</a>.</li>
       </ul>
     </div>
@@ -70,7 +74,7 @@ function PortfolioPage() {
         <li>I then focused on how we could best design and deliver the guidance so that it would be fun, useful, 
           and easy to use. (I've written a little about this process in <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">this article</a>.)</li>
         <li>Later, as IBM moved to using the awesome <a href="https://www.carbondesignsystem.com/">Carbon Design System</a> for 
-        all of its new product UIs, I began contributing significantly to the <a href="https://www.carbondesignsystem.com/guidelines/content/general">content guidelines</a> within Carbon.</li>
+        all of its new product UIs, I began contributing significantly to the <a href="https://www.carbondesignsystem.com/guidelines/content/overview">content guidelines</a> within Carbon.</li>
         <li>This is something that I and others continue to evolve — inspired by the knowledge that Carbon is used 
           by hundreds of IBM product teams, as well as many outside of IBM.</li>
       </ul>
@@ -80,7 +84,7 @@ function PortfolioPage() {
         alt="Screenshot of the IBM Carbon Design System"
         src={Carbon_image}
       />
-      <p className="caption-text">Carbon Design System > <a href="https://www.carbondesignsystem.com/guidelines/content/general">Content guidelines</a></p>
+      <p className="caption-text">Carbon Design System > <a href="https://www.carbondesignsystem.com/guidelines/content/overview">Content guidelines</a></p>
     </div>
   </section>
 </ContentWidth>
@@ -111,13 +115,6 @@ function PortfolioPage() {
           different aspects of content design.</li>
         <li>It continues to be a real pleasure co-leading this wonderful and growing content community.</li>
       </ul>
-    </div>
-  </section>
-</ContentWidth>
-
-<ContentWidth bgColour="2">
-  <section className="row">
-    <div className="column panel">
     </div>
   </section>
 </ContentWidth>

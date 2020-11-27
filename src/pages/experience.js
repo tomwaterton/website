@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -24,7 +25,9 @@ function ExperiencePage() {
         <p className="description">I'm used to working highly collaboratively, most commonly with designers, 
         researchers, and engineers. To my mind, content and design are as inseparable as tea and biscuits.</p>
         <p className="description">In all that I do, I strive to deliver user-centered content that is clear, 
-        concise, and engaging. To read more about what I do and what I've learned along the way, see my article: <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a content designer</a>.</p>
+        concise, and engaging. To read more about what I do and what I've learned along the way, see my 
+        article: <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a content designer</a>.</p>
+        <p className="description">See my <Link to="/portfolio">portfolio</Link> for examples of some of my work.</p>
       </div>
       <div className="column">
         <img

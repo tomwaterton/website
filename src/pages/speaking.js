@@ -1,4 +1,3 @@
-import { Link } from 'gatsby';
 import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -57,7 +56,7 @@ function SpeakingPage() {
 </ContentWidth>
 
 <ContentWidth bgColour="2">
-  <section className="row">
+  <section className="row reverse">
     <div className="column">
       <p className="conference">Breaking down content silos</p>
       <p className="text-sm font-medium">Button content conference</p>
@@ -96,7 +95,7 @@ function SpeakingPage() {
 </ContentWidth>
 
 <ContentWidth bgColour="4">
-  <section className="row">
+  <section className="row reverse">
     <div className="column">
       <p className="conference">Establishing end-to-end content collaboration squads</p>
       <p className="text-sm font-medium">IBM ContentCon conference</p>
@@ -130,13 +129,13 @@ function SpeakingPage() {
       design thinking approaches. I helped explain the value of treating decisions like hypotheses to be tested, 
       and how establishing feedback loops helps us to learn, refine or pivot, and ultimately increases our chances 
       of success.</p>
-      <p>You can read more about this topic in an <Link to="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50">article</Link> I wrote.</p>
+      <p>You can read more about this topic in an <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50">article</a> I wrote.</p>
     </div>
   </section>
 </ContentWidth>
 
 <ContentWidth bgColour="2">
-  <section className="row">
+  <section className="row reverse">
     <div className="column">
       <p className="conference">Achieving a consistent design language across your portfolio</p>
       <p className="text-sm font-medium">IBM InterConnect conference</p>
