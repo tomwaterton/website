@@ -19,15 +19,14 @@ function ExperiencePage() {
       <div className="column">
       <h1>Experience and skills</h1>
         <p className="description">I'm an experienced content designer, having been one of the first 
-        content designers hired by IBM. 
-        If you're not familiar with this term, think of me as a designer 
+        hired by IBM. If you're not familiar with this term, think of me as a designer 
         with a specialism in writing and communication.</p>
-        <p className="description">I'm used to working highly collaboratively, most commonly with designers, 
+        <p className="description">I'm used to working highly collaboratively, most commonly with other designers, 
         researchers, and engineers. To my mind, content and design are as inseparable as tea and biscuits.</p>
         <p className="description">In all that I do, I strive to deliver user-centered content that is clear, 
         concise, and engaging. To read more about what I do and what I've learned along the way, see my 
-        article: <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a content designer</a>.</p>
-        <p className="description">See my <Link to="/portfolio">portfolio</Link> for examples of some of my work.</p>
+        article: <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a content designer</a>. 
+        See my <Link to="/portfolio">portfolio</Link> for examples of some of my work.</p>
       </div>
       <div className="column">
         <img

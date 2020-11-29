@@ -30,10 +30,12 @@ function Header() {
 
         <div className="site-name sm:hidden xs:hidden pl-4">
           <Link to="/">tomwaterton.com</Link>
-          <span className="vertical-divider pl-4 sm:hidden xs:hidden">|</span>
+        </div>
+        <div className="vertical-divider xl:pl-8 lg:pl-8 md:pl-5 sm:hidden xs:hidden">
+          |
         </div>
 
-        <div className="navbar sm:pl-4 xs:pl-4">
+        <div className="navbar md:mx-1.5 lg:mx-4 xl:mx-6 sm:pl-4 xs:pl-4">
           <div className="dropdown">
             <button className="dropbtn">Content design
               <i className="fa fa-caret-down"></i>
@@ -47,11 +49,11 @@ function Header() {
           </div>
         </div>
 
-        <div className="navbar">
+        <div className="navbar md:mx-1.5 lg:mx-4 xl:mx-6">
           <Link to="/articles">Articles</Link>
         </div>
 
-        <div className="navbar">
+        <div className="navbar md:mx-1.5 lg:mx-4 xl:mx-6">
           <div className="dropdown">
             <button className="dropbtn">More...
               <i className="fa fa-caret-down"></i>

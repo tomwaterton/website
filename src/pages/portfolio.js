@@ -19,8 +19,7 @@ function PortfolioPage() {
 <section className="row">
     <div className="column">
       <h1>Portfolio</h1>
-      <p className="description">Examples of some of my recent work.</p>
-      <p className="description">(You may also be interested in reading 
+      <p className="description">Examples of some of my recent work. (You may also be interested in reading 
       about my <Link to="/experience">experience and skills</Link>.)</p>
     </div>
   </section>
