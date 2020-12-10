@@ -26,6 +26,8 @@ function SpeakingPage() {
       and in rapid prototyping, which allows you to quickly try things, get feedback, fail fast, learn, and improve.</p>
       <p className="description">I've had the privilege of speaking on these topics at a few conferences and 
       events over the last few years.</p>
+      <p className="description">Do <a href="mailto:tomwaterton@gmail.com?Subject=Hello">get in touch</a> if 
+      you think I might be able to bring something to an event you are planning.</p>
     </div>
     <div className="column">
       <img
@@ -49,8 +51,10 @@ function SpeakingPage() {
       <p className="conference text-lg">The impact of product voice and tone</p>
       <p className="text-sm font-medium">Product content strategy event organised by 383 Project</p>
       <p className="text-sm italic">Online, Dec 2020</p>
-      <p className="">In December I will be sharing a fun exercise that I have used to help product teams at IBM 
-      appreciate just what a huge impact the voice and tone of a product has on the overall user experience.</p>
+      <p className="">At this online event for product designers, strategists, owners, and managers I 
+      presented on the importance of having a suitable, engaging, and consistent voice and tone. 
+      I also shared a fun exercise that I've used in the past to help product teams see for themselves 
+      just what a huge impact the voice and tone of a product has on the overall user experience.</p>
     </div>
   </section>
 </ContentWidth>

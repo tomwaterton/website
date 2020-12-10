@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import family_photo from "../images/family/family_2019.jpg";
+import family_photo from "../images/family/family_2020.jpg";
 
 
 function FamilyPage() {
@@ -28,7 +28,7 @@ function FamilyPage() {
     <div className="column">
       <img
         alt="Family photo"
-        className="block tilt-portrait-left"
+        className="block tilt-landscape-left do-not-print"
         src={family_photo}
       />
     </div>
@@ -45,7 +45,7 @@ function FamilyPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>Laura</h2>
-          <p className="black-text text-sm italic">(aka Lou-Lou, Louella, Mrs W., etc.)</p>
+          <p className="text-sm font-medium italic">(aka Lou-Lou, Louella, Boss, Mrs W., etc.)</p>
           <div className="text-sm">
             <p>Philosopher, chef, writer, gardener, and all-round good egg. 
               Laura is the one who keeps the rest of us fed, sane, and loved.</p>
@@ -59,12 +59,12 @@ function FamilyPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>Thea</h2>
-          <p className="black-text text-sm italic">(aka Thea-Pearl, Gorgeous-Chops, etc.)</p>
+          <p className="text-sm font-medium italic">(aka Thea-Pearl, Gorgeous-Chops, etc.)</p>
           <div className="text-sm">
             <p>Thea is our thoughtful, caring, sensitive, book-loving daughter.</p>
             <p>As a fan of animals, Thea currently talks of becoming a vet some day. 
               In the meantime she tends to our fish, our hamster, and her stick insects (Sticky and Twig).</p>
-            <p>Often found: making a card for someone.</p>
+            <p>Often found: doing craft.</p>
           </div>
       </div>
     </div>
@@ -72,7 +72,7 @@ function FamilyPage() {
     <div className="column-1-3">
       <div className="sep-bar">
         <h2>Harriet</h2>
-          <p className="black-text text-sm italic">(aka Hattie, Hats, Hat-Splats, Woo, etc.)</p>
+          <p className="text-sm font-medium italic">(aka Hattie, Hats, Hat-Splats, Woo, etc.)</p>
           <div className="text-sm">
             <p>Harriet is our laid-back, frock-wearing, bare-footed, free-spirited daughter.</p>
             <p>When she grows up, Harriet tells us that she is going to be a horse-rider, ballerina, and artist.

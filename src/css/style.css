@@ -105,7 +105,7 @@ ul {
 
 .sep-bar {
   border-left: solid #e0e0e0 3px;
-  padding-left: 10px;
+  padding-left: 1rem;
 }
 
 /* Used on several pages to provide vertical heading around a section */
