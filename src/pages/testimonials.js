@@ -28,13 +28,13 @@ function TestimonialsPage() {
         <p className="text-pink-500">— Jeremy Burton, IBM Senior UX Designer</p>
       </div>
       <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto" alt="Quotation Mark" src={QuoteRight} />
+        <img className="quote-mark m-auto" alt="Quotation mark image" src={QuoteRight} />
       </div>
     </section>
 
     <section className="row">
       <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto hide-small" alt="Quotation Mark" src={QuoteLeft} />
+        <img className="quote-mark m-auto hide-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
       <div className="column">
         <p className="italic font-mono sm:text-sm xs:text-sm">&ldquo;Tom is truly outstanding. A man of deep integrity 
@@ -45,7 +45,7 @@ function TestimonialsPage() {
         <p className="text-pink-500">— Barry Gunner, IBM Software Engineer</p>
       </div>
       <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto show-small" alt="Quotation Mark" src={QuoteLeft} />
+        <img className="quote-mark m-auto show-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
     </section>
 
@@ -60,13 +60,13 @@ function TestimonialsPage() {
         <p className="text-pink-500">— Esteban Pérez-Hemminger, Senior UX Designer</p>
       </div>
       <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto" alt="Quotation Mark" src={QuoteRight} />
+        <img className="quote-mark m-auto" alt="Quotation mark image" src={QuoteRight} />
       </div>
     </section>
 
     <section className="row">
       <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto hide-small" alt="Quotation Mark" src={QuoteLeft} />
+        <img className="quote-mark m-auto hide-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
       <div className="column">
         <p className="italic font-mono sm:text-sm xs:text-sm">&ldquo;It has been a pleasure working with you. 
@@ -77,7 +77,7 @@ function TestimonialsPage() {
         <p className="text-pink-500">— Janene Franke, Program Manager, IBM Technical Content Transformation</p>
       </div>
       <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto show-small" alt="Quotation Mark" src={QuoteLeft} />
+        <img className="quote-mark m-auto show-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
     </section>
 
@@ -88,7 +88,7 @@ function TestimonialsPage() {
         <p className="text-pink-500">— Madison Heck, IBM Offering Manager</p>
       </div>
       <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto" alt="Quotation Mark" src={QuoteRight} />
+        <img className="quote-mark m-auto" alt="Quotation mark image" src={QuoteRight} />
       </div>
     </section>
   </ContentWidth>

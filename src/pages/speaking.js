@@ -26,8 +26,7 @@ function SpeakingPage() {
       and in rapid prototyping, which allows you to quickly try things, get feedback, fail fast, learn, and improve.</p>
       <p className="description">I've had the privilege of speaking on these topics at a few conferences and 
       events over the last few years.</p>
-      <p className="description">Do <a href="mailto:tomwaterton@gmail.com?Subject=Hello">get in touch</a> if 
-      you think I might be able to bring something to an event you are planning.</p>
+      <p className="description">If you think I might be able to bring something to an event you are planning, do <a href="mailto:tomwaterton@gmail.com?Subject=Hello">get in touch</a>.</p>
     </div>
     <div className="column">
       <img
@@ -43,7 +42,7 @@ function SpeakingPage() {
   <section className="row">
     <div className="column">
       <img className="conf-images"
-        alt="Photo of me speaking"
+        alt="Image from Product Content Strategy event"
         src={byte_image}
       />
     </div>
