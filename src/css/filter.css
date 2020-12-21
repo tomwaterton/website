@@ -1,0 +1,81 @@
+.container {
+    overflow: hidden;
+  }
+  
+  .filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+/* To display or hide article blocks */
+.container .filterDiv {
+  display: none;
+}
+
+.container.all .filterDiv {
+  display: block;
+}
+
+
+.container.digital .digital {
+  display: block;
+}
+
+.container.print .print {
+  display: block;
+}
+
+.container.brewing .brewing {
+  display: block;
+}
+
+.container.comms .comms {
+  display: block;
+}
+
+.container.content .content {
+  display: block;
+}
+
+.container.culture .culture {
+  display: block;
+}
+
+.container.design .design {
+  display: block;
+}
+
+.container.pers-dev .pers-dev {
+  display: block;
+}
