@@ -30,16 +30,24 @@ const ArticlesPage = ({ data }) => {
       />
 
       <ContentWidth>
-        <section className="row">
+        <section className="">
           <div className="column">
             <h1>Articles</h1>
-            <p className="description">Some of my recent articles.</p>
-
-            {/* TOM PASTE YOUR CONTENT SWITCHER HERE */}
-
           </div>
         </section>
-
+        <section className="row xs:hidden">
+            <div id="myBtnContainer" className="flex">
+              <div>
+                <button className="btn active" onClick={() => setFilter("all")}>&nbsp;all&nbsp;</button>
+                <button className="btn" onClick={() => setFilter("brewing")}>brewing</button>
+                <button className="btn" onClick={() => setFilter("comms")}>communication</button>
+                <button className="btn" onClick={() => setFilter("content")}>content</button>
+                <button className="btn" onClick={() => setFilter("culture")}>culture</button>
+                <button className="btn" onClick={() => setFilter("design")}>design</button>
+                <button className="btn" onClick={() => setFilter("growth")}>growth</button>
+              </div>
+            </div>
+        </section>
 
         <section className="flex flex-col md:flex-row items-center padding-bottom">
           <ul className="c-tile-list">
@@ -49,7 +57,7 @@ const ArticlesPage = ({ data }) => {
 
       </ContentWidth>
     </Layout>
-    
+
   )
 }
 
@@ -58,6 +66,7 @@ export const query = graphql`
     allArticlesJson {
       nodes {
         title
+        subTitle
         url
         image
         mins
@@ -80,11 +89,12 @@ class RenderArticles extends React.Component {
         <ArticleTile
           key={article.title}
           title={article.title}
+          subTitle={article.subTitle}
           url={article.url}
           image={article.image}
           mins={article.mins}
           date={article.date}
-        /> 
+        />
       ))
     )
   }
@@ -98,18 +108,21 @@ class ArticleTile extends React.Component {
       <li key={this.props.key} className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href={this.props.url}>
-          <img className="article-thumbnail"
-          alt="Article image"
-          src={`../images/articles/${this.props.image}`}
-          />
-        </a>
+            <a href={this.props.url}>
+              <img className="article-thumbnail"
+                alt="Article image"
+                src={`../images/articles/${this.props.image}`}
+              />
+            </a>
           </div>
 
           <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://medium.com/@tomwaterton/the-danger-of-being-too-safe-8266babc3c0c">{this.props.title}</a>
-            </h2>
+            <div>
+              <h2 className="c-article-tile__title" itemprop="headline">
+                <a href={this.props.url}>{this.props.title}</a>
+              </h2>
+              <p className="article-subhead">{this.props.subTitle}</p>
+            </div>
           </div>
 
           <footer className="c-article-tile__footer">

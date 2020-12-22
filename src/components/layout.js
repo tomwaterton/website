@@ -9,7 +9,7 @@ import email from "../images/footer/email.png";
 
 function Layout(props) {
   return (
-    <div className="flex flex-col font-sans min-h-screen text-gray-900">
+    <div className="flex flex-col font-sans min-h-screen">
       <Header />
 
       <main>

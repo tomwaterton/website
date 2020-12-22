@@ -68,7 +68,6 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  padding-right: 10px;
 }
 
 .dropdown-content a {
@@ -83,6 +82,16 @@
 /* Adds background color to top level nav items on hover */
 .navbar a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
   background-color: #f6e05e;
+}
+
+/* To ensure the yellow background remains at the point of clicking */
+.navbar a:active, .dropdown:active .dropbtn, .dropdown-content a:active {
+  background-color: #f6e05e !important;
+}
+
+/* To prevent the Articles link remaining yellow on mobile */
+.navbar a:focus, .dropdown:focus .dropbtn, .dropdown-content a:focus {
+  background-color: unset;
 }
 
 .dropdown:hover .dropdown-content {

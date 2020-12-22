@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import url("./brewing.css");
 @import url("./crosswords.css");
+@import url("./filter.css");
 @import url("./footer.css");
 @import url("./header.css");
 @import url("./patents.css");
@@ -34,7 +35,7 @@ main {
 }
 
 p, ul, li {
-  color: dimgray;
+  color: dimgrey;
 }
 
 p {
@@ -74,7 +75,7 @@ h3 {
   font-size: 1.1rem;
   font-weight: 500;
   margin-left: 10px;
-  color: dimgray;
+  color: dimgrey;
   font-style: italic;
 }
 
@@ -99,7 +100,7 @@ ul {
 
 .bullet-header {
   font-style: italic;
-  color: gray;
+  color: grey;
   padding-left: 10px;
 }
 
@@ -178,7 +179,7 @@ ul {
   padding-bottom: 8px;
   font-size: 0.875rem;
   font-style: italic;
-  color: dimgray;
+  color: dimgrey;
   text-align: center;
 }
 
