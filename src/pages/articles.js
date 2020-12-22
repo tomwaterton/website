@@ -36,20 +36,20 @@ const ArticlesPage = ({ data }) => {
           </div>
         </section>
         <section className="row xs:hidden">
-            <div id="myBtnContainer" className="flex">
+            <div id="myBtnContainer" className="flex float-right">
               <div>
-                <button className="btn active" onClick={() => setFilter("all")}>&nbsp;all&nbsp;</button>
-                <button className="btn" onClick={() => setFilter("brewing")}>brewing</button>
-                <button className="btn" onClick={() => setFilter("comms")}>communication</button>
-                <button className="btn" onClick={() => setFilter("content")}>content</button>
-                <button className="btn" onClick={() => setFilter("culture")}>culture</button>
-                <button className="btn" onClick={() => setFilter("design")}>design</button>
-                <button className="btn" onClick={() => setFilter("growth")}>growth</button>
+                <button className={`btn ${ filter === "all" ? "active" : null }`} onClick={() => setFilter("all")}>&nbsp;all&nbsp;</button>
+                <button className={`btn ${ filter === "brewing" ? "active" : null}`} onClick={() => setFilter("brewing")}>brewing</button>
+                <button className={`btn ${ filter === "comms" ? "active" : null}`} onClick={() => setFilter("comms")}>communication</button>
+                <button className={`btn ${ filter === "content" ? "active" : null}`} onClick={() => setFilter("content")}>content</button>
+                <button className={`btn ${ filter === "culture" ? "active" : null}`} onClick={() => setFilter("culture")}>culture</button>
+                <button className={`btn ${ filter === "design" ? "active" : null}`} onClick={() => setFilter("design")}>design</button>
+                <button className={`btn ${ filter === "growth" ? "active" : null}`} onClick={() => setFilter("growth")}>growth</button>
               </div>
             </div>
         </section>
 
-        <section className="flex flex-col md:flex-row items-center padding-bottom">
+        <section className="flex flex-col md:flex-row padding-bottom">
           <ul className="c-tile-list">
             <RenderArticles articles={whichArticlesToRender()} />
           </ul>
