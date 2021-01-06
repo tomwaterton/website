@@ -10,13 +10,13 @@ function IndexPage() {
     <Layout>
       <SEO
         keywords={[`about`, `tom`, `waterton`, `content`, `design`]}
-        title="Home"
+        title="tomwaterton.com | Home"
       />
 
   <ContentWidth>
       <section className="text-center max-w-xl mx-auto">
         <img
-          alt="Photo of Tom Waterton"
+          alt=""
           className="block mx-auto max-w-xs pb-8"
           src={TomPhoto}
         />
