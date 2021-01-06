@@ -10,7 +10,7 @@ function IndexPage() {
     <Layout>
       <SEO
         keywords={[`about`, `tom`, `waterton`, `content`, `design`]}
-        title="tomwaterton.com | Home"
+        title="Home"
       />
 
   <ContentWidth>
