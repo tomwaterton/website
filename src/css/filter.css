@@ -48,8 +48,8 @@
 /* Needed to get the active state grey to persist */
 .active, .focus {
   outline: none;
-  border: solid 1px #b0b0b0;
-  background-color: #c0c0c0 !important;
+  border: 1px solid grey;
+  background-color: #b0b0b0 !important;
   box-shadow: 3px 3px 4px -1px grey;
 }
 
@@ -69,7 +69,6 @@
 .container.all .filterDiv {
   display: block;
 }
-
 
 .container.digital .digital {
   display: block;

@@ -16,7 +16,7 @@ function IndexPage() {
   <ContentWidth>
       <section className="text-center max-w-xl mx-auto">
         <img
-          alt=""
+          alt=" "
           className="block mx-auto max-w-xs pb-8"
           src={TomPhoto}
         />

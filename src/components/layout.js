@@ -32,17 +32,17 @@ function Layout(props) {
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/in/tomwaterton/">
-                        <img alt="LinkedIn icon" src={linkedin} />
+                        <img alt=" " src={linkedin} />
                       </a>
                     </li>
                     <li>
                       <a href="https://twitter.com/tomwaterton">
-                        <img alt="Twitter icon" src={twitter} />
+                        <img alt=" " src={twitter} />
                       </a>
                     </li>
                     <li>
                       <a href="mailto:tomwaterton@gmail.com">
-                        <img alt="Email icon" src={email} />
+                        <img alt=" " src={email} />
                       </a>
                     </li>
                   </ul>
