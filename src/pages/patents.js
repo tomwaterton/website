@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
+import patent_07_Illustration from "../images/patents/patent_07_image.png";
 import patent_06_Illustration from "../images/patents/patent_06_image.png";
 import patent_05_Illustration from "../images/patents/patent_05_image.png";
 import patent_04_Illustration from "../images/patents/patent_04_image.png";
@@ -31,11 +32,72 @@ function PatentsPage() {
   <section className="flex flex-col md:flex-row items-center padding-bottom">
     <ul className="c-tile-list">
 
-
     <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://patents.google.com/patent/US10659606B2/">
+          <a href="https://pdfpiw.uspto.gov/.piw?Docid=10895900">
+            <img className="article-thumbnail"
+              alt="Patent image"
+              src={patent_05_Illustration}
+            />
+          </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <a href="https://pdfpiw.uspto.gov/.piw?Docid=10895900">
+              Power management based on RFID data</a>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+              #US10895900B2
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+                Jan 19, 2021
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="https://pdfpiw.uspto.gov/.piw?Docid=10812647">
+            <img className="article-thumbnail"
+              alt="Patent image"
+              src={patent_07_Illustration}
+            />
+          </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <h2 className="c-article-tile__title" itemprop="headline">
+              <a href="https://pdfpiw.uspto.gov/.piw?Docid=10812647">
+              Sharing emergency information</a><br/><span className="article-subhead">(2 patents)</span>
+            </h2>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time">
+              #US10812647B1<br />#US10841415B2
+            </span>
+
+            <date className="c-article-tile__date" itemprop="datePublished">
+              Oct 20, 2020<br />Nov 17, 2020
+            </date>
+          </footer>
+        </article>
+      </li>
+
+
+      <li className="c-tile-list__item">
+        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+          <a href="https://pdfpiw.uspto.gov/.piw?Docid=10659606">
             <img className="article-thumbnail"
               alt="Patent image"
               src={patent_06_Illustration}
@@ -45,7 +107,7 @@ function PatentsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://patents.google.com/patent/US10659606B2/">
+              <a href="https://pdfpiw.uspto.gov/.piw?Docid=10659606">
               Filtering unsolicited incoming calls</a>
             </h2>
           </div>
@@ -57,37 +119,6 @@ function PatentsPage() {
 
             <date className="c-article-tile__date" itemprop="datePublished">
                 May 19, 2020
-            </date>
-          </footer>
-        </article>
-      </li>
-
-
-      <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <a href="https://patents.google.com/patent/US20200125154A1/">
-            <img className="article-thumbnail"
-              alt="Patent image"
-              src={patent_05_Illustration}
-            />
-          </a>
-          </div>
-
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://patents.google.com/patent/US20200125154A1/">
-              Power management</a>
-            </h2>
-          </div>
-
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-              US20200125154A1
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-                Apr 23, 2020
             </date>
           </footer>
         </article>
@@ -159,7 +190,7 @@ function PatentsPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://patents.google.com/patent/US10009462B1/">
+          <a href="https://pdfpiw.uspto.gov/.piw?Docid=10009462">
             <img className="article-thumbnail"
                 alt="Patent image"
                 src={patent_02_Illustration}
@@ -169,18 +200,18 @@ function PatentsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://patents.google.com/patent/US10009462B1/">
+              <a href="https://pdfpiw.uspto.gov/.piw?Docid=10009462">
               Call filtering to a user equipment</a><br/><span className="article-subhead">(3 patents)</span>
             </h2>
           </div>
 
           <footer className="c-article-tile__footer">
             <span className="c-article-tile__read-time">
-                #US10009462B1<br/>#US10320978B2<br/>#US10764433B2
+                #US10009462B1<br />#US10320978B2<br />#US10764433B2
             </span>
 
             <date className="c-article-tile__date" itemprop="datePublished">
-              Jun 26, 2018<br/>Jun 11, 2019<br/>Sep 01, 2020
+              Jun 26, 2018<br />Jun 11, 2019<br />Sep 01, 2020
             </date>
           </footer>
         </article>
@@ -190,7 +221,7 @@ function PatentsPage() {
       <li className="c-tile-list__item">
         <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
           <div className="c-article-tile__header">
-          <a href="https://patents.google.com/patent/US9740765B2/">
+          <a href="https://pdfpiw.uspto.gov/.piw?Docid=09740765">
             <img className="article-thumbnail"
                 alt="Patent image"
                 src={patent_01_Illustration}
@@ -200,7 +231,7 @@ function PatentsPage() {
 
           <div className="c-article-tile__body">
             <h2 className="c-article-tile__title" itemprop="headline">
-              <a href="https://patents.google.com/patent/US9740765B2/">
+              <a href="https://pdfpiw.uspto.gov/.piw?Docid=09740765">
               Building nomenclature in a set of documents while building associative document trees</a>
             </h2>
           </div>
@@ -254,6 +285,10 @@ function PatentsPage() {
       <h2>Other (non-patented) inventions</h2>
       <p className="description">I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
         <ul>
+        <li>
+              <a href="https://priorart.ip.com/IPCOM/00264642">Automatically tag screen recording video output with application metadata</a>
+              <span className="date">(Jan 15, 2021)</span>
+          </li>
           <li>
               <a href="https://priorart.ip.com/IPCOM/00263834">Scheduling meetings containing multiple segments where some attendees are only needed in some segments</a>
               <span className="date">(Oct 09, 2020)</span>
