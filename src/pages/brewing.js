@@ -27,7 +27,7 @@ function BrewingPage() {
       years back I started learning how to brew beer myself. I'm far from being a master brewer, but I do 
       enjoy the challenge. I also love the sociable side of brewing. I often brew with others and 
       enjoy being able to share the results with friends and family.</p>
-      <p className="description">See my article <Link to="/articles/Brewing_a_Mayflower_pale_ale.pdf">Brewing a Mayflower pale ale</Link> for more details.</p>
+      <p className="description">For more details, see my article: <Link to="/articles/Brewing_a_Mayflower_pale_ale.pdf">Brewing a Mayflower pale ale</Link>.</p>
     </div>
     <div className="column">
     <img
