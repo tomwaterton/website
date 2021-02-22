@@ -47,7 +47,7 @@ function FamilyPage() {
         <h2>Laura</h2>
           <p className="text-sm font-medium italic">(aka Lou-Lou, Louella, Boss, Mrs W., etc.)</p>
           <div className="text-sm">
-            <p>Philosopher, chef, writer, gardener, and all-round good egg. 
+            <p>Philosopher, chef, writer, artist, gardener, and all-round good egg. 
               Laura is the one who keeps the rest of us fed, sane, and loved.</p>
             <p>Laura is also co-partner with me in the sitcom that is raising our two dotty daughters 
               (aka the smalls).</p>
@@ -74,8 +74,8 @@ function FamilyPage() {
         <h2>Harriet</h2>
           <p className="text-sm font-medium italic">(aka Hattie, Hats, Hat-Splats, Woo, etc.)</p>
           <div className="text-sm">
-            <p>Harriet is our laid-back, frock-wearing, bare-footed, free-spirited daughter.</p>
-            <p>When she grows up, Harriet tells us that she is going to be a horse-rider, ballerina, and artist.
+            <p>Harriet is our quirky, frock-wearing, bare-footed, free-spirited daughter.</p>
+            <p>When she grows up, Harriet tells us that she's going to be a horse-rider, ballerina, and artist.
               In addition to these noble aims, we suspect she'll always be a natural joker.</p>
             <p>Often found: making someone laugh.</p>
           </div>

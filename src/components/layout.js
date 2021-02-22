@@ -21,7 +21,7 @@ function Layout(props) {
             <div className="w-full flex xs:flex-wrap sm:flex-wrap items-center justify-center md:justify-between px-6">
               <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center w-full text-sm">
                 <div className="footer-copyright">
-                    &copy; Tom Waterton, 2020.
+                    &copy; Tom Waterton, 2021.
                 </div>
                 <div className="footer-info hover:textDecoration">
                   <Link to="/about">About this site</Link>
