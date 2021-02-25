@@ -14,3 +14,12 @@
 .patent-background {
   background-color: aliceblue !important;
 }
+
+.publish-list {
+  padding-left: 2rem;
+  list-style: decimal-leading-zero;
+}
+
+.publish-list li {
+  padding-left: 0.5rem;
+}
