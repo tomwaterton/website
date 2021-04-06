@@ -45,7 +45,7 @@ function AboutPage() {
         <li>I use <a href="https://pages.github.com/">GitHub Pages</a> to host the site</li>
         <li>I use <a href="https://www.google.com/analytics">Google Analytics</a> to analyse site traffic</li>
       </ul>
-      <p>Props to the talented <a href="https://www.linkedin.com/in/peter-loveland-75a73294/">Peter Loveland</a> 🙌 &nbsp;for his Gatsby help (and puns) as I was developing the site</p>
+      <p>Props to the talented <a href="https://www.linkedin.com/in/peter-loveland-75a73294/">Peter Loveland</a> 🙌 &nbsp;for his Gatsby help (and puns) as I was developing the site.</p>
       <p><br/></p>
       <p>If you spot any bugs 🐛 or simply want to say hello, please do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20website">get in touch</a> with me.
       </p>
