@@ -126,13 +126,13 @@ class ArticleTile extends React.Component {
           </div>
 
           <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
+            <span className="c-article-tile__read-time" itemprop="readTime">
               {this.props.mins} min read
             </span>
 
-            <date className="c-article-tile__date" itemprop="datePublished">
+            <span className="c-article-tile__date" itemprop="datePublished">
               {this.props.date}
-            </date>
+            </span>
           </footer>
         </article>
       </li>
