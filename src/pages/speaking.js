@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import microphone_image from "../images/speaking/microphone.png";
+import spark_image from "../images/speaking/spark.png";
 import byte_image from "../images/speaking/byte.png";
 import button_image from "../images/speaking/button.png";
 import utterly_image from "../images/speaking/utterly.png";
@@ -42,6 +43,26 @@ function SpeakingPage() {
   <section className="row">
     <div className="column">
       <img className="conf-images"
+        alt="Image from IBM Spark Design Festival event"
+        src={spark_image}
+      />
+    </div>
+    <div className="column">
+      <p className="conference text-lg">Building a community of practice</p>
+      <p className="text-sm font-medium">IBM Spark Design Festival</p>
+      <p className="text-sm italic">Online, May 2021</p>
+      <p className="">I co-presented with my awesome colleague Maranda Bodas on the ongoing content 
+      design transformation within IBM, and in particular how we've grown a grass-roots content design 
+      community of practice that has helped bring together content practitioners and advocates from 
+      across the company.</p>
+    </div>
+  </section>
+</ContentWidth>
+
+<ContentWidth bgColour="2">
+  <section className="row">
+    <div className="column">
+      <img className="conf-images"
         alt="Image from Product Content Strategy event"
         src={byte_image}
       />
@@ -58,7 +79,7 @@ function SpeakingPage() {
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="2">
+<ContentWidth bgColour="3">
   <section className="row reverse">
     <div className="column">
       <p className="conference">Breaking down content silos</p>
@@ -78,7 +99,7 @@ function SpeakingPage() {
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="3">
+<ContentWidth bgColour="4">
   <section className="row">
     <div className="column">
       <img className="conf-images"
@@ -97,7 +118,7 @@ function SpeakingPage() {
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="4">
+<ContentWidth bgColour="1">
   <section className="row reverse">
     <div className="column">
       <p className="conference">Establishing end-to-end content collaboration squads</p>
@@ -116,7 +137,7 @@ function SpeakingPage() {
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="1">
+<ContentWidth bgColour="2">
   <section className="row">
     <div className="column">
       <img className="conf-images"
@@ -137,7 +158,7 @@ function SpeakingPage() {
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="2">
+<ContentWidth bgColour="3">
   <section className="row reverse">
     <div className="column">
       <p className="conference">Achieving a consistent design language across your portfolio</p>
