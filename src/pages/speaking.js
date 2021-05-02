@@ -39,7 +39,7 @@ function SpeakingPage() {
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="1">
+<ContentWidth bgColour="3">
   <section className="row">
     <div className="column">
       <img className="conf-images"
@@ -60,13 +60,7 @@ function SpeakingPage() {
 </ContentWidth>
 
 <ContentWidth bgColour="2">
-  <section className="row">
-    <div className="column">
-      <img className="conf-images"
-        alt="Image from Product Content Strategy event"
-        src={byte_image}
-      />
-    </div>
+  <section className="row reverse">
     <div className="column">
       <p className="conference text-lg">The impact of product voice and tone</p>
       <p className="text-sm font-medium">Product content strategy event organised by 383 Project</p>
@@ -76,11 +70,23 @@ function SpeakingPage() {
       I also shared a fun exercise that I've used in the past to help product teams see for themselves 
       just what a huge impact the voice and tone of a product has on the overall user experience.</p>
     </div>
+    <div className="column">
+      <img className="conf-images"
+        alt="Image from Product Content Strategy event"
+        src={byte_image}
+      />
+    </div>
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="3">
-  <section className="row reverse">
+<ContentWidth bgColour="1">
+  <section className="row">
+  <div className="column">
+      <img className="conf-images"
+        alt="Image from Button content conference"
+        src={button_image}
+      />
+    </div>
     <div className="column">
       <p className="conference">Breaking down content silos</p>
       <p className="text-sm font-medium">Button content conference</p>
@@ -90,23 +96,11 @@ function SpeakingPage() {
       of people, across hundreds of teams, based all over the world? In this talk I shared some useful tips and 
       practices to help break down content silos.</p>
     </div>
-    <div className="column">
-      <img className="conf-images"
-        alt="Image from Button content conference"
-        src={button_image}
-      />
-    </div>
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="4">
-  <section className="row">
-    <div className="column">
-      <img className="conf-images"
-        alt="Image from Utterly content conference"
-        src={utterly_image}
-      />
-    </div>
+<ContentWidth bgColour="2">
+  <section className="row reverse">
     <div className="column">
       <p className="conference text-lg">Building a content design practice in the enterprise</p>
       <p className="text-sm font-medium">Utterly content conference</p>
@@ -115,11 +109,23 @@ function SpeakingPage() {
       going strong and in this talk I shared some practical tips on how to develop and scale a cross-functional 
       content practice.</p>
     </div>
+    <div className="column">
+      <img className="conf-images"
+        alt="Image from Utterly content conference"
+        src={utterly_image}
+      />
+    </div>
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="1">
-  <section className="row reverse">
+<ContentWidth bgColour="3">
+  <section className="row">
+  <div className="column">
+      <img className="conf-images"
+        alt="Image from ContentCon conference"
+        src={content_con_image}
+      />
+    </div>
     <div className="column">
       <p className="conference">Establishing end-to-end content collaboration squads</p>
       <p className="text-sm font-medium">IBM ContentCon conference</p>
@@ -128,23 +134,11 @@ function SpeakingPage() {
       experience, from marketing materials through to in-product copy, to support materials, etc. and how 
       to best collaborate across functional divides within an organization.</p>
     </div>
-    <div className="column">
-      <img className="conf-images"
-        alt="Image from ContentCon conference"
-        src={content_con_image}
-      />
-    </div>
   </section>
 </ContentWidth>
 
 <ContentWidth bgColour="2">
-  <section className="row">
-    <div className="column">
-      <img className="conf-images"
-        alt="Image from IBM Think conference"
-        src={think_image}
-      />
-    </div>
+  <section className="row reverse">
     <div className="column">
       <p className="conference text-lg">Failing fast, using feedback loops, and the benefits of iterative design</p>
       <p className="text-sm font-medium">IBM Think conference</p>
@@ -155,11 +149,23 @@ function SpeakingPage() {
       of success.</p>
       <p>You can read more about this topic in an <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50">article</a> I wrote.</p>
     </div>
+    <div className="column">
+      <img className="conf-images"
+        alt="Image from IBM Think conference"
+        src={think_image}
+      />
+    </div>
   </section>
 </ContentWidth>
 
-<ContentWidth bgColour="3">
-  <section className="row reverse">
+<ContentWidth bgColour="1">
+  <section className="row">
+  <div className="column">
+      <img className="conf-images"
+        alt="Image from IBM Interconnect conference"
+        src={inter_connect_image}
+      />
+    </div>
     <div className="column">
       <p className="conference">Achieving a consistent design language across your portfolio</p>
       <p className="text-sm font-medium">IBM InterConnect conference</p>
@@ -168,11 +174,13 @@ function SpeakingPage() {
       across your portfolio of offerings and I shared some hints and tips about how to approach developing 
       such a design language yourself.</p>
     </div>
+  </section>
+</ContentWidth>
+
+<ContentWidth bgColour="2">
+  <section className="row">
     <div className="column">
-      <img className="conf-images"
-        alt="Image from IBM Interconnect conference"
-        src={inter_connect_image}
-      />
+      <p className="">&nbsp;</p>
     </div>
   </section>
 </ContentWidth>
