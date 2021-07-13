@@ -49,6 +49,10 @@ const PatentsPage = ({ data }) => {
             <p className="description pb-3" >I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
             <ol reversed className="publish-list">
               <li>
+                <a href="https://priorart.ip.com/IPCOM/000266297">System and method for synchronizing annotated notes with discussion from temporal media</a>
+                <span className="date">(Jun 30, 2021)</span>
+              </li>
+              <li>
                 <a href="https://priorart.ip.com/IPCOM/00264642">Automatically tag screen recording video output with application metadata</a>
                 <span className="date">(Jan 15, 2021)</span>
               </li>

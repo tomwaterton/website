@@ -23,10 +23,12 @@ function ExperiencePage() {
         with a specialism in writing and communication.</p>
         <p className="description">I'm used to working highly collaboratively, most commonly with other designers, 
         researchers, and engineers. To my mind, content and design are as inseparable as tea and biscuits.</p>
-        <p className="description">In all that I do, I strive to deliver user-centered content that is clear, 
-        concise, and engaging. To read more about what I do and what I've learned along the way, see my 
-        article: <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a content designer</a>. 
-        See my <Link to="/portfolio">portfolio</Link> for examples of some of my work.</p>
+        <p className="description">You can read more about what I do and what I've learned along the way in the following articles and links:</p>
+        <ul>
+          <li><a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a content designer</a> (article)</li>
+          <li><a href="https://workingincontent.com/resources/inside-content-design-at-ibm/">Inside content design at IBM</a> (interview article)</li>
+          <li>Or see my <Link to="/portfolio">portfolio</Link> for some examples of my work</li>
+        </ul>
       </div>
       <div className="column">
         <img
