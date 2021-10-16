@@ -33,7 +33,9 @@ const PatentsPage = ({ data }) => {
         <section className="">
           <div className="column">
             <h1>Patents</h1>
-            <p className="description">I enjoy inventing and have the following patents issued (with a further 4 patents pending).</p>
+            <p className="description">I enjoy inventing and have the following patents issued (with a further 5 patents pending).</p>
+            <p className="description">In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
+            recognition of my ongoing contribution to IBM's patent portfolio and invention community.</p>
           </div>
         </section>
 
@@ -48,6 +50,14 @@ const PatentsPage = ({ data }) => {
             <h2>Other (non-patented) inventions</h2>
             <p className="description pb-3" >I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
             <ol reversed className="publish-list">
+              <li>
+                [Invention pending publication]
+                <span className="date">(TBC)</span>
+              </li>
+              <li>
+                [Invention pending publication]
+                <span className="date">(TBC)</span>
+              </li>
               <li>
                 <a href="https://priorart.ip.com/IPCOM/000266297">System and method for synchronizing annotated notes with discussion from temporal media</a>
                 <span className="date">(Jun 30, 2021)</span>
