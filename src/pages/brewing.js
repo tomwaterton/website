@@ -43,12 +43,11 @@ function BrewingPage() {
     </div>
   </section>
 
-
   <section className="row">
     <div className="column-1-3">
-      <div className="sep-bar">
+      <div className="border-solid border-2 border-slate-500 rounded-lg p-3 h-full hover:bg-orange-100 hover:border-orange-300">
         <h2>The basic theory</h2>
-          <div className="text-sm set-height">
+          <div className="text-sm mt-2">
             <p>Beer is made by soaking barley in water until enzymes are activated, which turn 
             the grains’ starches into sugars.</p>
             <p>Different hops are then used to add bitterness, flavor, and aroma to the beer.</p>
@@ -63,9 +62,9 @@ function BrewingPage() {
     </div>
 
     <div className="column-1-3">
-      <div className="sep-bar">
+      <div className="border-solid border-2 border-slate-500 rounded-lg p-3 h-full hover:bg-orange-100 hover:border-orange-300">
         <h2>Experimenting</h2>
-          <div className="text-sm set-height">
+          <div className="text-sm mt-2">
             <p>Most of my brews so far have been variations on traditional English ale and IPA recipes, using hops such as Challenger, Goldings, Cascade, and Fuggles.</p>
             <p>To get that extra hoppy taste, I often add in other hops when the wort is in the barrel.</p>
             <p>Sometimes I also add fruit (orange peel, grapefruit, hawthorn berries, etc.).</p>
@@ -79,9 +78,9 @@ function BrewingPage() {
     </div>
 
     <div className="column-1-3">
-      <div className="sep-bar">
+      <div className="border-solid border-2 border-slate-500 rounded-lg p-3 h-full hover:bg-orange-100 hover:border-orange-300">
         <h2>Enjoying the output</h2>
-          <div className="text-sm set-height">
+          <div className="text-sm mt-2">
             <p>After patiently waiting 3-5 weeks for the brew to ferment and condition, the time finally comes to test your latest creation.</p>
             <p>There's nothing better than getting together with friends, family, or colleagues and being able to hand out some home brew for everyone to try.</p>
             <p>It's then onto the next brew...</p>
@@ -100,12 +99,6 @@ function BrewingPage() {
       </div>
     </div>
 
-  </section>
-
-
-  <section className="row">
-    <div className="column">
-    </div>
   </section>
 
 

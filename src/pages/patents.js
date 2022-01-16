@@ -33,7 +33,7 @@ const PatentsPage = ({ data }) => {
         <section className="">
           <div className="column">
             <h1>Patents</h1>
-            <p className="description">I enjoy inventing and have the following patents issued (with a further 5 patents pending).</p>
+            <p className="description">I enjoy inventing and have the following patents issued (with a further 7 patents pending).</p>
             <p className="description">In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
             recognition of my ongoing contribution to IBM's patent portfolio and invention community.</p>
           </div>
