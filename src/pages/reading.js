@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import Tom_on_books_photo from "../images/reading/Tom_on_books.jpg";
+import Content_books from "../images/reading/content_books.jpeg";
 
 function ReadingPage() {
   return (
@@ -132,6 +133,19 @@ function ReadingPage() {
         </ul>
     </div>
   </section>
+
+
+  <section className="row">
+    <div className="column text-center">
+      <img
+        alt="Photo of some books on content design and writing in general"
+        className="block landscape do-not-print"
+        src={Content_books}
+      />
+      <p className="italic pt-3 px-10">I'm also a sucker for any book about writing, content design, and content strategy.</p>
+    </div>
+  </section>
+
 
   <section className="row">
     <div className="column">

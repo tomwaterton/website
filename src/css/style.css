@@ -150,11 +150,16 @@ ul {
   max-height: 16rem;
 }
 
-.tilt-landscape-left , .tilt-landscape-right {
+.landscape {
+  max-width: 80%;
+  max-height: 550px;
+}
+
+.tilt-landscape-left, .tilt-landscape-right {
   max-width: 80%;
 }
 
-.tilt-portrait-left, .tilt-landscape-left, .tilt-portrait-right, .tilt-landscape-right {
+.landscape, .tilt-portrait-left, .tilt-landscape-left, .tilt-portrait-right, .tilt-landscape-right {
   margin: auto;
   border: 6px solid #fc0;
   border-radius: 6px;
