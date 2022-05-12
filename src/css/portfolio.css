@@ -1,7 +1,3 @@
-.panel h2 {
-  color: #c69;
-}
-
 .panel p {
   font-size: 0.9rem;
   color: #262626;
@@ -21,7 +17,7 @@
 
 .conference {
   font-weight: 500;
-  color: #c69;
+  color: #ec4899;
 }
 
 /* Background colors for the full-width panels on the Content design page */

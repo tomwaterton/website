@@ -30,12 +30,12 @@ const PatentsPage = ({ data }) => {
       />
 
       <ContentWidth>
-        <section className="">
+        <section className="row">
           <div className="column">
             <h1>Patents</h1>
             <p className="description">I enjoy inventing and have the following patents issued (with a further 7 patents pending).</p>
-            <p className="description">In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
-            recognition of my ongoing contribution to IBM's patent portfolio and invention community.</p>
+            {/* <p className="description">In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
+            recognition of my ongoing contribution to IBM's patent portfolio and invention community.</p> */}
           </div>
         </section>
 
@@ -50,8 +50,16 @@ const PatentsPage = ({ data }) => {
             <h2>Other (non-patented) inventions</h2>
             <p className="description pb-3" >I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
             <ol reversed className="publish-list">
+              {/* <li>
+                <a href="">Title???</a>
+                <span className="date">(May ??, 2022)</span>
+              </li> */}
               <li>
-              <a href="https://priorart.ip.com/IPCOM/000267805">Automatic assignment of conference call participants into multiple rounds of sub-groups</a>
+                <a href="https://priorart.ip.com/IPCOM/000269748">Method for verifying where a person lives using confidence patterns against their historical location data</a>
+                <span className="date">(May 10, 2022)</span>
+              </li>
+              <li>
+                <a href="https://priorart.ip.com/IPCOM/000267805">Automatic assignment of conference call participants into multiple rounds of sub-groups</a>
                 <span className="date">(Nov 25, 2021)</span>
               </li>
               <li>
@@ -131,6 +139,14 @@ const PatentsPage = ({ data }) => {
                 <span className="date">(Sep 04, 2015)</span>
               </li>
             </ol>
+          </div>
+        </section>
+
+        <section className="row">
+          <div className="column">
+            <h2>IBM Master Inventor</h2>
+            <p className="description">In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
+            recognition of my ongoing contribution to IBM's patent portfolio and invention community.</p>
           </div>
         </section>
 

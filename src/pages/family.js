@@ -96,7 +96,7 @@ function FamilyPage() {
               className="do-not-print border-solid border-1 border-grey-600 rounded-lg my-2"
               src={dog_photo}
             />
-            <p>Often found: where there's people or food.</p>
+            <p>Often found: wherever there's people or food.</p>
           </div>
       </div>
     </div>

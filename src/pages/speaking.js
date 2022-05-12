@@ -89,7 +89,7 @@ function SpeakingPage() {
       />
     </div>
     <div className="column">
-      <p className="conference">Breaking down content silos</p>
+      <p className="conference text-lg">Breaking down content silos</p>
       <p className="text-sm font-medium">Button content conference</p>
       <p className="text-sm italic">Online, Oct 2020</p>
       <p className="">We all want to deliver delightful content experiences, but how can you ensure quality 
@@ -128,7 +128,7 @@ function SpeakingPage() {
       />
     </div>
     <div className="column">
-      <p className="conference">Establishing end-to-end content collaboration squads</p>
+      <p className="conference text-lg">Establishing end-to-end content collaboration squads</p>
       <p className="text-sm font-medium">IBM ContentCon conference</p>
       <p className="text-sm italic">Hursley, UK, Oct 2019</p>
       <p className="">This talk was focused on the need to think about a product user's end-to-end content 
@@ -168,7 +168,7 @@ function SpeakingPage() {
       />
     </div>
     <div className="column">
-      <p className="conference">Achieving a consistent design language across your portfolio</p>
+      <p className="conference text-lg">Achieving a consistent design language across your portfolio</p>
       <p className="text-sm font-medium">IBM InterConnect conference</p>
       <p className="text-sm italic">Las Vegas, USA, Mar 2017</p>
       <p className="">In this talk I demonstrated the benefits of having a consistent design language 

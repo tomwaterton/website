@@ -165,7 +165,7 @@
 
 .c-article-tile.col1,
 .c-article-tile.col1 a {
-  color: #c69;
+  color: #ec4899;
 }
 
 .c-article-tile.col2,
@@ -173,6 +173,8 @@
   color: #2abc67;
 }
 
+/* Used to be that all 3 were used, but when we turned the article tile into 
+a component, it now only uses col3 */
 .c-article-tile.col3,
 .c-article-tile.col3 a {
   color: #2980b9;
