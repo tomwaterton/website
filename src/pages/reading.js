@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import Tom_on_books_photo from "../images/reading/Tom_on_books.jpg";
-import Content_books from "../images/reading/content_books.jpeg";
+import Content_books from "../images/reading/content_books_2.png";
 
 function ReadingPage() {
   return (
@@ -46,6 +46,11 @@ function ReadingPage() {
               <span className="black-text"> by Meghan Casey</span>
               <p>???</p>
           </li> */}
+          <li>
+              <a href="https://abbycovert.com/make-sense/">How to Make Sense of Any Mess</a> (2014)
+              <span className="black-text"> by Abby Covert</span>
+              <p>A nice introduction to some of the main approaches we can use when organizing information.</p>
+          </li>
           <li>
               <a href="https://www.contentstrategy.com/content-strategy-for-the-web">Content Strategy for the Web</a> (2012)
               <span className="black-text"> by Kristina Halvorson</span>
@@ -95,7 +100,6 @@ function ReadingPage() {
           */}
           {/* 
           To add when read: 
-          - How to Make Sense of Any Mess (2014) by Abby Covert
           - Writing for Designers (2018) by Scott Kubie
             https://abookapart.com/products/writing-for-designers 
           - Cultivating Content Design (2021) by Beth Dunn
@@ -115,7 +119,7 @@ function ReadingPage() {
   <section className="row">
     <div className="column text-center">
       <img
-        alt="Photo of some books on content design and writing in general"
+        alt="Photo of some books on writing and content design"
         className="block landscape do-not-print"
         src={Content_books}
       />
