@@ -21,6 +21,30 @@ function TestimonialsPage() {
     </section>
 
     <section className="row">
+      <div className="column-no-padding m-auto">
+        <img className="quote-mark m-auto hide-small" alt="Quotation mark image" src={QuoteLeft} />
+      </div>
+      <div className="column">
+        <p className="testimonial">&ldquo;Tom is the best and brightest IBM has to offer as their top content 
+        expert and leader. During my time in the Design Program Office as Content Design Lead, I watched in awe 
+        as Tom built style guides to set the content tone, voice, strategy, and more for the largest org (Cloud 
+        and Cognitive), and establish and lead our Content Design Guild which I served on as a committee co-chair.</p>
+        <p className="testimonial">Tom would regularly pull in top thought leaders from the industry to 
+        speak in our guild, develop workshops, invite internal experts, and more. Tom has incredibly deep knowledge 
+        as a content designer.</p>
+        <p className="testimonial">I consider myself incredibly lucky to have been able to work with Tom. 
+        Above all, he is kind and humble, and really a joy to be around. He truly embodies the human-centered principles 
+        that designers always tout, but don’t always deliver on (he does). And, he goes above and beyond, making sure 
+        he shares his wisdom regularly by speaking at industry events.&rdquo;</p>
+        <p className="attribution-name">— Allison Biesboer</p>
+        <p className="attribution-role">Former Content Designer and Strategist at IBM<br/>Now Sr. Staff Content Designer and Manager at Visa</p>
+      </div>
+      <div className="column-no-padding m-auto">
+        <img className="quote-mark m-auto show-small" alt="Quotation mark image" src={QuoteLeft} />
+      </div>
+    </section>
+
+    <section className="row">
       <div className="column">
         <p className="testimonial">&ldquo;It was my utmost honor to work with and learn from Tom during my time at IBM. 
         I was constantly in awe of how much Tom accomplished as he worked diligently to establish standards, practices, 
