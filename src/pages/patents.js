@@ -50,8 +50,12 @@ const PatentsPage = ({ data }) => {
             <h2>Other (non-patented) inventions</h2>
             <p className="description pb-3" >I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
             <ol reversed className="publish-list">
+            <li>
+                <a href="https://priorart.ip.com/IPCOM/00270899D">Method to automate closure of related tabs when a purchase is made in a browser</a>
+                <span className="date">(Sep 08, 2022)</span>
+              </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00269942D">System and Method for Controlling Access to the Slides of a Presentation as it is being Presented</a>
+                <a href="https://priorart.ip.com/IPCOM/00269942D">System and method for controlling access to the slides of a presentation as it is being presented</a>
                 <span className="date">(May 26, 2022)</span>
               </li>
               <li>
