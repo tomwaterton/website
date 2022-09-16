@@ -9,26 +9,26 @@ import email from "../images/footer/email.png";
 
 function Layout(props) {
   return (
-    <div className="flex flex-col font-sans min-h-screen">
+    <div className="pageWrapper">
       <Header />
 
       <main>
         {props.children}
       </main>
 
-      <footer className="bg-footer-700">
-        <div className="container text-center justify-between max-w-5xl mx-auto p-6">
-            <div className="w-full flex xs:flex-wrap sm:flex-wrap items-center justify-center md:justify-between px-6">
-              <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center w-full text-sm">
-                <div className="footer-copyright">
-                    &copy; Tom Waterton, 2022.
+      <footer className="footer">
+        <div className="footerContainer">
+            <div className="footerContainer2">
+              <div className="footerContainer3">
+                <div className="footerCopyright">
+                    &copy; Tom Waterton, 2022
                 </div>
-                <div className="footer-info hover:textDecoration">
+                <div className="footerInfo">
                   <Link to="/about">About this site</Link>
                 </div>
               </div>
-              <div className="flex items-center md:mt-0">
-                <div className="social-media">
+              <div className="socialMediaContainer">
+                <div className="socialMedia">
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/in/tomwaterton/">

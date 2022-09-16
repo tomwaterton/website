@@ -33,9 +33,7 @@ const PatentsPage = ({ data }) => {
         <section className="row">
           <div className="column">
             <h1>Patents</h1>
-            <p className="description">I enjoy inventing and have the following patents issued (with a further 5 patents pending).</p>
-            {/* <p className="description">In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
-            recognition of my ongoing contribution to IBM's patent portfolio and invention community.</p> */}
+            <p><em>I enjoy inventing and have the following patents issued (with a further 5 patents pending).</em></p>
           </div>
         </section>
 
@@ -48,7 +46,7 @@ const PatentsPage = ({ data }) => {
         <section className="row">
           <div className="column">
             <h2>Other (non-patented) inventions</h2>
-            <p className="description pb-3" >I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</p>
+            <p><em>I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</em></p>
             <ol reversed className="publish-list">
             <li>
                 <a href="https://priorart.ip.com/IPCOM/00270899D">Method to automate closure of related tabs when a purchase is made in a browser</a>
@@ -149,8 +147,8 @@ const PatentsPage = ({ data }) => {
         <section className="row">
           <div className="column">
             <h2>IBM Master Inventor</h2>
-            <p className="description">In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
-            recognition of my ongoing contribution to IBM's patent portfolio and invention community.</p>
+            <p><em>In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
+            recognition of my ongoing contribution to IBM's patent portfolio and invention community.</em></p>
           </div>
         </section>
 

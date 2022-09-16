@@ -17,15 +17,15 @@ function ReadingPage() {
   <section className="row">
     <div className="column">
       <h1>Reading</h1>
-      <p className="description">I'm an incurable bookworm so I always have at least one book on the go. 
-      Here are some highlights from the last few years.</p>
-        <ul className="ul-small py-4 do-not-print">
+      <p><em>I'm an incurable bookworm so I always have at least one book on the go. 
+      Here are some highlights from the last few years.</em></p>
+        <ul className="ul-small do-not-print">
           <li><a href="#content">Content / writing books</a></li>
           <li><a href="#non-fiction">Other non-fiction</a></li>
           <li><a href="#fiction">Fiction</a></li>
         </ul>
-        <p className="description">For each book I've provided a link to further information 
-        and written a one-sentence description.</p>
+        <p><em>For each book I've provided a link to further information 
+        and written a one-sentence description.</em></p>
     </div>
     <div className="column">
       <img
@@ -50,6 +50,11 @@ function ReadingPage() {
               <a href="https://abbycovert.com/make-sense/">How to Make Sense of Any Mess</a> (2014)
               <span className="black-text"> by Abby Covert</span>
               <p>A nice introduction to some of the main approaches we can use when organizing information.</p>
+          </li>
+          <li>
+              <a href="https://abookapart.com/products/cultivating-content-design">Cultivating Content Design</a> (2021)
+              <span className="black-text"> by Beth Dunn</span>
+              <p>Some good advice on how to create a strong and respected content design practice.</p>
           </li>
           <li>
               <a href="https://www.contentstrategy.com/content-strategy-for-the-web">Content Strategy for the Web</a> (2012)
@@ -102,8 +107,6 @@ function ReadingPage() {
           To add when read: 
           - Writing for Designers (2018) by Scott Kubie
             https://abookapart.com/products/writing-for-designers 
-          - Cultivating Content Design (2021) by Beth Dunn
-            https://abookapart.com/products/cultivating-content-design 
           - Leading Content Design by Rachel McConnell
 	          https://abookapart.com/products/leading-content-design 
           - Content Strategy for Mobile by Karen McGrane
@@ -117,13 +120,13 @@ function ReadingPage() {
 
 
   <section className="row">
-    <div className="column text-center">
+    <div className="column">
       <img
         alt="Photo of some books on writing and content design"
         className="block landscape do-not-print"
         src={Content_books}
       />
-      <p className="italic pt-3 px-10">I'm a sucker for any book about or related to writing and content design.</p>
+      <p className="imageCaption"><em>I'm a sucker for any book about or related to writing and content design.</em></p>
     </div>
   </section>
 
@@ -220,7 +223,7 @@ function ReadingPage() {
   <section className="row">
     <div className="column">
       <h2><a id="fiction"></a>Fiction</h2>
-      <p className="description">There are so many novels that I love, but to prevent you scrolling for ever I've limited myself to 20 novels here.</p>
+      <p><em>There are so many novels that I love, but to prevent you scrolling for ever I've limited myself to 20 novels here.</em></p>
       <div className="books">
         <ul>
           <li>

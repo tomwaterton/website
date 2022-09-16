@@ -25,7 +25,7 @@ function CrypticCrosswordsPage() {
   <section className="row">
     <div className="column">
       <h1>Cryptic crosswords</h1>
-      <p className="description">Some cryptic crosswords that I've composed (under the pseudonym 'Meles').</p>
+      <p><em>Some cryptic crosswords that I've composed (under the pseudonym 'Meles').</em></p>
     </div>
   </section>
 

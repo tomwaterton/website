@@ -15,10 +15,10 @@ function Header() {
   `);
 
   return (
-    <header className="header-700 2xl:text-lg xl:text-lg lg:text-lg md:text-base sm:text-sm xs:text-sm">
-      <div className="flex flex-wrap items-center max-w-5xl mx-auto p-4 pt-8">
+    <header className="headerWrapper">
+      <div className="headerContainer">
 
-        <div className="home-icon xl:w-10 lg:w-10 md:w-8 sm:w-8 xs:w-8 ">
+        <div className="homeIcon">
           <Link to="/">
             <img
               alt="Typewriter icon"
@@ -28,14 +28,14 @@ function Header() {
           </Link>
         </div>
 
-        <div className="site-name sm:hidden xs:hidden pl-4">
+        <div className="siteName">
           <Link to="/">tomwaterton.com</Link>
         </div>
-        <div className="vertical-divider xl:pl-8 lg:pl-8 md:pl-5 sm:hidden xs:hidden">
+        <div className="verticalDivider">
           |
         </div>
 
-        <div className="navbar md:mx-1.5 lg:mx-4 xl:mx-6 sm:pl-4 xs:pl-4">
+        <div className="navbar nav1">
           <div className="dropdown">
             <button className="dropbtn">Content design
               <i className="fa fa-caret-down"></i>
@@ -49,11 +49,11 @@ function Header() {
           </div>
         </div>
 
-        <div className="navbar md:mx-1.5 lg:mx-4 xl:mx-6">
+        <div className="navbar">
           <Link to="/articles">Articles</Link>
         </div>
 
-        <div className="navbar md:mx-1.5 lg:mx-4 xl:mx-6">
+        <div className="navbar">
           <div className="dropdown">
             <button className="dropbtn">More...
               <i className="fa fa-caret-down"></i>

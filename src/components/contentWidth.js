@@ -4,7 +4,7 @@ export default class ContentWidth extends React.Component {
     render () {
       return(
         <div className={`fullWidth ${ this.props.bgColour ? 'bleed bleed' + this.props.bgColour : null }`}>
-            <div className={`flex flex-col flex-1 max-w-5xl mx-auto px-4 py-8 md:p-8 w-full`}>
+            <div className={`contentContainer`}>
                 {this.props.children}
             </div>
         </div>

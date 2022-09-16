@@ -14,14 +14,14 @@ function NotFoundPage() {
   <section className="row">
     <div className="column">
       <h1>Hmm, we can't seem to find that page...</h1>
-      <p className="description">Error: 404</p>
+      <p><em>Error: 404</em></p>
     </div>
   </section>
 
 
   <section className="row">
     <div className="column">
-      <p className="description">Perhaps you were looking for one of these pages:</p>
+      <p><em>Perhaps you were looking for one of these pages:</em></p>
         <ul className="ul-small">
           <li><Link to="/">Home page</Link></li>
           <li><Link to="/experience">Experience and skills</Link></li>

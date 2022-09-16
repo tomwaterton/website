@@ -1,32 +1,81 @@
 /* Footer background */
-.bg-footer-700 {
+.footer {
     background-color: #e0e0e0;
 }
 
-/* For the footer text bottom-left */
-.footer-copyright, .footer-info a {
-  color: dimgrey;
+.footerContainer {
+  text-align: center;
+  padding: 1.5rem;
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
 }
 
-.footer-info {
+.footerContainer2 {
+  width: 100%;
+  display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* For screens smaller than 768, flex-column */
+@media only screen and (max-width: 767px) {
+  .footerContainer2 {flex-wrap: wrap;}
+}
+
+.footerContainer3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: .875rem;
+  align-items: center;
+}
+
+/* For screens 768 and larger, flex-row */
+@media only screen and (min-width: 768px) {
+  .footerContainer3 {flex-direction: row;}
+} 
+
+.socialMediaContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* For the footer text bottom-left */
+.footerCopyright, .footerInfo a {
+  color: dimgrey;
+  white-space: nowrap;
+}
+
+.footerInfo {
+  width: 100%;
   padding: 8px;
 }
 
-.footer-info a:hover {
+.footerInfo a:hover {
   color: #505050;
 }
 
 /* For the social media icons/links bottom-right */
-.social-media img {
+.socialMedia {
+  width: 100%;
+}
+
+.socialMedia img {
     max-width: 32px;
 }
 
-.social-media ul {
+.socialMedia ul {
     padding: 10px 0 0 0;
     display:inline-flex;
 }
 
-.social-media li {
+.socialMedia li {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     list-style: none;

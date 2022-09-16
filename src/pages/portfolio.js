@@ -19,8 +19,7 @@ function PortfolioPage() {
 <section className="row">
     <div className="column">
       <h1>Portfolio</h1>
-      <p className="description">Examples of some of my recent work. (You may also be interested in reading 
-      about my <Link to="/experience">experience and skills</Link>.)</p>
+      <p><em>Examples of some of my recent work. (You may also be interested in reading about my <Link to="/experience">experience and skills</Link>.)</em></p>
     </div>
   </section>
 </ContentWidth>
@@ -33,7 +32,7 @@ function PortfolioPage() {
     </div>
   </section>
   <section className="row">
-  <div className="column">
+    <div className="column">
       <img className="panel-images"
         alt="Screenshot of the IBM Event Streams UI"
         src={ES_UI_image}
@@ -83,7 +82,7 @@ function PortfolioPage() {
         alt="Screenshot of the IBM Carbon Design System"
         src={Carbon_image}
       />
-      <p className="caption-text">Carbon Design System > <a href="https://www.carbondesignsystem.com/guidelines/content/overview">Content guidelines</a></p>
+      <p className="caption-text">Carbon Design System &gt; <a href="https://www.carbondesignsystem.com/guidelines/content/overview">Content guidelines</a></p>
     </div>
   </section>
 </ContentWidth>
@@ -96,7 +95,7 @@ function PortfolioPage() {
     </div>
   </section>
   <section className="row">
-  <div className="column">
+    <div className="column">
       <img className="panel-images"
         alt="Screenshot of our IBM Content Design Guild Slack channel"
         src={CD_Guild_image}

@@ -4,3 +4,21 @@
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
 }
+
+.orangeBorders {
+  padding: 0.75rem;
+  height: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0.5rem;
+}
+
+.orangeBorders:hover {
+  border-color: #fbd38d;
+  background-color: #fffaf0;
+}
+
+.orangeBorders p {
+  font-size: .875rem;
+  margin-top: 0.4rem
+}

@@ -14,18 +14,17 @@ function IndexPage() {
       />
 
   <ContentWidth>
-      <section className="text-center max-w-xl mx-auto">
+      <section className="homeBody">
         <img
-          alt=" "
-          className="block mx-auto max-w-xs pb-8"
+          alt=""
           src={TomPhoto}
         />
 
         <h1 className="padding-bottom-small">
           Hi, I'm Tom.
         </h1>
-        <p className="text-xl padding-bottom-small">I'm an experienced <Link to="/experience">Content Designer</Link>.</p>
-        <p className="text-xl padding-bottom-small">I currently work for <a href="https://www.ibm.com/design/">IBM Design</a> and live in Hampshire, UK.</p>
+        <p className="padding-bottom-small">I'm an experienced <Link to="/experience">Content Designer</Link>.</p>
+        <p className="padding-bottom-small">I currently work for <a href="https://www.ibm.com/design/">IBM Design</a> and live in Hampshire, UK.</p>
       </section>
 
       </ContentWidth>

@@ -18,12 +18,12 @@ function ExperiencePage() {
   <section className="row">
       <div className="column">
       <h1>Experience and skills</h1>
-        <p className="description">I'm an experienced content designer, having been one of the first 
+        <p><em>I'm an experienced content designer, having been one of the first 
         hired by IBM. If you're not familiar with this term, think of me as a designer 
-        with a specialism in writing and communication.</p>
-        <p className="description">I'm used to working highly collaboratively, most commonly with other designers, 
-        researchers, and engineers. To my mind, content and design are as inseparable as tea and biscuits.</p>
-        <p className="description">You can read more about what I do and what I've learned along the way in the following articles and links:</p>
+        with a specialism in writing and communication.</em></p>
+        <p><em>I'm used to working highly collaboratively, most commonly with other designers, 
+        researchers, and engineers. To my mind, content and design are as inseparable as tea and biscuits.</em></p>
+        <p><em>You can read more about what I do and what I've learned along the way in the following articles and links:</em></p>
         <ul>
           <li><a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a content designer</a> (article)</li>
           <li><a href="https://workingincontent.com/resources/inside-content-design-at-ibm/">Inside content design at IBM</a> (interview article)</li>

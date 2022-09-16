@@ -1,0 +1,19 @@
+.homeBody {
+  text-align: center;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeBody img {
+  display: block;
+  height: auto;
+  max-width: 20rem;
+  margin: auto;
+  vertical-align: middle;
+  padding-bottom: 2rem;
+}
+
+.homeBody p {
+  font-size: 1.25rem;
+}

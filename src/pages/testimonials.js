@@ -33,14 +33,14 @@ function TestimonialsPage() {
         <p className="attribution-name">— Jeremy Burton</p>
         <p className="attribution-role">Former Senior UX and Content Designer at IBM<br/>Now Senior Content and UX Designer at Mural</p>
       </div>
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto" alt="Quotation mark image" src={QuoteRight} />
+      <div className="column-no-padding">
+        <img className="quote-mark" alt="Quotation mark image" src={QuoteRight} />
       </div>
     </section>
 
     <section className="row">
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto hide-small" alt="Quotation mark image" src={QuoteLeft} />
+      <div className="column-no-padding">
+        <img className="quote-mark hide-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
       <div className="column">
         <p className="testimonial">&ldquo;Tom is the best and brightest IBM has to offer as their top content 
@@ -57,8 +57,8 @@ function TestimonialsPage() {
         <p className="attribution-name">— Allison Biesboer</p>
         <p className="attribution-role">Former Content Designer and Strategist at IBM<br/>Now Sr. Staff Content Designer and Manager at Visa</p>
       </div>
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto show-small" alt="Quotation mark image" src={QuoteLeft} />
+      <div className="column-no-padding">
+        <img className="quote-mark show-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
     </section>
 
@@ -77,14 +77,14 @@ function TestimonialsPage() {
         <p className="attribution-name">— Peter Loveland</p>
         <p className="attribution-role">Former UI/UX Designer at IBM<br/>Now Senior Product Designer at GitHub</p>
       </div>
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto" alt="Quotation mark image" src={QuoteRight} />
+      <div className="column-no-padding">
+        <img className="quote-mark" alt="Quotation mark image" src={QuoteRight} />
       </div>
     </section>
 
     <section className="row">
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto hide-small" alt="Quotation mark image" src={QuoteLeft} />
+      <div className="column-no-padding">
+        <img className="quote-mark hide-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
       <div className="column">
         <p className="testimonial">&ldquo;Tom is a pleasure to work with. He designs experiences 
@@ -95,8 +95,8 @@ function TestimonialsPage() {
         <p className="attribution-name">— Esteban Pérez-Hemminger</p>
         <p className="attribution-role">Former Design Lead at IBM<br/>Now UX Design Lead at Google</p>
       </div>
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto show-small" alt="Quotation mark image" src={QuoteLeft} />
+      <div className="column-no-padding">
+        <img className="quote-mark show-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
     </section>
 
@@ -110,14 +110,14 @@ function TestimonialsPage() {
         <p className="attribution-name">— Barry Gunner</p>
         <p className="attribution-role">IBM Software Engineer</p>
       </div>
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto" alt="Quotation mark image" src={QuoteRight} />
+      <div className="column-no-padding">
+        <img className="quote-mark" alt="Quotation mark image" src={QuoteRight} />
       </div>
     </section>
 
     <section className="row">
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto hide-small" alt="Quotation mark image" src={QuoteLeft} />
+      <div className="column-no-padding">
+        <img className="quote-mark hide-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
       <div className="column">
         <p className="testimonial">&ldquo;It has been a pleasure working with you. Thank you for the time 
@@ -128,8 +128,8 @@ function TestimonialsPage() {
         <p className="attribution-name">— Janene Franke</p>
         <p className="attribution-role">Program Manager, IBM Technical Content Transformation</p>
       </div>
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto show-small" alt="Quotation mark image" src={QuoteLeft} />
+      <div className="column-no-padding">
+        <img className="quote-mark show-small" alt="Quotation mark image" src={QuoteLeft} />
       </div>
     </section>
 
@@ -140,8 +140,8 @@ function TestimonialsPage() {
         <p className="attribution-name">— Madison Heck</p>
         <p className="attribution-role">Former Product Manager at IBM<br/>Now Senior Product Manager at CollegeVine</p>
       </div>
-      <div className="column-no-padding m-auto">
-        <img className="quote-mark m-auto" alt="Quotation mark image" src={QuoteRight} />
+      <div className="column-no-padding">
+        <img className="quote-mark" alt="Quotation mark image" src={QuoteRight} />
       </div>
     </section>
   </ContentWidth>

@@ -26,9 +26,9 @@ function Crossword_08Page() {
     <div className="column">
       <h2 className="do-not-print">Cryptic crossword #08</h2>
 
-      <p className="description do-not-print">If you have any feedback on this crossword or would like clues or answers, 
+      <p className="do-not-print"><em>If you have any feedback on this crossword or would like clues or answers, 
         do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crossword%20number_08">
-        get in touch</a> with me.
+        get in touch</a> with me.</em>
       </p>
 
       <button className="button do-not-print" onClick={() => printPage()}>
