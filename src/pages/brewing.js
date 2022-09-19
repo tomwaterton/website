@@ -53,7 +53,7 @@ function BrewingPage() {
             <p>Finally, yeast is added to ferment the brew — that is, turn the sugars into carbon dioxide and alcohol.</p>
           <img
             alt="Photo of my brewing kit"
-            className="brewing-images"
+            className="inTilePhoto"
             src={brewing_kit_photo}
           />
       </div>
@@ -67,7 +67,7 @@ function BrewingPage() {
             <p>Sometimes I also add fruit (orange peel, grapefruit, hawthorn berries, etc.).</p>
           <img
             alt="Photo of adding hops to the wort"
-            className="brewing-images"
+            className="inTilePhoto"
             src={adding_hops_photo}
           />
       </div>
@@ -81,13 +81,13 @@ function BrewingPage() {
             <p>It's then onto the next brew...</p>
           <img
             alt="Photo of beer glasses"
-            className="brewing-images"
+            className="inTilePhoto"
             src={sharing_beer_photo}
           />
       </div>
     </div>
 
-    <div className="column-1-3">
+    <div className="column-1-3 hiddenSpacer2">
         <p>&nbsp;</p>
     </div>
 

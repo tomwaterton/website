@@ -19,12 +19,12 @@ function FamilyPage() {
     <div className="column">
       <h1>Family</h1>
       <p><em>Family. There's nothing quite like it. 
-      A collection of people closely connected by genetics, home life, and very often 
-      all manner of endearing eccentricities.</em></p>
-      <p><em>So much else can and does change in life, but family remains, well, family. 
-      We share moments of joy, sadness, excitement, and cake.</em></p>
+      A collection of people closely connected by genetics, name, home life, and all manner of 
+      endearing eccentricities.</em></p>
+      <p><em>So much else can and often does change in life, but family remains, well, family. 
+      We share moments of joy, sadness, excitement, and laughter.</em></p>
       <p><em>My family means everything to me. They're my fellow adventurers in life 
-      and they continue to surprise, delight, amuse, and inspire me.</em></p>
+      and they continue to surprise, delight, amuse, and inspire me. Here they are.</em></p>
     </div>
     <div className="column">
       <img
@@ -75,7 +75,7 @@ function FamilyPage() {
       </div>
     </div>
 
-    <div className="column-1-3 hiddenSpacer1 md:hidden sm:hidden xs:hidden">
+    <div className="column-1-3 hiddenSpacer1">
       <p>&nbsp;</p>
     </div>
 
@@ -86,18 +86,18 @@ function FamilyPage() {
             <p>Likes people, dogs, walks, sticks, sausages.</p>
             <img
               alt="Photo of our dog, Tiffin"
-              className="do-not-print border-solid border-1 border-grey-600 rounded-lg my-2"
+              className="do-not-print inTilePhoto"
               src={dog_photo}
             />
             <p>Often found: wherever there's people or food.</p>
       </div>
     </div>
 
-    <div className="column-1-3 hiddenSpacer2 sm:hidden xs:hidden">
+    <div className="column-1-3 hiddenSpacer2">
       <p>&nbsp;</p>
     </div>
 
-    <div className="column-1-3 hiddenSpacer2 sm:hidden xs:hidden">
+    <div className="column-1-3 hiddenSpacer2">
       <p>&nbsp;</p>
     </div>
 

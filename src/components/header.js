@@ -15,7 +15,7 @@ function Header() {
   `);
 
   return (
-    <header className="headerWrapper">
+    <header className="headerWrapper do-not-print">
       <div className="headerContainer">
 
         <div className="homeIcon">

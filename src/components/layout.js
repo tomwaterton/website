@@ -16,7 +16,7 @@ function Layout(props) {
         {props.children}
       </main>
 
-      <footer className="footer">
+      <footer className="footer do-not-print">
         <div className="footerContainer">
             <div className="footerContainer2">
               <div className="footerContainer3">

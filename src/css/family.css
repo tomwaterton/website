@@ -7,13 +7,3 @@
     padding-bottom: 6px;
     color: #696969;
 }
-
-/* Break point style to hide the hidden spacer at smaller screens */
-@media only screen and (max-width: 799px) {
-   .hiddenSpacer1 {display: none;}
-  }
-
-/* Break point style to hide the hidden spacer at smaller screens */
-@media only screen and (max-width: 539px) {
-  .hiddenSpacer2 {display: none;}
-  }

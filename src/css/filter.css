@@ -31,35 +31,26 @@
   font-weight: 300;
 }
 
-/* Add a light grey background on mouse-over */
-.btn:hover {
-  background-color: #f6e05e;
-  box-shadow: 3px 3px 4px -1px grey;
-}
-
 /* Needed to get the active state grey to persist */
 .btn:focus, .btn:active {
   outline: none;
-  border: solid 1px #b0b0b0;
-  background-color: #c0c0c0 !important;
+  border: 1.5px solid grey;
   box-shadow: 3px 3px 4px -1px grey;
 }
 
 /* Needed to get the active state grey to persist */
 .active, .focus {
   outline: none;
-  border: 1px solid grey;
-  background-color: #b0b0b0 !important;
+  border-color: #fbd38d !important;
+  background-color: #f6e05e !important;
   box-shadow: 3px 3px 4px -1px grey;
 }
 
-/* Add a dark background to the active button */
-/*
-.btn.active {
-  background-color: #666;
-  color: white;
+/* Add yellow background color and grey shadow on hover */
+.btn:hover {
+  background-color: #f6e05e;
+  box-shadow: 3px 3px 4px -1px grey;
 }
-*/
 
 /* To display or hide article blocks */
 .container .filterDiv {
