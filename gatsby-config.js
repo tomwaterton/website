@@ -20,9 +20,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          // "G-FLF83ZC9XP", // My new Google GA4 tracking ID
-          // "268137405", // Property ID added 18 Sep 2022
-          // "G-LTGBY7DN1E" // Added 21 Sep 2022 (stream ID 3272363831)
+          "G-LTGBY7DN1E", // Added 21 Sep 2022 (stream ID 3272363831)
           "G-FLF83ZC9XP" // Added 21 Sep 2022 (2411352490)
         ],
         // This object gets passed directly to the gtag config command
