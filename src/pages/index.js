@@ -1,5 +1,6 @@
-import { Link } from 'gatsby';
 import React from "react";
+import { SEO } from "../components/seo";
+import { Link } from 'gatsby';
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
@@ -33,3 +34,7 @@ function IndexPage() {
 }
 
 export default IndexPage;
+
+export const Head = () => (
+  <SEO />
+)
