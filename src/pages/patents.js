@@ -149,6 +149,7 @@ const PatentsPage = ({ data }) => {
             <h2>IBM Master Inventor</h2>
             <p><em>In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
             recognition of my ongoing contribution to IBM's patent portfolio and invention community.</em></p>
+            <p><em>My Google Scholar profile can be found <a href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en">here</a>.</em></p>
           </div>
         </section>
 
