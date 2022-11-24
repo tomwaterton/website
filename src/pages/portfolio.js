@@ -5,6 +5,7 @@ import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import ES_UI_image from "../images/portfolio/Event_Streams_UI.png";
 import Carbon_image from "../images/portfolio/Carbon.png";
+import UX_writing_course_image from "../images/portfolio/ux_writing_course.png";
 import CD_Guild_image from "../images/portfolio/CD_Guild.png";
 
 function PortfolioPage() {
@@ -25,7 +26,7 @@ function PortfolioPage() {
 </ContentWidth>
 
 
-<ContentWidth bgColour="1">
+<ContentWidth bgColour="3">
   <section className="row">
     <div colspan="2" className="column panel">
       <h2>Helping product teams deliver great content</h2>
@@ -43,7 +44,7 @@ function PortfolioPage() {
       <ul>
         <li>I work with lots of different IBM product teams. For example, in 2019, I joined 
            the <span className="strong">IBM Event Streams</span> team for 5 months.</li>
-          <li>I worked with colleagues from marketing, engineering, product management, design, and sales to understand our 
+        <li>I worked with colleagues from marketing, engineering, product management, design, and sales to understand our 
             customers' end-to-end experience.</li>
         <li>I ran a content audit to help the team work out what content they already had published, what user needs it 
           addressed, and what needed removing, updating, or creating.</li>
@@ -61,7 +62,7 @@ function PortfolioPage() {
 <ContentWidth bgColour="2">
   <section className="row">
     <div colspan="2" className="column panel">
-      <h2>Writing content guidance for IBM</h2>
+      <h2>Defining content guidance for IBM</h2>
     </div>
   </section>
   <section className="row">
@@ -72,7 +73,7 @@ function PortfolioPage() {
         <li>I then focused on how we could best design and deliver the guidance so that it would be fun, useful, 
           and easy to use. (I've written a little about this process in <a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">this article</a>.)</li>
         <li>Later, as IBM moved to using the awesome <a href="https://www.carbondesignsystem.com/">Carbon Design System</a> for 
-        all of its new product UIs, I began contributing significantly to the <a href="https://www.carbondesignsystem.com/guidelines/content/overview">content guidelines</a> within Carbon.</li>
+        all of its product UIs, I began contributing to the <a href="https://www.carbondesignsystem.com/guidelines/content/overview">content guidelines</a> within Carbon.</li>
         <li>This is something that I and others continue to evolve — inspired by the knowledge that Carbon is used 
           by hundreds of IBM product teams, as well as many outside of IBM.</li>
       </ul>
@@ -87,21 +88,41 @@ function PortfolioPage() {
   </section>
 </ContentWidth>
 
+<ContentWidth bgColour="1">
+  <section className="row">
+    <div colspan="2" className="column panel">
+      <h2>Delivering UX writing education for IBM designers</h2>
+    </div>
+  </section>
+  <section className="row">
+    <div className="column">
+      <img className="panel-images"
+        alt="Screenshot of the IBM UX writing course"
+        src={UX_writing_course_image}
+      />
+      <p className="caption-text">The IBM UX writing course that I published in late 2022</p>
+    </div>
+    <div className="column panel medium-text">
+      <ul>
+        <li>IBM has a community of over 3,000 designers. And while we have some dedicated content designers (like me!), 
+          many design teams don't have access to a content specialist.</li>
+        <li>So, in 2022, I was asked to create a self-service online education course to help our many talented UX designers, 
+          visual designers, design researchers, and other design colleauges further improve their own UX writing skills.</li>
+        <li>After getting input from a variety of design colleagues, I came up with a course outline that mapped to both our 
+          Carbon content guidelines and to the content heuristics used in our internal product design reviews.</li>
+        <li>As I researched and drafted each module I then sought feedback from some early adopters, which enabled me to further refine the contents.</li>
+      </ul>
+    </div>
+  </section>
+</ContentWidth>
 
-<ContentWidth bgColour="3">
+<ContentWidth bgColour="2">
   <section className="row">
     <div colspan="2" className="column panel">
       <h2>Leading a community of practice</h2>
     </div>
   </section>
   <section className="row">
-    <div className="column">
-      <img className="panel-images"
-        alt="Screenshot of our IBM Content Design Guild Slack channel"
-        src={CD_Guild_image}
-      />
-      <p className="caption-text">Our IBM Content Design Guild Slack channel</p>
-    </div>
     <div className="column panel medium-text">
       <ul>
         <li>As recently as 2018, many people in IBM hadn't even heard of a content designer let alone worked with one.</li>
@@ -113,6 +134,13 @@ function PortfolioPage() {
           different aspects of content design.</li>
         <li>It continues to be a real pleasure co-leading this wonderful and growing content community.</li>
       </ul>
+    </div>
+    <div className="column">
+      <img className="panel-images"
+        alt="Screenshot of our IBM Content Design Guild Slack channel"
+        src={CD_Guild_image}
+      />
+      <p className="caption-text">Our IBM Content Design Guild Slack channel</p>
     </div>
   </section>
 </ContentWidth>
