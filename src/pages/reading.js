@@ -105,14 +105,18 @@ function ReadingPage() {
           */}
           {/* 
           To add when read: 
+          - Writing is Designing (2020) by Michael Metts and Andy Wlfle
+            https://rosenfeldmedia.com/books/writing-is-designing/
+          - Information Anxiety 2 (2001) by Richard Saul Wurman
+            https://www.amazon.co.uk/Information-Anxiety-2-Hayden-Que/dp/0789724103
           - Writing for Designers (2018) by Scott Kubie
-            https://abookapart.com/products/writing-for-designers 
+            https://abookapart.com/products/writing-for-designers
           - Leading Content Design by Rachel McConnell
-	          https://abookapart.com/products/leading-content-design 
+	          https://abookapart.com/products/leading-content-design
           - Content Strategy for Mobile by Karen McGrane
-	          https://abookapart.com/products/content-strategy-for-mobile 
+	          https://abookapart.com/products/content-strategy-for-mobile
           - Conversational Design by Erika Hall
-	          https://abookapart.com/products/conversational-design 
+	          https://abookapart.com/products/conversational-design
           */}
         </ul>
     </div>

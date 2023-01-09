@@ -48,7 +48,15 @@ const PatentsPage = ({ data }) => {
             <h2>Other (non-patented) inventions</h2>
             <p><em>I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</em></p>
             <ol reversed className="publish-list">
-            <li>
+              {/* <li>
+                <a href="???">???</a>
+                <span className="date">(Jan ??, 2023)</span>
+              </li> */}
+              <li>
+                <a href="https://priorart.ip.com/IPCOM/00271404D">Automatically closing browser tabs that have become redundant based on event metadata</a>
+                <span className="date">(Dec 06, 2022)</span>
+              </li>
+              <li>
                 <a href="https://priorart.ip.com/IPCOM/00270899D">Method to automate closure of related tabs when a purchase is made in a browser</a>
                 <span className="date">(Sep 08, 2022)</span>
               </li>
