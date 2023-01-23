@@ -33,7 +33,7 @@ const PatentsPage = ({ data }) => {
         <section className="row">
           <div className="column">
             <h1>Patents</h1>
-            <p><em>I enjoy inventing and have the following patents issued (with a further 5 patents pending).</em></p>
+            <p><em>I enjoy inventing and have the following patents issued (with a further 4 patents pending).</em></p>
           </div>
         </section>
 
@@ -52,6 +52,10 @@ const PatentsPage = ({ data }) => {
                 <a href="???">???</a>
                 <span className="date">(Jan ??, 2023)</span>
               </li> */}
+              <li>
+                <a href="https://priorart.ip.com/IPCOM/00271570D">A trusted personal assistant that augments questions and responses to/from other third-party assistants while protecting the user’s personal data</a>
+                <span className="date">(Jan 11, 2023)</span>
+              </li>
               <li>
                 <a href="https://priorart.ip.com/IPCOM/00271404D">Automatically closing browser tabs that have become redundant based on event metadata</a>
                 <span className="date">(Dec 06, 2022)</span>
