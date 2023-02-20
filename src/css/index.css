@@ -3,15 +3,27 @@
   max-width: 36rem;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 .homeBody img {
   display: block;
   height: auto;
-  max-width: 20rem;
+  max-width: 24rem;
   margin: auto;
   vertical-align: middle;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+}
+
+/* Setting the header font size for smaller screen sizes */
+@media only screen and (max-width: 767px) {
+  .homeBody img {max-width: 20rem;}
+}
+
+/* Setting the header font size for smaller screen sizes */
+@media only screen and (max-width: 639px) {
+  .homeBody img {max-width: 16rem;}
 }
 
 .homeBody p {

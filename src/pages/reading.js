@@ -17,14 +17,14 @@ function ReadingPage() {
   <section className="row">
     <div className="column books">
       <h1>Reading</h1>
-      <p><em>I'm an incurable bookworm so I always have at least one book on the go. 
+      <p><em>I’m an incurable bookworm so I always have at least one book on the go. 
       Here are some highlights from the last few years.</em></p>
         <ul className="ul-small do-not-print">
           <li><a href="#content">Content design / writing books</a></li>
           <li><a href="#non-fiction">Design / growth / leadership books</a></li>
           <li><a href="#novels">Novels</a></li>
         </ul>
-        <p><em>For each book I've provided a link to further information 
+        <p><em>For each book I’ve provided a link to further information 
         and written a one-sentence description.</em></p>
     </div>
     <div className="column">
@@ -59,7 +59,7 @@ function ReadingPage() {
           <li>
               <a href="https://en.wikipedia.org/wiki/On_Writing:_A_Memoir_of_the_Craft">On Writing: A Memoir of the Craft</a> (2000; revised 2020)
               <span className="black-text"> by Stephen King</span>
-              <p>Part memoir, part writing masterclass, and an all round entertaining read (as you'd expect).</p>
+              <p>Part memoir, part writing masterclass, and an all round entertaining read (as you’d expect).</p>
           </li>
           <li>
               <a href="https://www.penguinrandomhouse.com/books/93789/several-short-sentences-about-writing-by-verlyn-klinkenborg/">Several short sentences about writing</a> (2012)
@@ -84,26 +84,29 @@ function ReadingPage() {
           <li>
               <a href="https://en.wikipedia.org/wiki/The_Elements_of_Style">The Elements of Style</a> (1918; revised 2018)
               <span className="black-text"> by William Strunk Jr.</span>
-              <p>One of the definitive books on writing style that's still useful 100 years on.</p>
+              <p>One of the definitive books on writing style that’s still useful 100 years on.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Eats,_Shoots_%26_Leaves">Eats, Shoots & Leaves</a> (2003)
               <span className="black-text"> by Lynne Truss</span>
               <p>A fun book about the importance of punctuation in everyday writing.</p>
           </li>
+          <li>
+              <a href="https://www.amazon.co.uk/Information-Anxiety-2-Hayden-Que/dp/0789724103">Information Anxiety 2</a> (2001)
+              <span className="black-text"> by Richard Saul Wurman</span>
+              <p>???</p>
+          </li>
           {/* 
           <li>
               <a href="">???</a>
-              <span className="black-text"> by ???</span>
+              <span className="black-text"> by ???</span> (????)
               <p>???</p>
-          </li> 
+          </li>
           */}
           {/* 
           To add when read: 
           - Writing is Designing (2020) by Michael Metts and Andy Welfle
             https://rosenfeldmedia.com/books/writing-is-designing/
-          - Information Anxiety 2 (2001) by Richard Saul Wurman
-            https://www.amazon.co.uk/Information-Anxiety-2-Hayden-Que/dp/0789724103
           - Writing for Designers (2018) by Scott Kubie
             https://abookapart.com/products/writing-for-designers
           - Leading Content Design by Rachel McConnell
@@ -132,13 +135,15 @@ function ReadingPage() {
         <h3>And on my "to-read" pile...</h3>
         <ul>
           <li><em>The Content Strategy Toolkit</em> (2015) by Meghan Casey</li>
-          <li><em>Conversational Design</em> by Erika Hall</li>
+          <li><em>Conversational Design</em> (2018) by Erika Hall</li>
           <li><em>Writing for Designers</em> (2018) by Scott Kubie</li>
-          <li><em>Leading Content Design</em> by Rachel McConnell</li>
-          <li><em>Content Strategy for Mobile</em> by Karen McGrane</li>
+          <li><em>Leading Content Design</em> (2022) by Rachel McConnell</li>
+          <li><em>Content Strategy for Mobile</em> (2012) by Karen McGrane</li>
           <li><em>Writing is Designing</em> (2020) by Michael Metts and Andy Welfle</li>
-          <li><em>Information Anxiety 2</em> (2001) by Richard Saul Wurman</li>
         </ul>
+      </div>
+      <div className="backToTop">
+        <a href="#">&uarr; Back to top</a>
       </div>
   </section>
 
@@ -205,7 +210,7 @@ function ReadingPage() {
           <li>
               <a href="http://freakonomics.com/books/">Freakonomics</a> (2005) and <a href="http://freakonomics.com/books/">SuperFreakonomics</a> (2009)
               <span className="black-text"> by Steven D. Levitt and Stephen J. Dubner</span>
-              <p>Applying economic theories to some of life's many riddles, such as why do drug dealers still live at home with their moms?</p>
+              <p>Applying economic theories to some of life’s many riddles, such as why do drug dealers still live at home with their moms?</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things">The Design of Everyday Things</a> (1988)
@@ -242,18 +247,37 @@ function ReadingPage() {
           <li><em>Eat that Frog!</em> (2001) by Brian Tracy</li>
         </ul>
       </div>
+      <div className="backToTop">
+        <a href="#">&uarr; Back to top</a>
+      </div>
   </section>
+
 
   <section className="row">
     <div className="column">
       <h2><a id="novels"></a>Novels</h2>
-      <p><em>There are so many novels that I love, but to prevent you scrolling for ever I've limited myself to 20 novels here.</em></p>
+      <p><em>There are so many novels that I love, but to prevent you scrolling for ever, I’ve limited myself to listing 25 here.</em></p>
       <div className="books">
         <ul>
+          <li>
+              <a href="https://en.wikipedia.org/wiki/Pride_and_Prejudice">Pride and Prejudice</a> (1813)
+              <span className="black-text"> by Jane Austen</span>
+              <p>Classic will-they, won’t-they Regency romance novel, with great characters and perfectly plotted. </p>
+          </li>
+          <li>
+              <a href="https://en.wikipedia.org/wiki/Great_Expectations">Great Expectations</a> (1860-61)
+              <span className="black-text"> by Charles Dickens</span>
+              <p>A brilliant coming-of-age tale about an orphan, an eccentric spinster, and her beautiful but cold adopted daughter. </p>
+          </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/My_Family_and_Other_Animals">My Family and Other Animals</a> (1956)
               <span className="black-text"> by Gerald Durrell</span>
               <p>The adventures of the young naturalist as he and his eccentric family moved from England to Corfu in the 1930s.</p>
+          </li>
+          <li>
+              <a href="https://en.wikipedia.org/wiki/Middlemarch">Middlemarch</a> (1871-72)
+              <span className="black-text"> by George Eliot</span>
+              <p>A sprawling novel about a fictional English town and the various interactions of its many inhabitants.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/The_Great_Gatsby">The Great Gatsby</a> (1925)
@@ -264,6 +288,11 @@ function ReadingPage() {
               <a href="https://en.wikipedia.org/wiki/Tender_Is_the_Night">Tender is the Night</a> (1934)
               <span className="black-text"> by F. Scott Fitzgerald</span>
               <p>The Great Gatsby is Fitzgerald’s most famous work, but Tender is, I think, perhaps an even greater achievement.</p>
+          </li>
+          <li>
+              <a href="https://en.wikipedia.org/wiki/The_Good_Soldier">The Good Soldier</a> (1915)
+              <span className="black-text"> by Ford Madox Ford</span>
+              <p>Another peculiarly English novel featuring an unreliable narrator and a treat of pioneering literary impressionism.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Howards_End">Howards End</a> (1910)
@@ -301,14 +330,14 @@ function ReadingPage() {
               <p>Of all McEwan’s many fine novels, this is my firm favorite.</p>
           </li>
           <li>
-              <a href="https://en.wikipedia.org/wiki/The_Good_Soldier">The Good Soldier</a> (1915)
-              <span className="black-text"> by Ford Madox Ford</span>
-              <p>Another peculiarly English novel featuring an unreliable narrator and a treat of pioneering literary impressionism.</p>
-          </li>
-          <li>
               <a href="https://en.wikipedia.org/wiki/Wolf_Hall">Wolf Hall</a> (2009)
               <span className="black-text"> by Hilary Mantel</span>
               <p>If you’re into historical fiction, you’ll love this — and if you’re not into historical fiction you will also love this!</p>
+          </li>
+          <li>
+              <a href="https://en.wikipedia.org/wiki/Under_the_Net">Under the Net</a> (1954)
+              <span className="black-text"> by Iris Murdoch</span>
+              <p>A philosophical yet comic debut novel exploring love, work, wealth, fame, and meaning.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Lolita">Lolita</a> (1955)
@@ -316,9 +345,14 @@ function ReadingPage() {
               <p>Worth reading for the dazzling brilliance of the writing; one of the worlds greatest stylist at the height of his powers.</p>
           </li>
           <li>
+              <a href="https://en.wikipedia.org/wiki/The_English_Patient">The English Patient</a> (1992)
+              <span className="black-text"> by Michael Ondaatje</span>
+              <p>A complex novel told by multiple charcters whose lives briefly overlap at an Italian villa duing the Secord World War.</p>
+          </li>
+          <li>
               <a href="https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye">The Catcher in the Rye</a> (1951)
               <span className="black-text"> by J. D. Salinger</span>
-              <p>A critique on all that's "phony" in society, told by 17-year-old Holden Caulfield; once read, never forgotten.</p>
+              <p>A critique on all that’s "phony" in society, told by 17-year-old Holden Caulfield; once read, never forgotten.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/East_of_Eden_(novel)">East of Eden</a> (1952)
@@ -352,7 +386,20 @@ function ReadingPage() {
           </li>
         </ul>
       </div>
+
     </div>
+  </section>
+
+  <section>
+      <div className="booksToRead">
+      <h3>And on my "to-read" pile...</h3>
+        <ul>
+          <li><em>Far too many novels to mention! 📚</em></li>
+        </ul>
+      </div>
+      <div className="backToTop">
+        <a href="#">&uarr; Back to top</a>
+      </div>
   </section>
 
   </ContentWidth>
