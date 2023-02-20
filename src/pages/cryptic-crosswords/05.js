@@ -17,11 +17,6 @@ function Crossword_05Page() {
       />
 
 <ContentWidth>
-<div className="print-only">
-    A free cryptic crossword by <span className="pseudonym">Meles</span>. 
-    Visit <span className="url">www.tomwaterton.com</span> for more.
-  </div>
-
   <section className="row">
     <div className="column">
       <h2 className="do-not-print">Cryptic crossword #05</h2>

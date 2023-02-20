@@ -15,14 +15,14 @@ function ReadingPage() {
 
 <ContentWidth>
   <section className="row">
-    <div className="column">
+    <div className="column books">
       <h1>Reading</h1>
       <p><em>I'm an incurable bookworm so I always have at least one book on the go. 
       Here are some highlights from the last few years.</em></p>
         <ul className="ul-small do-not-print">
-          <li><a href="#content">Content / writing books</a></li>
-          <li><a href="#non-fiction">Other non-fiction</a></li>
-          <li><a href="#fiction">Fiction</a></li>
+          <li><a href="#content">Content design / writing books</a></li>
+          <li><a href="#non-fiction">Design / growth / leadership books</a></li>
+          <li><a href="#novels">Novels</a></li>
         </ul>
         <p><em>For each book I've provided a link to further information 
         and written a one-sentence description.</em></p>
@@ -39,13 +39,8 @@ function ReadingPage() {
 
   <section className="row">
     <div className="column books">
-      <h2><a id="content"></a>Content / writing books</h2>
+      <h2><a id="content"></a>Content design / writing books</h2>
         <ul>
-          {/* <li>
-              <a href="https://learning.oreilly.com/library/view/the-content-strategy/9780134105116/">The Content Strategy Toolkit</a> (2015)
-              <span className="black-text"> by Meghan Casey</span>
-              <p>???</p>
-          </li> */}
           <li>
               <a href="https://abbycovert.com/make-sense/">How to Make Sense of Any Mess</a> (2014)
               <span className="black-text"> by Abby Covert</span>
@@ -105,7 +100,7 @@ function ReadingPage() {
           */}
           {/* 
           To add when read: 
-          - Writing is Designing (2020) by Michael Metts and Andy Wlfle
+          - Writing is Designing (2020) by Michael Metts and Andy Welfle
             https://rosenfeldmedia.com/books/writing-is-designing/
           - Information Anxiety 2 (2001) by Richard Saul Wurman
             https://www.amazon.co.uk/Information-Anxiety-2-Hayden-Que/dp/0789724103
@@ -119,25 +114,38 @@ function ReadingPage() {
 	          https://abookapart.com/products/conversational-design
           */}
         </ul>
-    </div>
-  </section>
+      </div>
+    </section>
 
-
-  <section className="row">
-    <div className="column">
+    {/* <section className="row">
+    <div className="column books">
       <img
         alt="Photo of some books on writing and content design"
         className="block landscape do-not-print"
         src={Content_books}
       />
-      <p className="imageCaption"><em>I'm a sucker for any book about or related to writing and content design.</em></p>
     </div>
+  </section> */}
+
+  <section>
+      <div className="booksToRead">
+        <h3>And on my "to-read" pile...</h3>
+        <ul>
+          <li><em>The Content Strategy Toolkit</em> (2015) by Meghan Casey</li>
+          <li><em>Conversational Design</em> by Erika Hall</li>
+          <li><em>Writing for Designers</em> (2018) by Scott Kubie</li>
+          <li><em>Leading Content Design</em> by Rachel McConnell</li>
+          <li><em>Content Strategy for Mobile</em> by Karen McGrane</li>
+          <li><em>Writing is Designing</em> (2020) by Michael Metts and Andy Welfle</li>
+          <li><em>Information Anxiety 2</em> (2001) by Richard Saul Wurman</li>
+        </ul>
+      </div>
   </section>
 
 
   <section className="row">
     <div className="column books">
-      <h2><a id="non-fiction"></a>Other non-fiction</h2>
+      <h2><a id="non-fiction"></a>Design / growth / leadership books</h2>
         <ul>
           <li>
               <a href="https://arbinger.com/Landing/LeadershipAndSelfDeception.html">Leadership and Self-Deception</a> (2000)
@@ -223,10 +231,22 @@ function ReadingPage() {
     </div>
   </section>
 
+  <section>
+      <div className="booksToRead">
+      <h3>And on my "to-read" pile...</h3>
+        <ul>
+          <li><em>Getting Things Done</em> (2001) by David Allen</li>
+          <li><em>Made to Stick</em> (2007) by Chip and Dan Heath</li>
+          <li><em>The Laws of Simplicity</em> (2006) by John Maeda</li>
+          <li><em>Start with Why</em> (2009) by Simon Sinek</li>
+          <li><em>Eat that Frog!</em> (2001) by Brian Tracy</li>
+        </ul>
+      </div>
+  </section>
 
   <section className="row">
     <div className="column">
-      <h2><a id="fiction"></a>Fiction</h2>
+      <h2><a id="novels"></a>Novels</h2>
       <p><em>There are so many novels that I love, but to prevent you scrolling for ever I've limited myself to 20 novels here.</em></p>
       <div className="books">
         <ul>
