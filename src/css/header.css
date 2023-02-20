@@ -1,6 +1,8 @@
 /* header banner */
 .headerWrapper {
-  /* background-color: lightblue; */
+  width: -webkit-fill-available;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1rem;
 }
 
@@ -16,13 +18,19 @@
 
 .headerContainer {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  padding: 1rem;
+  padding-top: 2rem;
   max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem;
-  padding-top: 2rem;
+}
+
+.siteLogoAndName {
+  display: flex;
+  align-items: center;
 }
 
 /* The following ensures the site name lines up with content in the main... */
@@ -30,6 +38,7 @@
 .homeIcon {
   padding-left: 10px;
   width: 2rem;
+  /* margin: 0 10px; */
 }
 
 /* Setting the width of the home icon for larger screen sizes */
@@ -38,12 +47,13 @@
 }
 
 .siteName {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 /* Hiding the site name for smaller screen sizes */
 @media only screen and (max-width: 767px) {
   .siteName {display: none;}
+  .verticalDivider {display: none;}
 }
 
 /* The following entry just applies to the site name */
@@ -58,17 +68,6 @@
 
 .verticalDivider {
   color: grey;
-  padding-left: 1.25rem;
-}
-
-/* Setting the vertical divider to have more padding at larger screen sizes */
-@media only screen and (min-width: 1024px) {
-  .verticalDivider {padding-left: 2rem;}
-}
-
-/* Setting the vertical divider to disappear at smaller screen sizes */
-@media only screen and (max-width: 767px) {
-  .verticalDivider {display: none;}
 }
 
 /* The top-left hand navigation menu*/
@@ -76,21 +75,6 @@
   overflow: hidden;
   margin: 0 0.375rem;
   }
-
-/* Setting the navbar left- and right-margin to grow at larger screen sizes */
-@media only screen and (min-width: 1024px) {
-  .navbar {margin: 0 1rem;}
-}
-
-/* Setting the navbar left- and right-margin to grow at larger screen sizes */
-@media only screen and (min-width: 1280px) {
-  .navbar {margin: 0 1.5rem;}
-}
-
-/* Setting the navbar left padding to be less at smaller screen sizes */
-@media only screen and (max-width: 767px) {
-  .nav1 {padding-left: 1rem;}
-}
 
 .navbar a, .dropdown, .dropbtn {
   color: grey;
@@ -132,7 +116,6 @@
 
 .dropdown-content a {
   float: none;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;

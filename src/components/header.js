@@ -18,19 +18,21 @@ function Header() {
     <header className="headerWrapper do-not-print">
       <div className="headerContainer">
 
-        <div className="homeIcon">
-          <Link to="/">
-            <img
-              alt="Typewriter icon"
-              className=""
-              src={TypewriterIllustration}
-            />
-          </Link>
+        <div className="siteLogoAndName">
+          <div className="homeIcon">
+            <Link to="/">
+              <img
+                alt="Typewriter icon"
+                className=""
+                src={TypewriterIllustration}
+              />
+            </Link>
+          </div>
+          <div className="siteName">
+            <Link to="/">tomwaterton.com</Link>
+          </div>
         </div>
 
-        <div className="siteName">
-          <Link to="/">tomwaterton.com</Link>
-        </div>
         <div className="verticalDivider">
           |
         </div>
@@ -59,13 +61,16 @@ function Header() {
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
-              <Link to="/patents">Patents</Link>
-              <Link to="/cryptic-crosswords">Cryptic crosswords</Link>
-              <Link to="/reading">Reading</Link>
               <Link to="/brewing">Brewing</Link>
+              <Link to="/cryptic-crosswords">Crosswords</Link>
               <Link to="/family">Family</Link>
+              <Link to="/patents">Patents</Link>
+              <Link to="/reading">Reading</Link>
             </div>
           </div>
+        </div>
+
+        <div className="spacer">
         </div>
 
       </div>
