@@ -4,6 +4,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
+import MIPhoto from "../images/patents/IBM_Master_Inventor.png";
 
 const PatentsPage = ({ data }) => {
 
@@ -53,7 +54,11 @@ const PatentsPage = ({ data }) => {
                 <span className="date">(Jan ??, 2023)</span>
               </li> */}
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00271570D">A trusted personal assistant that augments questions and responses to/from other third-party assistants while protecting the user’s personal data</a>
+                <a href="https://priorart.ip.com/IPCOM/00271786D">System to enhance messaging platform notification handling based on the current locations of individual users</a>
+                <span className="date">(Feb 09, 2023)</span>
+              </li>
+              <li>
+                <a href="https://priorart.ip.com/IPCOM/00271570D">A trusted personal assistant that augments questions and responses to/from other third-party assistants...</a>
                 <span className="date">(Jan 11, 2023)</span>
               </li>
               <li>
@@ -161,6 +166,13 @@ const PatentsPage = ({ data }) => {
             <h2>IBM Master Inventor</h2>
             <p><em>In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
             recognition of my ongoing contribution to IBM's patent portfolio and invention community.</em></p>
+
+            <img
+              alt="Family photo"
+              className="masterInventor do-not-print"
+              src={MIPhoto}
+            />
+
             <p><em>My Google Scholar profile can be found <a href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en">here</a>.</em></p>
           </div>
         </section>

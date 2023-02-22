@@ -39,7 +39,8 @@ function ReadingPage() {
 
   <section className="row">
     <div className="column books">
-      <h2><a id="content"></a>Content design / writing books</h2>
+      <div id="content" className="anchorLinkSpacer"></div>
+      <h2 id="content">Content design / writing books</h2>
         <ul>
           <li>
               <a href="https://abbycovert.com/make-sense/">How to Make Sense of Any Mess</a> (2014)
@@ -94,7 +95,7 @@ function ReadingPage() {
           <li>
               <a href="https://www.amazon.co.uk/Information-Anxiety-2-Hayden-Que/dp/0789724103">Information Anxiety 2</a> (2001)
               <span className="black-text"> by Richard Saul Wurman</span>
-              <p>???</p>
+              <p>Quite an old book now, but it contains some useful prompts and approaches to organising information.</p>
           </li>
           {/* 
           <li>
@@ -150,7 +151,8 @@ function ReadingPage() {
 
   <section className="row">
     <div className="column books">
-      <h2><a id="non-fiction"></a>Design / growth / leadership books</h2>
+    <div id="non-fiction" className="anchorLinkSpacer"></div>
+      <h2>Design / growth / leadership books</h2>
         <ul>
           <li>
               <a href="https://arbinger.com/Landing/LeadershipAndSelfDeception.html">Leadership and Self-Deception</a> (2000)
@@ -255,7 +257,8 @@ function ReadingPage() {
 
   <section className="row">
     <div className="column">
-      <h2><a id="novels"></a>Novels</h2>
+    <div id="novels" className="anchorLinkSpacer"></div>
+      <h2>Novels</h2>
       <p><em>There are so many novels that I love, but to prevent you scrolling for ever, I’ve limited myself to listing 25 here.</em></p>
       <div className="books">
         <ul>
