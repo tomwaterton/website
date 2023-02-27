@@ -50,7 +50,7 @@
   padding-left: 2rem;
 }
 
-/* Hiding the site name for smaller screen sizes */
+/* Hiding the site name and vertical bar for smaller screen sizes */
 @media only screen and (max-width: 767px) {
   .siteName {display: none;}
   .verticalDivider {display: none;}

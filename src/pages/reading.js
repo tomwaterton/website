@@ -3,7 +3,9 @@ import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import Tom_on_books_photo from "../images/reading/Tom_on_books.jpg";
-import Content_books from "../images/reading/content_books_2.png";
+import Content_books from "../images/reading/content_books.jpeg";
+import Growth_books from "../images/reading/growth_books.jpeg";
+import Novels from "../images/reading/novels.jpeg";
 
 function ReadingPage() {
   return (
@@ -35,7 +37,6 @@ function ReadingPage() {
       />
     </div>
   </section>
-
 
   <section className="row">
     <div className="column books">
@@ -73,6 +74,11 @@ function ReadingPage() {
               <p>Lots of good advice about assessing and developing content maturity, skills, and teams.</p>
           </li>
           <li>
+              <a href="https://rosenfeldmedia.com/books/writing-is-designing/">Writing is Designing</a> (2020)
+              <span className="black-text"> by Michael Metts and Andy Welfle</span>
+              <p>A really helpful book (with an apt title) covering most of the core areas of writing for digital products.</p>
+          </li>
+          <li>
               <a href="https://learning.oreilly.com/library/view/strategic-writing-for/9781492049388/">Strategic Writing for UX</a> (2019)
               <span className="black-text"> by Torrey Podmajersky</span>
               <p>A really practical book on creating frameworks and patterns for creating effective content.</p>
@@ -99,15 +105,13 @@ function ReadingPage() {
           </li>
           {/* 
           <li>
-              <a href="">???</a>
-              <span className="black-text"> by ???</span> (????)
+              <a href="">???</a> (????)
+              <span className="black-text"> by ???</span>
               <p>???</p>
           </li>
           */}
           {/* 
-          To add when read: 
-          - Writing is Designing (2020) by Michael Metts and Andy Welfle
-            https://rosenfeldmedia.com/books/writing-is-designing/
+          To add when read:
           - Writing for Designers (2018) by Scott Kubie
             https://abookapart.com/products/writing-for-designers
           - Leading Content Design by Rachel McConnell
@@ -121,16 +125,6 @@ function ReadingPage() {
       </div>
     </section>
 
-    {/* <section className="row">
-    <div className="column books">
-      <img
-        alt="Photo of some books on writing and content design"
-        className="block landscape do-not-print"
-        src={Content_books}
-      />
-    </div>
-  </section> */}
-
   <section>
       <div className="booksToRead">
         <h3>And on my "to-read" pile...</h3>
@@ -140,12 +134,21 @@ function ReadingPage() {
           <li><em>Writing for Designers</em> (2018) by Scott Kubie</li>
           <li><em>Leading Content Design</em> (2022) by Rachel McConnell</li>
           <li><em>Content Strategy for Mobile</em> (2012) by Karen McGrane</li>
-          <li><em>Writing is Designing</em> (2020) by Michael Metts and Andy Welfle</li>
         </ul>
       </div>
-      <div className="backToTop">
-        <a href="#">&uarr; Back to top</a>
-      </div>
+  </section>
+
+  <section>
+    <div className="column">
+      <img
+        alt="Photo of some of the content design / writing books I've enjoyed reading recently"
+        className="block panel-images do-not-print"
+        src={Content_books}
+      />
+    </div>
+    <div className="backToTop">
+      <a href="#">&uarr; Back to top</a>
+    </div>
   </section>
 
 
@@ -160,9 +163,9 @@ function ReadingPage() {
               <p>I’m fascinated by the extent to which we tend to deceive ourselves, so was naturally drawn to this intriguing volume.</p>
           </li>
           <li>
-              <a href="https://www.amazon.co.uk/Rising-Strong-Bren%C3%A9-Brown/dp/0091955033">Rising Strong</a> (2015)
+              <a href="https://www.amazon.co.uk/Rising-Strong-Bren%C3%A9-Brown/dp/0091955033">Rising Strong</a> (2015) and <a href="https://www.amazon.co.uk/Dare-Lead-Brave-Conversations-Hearts-ebook/dp/B07CZ4H1BQ/">Dare to Lead</a> (2018)
               <span className="black-text"> by Brené Brown</span>
-              <p>A book about being brave, trying, often failing, then rising again, dusting ourselves off, and owning our stories.</p>
+              <p>Books about being brave, trying, failing, rising again, dusting ourselves off, owning our stories — and helping others do the same.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Quiet:_The_Power_of_Introverts_in_a_World_That_Can%27t_Stop_Talking">Quiet</a>
@@ -249,11 +252,20 @@ function ReadingPage() {
           <li><em>Eat that Frog!</em> (2001) by Brian Tracy</li>
         </ul>
       </div>
-      <div className="backToTop">
-        <a href="#">&uarr; Back to top</a>
-      </div>
   </section>
 
+  <section>
+    <div className="column">
+      <img
+        alt="Photo of some of the design / growth / leadership books I've enjoyed reading recently"
+        className="block panel-images do-not-print"
+        src={Growth_books}
+      />
+    </div>
+    <div className="backToTop">
+      <a href="#">&uarr; Back to top</a>
+    </div>
+  </section>
 
   <section className="row">
     <div className="column">
@@ -389,7 +401,6 @@ function ReadingPage() {
           </li>
         </ul>
       </div>
-
     </div>
   </section>
 
@@ -400,9 +411,19 @@ function ReadingPage() {
           <li><em>Far too many novels to mention! 📚</em></li>
         </ul>
       </div>
-      <div className="backToTop">
-        <a href="#">&uarr; Back to top</a>
-      </div>
+  </section>
+
+  <section>
+    <div className="column">
+      <img
+        alt="Photo of some of the novels I've enjoyed reading recently"
+        className="block panel-images do-not-print"
+        src={Novels}
+      />
+    </div>
+    <div className="backToTop">
+      <a href="#">&uarr; Back to top</a>
+    </div>
   </section>
 
   </ContentWidth>
