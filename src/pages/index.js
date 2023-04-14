@@ -23,8 +23,9 @@ function IndexPage() {
         <h1 className="padding-bottom-small">
           Hi, I'm Tom.
         </h1>
-        <p className="padding-bottom-small">I'm an experienced <Link to="/experience">Content Designer</Link>.</p>
+        <p className="padding-bottom-small">I'm an experienced <Link to="/experience">content designer</Link>.</p>
         <p className="padding-bottom-small">I currently work for <a href="https://www.ibm.com/design/">IBM Design</a> and live in Hampshire, UK.</p>
+        <p className="padding-bottom-small">Other interests include <Link to="/brewing">brewing</Link>, <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/family">my&nbsp;family (and dog)</Link>, <Link to="/patents">inventing</Link>, <Link to="/reading">reading</Link>, and <Link to="/articles">writing</Link>.</p>
       </section>
 
       </ContentWidth>

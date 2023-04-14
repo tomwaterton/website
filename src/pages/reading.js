@@ -233,6 +233,11 @@ function ReadingPage() {
               <p>I read this a couple of years ago and it has definitely had a huge impact on how I now approach any new venture.</p>
           </li>
           <li>
+              <a href="https://www.amazon.co.uk/Eat-That-Frog-Important-Things/dp/1444765426">Eat that Frog!</a> (2001)
+              <span className="black-text"> by Brian Tracy</span>
+              <p>A number of appraoches to help you stop procrastinating, prioritise what's important, and ultimately get more done.</p>
+          </li>
+          <li>
               <a href="https://margaretwheatley.com/books-products/books/leadership-new-science/">Leadership and the New Science</a> (2006)
               <span className="black-text"> by Margaret Wheatley</span>
               <p>A book that challenges commonly-held perspectives on leadership, management, and how organizations best flourish.</p>
@@ -249,7 +254,6 @@ function ReadingPage() {
           <li><em>Made to Stick</em> (2007) by Chip and Dan Heath</li>
           <li><em>The Laws of Simplicity</em> (2006) by John Maeda</li>
           <li><em>Start with Why</em> (2009) by Simon Sinek</li>
-          <li><em>Eat that Frog!</em> (2001) by Brian Tracy</li>
         </ul>
       </div>
   </section>
