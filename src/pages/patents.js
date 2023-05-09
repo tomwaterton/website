@@ -34,7 +34,7 @@ const PatentsPage = ({ data }) => {
         <section className="row">
           <div className="column">
             <h1>Patents</h1>
-            <p><em>I enjoy inventing and have the following patents issued (with a further 4 patents pending).</em></p>
+            <p><em>I enjoy inventing and have the following patents issued (with a few others pending).</em></p>
           </div>
         </section>
 
