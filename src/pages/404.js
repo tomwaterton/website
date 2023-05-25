@@ -22,19 +22,26 @@ function NotFoundPage() {
   <section className="row">
     <div className="column">
       <p><em>Perhaps you were looking for one of these pages:</em></p>
+      <h4>General</h4>
         <ul className="ul-small">
           <li><Link to="/">Home page</Link></li>
+          <li><Link to="/about">About this site</Link></li>
+          <li><Link to="/articles">Articles</Link></li>
+        </ul>
+      <h4>Content design</h4>
+        <ul className="ul-small">
           <li><Link to="/experience">Experience and skills</Link></li>
           <li><Link to="/portfolio">Portfolio</Link></li>
           <li><Link to="/speaking">Speaking</Link></li>
           <li><Link to="/testimonials">Testimonials</Link></li>
-          <li><Link to="/articles">Articles</Link></li>
-          <li><Link to="/patents">Patents</Link></li>
-          <li><Link to="/cryptic-crosswords">Cryptic crosswords</Link></li>
-          <li><Link to="/reading">Reading</Link></li>
+        </ul>
+      <h4>More...</h4>
+        <ul className="ul-small">
           <li><Link to="/brewing">Brewing</Link></li>
+          <li><Link to="/cryptic-crosswords">Cryptic crosswords</Link></li>
           <li><Link to="/family">Family</Link></li>
-          <li><Link to="/about">About this site</Link></li>
+          <li><Link to="/patents">Patents</Link></li>
+          <li><Link to="/reading">Reading</Link></li>
         </ul>
     </div>
     <div className="column">

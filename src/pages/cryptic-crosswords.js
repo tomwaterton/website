@@ -1,328 +1,121 @@
-import { Link } from 'gatsby';
-import React from "react";
+import React, { useState } from "react"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import crossword_09_thumbnail from "../images/crosswords/crossword_09_thumbnail.png";
-import crossword_08_thumbnail from "../images/crosswords/crossword_04_thumbnail.png";
-import crossword_07_thumbnail from "../images/crosswords/crossword_07_thumbnail.png";
-import crossword_06_thumbnail from "../images/crosswords/crossword_06_thumbnail.png";
-import crossword_05_thumbnail from "../images/crosswords/crossword_05_thumbnail.png";
-import crossword_04_thumbnail from "../images/crosswords/crossword_04_thumbnail.png";
-import crossword_03_thumbnail from "../images/crosswords/crossword_03_thumbnail.png";
-import crossword_02_thumbnail from "../images/crosswords/crossword_02_thumbnail.png";
-import crossword_01_thumbnail from "../images/crosswords/crossword_01_thumbnail.png";
+
+const CrosswordsPage = ({ data }) => {
+
+  const [filter, setFilter] = useState("all");
+
+  const whichCrosswordsToRender = () => {
+    const allCrosswords = data.allCrosswordsJson.nodes
+    let crosswordsToRenderArray
+    if ( filter === "all" ) {
+        crosswordsToRenderArray = allCrosswords
+    } else {
+        crosswordsToRenderArray = allCrosswords.filter( crossword => crossword.categories.includes(filter) )
+    }
+    return crosswordsToRenderArray
+  }
 
 
-function CrypticCrosswordsPage() {
-  return (
+  return(
+
     <Layout>
       <SEO
-        keywords={[`cryptic`, `crosswords`, `tom`, `waterton`]}
+        keywords={[`crosswords`, `cryptic`, `cryptic-crosswords`, `words`, `tom`, `waterton`]}
         title="Cryptic crosswords"
       />
 
-<ContentWidth>
-  <section className="row">
-    <div className="column">
-      <h1>Cryptic crosswords</h1>
-      <p><em>Some cryptic crosswords that I've composed (under the pseudonym 'Meles').</em></p>
-    </div>
-  </section>
-
-  <section className="flex flex-col md:flex-row items-center padding-bottom">
-
-    <ul className="c-tile-list">
-
-    <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <Link to="/cryptic-crosswords/09">
-            <img
-              className="article-thumbnail crossword-thumbnail"
-              alt="Crossword image"
-              src={crossword_09_thumbnail}
-              />
-          </Link>
+      <ContentWidth>
+        <section className="row">
+          <div className="column">
+            <h1>Cryptic crosswords</h1>
+            <p><em>Some cryptic crosswords that I've composed (under the pseudonym 'Meles').</em></p>
           </div>
+        </section>
 
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <Link to="/cryptic-crosswords/09">Cryptic crossword #9</Link>
-            </h2>
-          </div>
+        <section className="flex flex-col md:flex-row padding-bottom">
+          <ul className="c-tile-list">
+            <RenderCrosswords crosswords={whichCrosswordsToRender()} />
+          </ul>
+        </section>
 
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-              <em>Takes cuts (5)</em>
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-                Apr 2023
-            </date>
-          </footer>
-        </article>
-      </li>
-
-
-    <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <Link to="/cryptic-crosswords/08">
-            <img
-              className="article-thumbnail crossword-thumbnail"
-              alt="Crossword image"
-              src={crossword_08_thumbnail}
-              />
-          </Link>
-          </div>
-
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <Link to="/cryptic-crosswords/08">Cryptic crossword #8</Link>
-            </h2>
-          </div>
-
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-              <em>Argue about a child (6)</em>
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-                Jun 2020
-            </date>
-          </footer>
-        </article>
-      </li>
-
-
-    <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <Link to="/cryptic-crosswords/07">
-            <img
-              className="article-thumbnail crossword-thumbnail"
-              alt="Crossword image"
-              src={crossword_07_thumbnail}
-              />
-          </Link>
-          </div>
-
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <Link to="/cryptic-crosswords/07">Cryptic crossword #7</Link>
-            </h2>
-          </div>
-
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-              <em>Flowers scorned by vegans? (9)</em>
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-                May 2020
-            </date>
-          </footer>
-        </article>
-      </li>
-
-
-    <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <Link to="/cryptic-crosswords/06">
-            <img
-              className="article-thumbnail crossword-thumbnail"
-              alt="Crossword image"
-              src={crossword_06_thumbnail}
-              />
-          </Link>
-          </div>
-
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <Link to="/cryptic-crosswords/06">Cryptic crossword #6</Link>
-            </h2>
-          </div>
-
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-              <em>Protection for standing assets? (4,4)</em>
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-                Apr 2020
-            </date>
-          </footer>
-        </article>
-      </li>
-
-
-    <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <Link to="/cryptic-crosswords/05">
-            <img
-              className="article-thumbnail crossword-thumbnail"
-              alt="Crossword image"
-              src={crossword_05_thumbnail}
-              />
-          </Link>
-          </div>
-
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <Link to="/cryptic-crosswords/05">Cryptic crossword #5</Link>
-            </h2>
-          </div>
-
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-              <em>Lied about being busy? (4)</em>
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-                Mar 2020
-            </date>
-          </footer>
-        </article>
-      </li>
-
-
-    <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <Link to="/cryptic-crosswords/04">
-            <img
-              className="article-thumbnail crossword-thumbnail"
-              alt="Crossword image"
-              src={crossword_04_thumbnail}
-              />
-          </Link>
-          </div>
-
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <Link to="/cryptic-crosswords/04">Cryptic crossword #4</Link>
-            </h2>
-          </div>
-
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-              <em>Orders Gay Times? (8)</em>
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-                Feb 2020
-            </date>
-          </footer>
-        </article>
-      </li>
-
-
-      <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <Link to="/cryptic-crosswords/03">
-            <img
-              className="article-thumbnail crossword-thumbnail"
-              alt="Crossword image"
-              src={crossword_03_thumbnail}
-              />
-          </Link>
-          </div>
-
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-            <Link to="/cryptic-crosswords/03">Cryptic crossword #3</Link>
-            </h2>
-          </div>
-
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-              <em>Film actor without lead part (5)</em>
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-                Dec 2019
-            </date>
-          </footer>
-        </article>
-      </li>
-
-
-      <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <Link to="/cryptic-crosswords/02">
-            <img className="article-thumbnail crossword-thumbnail"
-                alt="Crossword image"
-                src={crossword_02_thumbnail}
-              />
-          </Link>
-          </div>
-
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <Link to="/cryptic-crosswords/02">Cryptic crossword #2</Link>
-            </h2>
-          </div>
-
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-                <em>Bar king before trouble (4)</em>
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-                Aug 2019
-            </date>
-          </footer>
-        </article>
-      </li>
-
-
-      <li className="c-tile-list__item">
-        <article className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
-          <div className="c-article-tile__header">
-          <Link to="/cryptic-crosswords/01">
-            <img className="article-thumbnail crossword-thumbnail"
-                alt="Crossword image"
-                src={crossword_01_thumbnail}
-              />
-          </Link>
-          </div>
-
-          <div className="c-article-tile__body">
-            <h2 className="c-article-tile__title" itemprop="headline">
-              <Link to="/cryptic-crosswords/01">Cryptic crossword #1</Link>
-            </h2>
-          </div>
-
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time">
-                <em>Immorally desire just this (8)</em>
-            </span>
-
-            <date className="c-article-tile__date" itemprop="datePublished">
-              Jul 2019
-            </date>
-          </footer>
-        </article>
-      </li>
-
-    </ul>
-  </section>
-
-  <section className="row">
-    <div className="column medium-text">
-      <p>If you have any feedback on any of my crosswords or would like clues or answers, 
-      do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crosswords">get in touch</a> with me.</p>
-    </div>
-  </section>
-
-  </ContentWidth>
+        </ContentWidth>
     </Layout>
-  );
+
+  )
 }
 
-export default CrypticCrosswordsPage;
+export const query = graphql`
+  {
+    allCrosswordsJson {
+      nodes {
+        title
+        url
+        image
+        min
+        date
+      }
+    }
+  }
+`
+
+export default CrosswordsPage
+
+
+class RenderCrosswords extends React.Component {
+  render() {
+    return(
+      this.props.crosswords.map( (crossword,i) => (
+        <CrosswordTile
+          key={crossword.title}
+          title={crossword.title}
+          url={crossword.url}
+          image={crossword.image}
+          min={crossword.min}
+          date={crossword.date}
+        />
+      ))
+    )
+  }
+}
+
+
+class CrosswordTile extends React.Component {
+  render() {
+    return(
+      <li key={this.props.key} className="c-tile-list__item">
+        <crossword className="c-article-tile col3" itemscope itemtype="http://schema.org/Article">
+          <div className="c-article-tile__header">
+            <a href={this.props.url}>
+              <img className="article-thumbnail"
+                alt="Cryptic crossword image"
+                src={`../images/crosswords/${this.props.image}`}
+              />
+            </a>
+          </div>
+
+          <div className="c-article-tile__body">
+            <div>
+              <h2 className="c-article-tile__title" itemprop="headline">
+                <a href={this.props.url}>{this.props.title}</a>
+              </h2>
+            </div>
+          </div>
+
+          <footer className="c-article-tile__footer">
+            <span className="c-article-tile__read-time" itemprop="crosswordRef">
+              <em>{this.props.min}</em>
+            </span>
+
+            <span className="c-article-tile__date" itemprop="datePublished">
+              {this.props.date}
+            </span>
+          </footer>
+        </crossword>
+      </li>
+    )
+  }
+}
