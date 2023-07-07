@@ -54,6 +54,10 @@ const PatentsPage = ({ data }) => {
                 <span className="date">(Jan ??, 2023)</span>
               </li> */}
               <li>
+                <a href="https://priorart.ip.com/IPCOM/000272549">System and method for responsive UI elements that move in response to a user's intent</a>
+                <span className="date">(Jun 21, 2023)</span>
+              </li>
+              <li>
                 <a href="https://priorart.ip.com/IPCOM/00271786D">System to enhance messaging platform notification handling based on the current locations of individual users</a>
                 <span className="date">(Feb 09, 2023)</span>
               </li>
