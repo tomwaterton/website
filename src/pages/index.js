@@ -24,8 +24,8 @@ function IndexPage() {
           Hi, I'm Tom.
         </h1>
         <p className="padding-bottom-small">I'm an experienced <Link to="/experience">content designer</Link>.</p>
-        <p className="padding-bottom-small">I currently work for <a href="https://www.ibm.com/design/">IBM Design</a> and live in Hampshire, UK.</p>
-        <p className="padding-bottom-small">Other interests include <Link to="/brewing">brewing</Link>, <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/family">my&nbsp;family (and dog)</Link>, <Link to="/patents">inventing</Link>, <Link to="/reading">reading</Link>, and <Link to="/articles">writing</Link>.</p>
+        <p className="padding-bottom-small">I live in Southampton (UK) and work for <a href="https://www.ibm.com/design/">IBM Design</a>.</p>
+        <p className="padding-bottom-small">On this site you'll find my <Link to="/portfolio">portfolio</Link>, some of my <Link to="/articles">articles</Link>, as well as information about some of my other interests (<Link to="/brewing">brewing</Link>, <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/family">my&nbsp;family</Link>, <Link to="/patents">inventing</Link>, and <Link to="/reading">reading</Link>).</p>
       </section>
 
       </ContentWidth>
