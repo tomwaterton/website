@@ -16,16 +16,25 @@ function IndexPage() {
   <ContentWidth>
       <section className="homeBody">
         <img
-          alt=""
+          alt="Profile photo of Tom Waterton"
           src={TomPhoto}
         />
 
         <h1 className="padding-bottom-small">
           Hi, I'm Tom.
         </h1>
-        <p className="padding-bottom-small">I'm an experienced <Link to="/experience">content designer</Link>.</p>
-        <p className="padding-bottom-small">I live in Southampton (UK) and work for <a href="https://www.ibm.com/design/">IBM Design</a>.</p>
-        <p className="padding-bottom-small">On this site you'll find my <Link to="/portfolio">portfolio</Link>, some of my <Link to="/articles">articles</Link>, as well as information about some of my other interests (<Link to="/brewing">brewing</Link>, <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/family">my&nbsp;family</Link>, <Link to="/patents">inventing</Link>, and <Link to="/reading">reading</Link>).</p>
+        <p className="padding-bottom-small">I'm a <strong>senior content designer</strong>, currently working 
+        for <a href="https://www.ibm.com/design/">IBM Design</a>. This site contains a brief <Link to="/portfolio">portfolio of work</Link>, 
+        lists some of my <Link to="/experience">experience and skills</Link>, and features some of my <Link to="/articles">articles</Link>.
+        </p>
+        <p className="padding-bottom-small">Outside of work, I live in the south of England with my wonderful <Link to="/family">family</Link>. 
+        Some of my other interests include <Link to="/brewing">brewing</Link>, setting <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/patents">inventing</Link>, and <Link to="/reading">reading</Link>.
+        </p>
+        {/* <p className="padding-bottom-small">I live in the south of England with my wonderful <Link to="/family">family</Link>. 
+        Some of my other interests include <Link to="/brewing">brewing</Link>, setting <Link to="/cryptic-crosswords">cryptic crosswords</Link>, 
+        walking and training my <Link to="/dog">dog</Link>, <Link to="/patents">inventing</Link>, and <Link to="/reading">reading</Link>.
+        </p> */}
+
       </section>
 
       </ContentWidth>
