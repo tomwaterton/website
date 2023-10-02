@@ -62,7 +62,8 @@ function Header() {
             </button>
             <div className="dropdown-content">
               <Link to="/brewing">Brewing</Link>
-              <Link to="/cryptic-crosswords">Crosswords</Link>
+              <Link to="/cryptic-crosswords">Cryptic crosswords</Link>
+              <Link to="/dog">Dog</Link>
               <Link to="/family">Family</Link>
               <Link to="/patents">Patents</Link>
               <Link to="/reading">Reading</Link>
@@ -70,7 +71,7 @@ function Header() {
           </div>
         </div>
 
-        <div className="spacer">
+        <div className="header-spacer">
         </div>
 
       </div>

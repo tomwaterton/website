@@ -1,0 +1,21 @@
+.dog-montage {
+    padding: 1.5rem;
+}
+
+.tilt-portrait-left-dog, .tilt-portrait-right-dog {
+    border: 6px solid #fff;
+    border-radius: 6px;
+    box-shadow: 2px 4px 6px 2px rgba(0,0,0,.2);
+    margin: auto;
+    padding: 3px;
+}
+
+/* Reduces the size of the three photos at the bottom of the dog page at 639px width and below */
+@media only screen and (max-width: 639px) {
+    .dog-montage img {max-height: 300px;}
+  }
+
+/* Break point style to limit size of tilt landscape images */
+@media only screen and (max-width: 879px) {
+    .tilt-landscape-left-dog, .tilt-landscape-right-dog {max-height: 12rem;}
+  }

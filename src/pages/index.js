@@ -24,16 +24,16 @@ function IndexPage() {
           Hi, I'm Tom.
         </h1>
         <p className="padding-bottom-small">I'm a <strong>senior content designer</strong>, currently working 
-        for <a href="https://www.ibm.com/design/">IBM Design</a>. This site contains a brief <Link to="/portfolio">portfolio of work</Link>, 
-        lists some of my <Link to="/experience">experience and skills</Link>, and features some of my <Link to="/articles">articles</Link>.
+        for <a href="https://www.ibm.com/design/" target="_blank" rel="noopener noreferrer">IBM Design</a>. 
+        This site contains a brief <Link to="/portfolio">portfolio of work</Link>, lists some of 
+        my <Link to="/experience">experience and skills</Link>, and features some of my <Link to="/articles">articles</Link>.
         </p>
-        <p className="padding-bottom-small">Outside of work, I live in the south of England with my wonderful <Link to="/family">family</Link>. 
-        Some of my other interests include <Link to="/brewing">brewing</Link>, setting <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/patents">inventing</Link>, and <Link to="/reading">reading</Link>.
+        <p className="padding-bottom-small">Outside of work, I live in the south of England with my 
+        wonderful <Link to="/family">family</Link> and <Link to="/dog">dog</Link>. 
+        Some of my other interests include <Link to="/brewing">brewing</Link>, 
+        compiling <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/patents">inventing</Link>, 
+        and <Link to="/reading">reading</Link>.
         </p>
-        {/* <p className="padding-bottom-small">I live in the south of England with my wonderful <Link to="/family">family</Link>. 
-        Some of my other interests include <Link to="/brewing">brewing</Link>, setting <Link to="/cryptic-crosswords">cryptic crosswords</Link>, 
-        walking and training my <Link to="/dog">dog</Link>, <Link to="/patents">inventing</Link>, and <Link to="/reading">reading</Link>.
-        </p> */}
 
       </section>
 

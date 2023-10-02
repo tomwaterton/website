@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url("./crosswords.css");
+@import url("./dog.css");
 @import url("./family.css");
 @import url("./filter.css");
 @import url("./footer.css");
@@ -195,7 +196,7 @@ ul {
 
 /* Break point style to limit size of tilt landscape images */
 @media only screen and (max-width: 879px) {
-  .tilt-landscape-left {max-height: 12rem;}
+  .tilt-landscape-left, .tilt-landscape-right {max-height: 12rem;}
 }
 
 /* Break point style to hide the hidden spacer at smaller screens */
