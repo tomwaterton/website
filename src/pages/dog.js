@@ -4,7 +4,7 @@ import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
 import dog_photo_Poised from "../images/dog/Poised.jpeg";
 import dog_photo_Reading from "../images/dog/Reading.jpeg";
-import dog_photo_Working from "../images/dog/Working.jpeg";
+import dog_photo_Dummy from "../images/dog/Dummy.jpeg";
 import dog_photo_Lead from "../images/dog/Lead.jpeg";
 import dog_photo_Heath from "../images/dog/Heath.jpg";
 import dog_photo_Duck from "../images/dog/Duck.jpeg";
@@ -52,11 +52,12 @@ function FamilyPage() {
     </div>
     <div className="column">
       <h2>A much-loved family pet</h2>
-      <p><em>From the first day we got her, Tiffin has been an amazing family pet. She's always happy being around 
-        us and brings so much joy to our home.</em></p>
-      <p><em>I'm usually up first in the morning and I never tire of seeing the enthusiastic greeting that 
-        takes place between my daughters and Tiffin when they come downstairs for breakfast (and then again when they return from school).</em></p>
-      <p><em>Having a good family dog is the best thing and I can't imagine life without one now.</em></p>
+      <p><em>From the first day we got her, Tiffin has been an amazing family pet. She's been easy to train, 
+        is always happy being around us, and brings so much joy to our home.</em></p>
+      <p><em>I'm usually the first one up in the morning and I never tire of seeing the enthusiastic greeting 
+        that takes place between my daughters and Tiffin when they come downstairs for breakfast (and then 
+        again when they return home from school).</em></p>
+      <p><em>Having a good family dog is the best thing and I can't imagine life without one!</em></p>
     </div>
     <div className="column show-small">
       <img
@@ -74,21 +75,23 @@ function FamilyPage() {
 
   <section className="row">
     <div className="column">
-      <h2>A working-strain retriever</h2>
-      <p><em>Tiffin is a working-strain (as opposed to show-strain) Golden Retriever, which means she's 
-        light, slim, and agile, with a golden coloured coat.</em></p>
-      <p><em>It also means that Tiffin loves being "worked", using her nose, and retrieving items. In fact, 
-        both of her parents were used to pick up birds on shoots, so this is in her genes!</em></p>
-      <p><em>We don't take her on shoots, but she and I thoroughly enjoyed completing the "Pet Gun Dog (level 1)" 
-        training course at the <strong>National Dog Training Academy</strong> in the summer of 2023.</em></p>
-      <p><em>For more information about Tiffin's pedigree and health checks, see <a href="https://www.thekennelclub.org.uk/search/dog-profile/?dogId=252420fb-6c27-ec11-b6e6-000d3a0ca4aa" target="_blank" rel="noopener noreferrer">her profile page</a> ("Parsloe Quartz") on 
+      <h2>A working-line retriever</h2>
+      <p><em>Tiffin is a working-line Golden Retriever, which means she's lighter, slimer, and more agile 
+        than typical show-line Golden Retrievers. Working-line retrievers were specifically bred to work 
+        out in the field, where their double coats protect them from the wet and the cold and their soft mouths 
+        are perfect for carrying downed birds very gently.</em></p>
+      <p><em>All of which means that Tiffin loves being 'worked', using her nose, and retrieving items. In fact, 
+        both of her parents were used to pick up birds on shoots, so this is very much in her genes!</em></p>
+      <p><em>We don't take her on shoots, but she and I thoroughly enjoyed completing the <strong>Pet Gun Dog (level 1)</strong> training 
+        course at the <strong>National Dog Training Academy</strong> in the summer of 2023.</em></p>
+      <p><em>Tiffin's pedigree and health checks can be seen on <a href="https://www.thekennelclub.org.uk/search/dog-profile/?dogId=252420fb-6c27-ec11-b6e6-000d3a0ca4aa" target="_blank" rel="noopener noreferrer">her profile page</a> ("Parsloe Quartz") on 
       The Kennel Club (UK) website.</em></p>
     </div>
     <div className="column">
       <img
         alt="Photo of our dog Tiffin looking out over a lake towards two ducks"
         className="block tilt-landscape-left do-not-print"
-        src={dog_photo_Working}
+        src={dog_photo_Dummy}
       />
     </div>
   </section>
