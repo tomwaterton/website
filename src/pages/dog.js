@@ -84,8 +84,6 @@ function FamilyPage() {
         both of her parents were used to pick up birds on shoots, so this is very much in her genes!</em></p>
       <p><em>We don't take her on shoots, but she and I thoroughly enjoyed completing the <strong>Pet Gun Dog (level 1)</strong> training 
         course at the <strong>National Dog Training Academy</strong> in the summer of 2023.</em></p>
-      <p><em>Tiffin's pedigree and health checks can be seen on <a href="https://www.thekennelclub.org.uk/search/dog-profile/?dogId=252420fb-6c27-ec11-b6e6-000d3a0ca4aa" target="_blank" rel="noopener noreferrer">her profile page</a> ("Parsloe Quartz") on 
-      The Kennel Club (UK) website.</em></p>
     </div>
     <div className="column">
       <img
@@ -98,6 +96,12 @@ function FamilyPage() {
 
   <section className="row">
     <div className="column">
+      <h2>Additional links</h2>
+      <ul>
+        <li>I featured Tiffin in one of my content design articles: <a href="https://medium.com/design-ibm/6-content-design-principles-that-apply-to-puppy-training-3cd4a0ca507f" target="_blank" rel="noopener noreferrer">6 content design principles that apply to puppy training</a>.</li>
+        <li>Tiffin's pedigree and health checks can be seen on <a href="https://www.thekennelclub.org.uk/search/dog-profile/?dogId=252420fb-6c27-ec11-b6e6-000d3a0ca4aa" target="_blank" rel="noopener noreferrer">her profile page</a> ("Parsloe Quartz") on 
+      The Kennel Club (UK) website.</li>
+      </ul>
     </div>
   </section>
 
