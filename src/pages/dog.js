@@ -22,7 +22,7 @@ function FamilyPage() {
     <div className="column">
       <h1>Our dog</h1>
       <p><em>I've always loved dogs, particularly the various gun dog breeds such as English Springer Spaniels, 
-        Cocker Spaniels, Gordon Setters, Labradors, and Golden Retrievers.</em></p>
+        Cocker Spaniels, Labradors, and Golden Retrievers.</em></p>
       <p><em>I love their intelligence and trainability, their energy and agility, and their companionable nature and loyalty.</em></p>
       <p><em>I grew up with a lovely Golden Retriever and had always wanted to get one of my own as an adult, 
         but it wasn't until 2021, when our girls were a bit older and I was able to work from home part of 
