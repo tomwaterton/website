@@ -54,6 +54,10 @@ const PatentsPage = ({ data }) => {
                 <span className="date">(Jan ??, 2023)</span>
               </li> */}
               <li>
+                <a href="https://priorart.ip.com/IPCOM/000273130">Method to generate online collaboration prompts from cloud-based document repositories</a>
+                <span className="date">(Oct 25, 2023)</span>
+              </li>
+              <li>
                 <a href="https://priorart.ip.com/IPCOM/00272882D">Selective darkening of parts of a computer display based on user behaviour...</a>
                 <span className="date">(Aug 30, 2023)</span>
               </li>
