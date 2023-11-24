@@ -5,10 +5,16 @@ module.exports = {
     author: `Tom Waterton`,
     twitterUsername: `@tomwaterton`,
     image: `/static/images/site_preview.png`,
-    siteUrl: 'https://tomwaterton.com/'
+    siteUrl: 'https://tomwaterton.com'
   },
   pathPrefix: "/",
   plugins: [
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://tomwaterton.com`,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
