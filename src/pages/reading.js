@@ -233,6 +233,11 @@ function ReadingPage() {
               <p>I read this a couple of years ago and it has definitely had a huge impact on how I now approach any new venture.</p>
           </li>
           <li>
+              <a href="https://en.wikipedia.org/wiki/Start_with_Why">Start with Why</a> (2009)
+              <span className="black-text"> by Simon Sinek</span>
+              <p>How being really clear about your "why" helps you to better communicate with and inspire others.</p>
+          </li>
+          <li>
               <a href="https://www.amazon.co.uk/Eat-That-Frog-Important-Things/dp/1444765426">Eat that Frog!</a> (2001)
               <span className="black-text"> by Brian Tracy</span>
               <p>A number of appraoches to help you stop procrastinating, prioritise what's important, and ultimately get more done.</p>
@@ -253,7 +258,6 @@ function ReadingPage() {
           <li><em>Getting Things Done</em> (2001) by David Allen</li>
           <li><em>Made to Stick</em> (2007) by Chip and Dan Heath</li>
           <li><em>The Laws of Simplicity</em> (2006) by John Maeda</li>
-          <li><em>Start with Why</em> (2009) by Simon Sinek</li>
         </ul>
       </div>
   </section>

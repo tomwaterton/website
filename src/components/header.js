@@ -23,7 +23,6 @@ function Header() {
             <Link to="/">
               <img
                 alt="Typewriter icon"
-                className=""
                 src={TypewriterIllustration}
               />
             </Link>

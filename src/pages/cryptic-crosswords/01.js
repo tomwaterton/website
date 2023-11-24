@@ -36,7 +36,7 @@ function Crossword_01Page() {
   <section className="row">
     <div className="column">
       <img
-        alt="Cryptic crossword #1"
+        alt="Cryptic crossword #01"
         className="block crossword-border"
         src={crossword_01}
       />

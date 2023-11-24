@@ -67,16 +67,17 @@
 }
 
 .socialMedia img {
-    max-width: 32px;
+  max-width: 32px;
+  height: auto;
 }
 
 .socialMedia ul {
-    padding: 10px 0 0 0;
-    display:inline-flex;
+  padding: 10px 0 0 0;
+  display:inline-flex;
 }
 
 .socialMedia li {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    list-style: none;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  list-style: none;
 }

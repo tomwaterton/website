@@ -25,19 +25,19 @@ function SEO({ description, lang, meta, keywords, title }) {
       }}
       meta={[
         {
-          name: `description`,
+          name: `Tom Waterton's personal website, covering his content design work, portfolio, patents, and articles. You'll also find some of his cryptic crosswords and information about other hobbies.`,
           content: metaDescription
         },
         {
-          property: `og:title`,
+          property: `Tom Waterton's personal website`,
           content: title
         },
         {
-          property: `og:description`,
+          property: `Tom Waterton's personal website, covering his content design work, portfolio, patents, and articles.`,
           content: metaDescription
         },
         {
-          property: `og:type`,
+          property: `https://tomwaterton.com/`,
           content: `website`
         },
         {

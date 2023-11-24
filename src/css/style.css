@@ -64,7 +64,8 @@ p {
 }
 
 a {
-  color: #2980b9;
+  /* color: #2980b9; */
+  color: #004FCC;
 }
 
 a:hover {

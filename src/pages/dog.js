@@ -87,7 +87,7 @@ function FamilyPage() {
     </div>
     <div className="column">
       <img
-        alt="Photo of our dog Tiffin looking out over a lake towards two ducks"
+        alt="Photo of our dog Tiffin with a training dummy in her mouth"
         className="block tilt-landscape-left do-not-print"
         src={dog_photo_Dummy}
       />

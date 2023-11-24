@@ -180,7 +180,7 @@ const PatentsPage = ({ data }) => {
             recognition of my ongoing contribution to IBM's patent portfolio and invention community.</em></p>
 
             <img
-              alt="Family photo"
+              alt="My IBM Master Inventor digital badge"
               className="masterInventor do-not-print"
               src={MIPhoto}
             />
@@ -238,7 +238,7 @@ class PatentTile extends React.Component {
           <div className="c-article-tile__header">
             <a href={this.props.url}>
               <img className="article-thumbnail"
-                alt="Patent image"
+                alt="Patent thumbnail image"
                 src={`../images/patents/${this.props.image}`}
               />
             </a>

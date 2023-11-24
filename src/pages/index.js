@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import TomPhoto from "../images/index/Tom_Waterton.png";
+import TomPhoto from "../images/index/Tom_Waterton2.png";
 
 function IndexPage() {
   return (
@@ -21,7 +21,7 @@ function IndexPage() {
         />
 
         <h1 className="padding-bottom-small">
-          Hi, I'm Tom.
+          Hi, I'm Tom Waterton
         </h1>
         <p className="padding-bottom-small">I'm a <strong>senior content designer</strong>, currently working 
         for <a href="https://www.ibm.com/design/" target="_blank" rel="noopener noreferrer">IBM Design</a>. 
