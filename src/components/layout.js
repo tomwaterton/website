@@ -42,7 +42,7 @@ function Layout(props) {
                     </li>
                     <li>
                       <a href="mailto:tomwaterton@gmail.com">
-                        <img alt="Email icon" src={email} />
+                        <img alt="Email icon" src={email} width="32px" height="32px"/>
                       </a>
                     </li>
                   </ul>

@@ -48,7 +48,7 @@ main {
 }
 
 p, ul, li {
-  color: dimgrey;
+  color: #393939;
 }
 
 p {
@@ -89,7 +89,7 @@ h3 {
   font-size: 1.1rem;
   font-weight: 500;
   margin-left: 10px;
-  color: dimgrey;
+  color: #393939;
   font-style: italic;
 }
 
@@ -108,7 +108,7 @@ ul {
 
 .bullet-header {
   font-style: italic;
-  color: grey;
+  color: #393939;
   padding-left: 10px;
 }
 
@@ -187,7 +187,7 @@ ul {
   padding-bottom: 8px;
   font-size: 0.875rem;
   font-style: italic;
-  color: dimgrey;
+  color: #393939;
   text-align: center;
 }
 

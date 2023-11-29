@@ -18,6 +18,7 @@ function IndexPage() {
         <img
           alt="Profile photo of Tom Waterton"
           src={TomPhoto}
+          width="350px" height="350px"
         />
 
         <h1 className="padding-bottom-small">
