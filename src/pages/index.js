@@ -31,7 +31,7 @@ function IndexPage() {
         <p className="padding-bottom-small">Outside of work, I live in the south of England with my 
         wonderful <Link to="/family">family</Link> and <Link to="/dog">dog</Link>. 
         Some of my other interests include <Link to="/brewing">brewing</Link>, 
-        compiling <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/patents">inventing</Link>, 
+        compiling <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/inventing">inventing</Link>, 
         and <Link to="/reading">reading</Link>.
         </p>
 

@@ -4,7 +4,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import SEO from "../components/seo";
-import MIPhoto from "../images/patents/IBM_Master_Inventor.png";
+import MIPhoto from "../images/inventing/IBM_Master_Inventor.png";
 
 const PatentsPage = ({ data }) => {
 
@@ -33,26 +33,40 @@ const PatentsPage = ({ data }) => {
       <ContentWidth>
         <section className="row">
           <div className="column">
-            <h1>Patents</h1>
-            <p><em>I enjoy inventing and have the following patents issued (with a few others pending).</em></p>
+            <h1>Inventing</h1>
+            <p><em>I've always enjoyed problem solving and inventing. This page lists some of my technical inventions.</em></p>
+            <ul className="ul-small do-not-print">
+              <li><a href="#patents">Patents</a></li>
+              <li><a href="#other-inventions">Other (non-patented) inventions</a></li>
+              <li><a href="#master-inventor">An IBM Master Inventor</a></li>
+            </ul>
           </div>
+        </section>
+
+        <section className="row">
+          <div className="column">
+            <div id="patents" className="anchorLinkSpacer"></div>
+              <h2>Patents</h2>
+              <p><em>I currently have 13 patents granted, with a further 8 pending. My Google Scholar 
+                profile can be found <a href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">here</a>.</em></p>
+            </div>
         </section>
 
         <section className="flex flex-col md:flex-row padding-bottom">
           <ul className="c-tile-list">
             <RenderPatents patents={whichPatentsToRender()} />
           </ul>
+          <div className="backToTop">
+            <a href="#">&uarr; Back to top</a>
+          </div>
         </section>
 
         <section className="row">
           <div className="column">
-            <h2>Other (non-patented) inventions</h2>
+            <div id="other-inventions" className="anchorLinkSpacer"></div>
+              <h2>Other (non-patented) inventions</h2>
             <p><em>I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</em></p>
             <ol reversed className="publish-list">
-              {/* <li>
-                <a href="???">???</a>
-                <span className="date">(Jan ??, 2023)</span>
-              </li> */}
               <li>
                 <a href="https://priorart.ip.com/IPCOM/000273130">Method to generate online collaboration prompts from cloud-based document repositories</a>
                 <span className="date">(Oct 25, 2023)</span>
@@ -170,12 +184,16 @@ const PatentsPage = ({ data }) => {
                 <span className="date">(Sep 04, 2015)</span>
               </li>
             </ol>
+            <div className="backToTop">
+              <a href="#">&uarr; Back to top</a>
+            </div>
           </div>
         </section>
 
         <section className="row">
           <div className="column">
-            <h2>IBM Master Inventor</h2>
+            <div id="master-inventor" className="anchorLinkSpacer"></div>
+            <h2>An IBM Master Inventor</h2>
             <p><em>In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
             recognition of my ongoing contribution to IBM's patent portfolio and invention community.</em></p>
 
@@ -185,8 +203,10 @@ const PatentsPage = ({ data }) => {
               src={MIPhoto}
             />
 
-            <p><em>My Google Scholar profile can be found <a href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en">here</a>.</em></p>
-          </div>
+            <div className="backToTop">
+              <a href="#">&uarr; Back to top</a>
+              </div>
+            </div>
         </section>
 
       </ContentWidth>

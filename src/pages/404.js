@@ -41,7 +41,7 @@ function NotFoundPage() {
           <li><Link to="/cryptic-crosswords">Cryptic crosswords</Link></li>
           <li><Link to="/dog">Dog</Link></li>
           <li><Link to="/family">Family</Link></li>
-          <li><Link to="/patents">Patents</Link></li>
+          <li><Link to="/inventing">Inventing</Link></li>
           <li><Link to="/reading">Reading</Link></li>
         </ul>
     </div>

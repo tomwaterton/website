@@ -64,7 +64,7 @@ function Header() {
               <Link to="/cryptic-crosswords">Cryptic crosswords</Link>
               <Link to="/dog">Dog</Link>
               <Link to="/family">Family</Link>
-              <Link to="/patents">Patents</Link>
+              <Link to="/inventing">Inventing</Link>
               <Link to="/reading">Reading</Link>
             </div>
           </div>
