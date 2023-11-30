@@ -77,7 +77,7 @@ export default ArticlesPage
 
 export const Head = () => (
   <SEO 
-    title="Articles" 
+    title="Tom Waterton's website: Articles" 
     description="Articles about content design, communication, culture, and growth written by Tom Waterton" 
     />
 )

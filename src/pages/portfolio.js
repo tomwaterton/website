@@ -149,7 +149,7 @@ export default PortfolioPage
 
 export const Head = () => (
   <SEO 
-    title="Portfolio" 
+    title="Tom Waterton's website: Portfolio" 
     description="A breif version of my portfolio, showing some of my recent content design work (tomwaterton.com)" 
     />
 )

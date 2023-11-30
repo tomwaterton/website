@@ -86,7 +86,7 @@ export default ExperiencePage
 
 export const Head = () => (
   <SEO 
-    title="Experience and skills" 
+    title="Tom Waterton's website: Experience and skills" 
     description="Details about my work experience as a content designer and my related skills (tomwaterton.com)" 
     />
 )

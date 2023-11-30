@@ -43,6 +43,6 @@ export default IndexPage
 
 export const Head = () => (
   <SEO 
-    title="Homepage" 
+    title="Tom Waterton's website: Homepage" 
     />
 )

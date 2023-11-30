@@ -90,7 +90,7 @@ export default FamilyPage
 
 export const Head = () => (
   <SEO 
-    title="Family" 
+    title="Tom Waterton's website: Family" 
     description="Information about my wonderful family (tomwaterton.com)" 
     />
 )

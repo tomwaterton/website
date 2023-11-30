@@ -190,7 +190,7 @@ export default SpeakingPage
 
 export const Head = () => (
   <SEO 
-    title="Speaking" 
+    title="Tom Waterton's website: Speaking" 
     description="Details of some of the content design-related talks I've given (tomwaterton.com)" 
     />
 )

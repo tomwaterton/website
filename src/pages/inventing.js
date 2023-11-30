@@ -227,7 +227,7 @@ export default PatentsPage
 
 export const Head = () => (
   <SEO 
-    title="Inventing" 
+    title="Tom Waterton's website: Inventing" 
     description="Information about my inventions, patents, IP, and IBM Master Inventor honorary title (tomwaterton.com)" 
     />
 )

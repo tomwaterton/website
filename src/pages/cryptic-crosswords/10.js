@@ -48,7 +48,7 @@ export default Crossword_10Page
 
 export const Head = () => (
   <SEO 
-    title="Cryptic crossword #10" 
+    title="Tom Waterton's website: Cryptic crossword #10" 
     description="Cryptic crossword #10 by Meles aka Tom Waterton (tomwaterton.com)" 
     />
 )

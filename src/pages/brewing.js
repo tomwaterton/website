@@ -100,7 +100,7 @@ export default BrewingPage
 
 export const Head = () => (
   <SEO 
-    title="Brewing" 
+    title="Tom Waterton's website: Brewing" 
     description="Some information about my hobby of brewing beer and ale (tomwaterton.com)" 
     />
 )

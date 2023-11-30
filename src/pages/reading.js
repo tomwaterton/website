@@ -439,7 +439,7 @@ export default ReadingPage
 
 export const Head = () => (
   <SEO 
-    title="Reading" 
+    title="Tom Waterton's website: Reading" 
     description="Information about some of the books I've enjoyed reading recently (tomwaterton.com)" 
     />
 )

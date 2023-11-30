@@ -150,7 +150,7 @@ export default TestimonialsPage
 
 export const Head = () => (
   <SEO 
-    title="Testimonials" 
+    title="Tom Waterton's website: Testimonials" 
     description="Some testimonials and references that I've received from colleagues past and present (tomwaterton.com)" 
     />
 )

@@ -58,7 +58,7 @@ export default AboutPage
 
 export const Head = () => (
   <SEO 
-    title="About this site" 
+    title="Tom Waterton's website: About this site" 
     description="Information about my website (tomwaterton.com)" 
     />
 )
