@@ -1,20 +1,16 @@
-import { Link } from 'gatsby';
 import React from "react";
+import { SEO } from "../components/seo";
+import { Link } from 'gatsby';
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import ES_UI_image from "../images/portfolio/Event_Streams_UI.png";
 import Carbon_image from "../images/portfolio/Carbon.png";
 import UX_writing_course_image from "../images/portfolio/ux_writing_course.png";
 import CD_Guild_image from "../images/portfolio/CD_Guild.png";
 
-function PortfolioPage() {
+const PortfolioPage = () => {
   return (
     <Layout fullWidth={true}>
-      <SEO
-        keywords={[`content`, `design`, `strategy`, `copy`, `writing`, `portfolio`, `ux`, `tom`, `waterton`]}
-        title="Portfolio"
-      />
 
 <ContentWidth>
 <section className="row">
@@ -146,7 +142,14 @@ function PortfolioPage() {
 </ContentWidth>
 
     </Layout>
-  );
+  )
 }
 
-export default PortfolioPage;
+export default PortfolioPage
+
+export const Head = () => (
+  <SEO 
+    title="Portfolio" 
+    description="A breif version of my portfolio, showing some of my recent content design work (tomwaterton.com)" 
+    />
+)

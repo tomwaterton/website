@@ -1,20 +1,16 @@
 import React from "react";
+import { SEO } from "../../components/seo";
 import Layout from "../../components/layout";
 import ContentWidth from "../../components/contentWidth";
-import SEO from "../../components/seo";
 import crossword_07 from "../../images/crosswords/cryptic_crossword_07.png";
 
 function printPage() {
   window.print()
 }
 
-function Crossword_07Page() {
+const Crossword_07Page = () => {
   return (
     <Layout>
-      <SEO
-        keywords={[`cryptic`, `crosswords`, `meles`, `tom`, `waterton`]}
-        title="Crossword #07"
-      />
 
 <ContentWidth>
   <section className="row">
@@ -45,7 +41,14 @@ function Crossword_07Page() {
 
   </ContentWidth>
     </Layout>
-  );
+  )
 }
 
-export default Crossword_07Page;
+export default Crossword_07Page
+
+export const Head = () => (
+  <SEO 
+    title="Cryptic crossword #07" 
+    description="Cryptic crossword #07 by Meles aka Tom Waterton (tomwaterton.com)" 
+    />
+)

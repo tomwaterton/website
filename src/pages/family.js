@@ -1,17 +1,13 @@
 import React from "react";
+import { SEO } from "../components/seo";
 import { Link } from 'gatsby';
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import family_photo from "../images/family/family_2020.jpg";
 
-function FamilyPage() {
+const FamilyPage = () => {
   return (
     <Layout>
-      <SEO
-        keywords={[`family`, `tom`, `waterton`]}
-        title="Family"
-      />
 
 <ContentWidth>
   <section className="row">
@@ -87,7 +83,14 @@ function FamilyPage() {
 
   </ContentWidth>
     </Layout>
-  );
+  )
 }
 
-export default FamilyPage;
+export default FamilyPage
+
+export const Head = () => (
+  <SEO 
+    title="Family" 
+    description="Information about my wonderful family (tomwaterton.com)" 
+    />
+)

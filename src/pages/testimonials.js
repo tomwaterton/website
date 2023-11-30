@@ -1,17 +1,13 @@
 import React from "react";
+import { SEO } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import QuoteLeft from "../images/testimonials/quotation-mark-left.svg";
 import QuoteRight from "../images/testimonials/quotation-mark-right.svg";
 
-function TestimonialsPage() {
-    return (
+const TestimonialsPage = () => {
+  return (
       <Layout fullWidth={true}>
-        <SEO
-          keywords={[`content`, `design`, `strategy`, `ux`, `testimonials`, `references`, `tom`, `waterton`]}
-          title="Testimonials"
-        />
 
   <ContentWidth>
     <section className="row">
@@ -147,7 +143,14 @@ function TestimonialsPage() {
   </ContentWidth>
 
   </Layout>
-  );
+  )
 }
 
-export default TestimonialsPage;
+export default TestimonialsPage
+
+export const Head = () => (
+  <SEO 
+    title="Testimonials" 
+    description="Some testimonials and references that I've received from colleagues past and present (tomwaterton.com)" 
+    />
+)

@@ -1,20 +1,16 @@
-import { Link } from 'gatsby';
 import React from "react";
+import { SEO } from "../components/seo";
+import { Link } from 'gatsby';
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import cheers_photo from "../images/brewing/cheers.jpg";
 import brewing_kit_photo from "../images/brewing/brewing_kit.jpeg";
 import adding_hops_photo from "../images/brewing/adding_hops.jpeg";
 import sharing_beer_photo from "../images/brewing/sharing_beer.jpg";
 
-function BrewingPage() {
+const BrewingPage = () => {
   return (
     <Layout>
-      <SEO
-        keywords={[`brewing`, `beer`, `ale`, `tom`, `waterton`]}
-        title="Brewing"
-      />
 
 <ContentWidth>
   <section className="row">
@@ -97,7 +93,14 @@ function BrewingPage() {
 
   </ContentWidth>
     </Layout>
-  );
+  )
 }
 
-export default BrewingPage;
+export default BrewingPage
+
+export const Head = () => (
+  <SEO 
+    title="Brewing" 
+    description="Some information about my hobby of brewing beer and ale (tomwaterton.com)" 
+    />
+)

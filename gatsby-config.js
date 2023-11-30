@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Tom Waterton's website`,
-    description: `Content design, portfolio, articles, crosswords, and more.`,
-    author: `Tom Waterton`,
+    description: `Tom Waterton's website: content design, portfolio, articles, patents, cryptic crosswords, and more.`,
     twitterUsername: `@tomwaterton`,
-    image: `/static/images/site_preview.png`,
-    siteUrl: 'https://tomwaterton.com'
+    image: `/images/site_preview.png`,
+    siteUrl: 'https://tomwaterton.com',
   },
   pathPrefix: "/",
   plugins: [

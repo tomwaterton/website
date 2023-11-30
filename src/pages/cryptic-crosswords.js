@@ -1,8 +1,8 @@
-import React, { useState } from "react"
-import { graphql, Link } from "gatsby"
+import React, { useState } from "react";
+import { SEO } from "../components/seo";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 
 const CrosswordsPage = ({ data }) => {
 
@@ -19,14 +19,8 @@ const CrosswordsPage = ({ data }) => {
     return crosswordsToRenderArray
   }
 
-
   return(
-
     <Layout>
-      <SEO
-        keywords={[`crosswords`, `cryptic`, `cryptic-crosswords`, `words`, `tom`, `waterton`]}
-        title="Cryptic crosswords"
-      />
 
       <ContentWidth>
         <section className="row">
@@ -64,6 +58,12 @@ export const query = graphql`
 
 export default CrosswordsPage
 
+export const Head = () => (
+  <SEO 
+    title="Cryptic crosswords" 
+    description="Some cryptic crosswords that I've composed (tomwaterton.com)" 
+    />
+)
 
 class RenderCrosswords extends React.Component {
   render() {

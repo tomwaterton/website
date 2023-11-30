@@ -1,16 +1,12 @@
 import React from "react";
+import { SEO } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import AboutIllustration from "../images/about/about.jpg";
 
-function AboutPage() {
+const AboutPage = () => {
   return (
     <Layout>
-      <SEO
-        keywords={[`about`, `tom`, `waterton`, `content`, `design`]}
-        title="About"
-      />
 
 <ContentWidth>
   <section className="row">
@@ -55,7 +51,14 @@ function AboutPage() {
 
   </ContentWidth>
     </Layout>
-  );
+  )
 }
 
-export default AboutPage;
+export default AboutPage
+
+export const Head = () => (
+  <SEO 
+    title="About this site" 
+    description="Information about my website (tomwaterton.com)" 
+    />
+)

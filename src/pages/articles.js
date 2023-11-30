@@ -1,9 +1,9 @@
 
-import React, { useState } from "react"
-import { graphql, Link } from "gatsby"
+import React, { useState } from "react";
+import { SEO } from "../components/seo";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 
 const ArticlesPage = ({ data }) => {
 
@@ -24,10 +24,6 @@ const ArticlesPage = ({ data }) => {
   return(
 
     <Layout>
-      <SEO
-        keywords={[`articles`, `tom`, `waterton`, `content`, `design`]}
-        title="Articles"
-      />
 
       <ContentWidth>
         <section className="">
@@ -79,6 +75,12 @@ export const query = graphql`
 
 export default ArticlesPage
 
+export const Head = () => (
+  <SEO 
+    title="Articles" 
+    description="Articles about content design, communication, culture, and growth written by Tom Waterton" 
+    />
+)
 
 
 

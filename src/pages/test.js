@@ -9,10 +9,10 @@ function TestPage() {
 
   return (
     <Layout>
-      <SEO
+      {/* <SEO
         keywords={[`about`, `tom`, `waterton`, `content`, `design`]}
         title="Home"
-      />
+      /> */}
 
   <ContentWidth>
 
@@ -31,7 +31,7 @@ function TestPage() {
       <div>
         Theme: 
         <button className="btn" onClick={() => setFilter("brewing")}> Brewing</button>
-      <button className="btn" onClick={() => setFilter("comms")}> Communication</button>
+        <button className="btn" onClick={() => setFilter("comms")}> Communication</button>
         <button className="btn" onClick={() => setFilter("content")}> Content design</button>
         <button className="btn" onClick={() => setFilter("culture")}> Culture</button>
         <button className="btn" onClick={() => setFilter("design")}> Design</button>

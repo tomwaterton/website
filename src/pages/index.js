@@ -1,19 +1,15 @@
 import React from "react";
+import { SEO } from "../components/seo";
 import { Link } from 'gatsby';
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import TomPhoto from "../images/index/Tom_Waterton2.png";
 
-function IndexPage() {
+const IndexPage = () => {
   return (
     <Layout>
-      <SEO
-        keywords={[`about`, `tom`, `waterton`, `content`, `design`]}
-        title="Home"
-      />
 
-  <ContentWidth>
+      <ContentWidth>
       <section className="homeBody">
         <img
           alt="Profile photo of Tom Waterton"
@@ -35,12 +31,18 @@ function IndexPage() {
         compiling <Link to="/cryptic-crosswords">cryptic crosswords</Link>, <Link to="/inventing">inventing</Link>, 
         and <Link to="/reading">reading</Link>.
         </p>
-
       </section>
 
       </ContentWidth>
     </Layout>
-  );
+
+  )
 }
 
-export default IndexPage;
+export default IndexPage
+
+export const Head = () => (
+  <SEO 
+    title="Homepage" 
+    />
+)

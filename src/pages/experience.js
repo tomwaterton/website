@@ -1,18 +1,13 @@
-import { Link } from 'gatsby';
 import React from "react";
+import { SEO } from "../components/seo";
+import { Link } from 'gatsby';
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import Tom_at_work_photo from "../images/experience/Tom_at_work.jpg";
 
-
-function ExperiencePage() {
-    return (
+const ExperiencePage = () => {
+  return (
       <Layout fullWidth={true}>
-        <SEO
-          keywords={[`content`, `design`, `strategy`, `copy`, `writing`, `editing`, `ux`, `tom`, `waterton`]}
-          title="Experience and skills"
-        />
   
   <ContentWidth>
   <section className="row">
@@ -84,7 +79,14 @@ function ExperiencePage() {
   </ContentWidth>
 
   </Layout>
-  );
+  )
 }
 
-export default ExperiencePage;
+export default ExperiencePage
+
+export const Head = () => (
+  <SEO 
+    title="Experience and skills" 
+    description="Details about my work experience as a content designer and my related skills (tomwaterton.com)" 
+    />
+)

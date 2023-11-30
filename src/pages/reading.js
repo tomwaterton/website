@@ -1,19 +1,15 @@
 import React from "react";
+import { SEO } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import Tom_on_books_photo from "../images/reading/Tom_on_books.jpg";
 import Content_books from "../images/reading/content_books.jpeg";
 import Growth_books from "../images/reading/growth_books.jpeg";
 import Novels from "../images/reading/novels.jpeg";
 
-function ReadingPage() {
+const ReadingPage = () => {
   return (
     <Layout>
-      <SEO
-        keywords={[`reading`, `books`, `learning`, `tom`, `waterton`]}
-        title="Reading"
-      />
 
 <ContentWidth>
   <section className="row">
@@ -436,7 +432,14 @@ function ReadingPage() {
 
   </ContentWidth>
     </Layout>
-  );
+  )
 }
 
-export default ReadingPage;
+export default ReadingPage
+
+export const Head = () => (
+  <SEO 
+    title="Reading" 
+    description="Information about some of the books I've enjoyed reading recently (tomwaterton.com)" 
+    />
+)

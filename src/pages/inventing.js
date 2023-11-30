@@ -1,9 +1,8 @@
-
-import React, { useState } from "react"
-import { graphql, Link } from "gatsby"
+import React, { useState } from "react";
+import { SEO } from "../components/seo";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import MIPhoto from "../images/inventing/IBM_Master_Inventor.png";
 
 const PatentsPage = ({ data }) => {
@@ -23,12 +22,7 @@ const PatentsPage = ({ data }) => {
 
 
   return(
-
     <Layout>
-      <SEO
-        keywords={[`patents`, `ip`, `inventions`, `inventing`, `tom`, `waterton`]}
-        title="Patents"
-      />
 
       <ContentWidth>
         <section className="row">
@@ -231,6 +225,12 @@ export const query = graphql`
 
 export default PatentsPage
 
+export const Head = () => (
+  <SEO 
+    title="Inventing" 
+    description="Information about my inventions, patents, IP, and IBM Master Inventor honorary title (tomwaterton.com)" 
+    />
+)
 
 class RenderPatents extends React.Component {
   render() {

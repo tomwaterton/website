@@ -1,14 +1,13 @@
-import { Link } from 'gatsby';
 import React from "react";
+import { SEO } from "../components/seo";
+import { Link } from 'gatsby';
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import MagnifyingGlassIllustration from "../images/404/magnifying-glass.jpg";
 
-function NotFoundPage() {
+const NotFoundPage = () => {
   return (
     <Layout>
-      <SEO title="404: Not found" />
 
 <ContentWidth>
   <section className="row">
@@ -56,7 +55,13 @@ function NotFoundPage() {
 
   </ContentWidth>
     </Layout>
-  );
+  )
 }
+export default NotFoundPage
 
-export default NotFoundPage;
+export const Head = () => (
+  <SEO 
+    title="404: Page not found" 
+    description="404: Page not found (tomwaterton.com)" 
+    />
+)

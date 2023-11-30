@@ -1,7 +1,7 @@
 import React from "react";
+import { SEO } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import microphone_image from "../images/speaking/microphone.png";
 import spark_image from "../images/speaking/spark.png";
 import byte_image from "../images/speaking/byte.png";
@@ -11,13 +11,9 @@ import content_con_image from "../images/speaking/content_con.jpeg";
 import think_image from "../images/speaking/think.png";
 import inter_connect_image from "../images/speaking/inter_connect.jpeg";
 
-function SpeakingPage() {
+const SpeakingPage = () => {
   return (
     <Layout fullWidth={true}>
-      <SEO
-        keywords={[`content`, `design`, `strategy`, `speaking`, `writing`, `editing`, `ux`, `tom`, `waterton`]}
-        title="Speaking"
-      />
 
 <ContentWidth>
 <section className="row">
@@ -187,7 +183,14 @@ function SpeakingPage() {
 </ContentWidth>
 
     </Layout>
-  );
+  )
 }
 
-export default SpeakingPage;
+export default SpeakingPage
+
+export const Head = () => (
+  <SEO 
+    title="Speaking" 
+    description="Details of some of the content design-related talks I've given (tomwaterton.com)" 
+    />
+)

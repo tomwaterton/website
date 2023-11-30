@@ -1,7 +1,7 @@
 import React from "react";
+import { SEO } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import SEO from "../components/seo";
 import dog_photo_Poised from "../images/dog/Poised.jpeg";
 import dog_photo_Reading from "../images/dog/Reading.jpeg";
 import dog_photo_Dummy from "../images/dog/Dummy.jpeg";
@@ -9,13 +9,9 @@ import dog_photo_Lead from "../images/dog/Lead.jpeg";
 import dog_photo_Heath from "../images/dog/Heath.jpg";
 import dog_photo_Duck from "../images/dog/Duck.jpeg";
 
-function FamilyPage() {
+const DogPage = () => {
   return (
     <Layout>
-      <SEO
-        keywords={[`dog`, `training`, `walking`, `tom`, `waterton`]}
-        title="dog"
-      />
 
 <ContentWidth>
   <section className="row">
@@ -143,7 +139,14 @@ function FamilyPage() {
 
   </ContentWidth>
     </Layout>
-  );
+  )
 }
 
-export default FamilyPage;
+export default DogPage
+
+export const Head = () => (
+  <SEO 
+    title="Our dog" 
+    description="Information about my pet dog, Tiffin (tomwaterton.com)" 
+    />
+)
