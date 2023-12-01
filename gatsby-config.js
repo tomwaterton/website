@@ -7,9 +7,9 @@ module.exports = {
     image: `/images/site_preview.png`,
     siteUrl: 'https://tomwaterton.com',
   },
-  plugins: [`gatsby-plugin-sitemap`],
   pathPrefix: "/",
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
