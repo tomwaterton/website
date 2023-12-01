@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Tom Waterton's website`,
     description: `Tom Waterton's website: content design, portfolio, articles, patents, cryptic crosswords, and more.`,
+    author: `Tom Waterton`,
     twitterUsername: `@tomwaterton`,
     image: `/images/site_preview.png`,
     siteUrl: 'https://tomwaterton.com',
