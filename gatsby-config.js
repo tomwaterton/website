@@ -10,6 +10,12 @@ module.exports = {
   pathPrefix: "/",
   plugins: [
     {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/`
+      }
+    },
+    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://tomwaterton.com`,
