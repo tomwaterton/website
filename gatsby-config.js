@@ -9,7 +9,6 @@ module.exports = {
   },
   pathPrefix: "/",
   plugins: [
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
