@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://tomwaterton.com/sitemap-index.xml
+Host: https://tomwaterton.com
