@@ -11,16 +11,6 @@
   font-weight: 600;
 }
 
-.speaking li {
-  padding-bottom: 0.5rem;
-}
-
-.conference {
-  font-weight: 500;
-  color: #ec4899;
-  font-size: 1.125rem;
-}
-
 /* Background colors for the full-width panels on the Content design page */
 .bleed1 {
   background: #e0e0e0;  /* Grey 20 */

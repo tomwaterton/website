@@ -9,8 +9,15 @@ module.exports = {
     siteUrl: 'https://tomwaterton.com',
   },
   pathPrefix: "/",
-  plugins: ['gatsby-plugin-robots-txt'],
   plugins: [
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://tomwaterton.com',
+        sitemap: 'https://tomwaterton.com/sitemap-index.xml',
+        policy: [{userAgent: '*', allow: '/'}],
+      }
+    },
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {

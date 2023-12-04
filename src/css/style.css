@@ -75,14 +75,15 @@ a:hover {
 h1 {
   font-size: 2rem;
   font-weight: 500;
-  color: #ec4899;
+  /* color: #ec4899; original pink but didn't have good enough colour contrast */
+  color: #D82286;
   padding-bottom: 0.5rem;
 }
 
 h2 {
   font-size: 1.3rem;
   font-weight: 500;
-  color: #ec4899;
+  color: #D82286;
 }
 
 h3 {

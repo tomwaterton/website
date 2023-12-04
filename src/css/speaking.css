@@ -1,3 +1,13 @@
+.speaking li {
+  padding-bottom: 0.5rem;
+}
+
+.conference {
+  font-weight: 500;
+  color: #D82286;
+  font-size: 1.125rem;
+}
+
 .conferenceName {
   font-size: .875rem;
   font-weight: 500;
