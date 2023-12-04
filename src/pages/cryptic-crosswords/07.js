@@ -15,7 +15,7 @@ const Crossword_07Page = () => {
 <ContentWidth>
   <section className="row">
     <div className="column">
-      <h2 className="do-not-print">Cryptic crossword #07</h2>
+      <h1 className="do-not-print">Cryptic crossword #07</h1>
 
       <p className="do-not-print"><em>If you have any feedback on this crossword or would like clues or answers, 
         do <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20cryptic%20crossword%20number_07">

@@ -1,5 +1,5 @@
 module.exports = {
-  trailingSlash: "never",
+  trailingSlash: "always",
   siteMetadata: {
     title: `Tom Waterton's website`,
     description: `Tom Waterton's website: content design, portfolio, articles, patents, cryptic crosswords, and more.`,
