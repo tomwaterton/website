@@ -14,14 +14,18 @@
 /* Background colors for the full-width panels on the Content design page */
 .bleed1 {
   background: #e0e0e0;  /* Grey 20 */
+  padding-top: 1rem;
 }
 
 .bleed2, .bleed4 {
   background: #fff;  /* i.e. no backgroud colour */
+  padding-top: 1rem;
 }
 
 .bleed3 {
-  background: #a6c8ff;  /* Blue 40 */
+  /* background: #a6c8ff; */ /* Carbon Blue 40 */
+  background: #C7DCFF;
+  padding-top: 1rem;
 }
 /* End */
 

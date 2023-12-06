@@ -5,30 +5,26 @@ import ContentWidth from "../components/contentWidth";
 import Tom_on_books_photo from "../images/reading/Tom_on_books.jpg";
 import Content_books from "../images/reading/content_books.jpeg";
 import Growth_books from "../images/reading/growth_books.jpeg";
-import Novels from "../images/reading/novels.jpeg";
 
-const ReadingPage = () => {
+const ReadingNonFictionPage = () => {
   return (
     <Layout>
 
 <ContentWidth>
   <section className="row">
     <div className="column books">
-      <h1>Reading</h1>
-      <p><em>I’m an incurable bookworm so I always have at least one book on the go. 
-      Here are some highlights from the last few years.</em></p>
+      <h1>Reading: Non-fiction</h1>
+      <p><em>Some of the work-related non-fiction that I've read over the last few years. For each book 
+        I’ve provided a link to further information and written a one-sentence description.</em></p>
         <ul className="ul-small do-not-print">
           <li><a href="#content">Content design / writing books</a></li>
           <li><a href="#non-fiction">Design / growth / leadership books</a></li>
-          <li><a href="#novels">Novels</a></li>
         </ul>
-        <p><em>For each book I’ve provided a link to further information 
-        and written a one-sentence description.</em></p>
     </div>
     <div className="column">
       <img
         alt="Photo of me reading, lying on a mass of books"
-        className="block tilt-landscape-left do-not-print"
+        className="block tilt-landscape-left tom-on-books do-not-print"
         src={Tom_on_books_photo}
       />
     </div>
@@ -271,175 +267,16 @@ const ReadingPage = () => {
     </div>
   </section>
 
-  <section className="row">
-    <div className="column">
-    <div id="novels" className="anchorLinkSpacer"></div>
-      <h2>Novels</h2>
-      <p><em>There are so many novels that I love, but to prevent you scrolling for ever, I’ve limited myself to listing 25 here.</em></p>
-      <div className="books">
-        <ul>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Pride_and_Prejudice">Pride and Prejudice</a> (1813)
-              <span className="black-text"> by Jane Austen</span>
-              <p>Classic will-they, won’t-they Regency romance novel, with great characters and perfectly plotted. </p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Great_Expectations">Great Expectations</a> (1860-61)
-              <span className="black-text"> by Charles Dickens</span>
-              <p>A brilliant coming-of-age tale about an orphan, an eccentric spinster, and her beautiful but cold adopted daughter. </p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/My_Family_and_Other_Animals">My Family and Other Animals</a> (1956)
-              <span className="black-text"> by Gerald Durrell</span>
-              <p>The adventures of the young naturalist as he and his eccentric family moved from England to Corfu in the 1930s.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Middlemarch">Middlemarch</a> (1871-72)
-              <span className="black-text"> by George Eliot</span>
-              <p>A sprawling novel about a fictional English town and the various interactions of its many inhabitants.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Great_Gatsby">The Great Gatsby</a> (1925)
-              <span className="black-text"> by F. Scott Fitzgerald</span>
-              <p>A portrait of the Roaring Twenties, where unbounded riches, decadence, and idealism are forced, ultimately, to sober up.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Tender_Is_the_Night">Tender is the Night</a> (1934)
-              <span className="black-text"> by F. Scott Fitzgerald</span>
-              <p>The Great Gatsby is Fitzgerald’s most famous work, but Tender is, I think, perhaps an even greater achievement.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Good_Soldier">The Good Soldier</a> (1915)
-              <span className="black-text"> by Ford Madox Ford</span>
-              <p>Another peculiarly English novel featuring an unreliable narrator and a treat of pioneering literary impressionism.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Howards_End">Howards End</a> (1910)
-              <span className="black-text"> by E. M. Forster</span>
-              <p>A brilliant novel exploring our desire to know and to be known — or as the epitaph puts it, to “Only connect”.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Magus_(novel)">The Magus</a> (1965; revised 1977)
-              <span className="black-text"> by John Fowles</span>
-              <p>On a Greek island, a young man meets a wealthy and mysterious recluse and becomes embroiled in psychological games.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Sophie%27s_World">Sophie’s World</a> (1991)
-              <span className="black-text"> by Jostein Gaarder</span>
-              <p>A book that manages to be both a comprehensive introduction to Western philosophy and a gripping story.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Heart_of_the_Matter">The Heart of the Matter</a> (1948)
-              <span className="black-text"> by Graham Greene</span>
-              <p>The tale of Major Scobie in a West African collony during WW2 and a study on failure and the great price of pity.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Go-Between">The Go-Between</a> (1953)
-              <span className="black-text"> by L. P. Hartley</span>
-              <p>A very British coming-of-age novel, set at the end of the Victorian era, told through the eyes of a naïve schoolboy. </p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Remains_of_the_Day">The Remains of the Day</a> (1989)
-              <span className="black-text"> by Kazuo Ishiguro</span>
-              <p>Another fine novel about the past told by an unreliable narrator — this time the butler of an English stately home.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Atonement_(novel)">Atonement</a> (2001)
-              <span className="black-text"> by Ian McEwan</span>
-              <p>Of all McEwan’s many fine novels, this is my firm favorite.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Wolf_Hall">Wolf Hall</a> (2009)
-              <span className="black-text"> by Hilary Mantel</span>
-              <p>If you’re into historical fiction, you’ll love this — and if you’re not into historical fiction you will also love this!</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Under_the_Net">Under the Net</a> (1954)
-              <span className="black-text"> by Iris Murdoch</span>
-              <p>A philosophical yet comic debut novel exploring love, work, wealth, fame, and meaning.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Lolita">Lolita</a> (1955)
-              <span className="black-text"> by Vladimir Nabokov</span>
-              <p>Worth reading for the dazzling brilliance of the writing; one of the worlds greatest stylist at the height of his powers.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_English_Patient">The English Patient</a> (1992)
-              <span className="black-text"> by Michael Ondaatje</span>
-              <p>A complex novel told by multiple charcters whose lives briefly overlap at an Italian villa duing the Secord World War.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye">The Catcher in the Rye</a> (1951)
-              <span className="black-text"> by J. D. Salinger</span>
-              <p>A critique on all that’s "phony" in society, told by 17-year-old Holden Caulfield; once read, never forgotten.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/East_of_Eden_(novel)">East of Eden</a> (1952)
-              <span className="black-text"> by John Steinbeck</span>
-              <p>An epic tale of two families living in the Salinas Valley in California at the beginning of the twentieth century.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Secret_History">The Secret History</a> (1992)
-              <span className="black-text"> by Donna Tartt</span>
-              <p>What becomes of six unusual and secretive classics students at a small, elite Vermont college.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Anna_Karenina">Anna Karenina</a> (1878)
-              <span className="black-text"> by Leo Tolstoy</span>
-              <p>A complex, sprawling novel, with many memorable characters; often hailed as the greatest work of world literature.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/Brideshead_Revisited">Brideshead Revisited</a> (1945)
-              <span className="black-text"> by Evelyn Waugh</span>
-              <p>This novel has it all: youth, love, loss, faith, family, and a teddy bear named Aloysius.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/The_Code_of_the_Woosters">The Code of the Woosters</a> (1938)
-              <span className="black-text"> by P. G. Wodehouse</span>
-              <p>A peculiarly British form of comedy, but I could happily read a Jeeves and Wooster novel any day of the year.</p>
-          </li>
-          <li>
-              <a href="https://en.wikipedia.org/wiki/To_the_Lighthouse">To the Lighthouse</a> (1927)
-              <span className="black-text"> by Virginia Woolf</span>
-              <p>Despite little dialogue and almost no action, this remains a fascinating, beautiful novel.</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section>
-      <div className="booksToRead">
-      <h3>And on my "to-read" pile...</h3>
-        <ul>
-          <li><em>Far too many novels to mention! 📚</em></li>
-        </ul>
-      </div>
-  </section>
-
-  <section>
-    <div className="column">
-      <img
-        alt="Photo of some of the novels I've enjoyed reading recently"
-        className="block panel-images do-not-print"
-        src={Novels}
-      />
-    </div>
-    <div className="backToTop">
-      <a href="#">&uarr; Back to top</a>
-    </div>
-  </section>
-
   </ContentWidth>
     </Layout>
   )
 }
 
-export default ReadingPage
+export default ReadingNonFictionPage
 
 export const Head = () => (
   <SEO 
-    title="Tom Waterton's website: Reading" 
-    description="Information about some of the books I've enjoyed reading recently (tomwaterton.com)" 
+    title="Tom Waterton's website: Reading: Non-fiction" 
+    description="Some of the work-related non-fiction books I've enjoyed reading recently (tomwaterton.com)"
     />
 )

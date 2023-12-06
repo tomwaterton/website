@@ -41,7 +41,8 @@ const NotFoundPage = () => {
           <li><Link to="/dog">Dog</Link></li>
           <li><Link to="/family">Family</Link></li>
           <li><Link to="/inventing">Inventing</Link></li>
-          <li><Link to="/reading">Reading</Link></li>
+          <li><Link to="/reading-fiction">Reading: Fiction</Link></li>
+          <li><Link to="/reading-non-fiction">Reading: Non-fiction</Link></li>
         </ul>
     </div>
     <div className="column">

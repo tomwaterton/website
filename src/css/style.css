@@ -4,6 +4,7 @@
 @import url("./crosswords.css");
 @import url("./dog.css");
 @import url("./family.css");
+@import url("./fiction.css");
 @import url("./filter.css");
 @import url("./footer.css");
 @import url("./header.css");
@@ -41,7 +42,7 @@ main {
   max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   flex: 1 1 0%;
   flex-direction: column;
   display: flex;
@@ -140,6 +141,14 @@ ul {
   flex: 33%;
   padding: 12px 8px;
   min-width: 16rem;
+}
+
+/* Keeps images top-aligned to headings next to them */
+.column > .tilt-landscape-left, 
+.column > .tilt-landscape-right, 
+.column > .tilt-portrait-left, 
+.column > .tilt-portrait-right {
+  margin-top: 1rem;
 }
 
 /* image border styles */

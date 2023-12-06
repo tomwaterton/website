@@ -33,7 +33,7 @@ const ArticlesPage = ({ data }) => {
         </section>
         <section className="row xs:hidden">
             <div id="myBtnContainer" className="flex float-right">
-              <div>
+              <div className="filterButtonContainer">
                 <button className={`btn ${ filter === "all" ? "active" : null }`} onClick={() => setFilter("all")}>all articles</button>
                 <button className={`btn ${ filter === "brewing" ? "active" : null}`} onClick={() => setFilter("brewing")}>brewing</button>
                 <button className={`btn ${ filter === "comms" ? "active" : null}`} onClick={() => setFilter("comms")}>communication</button>

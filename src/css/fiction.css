@@ -1,0 +1,37 @@
+.filterButtonContainer {
+    margin-left: 6px;
+}
+
+.fictionListContainer {
+    padding: 10px;
+    text-align: justify;
+}
+
+.fictionListContainer > ol {
+    list-style: auto;
+    padding-left: 40px;
+}
+
+.fictionListContainer > ol > li {
+    color: grey;
+}
+
+.fiction_title {
+    font-weight: 600;
+    font-style: italic;
+    /* color: #d82286; */
+    color: #37816B;
+}
+
+.fiction_misc {
+    color: grey;
+}
+
+.fiction_author {
+    font-weight: 500;
+    color: #393939;
+}
+
+.fiction_date {
+    color: grey;
+}
