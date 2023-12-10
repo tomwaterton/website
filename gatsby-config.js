@@ -5,6 +5,7 @@ module.exports = {
     description: `Tom Waterton's website: content design, portfolio, articles, patents, cryptic crosswords, and more.`,
     author: `Tom Waterton`,
     twitterUsername: `@tomwaterton`,
+    twitterCreatorId: `188022199`, //not used; see seo.jsx
     image: `/images/site_preview.png`,
     siteUrl: 'https://tomwaterton.com',
   },
