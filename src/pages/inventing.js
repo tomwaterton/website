@@ -3,7 +3,8 @@ import { SEO } from "../components/seo";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import MIPhoto from "../images/inventing/IBM_Master_Inventor.png";
+import MI_certificate from "../images/inventing/MI_award_framed.png";
+import MI_digital_badge from "../images/inventing/IBM_Master_Inventor.png";
 
 const PatentsPage = ({ data }) => {
 
@@ -34,6 +35,13 @@ const PatentsPage = ({ data }) => {
               <li><a href="#other-inventions">Other (non-patented) inventions</a></li>
               <li><a href="#master-inventor">An IBM Master Inventor</a></li>
             </ul>
+          </div>
+          <div className="column">
+            <img
+              alt="My IBM Master Inventor framed certificate"
+              className="block tilt-portrait-right"
+              src={MI_certificate}
+            />
           </div>
         </section>
 
@@ -189,12 +197,13 @@ const PatentsPage = ({ data }) => {
             <div id="master-inventor" className="anchorLinkSpacer"></div>
             <h2>An IBM Master Inventor</h2>
             <p><em>In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
-            recognition of my ongoing contribution to IBM's patent portfolio and invention community.</em></p>
+            recognition of my ongoing contribution to IBM's patent portfolio and inventing community. 
+            (Link to this <a href="https://www.credly.com/badges/6f04d3d0-ded1-43ba-a6a8-6253e6ee4bda">verified digital credential</a>.)</em></p>
 
             <img
               alt="My IBM Master Inventor digital badge"
               className="masterInventor do-not-print"
-              src={MIPhoto}
+              src={MI_digital_badge}
             />
 
             <div className="backToTop">

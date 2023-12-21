@@ -30,25 +30,9 @@ const ReadingFictionPage = ({ data }) => {
         <section className="">
           <div className="column">
             <h1>Reading: Fiction</h1>
-            <p><em>I’m an incurable bookworm and read a lot of fiction in particular.</em> 📚</p>
+            <p><em>I’m an incurable bookworm and read a lot of fiction. (Books are listed alphabetically by author.)</em></p>
           </div>
         </section>
-
-        {/* <section className="row">
-          <div className="column books">
-            <h1>Reading: Fiction</h1>
-            <p><em>I’m an incurable bookworm and read a lot of fiction in particular.</em> 📚</p>
-          </div>
-          <div className="column">
-            <img
-              alt="Photo of me reading, lying on a mass of books"
-              className="block tilt-landscape-left tom-on-books do-not-print"
-              src={Tom_on_books_photo}
-            />
-          </div>
-        </section> */}
-
-
 
         <section className="row xs:hidden">
             <div id="myBtnContainer" className="flex float-right">

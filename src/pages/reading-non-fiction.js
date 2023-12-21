@@ -102,17 +102,6 @@ const ReadingNonFictionPage = () => {
               <p>???</p>
           </li>
           */}
-          {/* 
-          To add when read:
-          - Writing for Designers (2018) by Scott Kubie
-            https://abookapart.com/products/writing-for-designers
-          - Leading Content Design by Rachel McConnell
-	          https://abookapart.com/products/leading-content-design
-          - Content Strategy for Mobile by Karen McGrane
-	          https://abookapart.com/products/content-strategy-for-mobile
-          - Conversational Design by Erika Hall
-	          https://abookapart.com/products/conversational-design
-          */}
         </ul>
       </div>
     </section>
@@ -125,7 +114,6 @@ const ReadingNonFictionPage = () => {
           <li><em>Conversational Design</em> (2018) by Erika Hall</li>
           <li><em>Writing for Designers</em> (2018) by Scott Kubie</li>
           <li><em>Leading Content Design</em> (2022) by Rachel McConnell</li>
-          <li><em>Content Strategy for Mobile</em> (2012) by Karen McGrane</li>
         </ul>
       </div>
   </section>
