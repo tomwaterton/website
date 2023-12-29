@@ -21,7 +21,7 @@ function Layout(props) {
             <div className="footerContainer2">
               <div className="footerContainer3">
                 <div className="footerCopyright">
-                    &copy; Tom Waterton, 2023
+                    &copy; Tom Waterton, 2024
                 </div>
                 <div className="footerInfo">
                   <Link to="/about">About this site</Link>
