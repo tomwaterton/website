@@ -227,6 +227,7 @@ export const query = graphql`
         image
         min
         date
+        pending
       }
     }
   }
@@ -252,6 +253,7 @@ class RenderPatents extends React.Component {
           image={patent.image}
           min={patent.min}
           date={patent.date}
+          pending={patent.pending}
         />
       ))
     )
@@ -278,6 +280,7 @@ class PatentTile extends React.Component {
               <h2 className="c-article-tile__title" itemprop="headline">
                 <a href={this.props.url}>{this.props.title}</a>
               </h2>
+              <span className="pending">{this.props.pending}</span>
             </div>
           </div>
 

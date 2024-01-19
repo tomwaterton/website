@@ -30,3 +30,9 @@
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
+
+.pending {
+  color: grey;
+  font-style: italic;
+  font-weight: 400;
+}
