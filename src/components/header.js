@@ -43,7 +43,8 @@ function Header() {
             </button>
             <div className="dropdown-content">
             <Link to="/experience">Experience and skills</Link>
-              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/portfolio">Portfolio of work</Link>
+              <Link to="/recommended-books">Recommended books</Link>
               <Link to="/speaking">Speaking</Link>
               <Link to="/testimonials">Testimonials</Link>
             </div>
@@ -62,11 +63,10 @@ function Header() {
             <div className="dropdown-content">
               <Link to="/brewing">Brewing</Link>
               <Link to="/cryptic-crosswords">Cryptic crosswords</Link>
-              <Link to="/dog">Dog</Link>
               <Link to="/family">Family</Link>
               <Link to="/inventing">Inventing</Link>
-              <Link to="/reading-fiction">Reading: Fiction</Link>
-              <Link to="/reading-non-fiction">Reading: Non-fiction</Link>
+              <Link to="/dog">Our dog</Link>
+              <Link to="/reading">Reading</Link>
             </div>
           </div>
         </div>

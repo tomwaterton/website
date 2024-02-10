@@ -77,7 +77,7 @@ const FamilyPage = () => {
 
   <section className="row">
     <div className="column">
-      <p>Also very much part of the family is our beloved <Link to="/dog">dog</Link>, Tiffin.</p>
+      <p>Also very much part of the family is <Link to="/dog">our beloved dog</Link>, Tiffin.</p>
     </div>
   </section>
 

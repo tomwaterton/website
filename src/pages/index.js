@@ -26,9 +26,9 @@ const IndexPage = () => {
         my <Link to="/experience">experience and skills</Link>, and features some of my <Link to="/articles">articles</Link>.
         </p>
         <p className="padding-bottom-small">Outside of work, I live in the south of England with my 
-        wonderful <Link to="/family">family</Link> and <Link to="/dog">dog</Link>. 
+        wonderful <Link to="/family">family</Link> and <Link to="/dog">our dog</Link>. 
         Other interests include <Link to="/brewing">brewing</Link>, <Link to="/cryptic-crosswords">compiling cryptic crosswords</Link>, <Link to="/inventing">inventing</Link>, 
-        and reading <Link to="/reading-fiction">fiction</Link> and <Link to="/reading-non-fiction">non-fiction</Link>.
+        and <Link to="/reading">reading</Link>.
         </p>
       </section>
 

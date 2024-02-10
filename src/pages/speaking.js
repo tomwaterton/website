@@ -51,7 +51,7 @@ const SpeakingPage = () => {
       design transformation within IBM, and in particular how we've grown a grass-roots content design 
       community of practice that has helped bring together content practitioners and advocates from 
       across the company.</p>
-      <p>You can read more about this topic in <a href="https://uxdesign.cc/building-a-community-of-practice-859db7950f77">this article</a> I wrote.</p>
+      <p>You can read more about this topic in <a href="https://uxdesign.cc/building-a-community-of-practice-859db7950f77" target="_blank" rel="noopener noreferrer">this article</a> I wrote.</p>
     </div>
   </section>
 </ContentWidth>
@@ -144,7 +144,7 @@ const SpeakingPage = () => {
       design thinking approaches. I helped explain the value of treating decisions like hypotheses to be tested, 
       and how establishing feedback loops helps us to learn, refine or pivot, and ultimately increases our chances 
       of success.</p>
-      <p>You can read more about this topic in <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50">this article</a> I wrote.</p>
+      <p>You can read more about this topic in <a href="https://medium.com/design-ibm/failing-fast-using-feedback-loops-and-the-benefits-of-iterative-design-e0b86d037f50" target="_blank" rel="noopener noreferrer">this article</a> I wrote.</p>
     </div>
     <div className="column">
       <img className="conf-images"

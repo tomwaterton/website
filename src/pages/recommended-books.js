@@ -1,5 +1,6 @@
 import React from "react";
 import { SEO } from "../components/seo";
+import { Link } from 'gatsby';
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import Tom_on_books_photo from "../images/reading/Tom_on_books.jpg";
@@ -13,13 +14,14 @@ const ReadingNonFictionPage = () => {
 <ContentWidth>
   <section className="row">
     <div className="column books">
-      <h1>Reading: Non-fiction</h1>
+      <h1>Recommended books</h1>
       <p><em>Some of the work-related non-fiction that I've read over the last few years. For each book 
         I’ve provided a link to further information and written a one-sentence description.</em></p>
         <ul className="ul-small do-not-print">
           <li><a href="#content">Content design / writing books</a></li>
           <li><a href="#non-fiction">Design / growth / leadership books</a></li>
         </ul>
+        <p><em>If you also enjoy reading fiction, do check out <Link to="/reading">this page</Link>.</em></p>
     </div>
     <div className="column">
       <img

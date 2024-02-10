@@ -14,15 +14,15 @@ const ExperiencePage = () => {
       <div className="column">
       <h1>Experience and skills</h1>
         <p><em>I'm an experienced content designer, having been one of the first 
-        hired by IBM. If you're not familiar with this term, think of me as a designer 
+        employed by IBM. If you're not familiar with this term, think of me as a designer 
         with a specialism in writing and communication.</em></p>
         <p><em>I'm used to working highly collaboratively, most commonly with other designers, 
         researchers, and engineers. To my mind, content and design are as inseparable as tea and biscuits.</em></p>
         <p><em>You can read more about what I do and what I've learned along the way in the following articles and links:</em></p>
         <ul>
-          <li><a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04">Confessions of a content designer</a> (article)</li>
-          <li><a href="https://workingincontent.com/resources/inside-content-design-at-ibm/">Inside content design at IBM</a> (interview article)</li>
-          <li>Or see my <Link to="/portfolio">portfolio</Link> for some examples of my work</li>
+          <li><a href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04" target="_blank" rel="noopener noreferrer">Confessions of a content designer</a> (article)</li>
+          <li><a href="https://workingincontent.com/resources/inside-content-design-at-ibm/" target="_blank" rel="noopener noreferrer">Inside content design at IBM</a> (interview article)</li>
+          <li>Or see my <Link to="/portfolio">portfolio of work</Link></li>
         </ul>
       </div>
       <div className="column">
@@ -33,6 +33,23 @@ const ExperiencePage = () => {
         />
       </div>
     </section>
+
+    <section className="row special">
+    <div className="column">
+      <h2>Job history</h2>
+    </div>
+  </section>
+
+    <section className="row">
+    <div className="column">
+        <ul className="ul-small">
+          <li><strong>Senior Content Designer</strong>, IBM (working across IBM Software; May 2022 – present)</li>
+          <li><strong>Senior Content Designer</strong>, IBM (working in one business unit; Feb 2019 – Apr 2022)</li>
+          <li><strong>Content Designer</strong>, IBM (working in one business unit; Aug 2016 – Jan 2019)</li>
+          <li><strong>Tech Writer</strong> then <strong>Editor</strong> then <strong>Content Team Manager</strong>, IBM (Apr 2010 – Jul 2016)</li>
+        </ul>
+    </div>
+  </section>
 
     <section className="row">
     <div className="column">
@@ -75,6 +92,7 @@ const ExperiencePage = () => {
         </ul>
     </div>
   </section>
+
 
   </ContentWidth>
 

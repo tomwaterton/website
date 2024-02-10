@@ -49,7 +49,7 @@ const PatentsPage = ({ data }) => {
           <div className="column">
             <div id="patents" className="anchorLinkSpacer"></div>
               <h2>Patents</h2>
-              <p><em>I currently have 13 patents granted, with a further 8 pending. My Google Scholar 
+              <p><em>I currently have 13 issued patents, with a further 4 pending. My Google Scholar 
                 profile can be found <a href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">here</a>.</em></p>
             </div>
         </section>
@@ -196,9 +196,9 @@ const PatentsPage = ({ data }) => {
           <div className="column">
             <div id="master-inventor" className="anchorLinkSpacer"></div>
             <h2>An IBM Master Inventor</h2>
-            <p><em>In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor">IBM Master Inventor</a> in 
+            <p><em>In October 2021 I was awarded the honorary title of <a href="https://en.wikipedia.org/wiki/IBM_Master_Inventor" target="_blank" rel="noopener noreferrer">IBM Master Inventor</a> in 
             recognition of my ongoing contribution to IBM's patent portfolio and inventing community. 
-            (Link to this <a href="https://www.credly.com/badges/6f04d3d0-ded1-43ba-a6a8-6253e6ee4bda">verified digital credential</a>.)</em></p>
+            (Link to this <a href="https://www.credly.com/badges/6f04d3d0-ded1-43ba-a6a8-6253e6ee4bda" target="_blank" rel="noopener noreferrer">verified digital credential</a>.)</em></p>
 
             <img
               alt="My IBM Master Inventor digital badge"

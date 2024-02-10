@@ -1,51 +1,37 @@
-.anchorLinkSpacer {
-  padding-top: 1.5rem;
+.filterButtonContainer {
+    margin-left: 6px;
 }
 
-.books li {
+.fictionListContainer {
+    padding: 10px;
+    text-align: justify;
 }
 
-.books a {
-  font-weight: 500;
+.fictionListContainer > ol {
+    list-style: auto;
+    padding-left: 40px;
 }
 
-.books p {
-  padding-bottom: 6px;
-  font-weight: 300;
-  font-style: italic;
+.fictionListContainer > ol > li {
+    color: grey;
 }
 
-.tom-on-books {
-  max-height: 200px;
+.fiction_title {
+    font-weight: 600;
+    font-style: italic;
+    /* color: #d82286; */
+    color: #37816B;
 }
 
-.imageCaption {
-  padding: 0.75rem 2.5rem 6px 2.5rem;
-  text-align: center;
+.fiction_misc {
+    color: grey;
 }
 
-.booksToRead {
-  margin-left: 2.5rem;
-  border-left: solid 4px lightgray;
-  margin-bottom: 1rem;
+.fiction_author {
+    font-weight: 500;
+    color: #393939;
 }
 
-.booksToRead h3 {
-  color: gray;
-}
-
-.booksToRead li {
-  color: dimgrey;
-  font-size: 0.85rem;
-}
-
-.backToTop {
-  padding-top: .5rem;
-  padding-bottom: 3rem;
-  padding-left: 10px;
-  font-size: 0.85rem;
-}
-
-.backToTop a:hover {
-  text-decoration: none;
+.fiction_date {
+    color: grey;
 }

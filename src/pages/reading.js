@@ -29,8 +29,10 @@ const ReadingFictionPage = ({ data }) => {
       <ContentWidth>
         <section className="">
           <div className="column">
-            <h1>Reading: Fiction</h1>
-            <p><em>I’m an incurable bookworm and read a lot of fiction. (Books are listed alphabetically by author.)</em></p>
+            <h1>Reading</h1>
+            <p><em>For me, reading fiction is one of life's great pleasures. Here's a record of the novels 
+              and short story collections that I've enjoyed. (Books are listed alphabetically by author.) 
+              See my <Link to="/recommended-books">recommended books</Link> page for content and design related non-fiction.</em></p>
           </div>
         </section>
 
@@ -53,6 +55,11 @@ const ReadingFictionPage = ({ data }) => {
               <RenderFiction fiction={whichFictionToRender()} />
             </ol>
           </div>
+
+          <div className="backToTop">
+              <a href="#">&uarr; Back to top</a>
+            </div>
+
         </section>
 
       </ContentWidth>

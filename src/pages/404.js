@@ -30,7 +30,8 @@ const NotFoundPage = () => {
       <h4>Content design</h4>
         <ul className="ul-small">
           <li><Link to="/experience">Experience and skills</Link></li>
-          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/portfolio">Portfolio of work</Link></li>
+          <li><Link to="/recommended-books">Recommended books</Link></li>
           <li><Link to="/speaking">Speaking</Link></li>
           <li><Link to="/testimonials">Testimonials</Link></li>
         </ul>
@@ -38,11 +39,10 @@ const NotFoundPage = () => {
         <ul className="ul-small">
           <li><Link to="/brewing">Brewing</Link></li>
           <li><Link to="/cryptic-crosswords">Cryptic crosswords</Link></li>
-          <li><Link to="/dog">Dog</Link></li>
           <li><Link to="/family">Family</Link></li>
           <li><Link to="/inventing">Inventing</Link></li>
-          <li><Link to="/reading-fiction">Reading: Fiction</Link></li>
-          <li><Link to="/reading-non-fiction">Reading: Non-fiction</Link></li>
+          <li><Link to="/dog">Our dog</Link></li>
+          <li><Link to="/reading">Reading</Link></li>
         </ul>
     </div>
     <div className="column">
