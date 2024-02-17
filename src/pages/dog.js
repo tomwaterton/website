@@ -147,6 +147,6 @@ export default DogPage
 export const Head = () => (
   <SEO 
     title="Tom Waterton's website: Our dog" 
-    description="Information about my pet dog, Tiffin (tomwaterton.com)" 
+    description="Information about our pet golden retriever dog, Tiffin (tomwaterton.com)" 
     />
 )

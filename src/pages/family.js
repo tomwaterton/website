@@ -91,6 +91,6 @@ export default FamilyPage
 export const Head = () => (
   <SEO 
     title="Tom Waterton's website: Family" 
-    description="Information about my wonderful family (tomwaterton.com)" 
+    description="Some brief information about my wonderful family (tomwaterton.com)" 
     />
 )

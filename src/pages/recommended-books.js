@@ -266,7 +266,7 @@ export default ReadingNonFictionPage
 
 export const Head = () => (
   <SEO 
-    title="Tom Waterton's website: Reading: Non-fiction" 
-    description="Some of the work-related non-fiction books I've enjoyed reading recently (tomwaterton.com)"
+    title="Tom Waterton's website: Recommended books" 
+    description="Some of the work-related content and design and leadership books I've benefitted from reading (tomwaterton.com)"
     />
 )

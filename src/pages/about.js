@@ -12,8 +12,9 @@ const AboutPage = () => {
   <section className="row">
     <div className="column">
       <h1>About this site</h1>
-      <p><em>I'm not a "proper" web developer, but I do like to learn new things, so 
-      at the beginning of 2020 I set myself the challenge of creating my own website.</em></p>
+      <p><em>I'm not really a web developer, but I do like to learn new things. So at the beginning 
+        of 2020 I set myself the challenge of creating my own website, and this was the result — and 
+        I've enjoying tinkering with it ever since!</em></p>
       <p><em>Here you'll find some information about my work as 
       a content designer, as well as some of my thoughts, hobbies, and interests.</em></p>
       <p className="padding-bottom-small"><em>Enjoy!</em></p>
@@ -37,7 +38,7 @@ const AboutPage = () => {
       <h2>Technical details</h2>
       <ul className="padding-bottom">
         <li>I built this site using the free and open source <a href="https://www.gatsbyjs.org/">Gatsby</a> React framework.</li>
-        <li>I use the <a href="https://tailwindcss.com/">Tailwind</a> utility-first CSS framework and their <a href="https://github.com/taylorbryant/gatsby-starter-tailwind">Gatsby starter theme</a>.</li>
+        <li>I started by using the <a href="https://tailwindcss.com/">Tailwind</a> utility-first CSS framework and their <a href="https://github.com/taylorbryant/gatsby-starter-tailwind">Gatsby starter theme</a>.</li>
         <li>I use <a href="https://github.com/">GitHub</a> as my source repository.</li>
         <li>I use <a href="https://pages.github.com/">GitHub Pages</a> to host the site.</li>
         <li>I use <a href="https://www.google.com/analytics">Google Analytics</a> to analyse site traffic.</li>

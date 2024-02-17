@@ -41,16 +41,6 @@
   box-shadow: 2px 4px 6px 2px rgba(0,0,0,.2);
 }
 
-/*
-#edf5ff;  (Blue 10)
-#d0e2ff;  (Blue 20)
-#a6c8ff;  (Blue 30)
-#78a9ff;  (Blue 40)
-#4589ff;  (Blue 50)
-
-#f4f4f4;  (Grey 10)
-#e0e0e0;  (Grey 20 - what I use for the footer)
-#a8a8a8;  (Grey 40)
-#6f6f6f;  (Grey 60)
-#262626;  (Grey 90)
-*/
+.padded {
+  padding-top: 6px;
+}
