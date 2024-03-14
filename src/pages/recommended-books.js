@@ -205,6 +205,11 @@ const ReadingNonFictionPage = () => {
               <p>This book was way ahead of its time when it was published in 1988 and is still worth a read today.</p>
           </li>
           <li>
+              <a href="https://www.dummies.com/book/body-mind-spirit/emotional-health-psychology/psychology/neurolinguistic-programming/neuro-linguistic-programming-for-dummies-3rd-edition-281592/">Neuro-linguistic Programming For Dummies</a> (2015)
+              <span className="black-text"> by Romilla Ready and Kate Burton</span>
+              <p>A good introduction to the core concepts and practices of neuro-linguistic programming. </p>
+          </li>
+          <li>
               <a href="https://en.wikipedia.org/wiki/Factfulness:_Ten_Reasons_We're_Wrong_About_the_World_%E2%80%93_and_Why_Things_Are_Better_Than_You_Think">Factfulness</a> (2018)
               <span className="black-text"> by Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund</span>
               <p>A fact-based, enlightening, and hope-filled book about what the world is really like.</p>
@@ -228,6 +233,11 @@ const ReadingNonFictionPage = () => {
               <a href="https://margaretwheatley.com/books-products/books/leadership-new-science/">Leadership and the New Science</a> (2006)
               <span className="black-text"> by Margaret Wheatley</span>
               <p>A book that challenges commonly-held perspectives on leadership, management, and how organizations best flourish.</p>
+          </li>
+          <li>
+              <a href="https://www.performanceconsultants.com/coaching-for-performance-book">Coaching for Performance</a> (2017)
+              <span className="black-text"> by Sir John Whitmore</span>
+              <p>A great introduction to coaching, the GROW model, and how to help raise awareness and responsibility.</p>
           </li>
         </ul>
     </div>

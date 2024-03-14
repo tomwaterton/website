@@ -49,7 +49,7 @@ const PatentsPage = ({ data }) => {
           <div className="column">
             <div id="patents" className="anchorLinkSpacer"></div>
               <h2>Patents</h2>
-              <p><em>I currently have 13 issued patents, with a further 4 pending. My Google Scholar 
+              <p><em>I currently have 14 issued patents, with a further 3 pending. My Google Scholar 
                 profile can be found <a href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">here</a>.</em></p>
             </div>
         </section>
