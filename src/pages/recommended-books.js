@@ -145,9 +145,9 @@ const ReadingNonFictionPage = () => {
               <p>I’m fascinated by the extent to which we tend to deceive ourselves, so was naturally drawn to this intriguing volume.</p>
           </li>
           <li>
-              <a href="https://www.amazon.co.uk/Rising-Strong-Bren%C3%A9-Brown/dp/0091955033">Rising Strong</a> (2015) and <a href="https://www.amazon.co.uk/Dare-Lead-Brave-Conversations-Hearts-ebook/dp/B07CZ4H1BQ/">Dare to Lead</a> (2018)
+          <a href="https://www.amazon.co.uk/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592408419">Daring Greatly</a> (2012), <a href="https://www.amazon.co.uk/Rising-Strong-Bren%C3%A9-Brown/dp/0091955033">Rising Strong</a> (2015), and <a href="https://www.amazon.co.uk/Dare-Lead-Brave-Conversations-Hearts-ebook/dp/B07CZ4H1BQ/">Dare to Lead</a> (2018)
               <span className="black-text"> by Brené Brown</span>
-              <p>Books about being brave, trying, failing, rising again, dusting ourselves off, owning our stories — and helping others do the same.</p>
+              <p>Books about being brave, trying, failing, rising again, dusting ourselves off, owning our stories — and helping others do the same.</p>
           </li>
           <li>
               <a href="https://en.wikipedia.org/wiki/Quiet:_The_Power_of_Introverts_in_a_World_That_Can%27t_Stop_Talking">Quiet</a>
