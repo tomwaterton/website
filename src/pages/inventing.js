@@ -70,6 +70,10 @@ const PatentsPage = ({ data }) => {
             <p><em>I've also had a number of other technical inventions published on <a href="https://ip.com/">IP.com</a>.</em></p>
             <ol reversed className="publish-list">
             <li>
+                <a href="https://priorart.ip.com/IPCOM/00275400D">Using haptic feedback to warn users of potentially dangerous links and actions within a UI</a>
+                <span className="date">(Nov 22, 2024)</span>
+              </li>
+            <li>
                 <a href="https://priorart.ip.com/IPCOM/00275134D">Method to define conditions for the automatic approval of code change requests</a>
                 <span className="date">(Oct 02, 2024)</span>
               </li>
