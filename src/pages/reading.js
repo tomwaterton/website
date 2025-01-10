@@ -41,7 +41,7 @@ const ReadingFictionPage = ({ data }) => {
               <div className="filterButtonContainer">
                 <button className={`btn ${ filter === "all" ? "active" : null }`} onClick={() => setFilter("all")}>all fiction read</button>
                 <button className={`btn ${ filter === "10" ? "active" : null}`} onClick={() => setFilter("10")}>my top 10</button>
-                <button className={`btn ${ filter === "25" ? "active" : null}`} onClick={() => setFilter("25")}>my top 25</button>
+                {/* <button className={`btn ${ filter === "25" ? "active" : null}`} onClick={() => setFilter("25")}>my top 25</button> */}
                 <button className={`btn ${ filter === "50" ? "active" : null}`} onClick={() => setFilter("50")}>my top 50</button>
                 <button className={`btn ${ filter === "re-read" ? "active" : null}`} onClick={() => setFilter("re-read")}>read more than once</button>
                 <button className={`btn ${ filter === "shorts" ? "active" : null}`} onClick={() => setFilter("shorts")}>short story collections</button>
