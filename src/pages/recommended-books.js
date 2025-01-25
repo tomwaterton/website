@@ -250,6 +250,7 @@ const ReadingNonFictionPage = () => {
           <li><em>Getting Things Done</em> (2001) by David Allen</li>
           <li><em>Made to Stick</em> (2007) by Chip and Dan Heath</li>
           <li><em>The Laws of Simplicity</em> (2006) by John Maeda</li>
+          <li><em>Thinking in Systems</em> (2008) by Donella Meadows</li>
         </ul>
       </div>
   </section>
