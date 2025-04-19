@@ -35,8 +35,8 @@ const IndexPage = () => {
           </p>
           <p className="padding-bottom-small">
             I live in the south of England with my wonderful{" "}
-            <Link to="/family">family</Link> and <Link to="/dog"> dog</Link>. My
-            interests include <Link to="/brewing">brewing</Link>,{" "}
+            <Link to="/family">family</Link> and <Link to="/dog"> dog</Link>.
+            Other interests include <Link to="/brewing">brewing</Link>,{" "}
             <Link to="/cryptic-crosswords">compiling cryptic crosswords</Link>,{" "}
             <Link to="/inventing">inventing</Link>, and{" "}
             <Link to="/reading">reading</Link>.
