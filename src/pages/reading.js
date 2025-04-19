@@ -1,52 +1,109 @@
-
 import React, { useState } from "react";
 import { SEO } from "../components/seo";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import Tom_on_books_photo from "../images/reading/Tom_on_books.jpg";
+import bookshelves_photo from "../images/reading/bookshelves.jpeg";
 
 const ReadingFictionPage = ({ data }) => {
-
   const [filter, setFilter] = useState("all");
 
   const whichFictionToRender = () => {
-    const allFiction = data.allFictionJson.nodes
-    let fictionToRenderArray
-    if ( filter === "all" ) {
-      fictionToRenderArray = allFiction
+    const allFiction = data.allFictionJson.nodes;
+    let fictionToRenderArray;
+    if (filter === "all") {
+      fictionToRenderArray = allFiction;
     } else {
-      fictionToRenderArray = allFiction.filter( fiction => fiction.categories.includes(filter) )
+      fictionToRenderArray = allFiction.filter((fiction) =>
+        fiction.categories.includes(filter)
+      );
     }
-    return fictionToRenderArray
-  }
+    return fictionToRenderArray;
+  };
 
-
-  return(
-
+  return (
     <Layout>
-
       <ContentWidth>
-        <section className="">
-          <div className="column">
+        <section className="row">
+          <div className="column books">
             <h1>Reading</h1>
-            <p><em>For me, reading fiction is one of life's great pleasures. Here's a record of the novels 
-              and short story collections that I've enjoyed. (Books are listed alphabetically by author.) 
-              See my <Link to="/recommended-books">recommended books</Link> page for content and design related non-fiction.</em></p>
+            <p>
+              <em>
+                For me, reading fiction is one of life's great pleasures. Here's
+                a record of the novels and short story collections that I've
+                enjoyed. (Books are listed alphabetically by author.)
+              </em>
+            </p>
+            <p>
+              <em>
+                You might also be interested in the following related links:
+              </em>
+            </p>
+            <ul className="ul-small do-not-print">
+              <li>
+                <a
+                  href="https://tomwaterton.medium.com/why-i-read-d044f8a01015"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Why I read
+                </a>{" "}
+                (article)
+              </li>
+              <li>
+                <a href="#content">
+                  <Link to="/recommended-books">
+                    Recommended non-fiction (writing / design related)
+                  </Link>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="column">
+            <img
+              alt="Photo of some of our bookshelves at home"
+              className="block tilt-landscape-left tom-on-books do-not-print"
+              src={bookshelves_photo}
+            />
           </div>
         </section>
 
         <section className="row xs:hidden">
-            <div id="myBtnContainer" className="flex float-right">
-              <div className="filterButtonContainer">
-                <button className={`btn ${ filter === "all" ? "active" : null }`} onClick={() => setFilter("all")}>all fiction read</button>
-                <button className={`btn ${ filter === "10" ? "active" : null}`} onClick={() => setFilter("10")}>my top 10</button>
-                {/* <button className={`btn ${ filter === "25" ? "active" : null}`} onClick={() => setFilter("25")}>my top 25</button> */}
-                <button className={`btn ${ filter === "50" ? "active" : null}`} onClick={() => setFilter("50")}>my top 50</button>
-                <button className={`btn ${ filter === "re-read" ? "active" : null}`} onClick={() => setFilter("re-read")}>read more than once</button>
-                <button className={`btn ${ filter === "shorts" ? "active" : null}`} onClick={() => setFilter("shorts")}>short story collections</button>
-              </div>
+          <div id="myBtnContainer" className="flex float-right">
+            <div className="filterButtonContainer">
+              <button
+                className={`btn ${filter === "all" ? "active" : null}`}
+                onClick={() => setFilter("all")}
+              >
+                all fiction read
+              </button>
+              <button
+                className={`btn ${filter === "10" ? "active" : null}`}
+                onClick={() => setFilter("10")}
+              >
+                my top 10
+              </button>
+              {/* <button className={`btn ${ filter === "25" ? "active" : null}`} onClick={() => setFilter("25")}>my top 25</button> */}
+              <button
+                className={`btn ${filter === "50" ? "active" : null}`}
+                onClick={() => setFilter("50")}
+              >
+                my top 50
+              </button>
+              <button
+                className={`btn ${filter === "re-read" ? "active" : null}`}
+                onClick={() => setFilter("re-read")}
+              >
+                read more than once
+              </button>
+              <button
+                className={`btn ${filter === "shorts" ? "active" : null}`}
+                onClick={() => setFilter("shorts")}
+              >
+                short story collections
+              </button>
             </div>
+          </div>
         </section>
 
         <section className="flex flex-col md:flex-row padding-bottom">
@@ -57,16 +114,13 @@ const ReadingFictionPage = ({ data }) => {
           </div>
 
           <div className="backToTop">
-              <a href="#">&uarr; Back to top</a>
-            </div>
-
+            <a href="#">&uarr; Back to top</a>
+          </div>
         </section>
-
       </ContentWidth>
     </Layout>
-
-  )
-}
+  );
+};
 
 export const query = graphql`
   {
@@ -79,42 +133,38 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
-export default ReadingFictionPage
+export default ReadingFictionPage;
 
 export const Head = () => (
-  <SEO 
-    title="Tom Waterton's website: Reading: Fiction" 
+  <SEO
+    title="Tom Waterton's website: Reading: Fiction"
     description="Some of the novels, novellas, and short story collections I've read (tomwaterton.com)"
-    />
-)
-
+  />
+);
 
 class RenderFiction extends React.Component {
   render() {
-    return(
-        this.props.fiction.map( (fiction,i) => (
-          <FictionList
-            key={fiction.title}
-            title={fiction.title}
-            author={fiction.author}
-            date={fiction.datePub}
-          />
-        ))
-      )
+    return this.props.fiction.map((fiction, i) => (
+      <FictionList
+        key={fiction.title}
+        title={fiction.title}
+        author={fiction.author}
+        date={fiction.datePub}
+      />
+    ));
   }
 }
 
-
 class FictionList extends React.Component {
-    render() {
-      return(
-        <li key={this.props.key}>
-          <span className="fiction_title">{this.props.title} </span>
-          <span className="fiction_date">({this.props.date}) by </span>
-          <span className="fiction_author">{this.props.author} </span>
-        </li>
-    )
-}
+  render() {
+    return (
+      <li key={this.props.key}>
+        <span className="fiction_title">{this.props.title} </span>
+        <span className="fiction_date">({this.props.date}) by </span>
+        <span className="fiction_author">{this.props.author} </span>
+      </li>
+    );
+  }
 }

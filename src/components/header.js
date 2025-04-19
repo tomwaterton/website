@@ -17,14 +17,10 @@ function Header() {
   return (
     <header className="headerWrapper do-not-print">
       <div className="headerContainer">
-
         <div className="siteLogoAndName">
           <div className="homeIcon">
             <Link to="/">
-              <img
-                alt="Typewriter icon"
-                src={TypewriterIllustration}
-              />
+              <img alt="Typewriter icon" src={TypewriterIllustration} />
             </Link>
           </div>
           <div className="siteName">
@@ -32,17 +28,16 @@ function Header() {
           </div>
         </div>
 
-        <div className="verticalDivider">
-          |
-        </div>
+        <div className="verticalDivider">|</div>
 
         <div className="navbar nav1">
           <div className="dropdown">
-            <button className="dropbtn">Content design
+            <button className="dropbtn">
+              Content design
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
-            <Link to="/experience">Experience and skills</Link>
+              <Link to="/experience">Experience and skills</Link>
               <Link to="/portfolio">Portfolio of work</Link>
               <Link to="/recommended-books">Recommended books</Link>
               <Link to="/speaking">Speaking</Link>
@@ -57,7 +52,8 @@ function Header() {
 
         <div className="navbar">
           <div className="dropdown">
-            <button className="dropbtn">More...
+            <button className="dropbtn">
+              More...
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
@@ -71,9 +67,7 @@ function Header() {
           </div>
         </div>
 
-        <div className="header-spacer">
-        </div>
-
+        <div className="header-spacer">&nbsp;</div>
       </div>
     </header>
   );

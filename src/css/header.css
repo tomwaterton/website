@@ -8,12 +8,16 @@
 
 /* Setting the header font size for larger screen sizes */
 @media only screen and (min-width: 1024px) {
-  .headerWrapper {font-size: 1.125rem;}
+  .headerWrapper {
+    font-size: 1.125rem;
+  }
 }
 
 /* Setting the header font size for smaller screen sizes */
 @media only screen and (max-width: 767px) {
-  .headerWrapper {font-size: .875rem;}
+  .headerWrapper {
+    font-size: 0.875rem;
+  }
 }
 
 .headerContainer {
@@ -43,7 +47,9 @@
 
 /* Setting the width of the home icon for larger screen sizes */
 @media only screen and (min-width: 1024px) {
-  .homeIcon {width: 2.5rem;}
+  .homeIcon {
+    width: 2.5rem;
+  }
 }
 
 .siteName {
@@ -52,8 +58,12 @@
 
 /* Hiding the site name and vertical bar for smaller screen sizes */
 @media only screen and (max-width: 767px) {
-  .siteName {display: none;}
-  .verticalDivider {display: none;}
+  .siteName {
+    display: none;
+  }
+  .verticalDivider {
+    display: none;
+  }
 }
 
 /* The following entry just applies to the site name */
@@ -74,14 +84,17 @@
 .navbar {
   overflow: hidden;
   margin: 0 0.375rem;
-  }
+}
 
-.navbar a, .dropdown, .dropbtn {
+.navbar a,
+.dropdown,
+.dropbtn {
   color: #393939;
 }
 
 /* Changes color of nav item text on hover */
-.navbar a:hover, .dropbtn:hover {
+.navbar a:hover,
+.dropbtn:hover {
   color: #505050;
   text-decoration: none;
 }
@@ -110,7 +123,7 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -123,17 +136,23 @@
 }
 
 /* Adds background color to top level nav items on hover */
-.navbar a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropdown-content a:hover {
   background-color: #f6e05e;
 }
 
 /* To ensure the yellow background remains at the point of clicking */
-.navbar a:active, .dropdown:active .dropbtn, .dropdown-content a:active {
+.navbar a:active,
+.dropdown:active .dropbtn,
+.dropdown-content a:active {
   background-color: #f6e05e !important;
 }
 
 /* To prevent the Articles link remaining yellow on mobile */
-.navbar a:focus, .dropdown:focus .dropbtn, .dropdown-content a:focus {
+.navbar a:focus,
+.dropdown:focus .dropbtn,
+.dropdown-content a:focus {
   background-color: unset;
 }
 
@@ -148,13 +167,20 @@
 
 /* Reduces the horizontal padding on navbar at 639px and below */
 @media only screen and (max-width: 639px) {
-  .navbar a {padding: 12px 12px;}
-  .dropdown .dropbtn {padding: 12px 12px;}
+  .navbar a {
+    padding: 12px 12px;
+  }
+  .dropdown .dropbtn {
+    padding: 12px 12px;
+  }
 }
 
 /* Standard horizontal padding on navbar at 640px and up */
 @media only screen and (min-width: 640px) {
-  .navbar a {padding: 16px 21px;}
-  .dropdown .dropbtn {padding: 16px 21px;}
+  .navbar a {
+    padding: 16px 21px;
+  }
+  .dropdown .dropbtn {
+    padding: 16px 21px;
+  }
 }
-

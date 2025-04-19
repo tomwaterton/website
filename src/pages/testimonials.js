@@ -283,6 +283,12 @@ const TestimonialsPage = () => {
             />
           </div>
         </section>
+
+        <section className="row">
+          <div className="column">
+            <p className="">&nbsp;</p>
+          </div>
+        </section>
       </ContentWidth>
     </Layout>
   );
