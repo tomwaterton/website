@@ -58,7 +58,7 @@ function Header() {
             </button>
             <div className="dropdown-content">
               <Link to="/brewing">Brewing</Link>
-              <Link to="/cryptic-crosswords">Cryptic crosswords</Link>
+              <Link to="/cryptic-crosswords">Crosswords</Link>
               <Link to="/family">Family</Link>
               <Link to="/inventing">Inventing</Link>
               <Link to="/dog">Our dog</Link>
