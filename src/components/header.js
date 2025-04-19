@@ -30,7 +30,7 @@ function Header() {
 
         <div className="verticalDivider">|</div>
 
-        <div className="navbar nav1">
+        <div className="navbar">
           <div className="dropdown">
             <button className="dropbtn">
               Content design

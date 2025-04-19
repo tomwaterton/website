@@ -82,6 +82,7 @@
 
 /* The top-left hand navigation menu*/
 .navbar {
+  margin: 0 !important;
   overflow: hidden;
 }
 
@@ -161,7 +162,7 @@
 
 .header-spacer {
   display: block;
-  width: 60px;
+  width: 50px;
 }
 
 /* Reduces the horizontal padding on navbar at 639px and below */
