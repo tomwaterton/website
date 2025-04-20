@@ -162,7 +162,7 @@
 
 .header-spacer {
   display: block;
-  width: 40px;
+  width: 35px;
 }
 
 /* Reduces the horizontal padding on navbar at 639px and below */
@@ -172,6 +172,9 @@
   }
   .dropdown .dropbtn {
     padding: 12px 12px;
+  }
+  .headerContainer {
+    justify-content: unset !important;
   }
 }
 
