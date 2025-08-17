@@ -6,12 +6,12 @@ import ContentWidth from "../components/contentWidth";
 import bookshelves_photo from "../images/reading/bookshelves.jpeg";
 
 const ReadingFictionPage = ({ data }) => {
-  const [filter, setFilter] = useState("all");
+  const [filter, setFilter] = useState(`all`);
 
   const whichFictionToRender = () => {
     const allFiction = data.allFictionJson.nodes;
     let fictionToRenderArray;
-    if (filter === "all") {
+    if (filter === `all`) {
       fictionToRenderArray = allFiction;
     } else {
       fictionToRenderArray = allFiction.filter((fiction) =>
@@ -31,7 +31,7 @@ const ReadingFictionPage = ({ data }) => {
               <em>
                 For me, reading fiction is one of life's great pleasures. Here's
                 a record of the novels and short story collections that I've
-                enjoyed. (Books are listed alphabetically by author.)
+                enjoyed over recent years.
               </em>
             </p>
             <p>
@@ -72,35 +72,46 @@ const ReadingFictionPage = ({ data }) => {
           <div id="myBtnContainer" className="flex float-right">
             <div className="filterButtonContainer">
               <button
-                className={`btn ${filter === "all" ? "active" : null}`}
-                onClick={() => setFilter("all")}
+                className={`btn ${filter === `all` ? `active` : null}`}
+                onClick={() => setFilter(`all`)}
               >
-                all fiction read
+                All fiction read
               </button>
-              <button
+              {/* <button
                 className={`btn ${filter === "10" ? "active" : null}`}
                 onClick={() => setFilter("10")}
               >
                 my top 10
-              </button>
-              {/* <button className={`btn ${ filter === "25" ? "active" : null}`} onClick={() => setFilter("25")}>my top 25</button> */}
+              </button> */}
               <button
-                className={`btn ${filter === "50" ? "active" : null}`}
-                onClick={() => setFilter("50")}
+                className={`btn ${filter === `25` ? `active` : null}`}
+                onClick={() => setFilter(`25`)}
               >
-                my top 50
-              </button>
-              <button
-                className={`btn ${filter === "re-read" ? "active" : null}`}
-                onClick={() => setFilter("re-read")}
-              >
-                read more than once
+                Favourites (1-25)
               </button>
               <button
-                className={`btn ${filter === "shorts" ? "active" : null}`}
-                onClick={() => setFilter("shorts")}
+                className={`btn ${filter === `50` ? `active` : null}`}
+                onClick={() => setFilter(`50`)}
               >
-                short story collections
+                Favourites (26-50)
+              </button>
+              <button
+                className={`btn ${filter === `75` ? `active` : null}`}
+                onClick={() => setFilter(`75`)}
+              >
+                Favourites (51-75)
+              </button>
+              <button
+                className={`btn ${filter === `re-read` ? `active` : null}`}
+                onClick={() => setFilter(`re-read`)}
+              >
+                Read more than once
+              </button>
+              <button
+                className={`btn ${filter === `shorts` ? `active` : null}`}
+                onClick={() => setFilter(`shorts`)}
+              >
+                Short story collections
               </button>
             </div>
           </div>
@@ -108,9 +119,12 @@ const ReadingFictionPage = ({ data }) => {
 
         <section className="flex flex-col md:flex-row padding-bottom">
           <div className="fictionListContainer">
-            <ol>
+            <p>
+              <em>Books are listed alphabetically by author.</em>
+            </p>
+            <ul>
               <RenderFiction fiction={whichFictionToRender()} />
-            </ol>
+            </ul>
           </div>
 
           <div className="backToTop">

@@ -63,13 +63,13 @@
     "title": "The Blind Assassin",
     "author": "Margaret Atwood",
     "datePub": "2000",
-    "categories": ["50"]
+    "categories": ["75"]
   },
   {
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "datePub": "1813",
-    "categories": ["10", "25", "50"]
+    "categories": ["10", "25"]
   },
   {
     "title": "Persuasion",
@@ -252,10 +252,16 @@
     "categories": [""]
   },
   {
+    "title": "Smiley's People",
+    "author": "John le Carré",
+    "datePub": "1979",
+    "categories": [""]
+  },
+  {
     "title": "A Perfect Spy",
     "author": "John le Carré",
     "datePub": "1986",
-    "categories": ["50"]
+    "categories": ["25"]
   },
   {
     "title": "Alice’s Adventures in Wonderland",
@@ -309,7 +315,7 @@
     "title": "Stories",
     "author": "Anton Chekhov",
     "datePub": "1903",
-    "categories": ["shorts"]
+    "categories": ["75", "shorts"]
   },
   {
     "title": "The Innocence of Father Brown",
@@ -522,22 +528,22 @@
     "categories": [""]
   },
   {
-    "title": "Ttrust",
+    "title": "Trust",
     "author": "Hernan Diaz",
     "datePub": "2022",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "David Copperfield",
     "author": "Charles Dickins",
     "datePub": "1850",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Great Expectations",
     "author": "Charles Dickins",
     "datePub": "1861",
-    "categories": ["25", "50"]
+    "categories": ["25"]
   },
   {
     "title": "Ragtime",
@@ -567,7 +573,7 @@
     "title": "The Brothers Karamazov",
     "author": "Fyodor Dostoevsky",
     "datePub": "1880",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Narrative of the Life of Frederick Douglass, An American Slave",
@@ -609,19 +615,19 @@
     "title": "My Family and Other Animals",
     "author": "Gerald Durrell",
     "datePub": "1956",
-    "categories": ["25", "50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "A Heartwarming Work of Staggering Genius",
     "author": "Dave Eggers",
     "datePub": "2000",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Middlemarch",
     "author": "George Eliot",
     "datePub": "1872",
-    "categories": ["25", "50"]
+    "categories": ["50"]
   },
   {
     "title": "The Virgin Suicides",
@@ -645,7 +651,7 @@
     "title": "The Sound and the Fury",
     "author": "William Faulkner",
     "datePub": "1929",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "As I Lay Dying",
@@ -669,7 +675,7 @@
     "title": "Birdsong",
     "author": "Sebastian Faulks",
     "datePub": "1993",
-    "categories": ["re-read"]
+    "categories": ["75", "re-read"]
   },
   {
     "title": "Charlotte Gray",
@@ -735,13 +741,13 @@
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "datePub": "1925",
-    "categories": ["10", "25", "50", "re-read"]
+    "categories": ["10", "25", "re-read"]
   },
   {
     "title": "Tender is the Night",
     "author": "F. Scott Fitzgerald",
     "datePub": "1934",
-    "categories": ["25", "50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "The Diamond as Big as the Ritz",
@@ -777,7 +783,7 @@
     "title": "The Good Soldier",
     "author": "Ford Madox Ford",
     "datePub": "1915",
-    "categories": ["10", "25", "50", "re-read"]
+    "categories": ["10", "25", "re-read"]
   },
   {
     "title": "Parade’s End (tetralogy)",
@@ -801,13 +807,13 @@
     "title": "A Room with a View",
     "author": "E. M. Forster",
     "datePub": "1908",
-    "categories": ["25", "50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "Howards End",
     "author": "E. M. Forster",
     "datePub": "1910",
-    "categories": ["10", "25", "50", "re-read"]
+    "categories": ["10", "25", "re-read"]
   },
   {
     "title": "A Passage to India",
@@ -873,7 +879,7 @@
     "title": "Sophie’s World",
     "author": "Jostein Gaarder",
     "datePub": "1991",
-    "categories": ["25", "50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "The Christmas Mystery",
@@ -915,13 +921,13 @@
     "title": "The Greengage Summer",
     "author": "Rumer Godden",
     "datePub": "1958",
-    "categories": [""]
+    "categories": ["50"]
   },
   {
     "title": "Lord of the Flies",
     "author": "William Golding",
     "datePub": "1954",
-    "categories": ["25", "50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "The Spire",
@@ -945,7 +951,7 @@
     "title": "I, Claudius",
     "author": "Robert Graves",
     "datePub": "1934",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Brighton Rock",
@@ -957,19 +963,19 @@
     "title": "The Power and the Glory",
     "author": "Graham Greene",
     "datePub": "1940",
-    "categories": ["25", "50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "The Heart of the Matter",
     "author": "Graham Greene",
     "datePub": "1948",
-    "categories": ["25", "50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "The End of the Affair",
     "author": "Graham Greene",
     "datePub": "1951",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Twenty-One Stories",
@@ -1059,7 +1065,7 @@
     "title": "The Go-Between",
     "author": "L. P. Hartley",
     "datePub": "1953",
-    "categories": ["10", "25", "50", "re-read"]
+    "categories": ["10", "25", "re-read"]
   },
   {
     "title": "The Scarlet Letter",
@@ -1089,7 +1095,7 @@
     "title": "A Farewell to Arms",
     "author": "Ernest Hemingway",
     "datePub": "1929",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Green Hills of Africa",
@@ -1113,7 +1119,7 @@
     "title": "For Whom the Bell Tolls",
     "author": "Ernest Hemingway",
     "datePub": "1940",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Across the River and Into the Trees",
@@ -1197,7 +1203,7 @@
     "title": "Brave New World",
     "author": "Aldous Huxley",
     "datePub": "1932",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Eyeless in Gaza",
@@ -1227,7 +1233,7 @@
     "title": "The Remains of the Day",
     "author": "Kazuo Ishiguro",
     "datePub": "1989",
-    "categories": ["25", "50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "When We Were Orphens",
@@ -1257,7 +1263,7 @@
     "title": "The Portrait of a Lady",
     "author": "Henry James",
     "datePub": "1881",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "The Aspern Papers",
@@ -1371,7 +1377,7 @@
     "title": "Demon Copperhead",
     "author": "Barbara Kingsolver",
     "datePub": "2022",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Kim",
@@ -1443,7 +1449,7 @@
     "title": "Narnia: The Lion, the Witch & the Wardrobe",
     "author": "C. S. Lewis",
     "datePub": "1950",
-    "categories": ["50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "Narnia: The Horse and His Boy",
@@ -1497,7 +1503,7 @@
     "title": "Wolf Hall",
     "author": "Hilary Mantel",
     "datePub": "2009",
-    "categories": ["25", "50"]
+    "categories": ["50"]
   },
   {
     "title": "Bring Up the Bodies",
@@ -1545,7 +1551,7 @@
     "title": "Rebecca",
     "author": "Daphne du Maurier",
     "datePub": "1938",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "My Cousin Rachel",
@@ -1599,7 +1605,7 @@
     "title": "Atonement",
     "author": "Ian McEwan",
     "datePub": "2001",
-    "categories": ["10", "25", "50", "re-read"]
+    "categories": ["10", "25", "re-read"]
   },
   {
     "title": "Saturday",
@@ -1695,7 +1701,7 @@
     "title": "Lolita",
     "author": "Vladimir Nabokov",
     "datePub": "1955",
-    "categories": ["10", "25", "50", "re-read"]
+    "categories": ["10", "25", "re-read"]
   },
   {
     "title": "Pnin",
@@ -1749,7 +1755,7 @@
     "title": "The English Patient",
     "author": "Michael Ondaatje",
     "datePub": "1992",
-    "categories": ["50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "Down and Out in London and Paris",
@@ -1761,13 +1767,13 @@
     "title": "Animal Farm",
     "author": "George Orwell",
     "datePub": "1945",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "1984",
     "author": "George Orwell",
     "datePub": "1949",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "The Thursday Murder Club",
@@ -1995,7 +2001,7 @@
     "title": "Harry Potter and the Philosopher's Stone",
     "author": "J. K. Rowling",
     "datePub": "1997",
-    "categories": ["re-read"]
+    "categories": ["75", "re-read"]
   },
   {
     "title": "Harry Potter and the Chamber of Secrets",
@@ -2043,7 +2049,7 @@
     "title": "Midnight’s Children",
     "author": "Salman Rushdie",
     "datePub": "1981",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Holes",
@@ -2055,7 +2061,7 @@
     "title": "The Catcher in the Rye",
     "author": "J. D. Salinger",
     "datePub": "1951",
-    "categories": ["10", "25", "50", "re-read"]
+    "categories": ["10", "25", "re-read"]
   },
   {
     "title": "For Esmé ~ With Love and Squalor",
@@ -2067,7 +2073,7 @@
     "title": "Franny and Zooey",
     "author": "J. D. Salinger",
     "datePub": "1961",
-    "categories": ["re-read"]
+    "categories": ["75", "re-read"]
   },
   {
     "title": "Raise High the Roof Beam, Carpenters / Seymour: an Introduction",
@@ -2157,7 +2163,7 @@
     "title": "I Capture the Castle",
     "author": "Dodie Smith",
     "datePub": "1948",
-    "categories": [""]
+    "categories": ["75"]
   },
   {
     "title": "Gorky Park",
@@ -2205,7 +2211,7 @@
     "title": "Of Mice and Men",
     "author": "John Steinbeck",
     "datePub": "1937",
-    "categories": ["re-read"]
+    "categories": ["75", "re-read"]
   },
   {
     "title": "The Grapes of Wrath",
@@ -2229,7 +2235,7 @@
     "title": "East of Eden",
     "author": "John Steinbeck",
     "datePub": "1952",
-    "categories": ["25", "50"]
+    "categories": ["25"]
   },
   {
     "title": "The Life and Opinions of Tristram Shandy, Gentlemen",
@@ -2259,7 +2265,7 @@
     "title": "The Secret History",
     "author": "Donna Tartt",
     "datePub": "1992",
-    "categories": ["10", "25", "50", "re-read"]
+    "categories": ["10", "25", "re-read"]
   },
   {
     "title": "The Little Friend",
@@ -2301,7 +2307,7 @@
     "title": "Anna Karenina",
     "author": "Leo Tolstoy",
     "datePub": "1877",
-    "categories": ["25", "50"]
+    "categories": ["25"]
   },
   {
     "title": "Cane",
@@ -2427,7 +2433,7 @@
     "title": "Brideshead Revisited",
     "author": "Evelyn Waugh",
     "datePub": "1945",
-    "categories": ["10", "25", "50", "re-read"]
+    "categories": ["10", "25", "re-read"]
   },
   {
     "title": "The Complete Short Stories",
@@ -2547,13 +2553,13 @@
     "title": "Mrs. Dalloway",
     "author": "Virginia Woolf",
     "datePub": "1925",
-    "categories": ["re-read"]
+    "categories": ["75", "re-read"]
   },
   {
     "title": "To the Lighthouse",
     "author": "Virginia Woolf",
     "datePub": "1927",
-    "categories": ["25", "50", "re-read"]
+    "categories": ["25", "re-read"]
   },
   {
     "title": "Orlando",
@@ -2565,7 +2571,7 @@
     "title": "The Waves",
     "author": "Virginia Woolf",
     "datePub": "1931",
-    "categories": ["re-read"]
+    "categories": ["75", "re-read"]
   },
   {
     "title": "Revolutionary Road",
