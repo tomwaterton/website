@@ -19,7 +19,7 @@ const IndexPage = () => {
 
           <h1 className="padding-bottom-small">Hi, I'm Tom Waterton</h1>
           <p className="padding-bottom-small">
-            I'm a <strong>senior content designer</strong>, currently working
+            I'm a <strong>Senior Content Designer</strong>, currently working
             for{" "}
             <a
               href="https://www.ibm.com/design/"
@@ -34,12 +34,12 @@ const IndexPage = () => {
             some of my <Link to="/articles">articles</Link>.
           </p>
           <p className="padding-bottom-small">
-            I live in the south of England with my wonderful{" "}
-            <Link to="/family">family</Link> and <Link to="/dog"> dog</Link>.
-            Other interests include <Link to="/brewing">brewing</Link>,{" "}
+            I live in Hampshire (UK) with my wonderful{" "}
+            <Link to="/family">family</Link> and <Link to="/dog">dog</Link>. I
+            also enjoy <Link to="/brewing">brewing</Link>,{" "}
             <Link to="/cryptic-crosswords">compiling cryptic crosswords</Link>,
-            hiking, <Link to="/inventing">inventing</Link>, and{" "}
-            <Link to="/reading">always reading</Link>.
+            cricket, hiking, <Link to="/inventing">inventing</Link>, and always{" "}
+            <Link to="/reading">reading</Link>.
           </p>
         </section>
       </ContentWidth>
