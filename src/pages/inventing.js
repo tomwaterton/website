@@ -61,7 +61,7 @@ const PatentsPage = ({ data }) => {
             <h2>Patents</h2>
             <p>
               <em>
-                I currently have 16 issued patents, with a further 3 pending. My
+                I currently have 18 issued patents, with a further 3 pending. My
                 Google Scholar profile can be found{` `}
                 <a
                   href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en"
