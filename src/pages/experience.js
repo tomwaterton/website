@@ -30,16 +30,6 @@ const ExperiencePage = () => {
             </p>
             <p>
               <em>
-                I now increasingly work on AI-related content projects. This
-                typically involves identifying workflows where AI tools can
-                bring the most benefit to users and then optimizing content so
-                that it's great for both humans and AI to find, scan, and
-                understand.
-              </em>{" "}
-              🤖👨‍💻
-            </p>
-            <p>
-              <em>
                 You can read more about what I do and what I've learned along
                 the way in the following articles and links:
               </em>
@@ -65,10 +55,20 @@ const ExperiencePage = () => {
                 </a>{" "}
                 (interview article)
               </li>
-              <li>
+              <li className="padding-bottom-small">
                 Or see my <Link to="/portfolio">portfolio of work</Link>
               </li>
             </ul>
+            <p>
+              <em>
+                2025: I now increasingly work on AI-related content projects.
+                This typically involves identifying workflows where AI tools can
+                bring the most benefit to users and then optimizing content so
+                that it's great for both humans and AI to find, scan, and
+                understand.
+              </em>{" "}
+              🤖👨‍💻
+            </p>
           </div>
           <div className="column">
             <img
@@ -116,19 +116,19 @@ const ExperiencePage = () => {
 
         <section className="row">
           <div className="column-1-3">
-            <h3>Content design</h3>
+            <p className="mock-h3">Content design 📝</p>
             <ul className="ul-small">
               <li>Writing for humans and for AI</li>
               <li>Simplifying the complex</li>
               <li>User-centered writing</li>
               <li>Applying voice and tone</li>
               <li>Writing UI tours</li>
-              <li>Writing UI messages</li>
-              <li>Writing UI microcopy</li>
+              <li>Writing UI copy</li>
+              <li>Technical / doc writing</li>
             </ul>
           </div>
           <div className="column-1-3">
-            <h3>Strategy</h3>
+            <p className="mock-h3">Strategy 🙇‍♂️</p>
             <ul className="ul-small">
               <li>Setting content strategy</li>
               <li>Defining voice and tone</li>
@@ -140,7 +140,7 @@ const ExperiencePage = () => {
             </ul>
           </div>
           <div className="column-1-3">
-            <h3>Other</h3>
+            <p className="mock-h3">Other 👨‍🏫</p>
             <ul className="ul-small">
               <li>Coaching</li>
               <li>Leading teams</li>
@@ -149,6 +149,18 @@ const ExperiencePage = () => {
               <li>UX design</li>
               <li>Writing articles</li>
               <li>Drinking copious cups of tea 🫖</li>
+            </ul>
+          </div>
+          <div className="column-1-3">
+            <p className="mock-h3">Tools and technologies 🧰</p>
+            <ul className="ul-small">
+              <li>CMS: Adobe Experience Manager</li>
+              <li>Collaboration: Airtable, Mural, Slack</li>
+              <li>Design: Figma, Sketch</li>
+              <li>Doc source: DITA, Markdown</li>
+              <li>Source control: GitHub</li>
+              <li>Web: HTML, CSS, Gatsby, Carbon</li>
+              <li>Work management: GitHub, Jira, Monday.com</li>
             </ul>
           </div>
         </section>
