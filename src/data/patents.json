@@ -1,6 +1,14 @@
 [
   {
-    "title": "Modification of a custom resource managed by an operator in an orchestration platform",
+    "title": "Sharing data structure values between software applications (3/3)",
+    "url": "https://patents.google.com/patent/JP7754588B2/en",
+    "image": "patent_12.png",
+    "min": "#JP7754588B2",
+    "date": "Oct 15, 2025",
+    "pending": ""
+  },
+  {
+    "title": "Modification of a custom resource managed by an operator in an orchestration platform (1/2)",
     "url": "https://patents.google.com/patent/US12418495B1/",
     "image": "patent_18.png",
     "min": "#US12418495B1",
@@ -8,12 +16,20 @@
     "pending": ""
   },
   {
-    "title": "Sharing data structure values between software applications (2/2)",
-    "url": "https://patents.google.com/patent/CN114528115B/",
+    "title": "Sharing data structure values between software applications (2/3)",
+    "url": "https://patents.google.com/patent/CN114528115B/en",
     "image": "patent_12.png",
     "min": "#CN114528115B",
     "date": "Aug 26, 2025",
     "pending": ""
+  },
+  {
+    "title": "Modification of a custom resource managed by an operator in an orchestration platform (2/2)",
+    "url": "https://patents.google.com/patent/WO2025171948A1/en",
+    "image": "patent_18.png",
+    "min": "#WO2025171948A1",
+    "date": "Aug 21, 2025",
+    "pending": "(Pending)"
   },
   {
     "title": "In-band instantiation configuration for application workloads",
@@ -24,7 +40,7 @@
     "pending": ""
   },
   {
-    "title": "Sharing data structure values between software applications (1/2)",
+    "title": "Sharing data structure values between software applications (1/3)",
     "url": "https://patents.google.com/patent/US12020090B2/",
     "image": "patent_12.png",
     "min": "#US12020090B2",

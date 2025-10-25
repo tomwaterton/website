@@ -12,6 +12,63 @@ const TestimonialsPage = () => {
         <section className="row">
           <div className="column">
             <h1>Testimonials</h1>
+            <p>
+              <em>
+                Note that my{" "}
+                <a
+                  href="https://www.linkedin.com/in/tomwaterton/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn profile
+                </a>{" "}
+                also lists some colleague recommendations.
+              </em>
+            </p>
+          </div>
+        </section>
+
+        <section className="row">
+          <div className="column-no-padding">
+            <img
+              className="quote-mark hide-small"
+              alt="Quotation mark image"
+              src={QuoteLeft}
+            />
+          </div>
+          <div className="column">
+            <p className="testimonial">
+              &ldquo;As one of the first official content designers at IBM, Tom
+              helped build the practice from the ground up, constantly finding
+              ways to elevate the craft and advocate for content design as a
+              strategic partner. He has an incredible way of developing and
+              scaling content solutions, all while contributing back to the
+              community as a mentor.
+            </p>
+            <p className="testimonial">
+              I don't think I'd be where I'm at in my career if it weren't for
+              Tom's incredible leadership, support, and passion for the
+              craft.&rdquo;
+            </p>
+            <p className="attribution-name">— Maranda Bodas</p>
+            <p className="attribution-role">
+              Former Content Designer at IBM; now Senior Staff Content Designer
+              & Design Manager at Google.&nbsp;
+              <a
+                href="https://www.linkedin.com/in/marandabodas/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn profile
+              </a>
+            </p>
+          </div>
+          <div className="column-no-padding">
+            <img
+              className="quote-mark show-small"
+              alt="Quotation mark image"
+              src={QuoteLeft}
+            />
           </div>
         </section>
 

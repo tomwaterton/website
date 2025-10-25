@@ -154,12 +154,14 @@ const ExperiencePage = () => {
           <div className="column-1-3">
             <p className="mock-h3">Tools and technologies 🧰</p>
             <ul className="ul-small">
+              <li>AI tools: Copilot, ChatGPT, IBM watsonx Orchestrate</li>
+              <li>AI LLMs: Granite, Llama, Mistral</li>
               <li>CMS: Adobe Experience Manager</li>
               <li>Collaboration: Airtable, Mural, Slack</li>
               <li>Design: Figma, Sketch</li>
               <li>Doc source: DITA, Markdown</li>
               <li>Source control: GitHub</li>
-              <li>Web: HTML, CSS, Gatsby, Carbon</li>
+              <li>Web: HTML, CSS, Carbon, Gatsby, Jekyll</li>
               <li>Work management: GitHub, Jira, Monday.com</li>
             </ul>
           </div>

@@ -173,7 +173,7 @@ const PortfolioPage = () => {
               <li>
                 I helped the team design a new set of{" "}
                 <a
-                  href="https://www.ibm.com/cloud/event-streams"
+                  href="https://www.ibm.com/products/event-streams"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -182,23 +182,8 @@ const PortfolioPage = () => {
                 that articulated how the product addressed common user goals.
               </li>
               <li>
-                We won an{" "}
-                <a
-                  href="https://www.indigoawards.com/winners/731"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  external design award
-                </a>{" "}
-                🏆 for the product itself and a separate{" "}
-                <a
-                  href="https://istc.org.uk/homepage/professional-development-and-recognition/uk-technical-communication-awards/award-winners-2019/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  external design award
-                </a>{" "}
-                🏆 for the{" "}
+                We won an external design award 🏆 for the product itself and a
+                separate external design award 🏆 for the{" "}
                 <a
                   href="https://ibm.github.io/event-automation/es/"
                   target="_blank"
@@ -524,7 +509,7 @@ const PortfolioPage = () => {
               <li>
                 So I got together with the talented{" "}
                 <a
-                  href="http://www.marandabodas.com/"
+                  href="https://www.linkedin.com/in/marandabodas/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
