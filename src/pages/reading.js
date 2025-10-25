@@ -122,9 +122,9 @@ const ReadingFictionPage = ({ data }) => {
             <p>
               <em>Books are listed alphabetically by author.</em>
             </p>
-            <ol>
+            <ul>
               <RenderFiction fiction={whichFictionToRender()} />
-            </ol>
+            </ul>
           </div>
 
           <div className="backToTop">

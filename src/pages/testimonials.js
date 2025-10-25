@@ -28,7 +28,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
-        <section className="row">
+        <section className="row bottom-border">
           <div className="column-no-padding">
             <img
               className="quote-mark hide-small"
@@ -38,22 +38,31 @@ const TestimonialsPage = () => {
           </div>
           <div className="column">
             <p className="testimonial">
-              &ldquo;As one of the first official content designers at IBM, Tom
-              helped build the practice from the ground up, constantly finding
-              ways to elevate the craft and advocate for content design as a
-              strategic partner. He has an incredible way of developing and
-              scaling content solutions, all while contributing back to the
-              community as a mentor.
+              As one of the first official content designers at IBM, Tom helped
+              build the practice from the ground up, constantly finding ways to
+              elevate the craft and advocate for content design as a strategic
+              partner. He has an incredible way of developing and scaling
+              content solutions, all while contributing back to the community as
+              a mentor.
             </p>
             <p className="testimonial">
               I don't think I'd be where I'm at in my career if it weren't for
-              Tom's incredible leadership, support, and passion for the
-              craft.&rdquo;
+              Tom's incredible leadership, support, and passion for the craft.
             </p>
             <p className="attribution-name">— Maranda Bodas</p>
-            <p className="attribution-role">
-              Former Content Designer at IBM; now Senior Staff Content Designer
-              & Design Manager at Google.&nbsp;
+            <p className="attribution">
+              Former{" "}
+              <span className="attribution-role-name">Content Designer</span> at{" "}
+              <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">
+                Senior Staff Content Designer & Design Manager
+              </span>{" "}
+              at <span className="attribution-role-company">Google</span>
+            </p>
+            <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/marandabodas/"
                 target="_blank"
@@ -72,7 +81,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
-        <section className="row">
+        <section className="row bottom-border">
           <div className="column">
             <p className="testimonial">
               &ldquo;It was my utmost honor to work with and learn from Tom
@@ -93,9 +102,21 @@ const TestimonialsPage = () => {
               Tom again — and follow his lead — in a heartbeat.&rdquo;
             </p>
             <p className="attribution-name">— Jeremy Burton</p>
-            <p className="attribution-role">
-              Former Senior UX and Content Designer at IBM; now Content Design
-              and UX Leader at Upwork.&nbsp;
+            <p className="attribution">
+              Former{" "}
+              <span className="attribution-role-name">
+                Senior UX and Content Designer
+              </span>{" "}
+              at <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">
+                Director of Content Design
+              </span>{" "}
+              at <span className="attribution-role-company">Upwork</span>
+            </p>
+            <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/jeremygburton/"
                 target="_blank"
@@ -114,7 +135,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
-        <section className="row">
+        <section className="row bottom-border">
           <div className="column-no-padding">
             <img
               className="quote-mark hide-small"
@@ -145,9 +166,21 @@ const TestimonialsPage = () => {
               regularly by speaking at industry events.&rdquo;
             </p>
             <p className="attribution-name">— Allison Biesboer</p>
-            <p className="attribution-role">
-              Former Content Designer and Strategist at IBM; now Senior Content
-              Design Manager at Visa.&nbsp;
+            <p className="attribution">
+              Former{" "}
+              <span className="attribution-role-name">
+                Content Designer and Strategist
+              </span>{" "}
+              at <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">
+                Senior Content Design Manager
+              </span>{" "}
+              at <span className="attribution-role-company">Visa</span>
+            </p>
+            <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/allisonbiesboer/"
                 target="_blank"
@@ -166,7 +199,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
-        <section className="row">
+        <section className="row bottom-border">
           <div className="column">
             <p className="testimonial">
               &ldquo;It's very rare to find someone so knowledgeable in their
@@ -188,9 +221,20 @@ const TestimonialsPage = () => {
               as a colleague, mentor, and friend.&rdquo;
             </p>
             <p className="attribution-name">— Peter Loveland</p>
-            <p className="attribution-role">
-              Former UI/UX Designer at IBM; now Senior Product Designer at
-              GitHub.&nbsp;
+            <p className="attribution">
+              Former{" "}
+              <span className="attribution-role-name">UI/UX Designer</span>{" "}
+              at&nbsp;
+              <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">
+                Senior Product Designer
+              </span>{" "}
+              at <span className="attribution-role-company">GitHub</span>
+            </p>
+            <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/peterloveland/"
                 target="_blank"
@@ -209,7 +253,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
-        <section className="row">
+        <section className="row bottom-border">
           <div className="column-no-padding">
             <img
               className="quote-mark hide-small"
@@ -230,8 +274,18 @@ const TestimonialsPage = () => {
               better communicate within a team and with users.&rdquo;
             </p>
             <p className="attribution-name">— Esteban Pérez-Hemminger</p>
-            <p className="attribution-role">
-              Former Design Lead at IBM; now Staff Designer at Google.&nbsp;
+            <p className="attribution">
+              Former <span className="attribution-role-name">Design Lead</span>{" "}
+              at <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">
+                Staff Interaction Designer
+              </span>{" "}
+              at <span className="attribution-role-company">Google</span>
+            </p>
+            <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/estebanjperez/"
                 target="_blank"
@@ -250,7 +304,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
-        <section className="row">
+        <section className="row bottom-border">
           <div className="column">
             <p className="testimonial">
               &ldquo;Tom is truly outstanding. A man of deep integrity and sound
@@ -262,7 +316,10 @@ const TestimonialsPage = () => {
               document outcomes.&rdquo;
             </p>
             <p className="attribution-name">— Barry Gunner</p>
-            <p className="attribution-role">IBM Software Engineer</p>
+            <p className="attribution">
+              <span className="attribution-role-name">Software Engineer</span>{" "}
+              at <span className="attribution-role-company">IBM</span>
+            </p>
           </div>
           <div className="column-no-padding">
             <img
@@ -273,7 +330,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
-        <section className="row">
+        <section className="row bottom-border">
           <div className="column-no-padding">
             <img
               className="quote-mark hide-small"
@@ -292,8 +349,21 @@ const TestimonialsPage = () => {
               cut through the noise!&rdquo;
             </p>
             <p className="attribution-name">— Janene Franke</p>
-            <p className="attribution-role">
-              IBM Business Process Transformation at IBM.&nbsp;
+            <p className="attribution">
+              Former{" "}
+              <span className="attribution-role-name">
+                Business Transformation Program Manager
+              </span>{" "}
+              at <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">
+                Vice President, Professional Services
+              </span>{" "}
+              at <span className="attribution-role-company">AMCS Group</span>
+            </p>
+            <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/janenefranke/"
                 target="_blank"
@@ -312,7 +382,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
-        <section className="row">
+        <section className="row bottom-border">
           <div className="column">
             <p className="testimonial">
               &ldquo;Thank you Tom for always pushing the boundaries of what
@@ -320,9 +390,19 @@ const TestimonialsPage = () => {
               perspective.&rdquo;
             </p>
             <p className="attribution-name">— Madison Heck</p>
-            <p className="attribution-role">
-              Former Product Manager at IBM; now Staff Product Manager, AI at
-              Clio & Co-Founder at Heck & Hollis Capital.&nbsp;
+            <p className="attribution">
+              Former{" "}
+              <span className="attribution-role-name">Product Manager</span> at{" "}
+              <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">
+                Staff Product Manager, AI
+              </span>{" "}
+              at <span className="attribution-role-company">Clio</span>
+            </p>
+            <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/madison-heck09/"
                 target="_blank"

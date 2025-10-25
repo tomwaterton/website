@@ -35,8 +35,13 @@
   }
 }
 
+.bottom-border {
+  border-bottom: solid lightgray 1px;
+  margin-top: 1.1rem;
+}
+
 .testimonial {
-  /* font-family: 'Courier New', monospace; */
+  /* font-family: "Courier New", monospace; */
   font-family:
     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
@@ -44,14 +49,31 @@
   font-weight: 500;
   font-style: italic;
   text-indent: 2rem;
+  color: dimgray;
 }
 
 .attribution-name {
   color: #d82286;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  padding-top: 0.4rem;
 }
 
-.attribution-role {
-  color: #d82286;
+.attribution {
   font-size: 0.9rem;
+  padding-bottom: 2px !important;
+}
+
+.attribution-role-name {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.attribution-role-company {
+  color: #d82286;
+  font-weight: 600;
+}
+
+.quote-padding {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
