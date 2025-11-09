@@ -62,7 +62,7 @@ function Header() {
               <Link to="/family">Family</Link>
               <Link to="/inventing">Inventing</Link>
               <Link to="/dog">Our dog</Link>
-              <Link to="/reading">Reading</Link>
+              <Link to="/reading">Reading fiction</Link>
             </div>
           </div>
         </div>

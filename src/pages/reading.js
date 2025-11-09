@@ -26,7 +26,7 @@ const ReadingFictionPage = ({ data }) => {
       <ContentWidth>
         <section className="row">
           <div className="column books">
-            <h1>Reading</h1>
+            <h1>Reading fiction</h1>
             <p>
               <em>
                 For me, reading fiction is one of life's great pleasures. Here's
@@ -77,12 +77,18 @@ const ReadingFictionPage = ({ data }) => {
               >
                 All fiction read
               </button>
+              <button
+                className={`btn ${filter === `favourite` ? `active` : null}`}
+                onClick={() => setFilter(`favourite`)}
+              >
+                My favourites
+              </button>
               {/* <button
                 className={`btn ${filter === "10" ? "active" : null}`}
                 onClick={() => setFilter("10")}
               >
                 my top 10
-              </button> */}
+              </button>
               <button
                 className={`btn ${filter === `25` ? `active` : null}`}
                 onClick={() => setFilter(`25`)}
@@ -100,7 +106,7 @@ const ReadingFictionPage = ({ data }) => {
                 onClick={() => setFilter(`75`)}
               >
                 Favourites (51-75)
-              </button>
+              </button> */}
               <button
                 className={`btn ${filter === `re-read` ? `active` : null}`}
                 onClick={() => setFilter(`re-read`)}
@@ -113,6 +119,12 @@ const ReadingFictionPage = ({ data }) => {
               >
                 Short story collections
               </button>
+              <button
+                className={`btn ${filter === `play` ? `active` : null}`}
+                onClick={() => setFilter(`play`)}
+              >
+                Plays
+              </button>
             </div>
           </div>
         </section>
@@ -122,9 +134,9 @@ const ReadingFictionPage = ({ data }) => {
             <p>
               <em>Books are listed alphabetically by author.</em>
             </p>
-            <ul>
+            <ol>
               <RenderFiction fiction={whichFictionToRender()} />
-            </ul>
+            </ol>
           </div>
 
           <div className="backToTop">
@@ -153,8 +165,8 @@ export default ReadingFictionPage;
 
 export const Head = () => (
   <SEO
-    title="Tom Waterton's website: Reading: Fiction"
-    description="Some of the novels, novellas, and short story collections I've read (tomwaterton.com)"
+    title="Tom Waterton's website: Reading fiction"
+    description="Some of the novels, novellas, plays, and short story collections I've read (tomwaterton.com)"
   />
 );
 

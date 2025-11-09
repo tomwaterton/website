@@ -28,113 +28,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
-        <section className="row bottom-border">
-          <div className="column-no-padding">
-            <img
-              className="quote-mark hide-small"
-              alt="Quotation mark image"
-              src={QuoteLeft}
-            />
-          </div>
-          <div className="column">
-            <p className="testimonial">
-              As one of the first official content designers at IBM, Tom helped
-              build the practice from the ground up, constantly finding ways to
-              elevate the craft and advocate for content design as a strategic
-              partner. He has an incredible way of developing and scaling
-              content solutions, all while contributing back to the community as
-              a mentor.
-            </p>
-            <p className="testimonial">
-              I don't think I'd be where I'm at in my career if it weren't for
-              Tom's incredible leadership, support, and passion for the craft.
-            </p>
-            <p className="attribution-name">— Maranda Bodas</p>
-            <p className="attribution">
-              Former{" "}
-              <span className="attribution-role-name">Content Designer</span> at{" "}
-              <span className="attribution-role-company">IBM</span>
-            </p>
-            <p className="attribution">
-              Now{" "}
-              <span className="attribution-role-name">
-                Senior Staff Content Designer & Design Manager
-              </span>{" "}
-              at <span className="attribution-role-company">Google</span>
-            </p>
-            <p className="attribution">
-              <a
-                href="https://www.linkedin.com/in/marandabodas/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn profile
-              </a>
-            </p>
-          </div>
-          <div className="column-no-padding">
-            <img
-              className="quote-mark show-small"
-              alt="Quotation mark image"
-              src={QuoteLeft}
-            />
-          </div>
-        </section>
-
-        <section className="row bottom-border">
-          <div className="column">
-            <p className="testimonial">
-              &ldquo;It was my utmost honor to work with and learn from Tom
-              during my time at IBM. I was constantly in awe of how much Tom
-              accomplished as he worked diligently to establish standards,
-              practices, and culture of IBM's content design program.
-            </p>
-            <p className="testimonial">
-              A true catalyst, Tom had a knack for bringing people along with
-              him, sparking participation, being inclusive of perspectives and
-              voices, and championing progress bit by bit.
-            </p>
-            <p className="testimonial">
-              And on top of all that, I can say that Tom is an impressively
-              thoughtful content designer who works from a great wellspring of
-              knowledge and experience about his craft. He was always generous
-              with his time when I'd seek advice or collaboration. I'd work with
-              Tom again — and follow his lead — in a heartbeat.&rdquo;
-            </p>
-            <p className="attribution-name">— Jeremy Burton</p>
-            <p className="attribution">
-              Former{" "}
-              <span className="attribution-role-name">
-                Senior UX and Content Designer
-              </span>{" "}
-              at <span className="attribution-role-company">IBM</span>
-            </p>
-            <p className="attribution">
-              Now{" "}
-              <span className="attribution-role-name">
-                Director of Content Design
-              </span>{" "}
-              at <span className="attribution-role-company">Upwork</span>
-            </p>
-            <p className="attribution">
-              <a
-                href="https://www.linkedin.com/in/jeremygburton/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn profile
-              </a>
-            </p>
-          </div>
-          <div className="column-no-padding">
-            <img
-              className="quote-mark"
-              alt="Quotation mark image"
-              src={QuoteRight}
-            />
-          </div>
-        </section>
-
+        {/* Start of Allison's reference (RIGHT) */}
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
@@ -199,6 +93,117 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
+        {/* Start of Jeremy's reference (LEFT) */}
+        <section className="row bottom-border">
+          <div className="column">
+            <p className="testimonial">
+              &ldquo;It was my utmost honor to work with and learn from Tom
+              during my time at IBM. I was constantly in awe of how much Tom
+              accomplished as he worked diligently to establish standards,
+              practices, and culture of IBM's content design program.
+            </p>
+            <p className="testimonial">
+              A true catalyst, Tom had a knack for bringing people along with
+              him, sparking participation, being inclusive of perspectives and
+              voices, and championing progress bit by bit.
+            </p>
+            <p className="testimonial">
+              And on top of all that, I can say that Tom is an impressively
+              thoughtful content designer who works from a great wellspring of
+              knowledge and experience about his craft. He was always generous
+              with his time when I'd seek advice or collaboration. I'd work with
+              Tom again — and follow his lead — in a heartbeat.&rdquo;
+            </p>
+            <p className="attribution-name">— Jeremy Burton</p>
+            <p className="attribution">
+              Former{" "}
+              <span className="attribution-role-name">
+                Senior UX and Content Designer
+              </span>{" "}
+              at <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">
+                Director of Content Design
+              </span>{" "}
+              at <span className="attribution-role-company">Upwork</span>
+            </p>
+            <p className="attribution">
+              <a
+                href="https://www.linkedin.com/in/jeremygburton/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn profile
+              </a>
+            </p>
+          </div>
+          <div className="column-no-padding">
+            <img
+              className="quote-mark"
+              alt="Quotation mark image"
+              src={QuoteRight}
+            />
+          </div>
+        </section>
+
+        {/* Start of Maranda's reference (RIGHT) */}
+        <section className="row bottom-border">
+          <div className="column-no-padding">
+            <img
+              className="quote-mark hide-small"
+              alt="Quotation mark image"
+              src={QuoteLeft}
+            />
+          </div>
+          <div className="column">
+            <p className="testimonial">
+              &ldquo;As one of the first official content designers at IBM, Tom
+              helped build the practice from the ground up, constantly finding
+              ways to elevate the craft and advocate for content design as a
+              strategic partner. He has an incredible way of developing and
+              scaling content solutions, all while contributing back to the
+              community as a mentor.
+            </p>
+            <p className="testimonial">
+              I don't think I'd be where I'm at in my career if it weren't for
+              Tom's incredible leadership, support, and passion for the
+              craft.&rdquo;
+            </p>
+            <p className="attribution-name">— Maranda Bodas</p>
+            <p className="attribution">
+              Former{" "}
+              <span className="attribution-role-name">Content Designer</span> at{" "}
+              <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">
+                Senior Staff Content Designer & Design Manager
+              </span>{" "}
+              at <span className="attribution-role-company">Google</span>
+            </p>
+            <p className="attribution">
+              <a
+                href="https://www.linkedin.com/in/marandabodas/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn profile
+              </a>
+            </p>
+          </div>
+          <div className="column-no-padding">
+            <img
+              className="quote-mark show-small"
+              alt="Quotation mark image"
+              src={QuoteLeft}
+            />
+          </div>
+        </section>
+
+        {/* Start of Pete's reference (LEFT) */}
         <section className="row bottom-border">
           <div className="column">
             <p className="testimonial">
@@ -253,6 +258,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
+        {/* Start of Esteban's reference (RIGHT) */}
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
@@ -304,6 +310,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
+        {/* Start of Barry's reference (LEFT) */}
         <section className="row bottom-border">
           <div className="column">
             <p className="testimonial">
@@ -330,6 +337,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
+        {/* Start of Janene's reference (RIGHT) */}
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
@@ -382,6 +390,7 @@ const TestimonialsPage = () => {
           </div>
         </section>
 
+        {/* Start of Madison's reference (LEFT) */}
         <section className="row bottom-border">
           <div className="column">
             <p className="testimonial">
@@ -405,6 +414,127 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/madison-heck09/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn profile
+              </a>
+            </p>
+          </div>
+          <div className="column-no-padding">
+            <img
+              className="quote-mark"
+              alt="Quotation mark image"
+              src={QuoteRight}
+            />
+          </div>
+        </section>
+
+        {/* Start of Holly's reference (RIGHT) */}
+        <section className="row bottom-border">
+          <div className="column-no-padding">
+            <img
+              className="quote-mark hide-small"
+              alt="Quotation mark image"
+              src={QuoteLeft}
+            />
+          </div>
+          <div className="column">
+            <p className="testimonial">
+              &ldquo;I have worked with Tom for many years on and off and on
+              many content firsts at IBM from the Content Design Guild to
+              starting a new role of content designer in our business unit. He
+              has been someone I look up to for content knowledge and advice and
+              I'm always excited to work with him on any content projects,
+              especially those focused on broader initiatives.
+            </p>
+            <p className="testimonial">
+              Tom has great big ideas and an ability to see things from a
+              higher-level perspective that I find invaluable. He always brings
+              fresh and plentiful thoughts to the table along with realistic
+              expectations and practical plans for what we can actually get
+              done. He is definitely a doer and I appreciate working with him
+              because there's always something tangible delivered out of any
+              effort.
+            </p>
+            <p className="testimonial">
+              Personally, working with Tom has always been great - he is kind,
+              engaging, respectful, and supportive as a colleague and always
+              gives his all to whatever he's involved with. His deep expertise
+              on IBM content guidelines and style rules has made him one of our
+              content leaders. I frequently reference the UX copy educational
+              course and content guidance website he created. Both are essential
+              resources in my day-to-day not only for the information they
+              provide, but the excellent and easy-to-follow way in which they
+              were written and organized.&rdquo;
+            </p>
+            <p className="attribution-name">— Holly King</p>
+            <p className="attribution">
+              <span className="attribution-role-name">
+                UX Content Design Lead
+              </span>{" "}
+              at <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              <a
+                href="https://www.linkedin.com/in/hollyeking/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn profile
+              </a>
+            </p>
+          </div>
+          <div className="column-no-padding">
+            <img
+              className="quote-mark show-small"
+              alt="Quotation mark image"
+              src={QuoteLeft}
+            />
+          </div>
+        </section>
+
+        {/* Start of Shrav's reference (LEFT) */}
+        <section className="row bottom-border">
+          <div className="column">
+            <p className="testimonial">
+              &ldquo;Tom was my content design mentor at IBM, and I couldn’t
+              have asked for a better one. He’s an incredibly knowledgeable and
+              thoughtful designer who’s always willing to share his expertise
+              and support others.
+            </p>
+            <p className="testimonial">
+              He gave me considered career advice and supported me across all
+              aspects of my job. For example, helping me prepare for an external
+              design conference, offering feedback that refined and enhanced my
+              presentation. He also ran a brilliant session for my team on using
+              AI in content design, where he demoed a tool he and his team
+              developed to automatically check Figma files for alignment with
+              the IBM Style Guide. It was such an impressive and
+              forward-thinking project — a perfect reflection of Tom’s mix of
+              creativity, innovation, and deep content knowledge.
+            </p>
+            <p className="testimonial">
+              Beyond his skills, Tom stands out for his compassion and genuine
+              care for the people he mentors. I learned so much from him, and
+              I’m really grateful for his support and encouragement. Anyone who
+              gets the chance to work with him will learn a lot and enjoy the
+              process.&rdquo;
+            </p>
+            <p className="attribution-name">— Shravan Amin</p>
+            <p className="attribution">
+              Former{" "}
+              <span className="attribution-role-name">Content Designer</span> at{" "}
+              <span className="attribution-role-company">IBM</span>
+            </p>
+            <p className="attribution">
+              Now{" "}
+              <span className="attribution-role-name">Founder's Associate</span>{" "}
+              at <span className="attribution-role-company">Nokular.com</span>
+            </p>
+            <p className="attribution">
+              <a
+                href="https://www.linkedin.com/in/shravanamin/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

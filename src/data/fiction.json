@@ -69,7 +69,7 @@
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "datePub": "1813",
-    "categories": ["10", "25"]
+    "categories": ["10", "25", "favourite"]
   },
   {
     "title": "Persuasion",
@@ -261,7 +261,7 @@
     "title": "A Perfect Spy",
     "author": "John le Carré",
     "datePub": "1986",
-    "categories": ["25"]
+    "categories": ["25", "favourite"]
   },
   {
     "title": "Alice’s Adventures in Wonderland",
@@ -312,10 +312,22 @@
     "categories": [""]
   },
   {
+    "title": "The Wife of Bath's Tale",
+    "author": "Geoffrey Chaucer",
+    "datePub": "1405-10",
+    "categories": ["play"]
+  },
+  {
     "title": "Stories",
     "author": "Anton Chekhov",
     "datePub": "1903",
     "categories": ["75", "shorts"]
+  },
+  {
+    "title": "The Cherry Orchard",
+    "author": "Anton Chekhov",
+    "datePub": "1904",
+    "categories": ["play"]
   },
   {
     "title": "The Innocence of Father Brown",
@@ -543,7 +555,7 @@
     "title": "Great Expectations",
     "author": "Charles Dickins",
     "datePub": "1861",
-    "categories": ["25"]
+    "categories": ["25", "favourite"]
   },
   {
     "title": "Ragtime",
@@ -615,7 +627,7 @@
     "title": "My Family and Other Animals",
     "author": "Gerald Durrell",
     "datePub": "1956",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "A Heartwarming Work of Staggering Genius",
@@ -741,13 +753,13 @@
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "datePub": "1925",
-    "categories": ["10", "25", "re-read"]
+    "categories": ["10", "25", "re-read", "favourite"]
   },
   {
     "title": "Tender is the Night",
     "author": "F. Scott Fitzgerald",
     "datePub": "1934",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "The Diamond as Big as the Ritz",
@@ -783,7 +795,7 @@
     "title": "The Good Soldier",
     "author": "Ford Madox Ford",
     "datePub": "1915",
-    "categories": ["10", "25", "re-read"]
+    "categories": ["10", "25", "re-read", "favourite"]
   },
   {
     "title": "Parade’s End (tetralogy)",
@@ -807,13 +819,13 @@
     "title": "A Room with a View",
     "author": "E. M. Forster",
     "datePub": "1908",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "Howards End",
     "author": "E. M. Forster",
     "datePub": "1910",
-    "categories": ["10", "25", "re-read"]
+    "categories": ["10", "25", "re-read", "favourite"]
   },
   {
     "title": "A Passage to India",
@@ -879,7 +891,7 @@
     "title": "Sophie’s World",
     "author": "Jostein Gaarder",
     "datePub": "1991",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "The Christmas Mystery",
@@ -933,7 +945,7 @@
     "title": "Lord of the Flies",
     "author": "William Golding",
     "datePub": "1954",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "The Spire",
@@ -969,13 +981,13 @@
     "title": "The Power and the Glory",
     "author": "Graham Greene",
     "datePub": "1940",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "The Heart of the Matter",
     "author": "Graham Greene",
     "datePub": "1948",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "The End of the Affair",
@@ -1071,7 +1083,7 @@
     "title": "The Go-Between",
     "author": "L. P. Hartley",
     "datePub": "1953",
-    "categories": ["10", "25", "re-read"]
+    "categories": ["10", "25", "re-read", "favourite"]
   },
   {
     "title": "The Scarlet Letter",
@@ -1218,6 +1230,12 @@
     "categories": [""]
   },
   {
+    "title": "A Doll's House",
+    "author": "Henrik Ibsen",
+    "datePub": "1879",
+    "categories": ["play"]
+  },
+  {
     "title": "The World According To Garp",
     "author": "John Irving",
     "datePub": "1978",
@@ -1239,7 +1257,7 @@
     "title": "The Remains of the Day",
     "author": "Kazuo Ishiguro",
     "datePub": "1989",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "When We Were Orphens",
@@ -1455,7 +1473,7 @@
     "title": "Narnia: The Lion, the Witch & the Wardrobe",
     "author": "C. S. Lewis",
     "datePub": "1950",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "Narnia: The Horse and His Boy",
@@ -1611,7 +1629,7 @@
     "title": "Atonement",
     "author": "Ian McEwan",
     "datePub": "2001",
-    "categories": ["10", "25", "re-read"]
+    "categories": ["10", "25", "re-read", "favourite"]
   },
   {
     "title": "Saturday",
@@ -1648,6 +1666,12 @@
     "author": "Arthur Miller",
     "datePub": "1945",
     "categories": [""]
+  },
+  {
+    "title": "Death of a Salesman",
+    "author": "Arthur Miller",
+    "datePub": "1949",
+    "categories": ["play"]
   },
   {
     "title": "Cloud Atlas",
@@ -1707,7 +1731,7 @@
     "title": "Lolita",
     "author": "Vladimir Nabokov",
     "datePub": "1955",
-    "categories": ["10", "25", "re-read"]
+    "categories": ["10", "25", "re-read", "favourite"]
   },
   {
     "title": "Pnin",
@@ -1761,7 +1785,7 @@
     "title": "The English Patient",
     "author": "Michael Ondaatje",
     "datePub": "1992",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "Down and Out in London and Paris",
@@ -2073,7 +2097,7 @@
     "title": "The Catcher in the Rye",
     "author": "J. D. Salinger",
     "datePub": "1951",
-    "categories": ["10", "25", "re-read"]
+    "categories": ["10", "25", "re-read", "favourite"]
   },
   {
     "title": "For Esmé ~ With Love and Squalor",
@@ -2124,6 +2148,12 @@
     "categories": [""]
   },
   {
+    "title": "Lord Peter Views the Body",
+    "author": "Dorothy L. Sayers",
+    "datePub": "1928",
+    "categories": ["shorts"]
+  },
+  {
     "title": "Strong Poison",
     "author": "Dorothy L. Sayers",
     "datePub": "1930",
@@ -2164,6 +2194,48 @@
     "author": "Sam Selvon",
     "datePub": "1956",
     "categories": [""]
+  },
+  {
+    "title": "Richard II ",
+    "author": "William Shakespeare",
+    "datePub": "1595",
+    "categories": ["play"]
+  },
+  {
+    "title": "A Midsummer Night's Dream",
+    "author": "William Shakespeare",
+    "datePub": "1595-96",
+    "categories": ["play"]
+  },
+  {
+    "title": "Romeo and Juliet",
+    "author": "William Shakespeare",
+    "datePub": "1597",
+    "categories": ["play"]
+  },
+  {
+    "title": "Henry V",
+    "author": "William Shakespeare",
+    "datePub": "1599",
+    "categories": ["play"]
+  },
+  {
+    "title": "Othello",
+    "author": "William Shakespeare",
+    "datePub": "1603",
+    "categories": ["play"]
+  },
+  {
+    "title": "King Lear",
+    "author": "William Shakespeare",
+    "datePub": "1606",
+    "categories": ["play"]
+  },
+  {
+    "title": "The Tempest",
+    "author": "William Shakespeare",
+    "datePub": "1610-11",
+    "categories": ["play"]
   },
   {
     "title": "We Need to Talk About Kevin",
@@ -2247,7 +2319,7 @@
     "title": "East of Eden",
     "author": "John Steinbeck",
     "datePub": "1952",
-    "categories": ["25"]
+    "categories": ["25", "favourite"]
   },
   {
     "title": "The Life and Opinions of Tristram Shandy, Gentlemen",
@@ -2277,7 +2349,7 @@
     "title": "The Secret History",
     "author": "Donna Tartt",
     "datePub": "1992",
-    "categories": ["10", "25", "re-read"]
+    "categories": ["10", "25", "re-read", "favourite"]
   },
   {
     "title": "The Little Friend",
@@ -2319,7 +2391,7 @@
     "title": "Anna Karenina",
     "author": "Leo Tolstoy",
     "datePub": "1877",
-    "categories": ["25"]
+    "categories": ["25", "favourite"]
   },
   {
     "title": "Cane",
@@ -2445,7 +2517,7 @@
     "title": "Brideshead Revisited",
     "author": "Evelyn Waugh",
     "datePub": "1945",
-    "categories": ["10", "25", "re-read"]
+    "categories": ["10", "25", "re-read", "favourite"]
   },
   {
     "title": "The Complete Short Stories",
@@ -2490,10 +2562,22 @@
     "categories": ["shorts"]
   },
   {
+    "title": "The Importance of Being Earnest",
+    "author": "Oscar Wilde",
+    "datePub": "1895",
+    "categories": ["play"]
+  },
+  {
     "title": "Stoner",
     "author": "John Williams",
     "datePub": "1965",
     "categories": [""]
+  },
+  {
+    "title": "A Streetcar Named Desire",
+    "author": "Tennessee Williams",
+    "datePub": "1947",
+    "categories": ["play"]
   },
   {
     "title": "My Man Jeeves",
@@ -2571,7 +2655,7 @@
     "title": "To the Lighthouse",
     "author": "Virginia Woolf",
     "datePub": "1927",
-    "categories": ["25", "re-read"]
+    "categories": ["25", "re-read", "favourite"]
   },
   {
     "title": "Orlando",
