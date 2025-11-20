@@ -47,7 +47,7 @@ const FamilyPage = () => {
           <div className="column"></div>
         </section>
 
-        <section className="row">
+        {/* <section className="row">
           <div className="column-1-3">
             <div className="orangeBorders">
               <h2>Laura</h2>
@@ -100,7 +100,7 @@ const FamilyPage = () => {
           <div className="column-1-3 hiddenSpacer2">
             <p>&nbsp;</p>
           </div>
-        </section>
+        </section> */}
 
         <section className="row">
           <div className="column">
