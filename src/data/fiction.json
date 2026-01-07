@@ -552,14 +552,20 @@
     "categories": ["75"]
   },
   {
+    "title": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "datePub": "1843",
+    "categories": [""]
+  },
+  {
     "title": "David Copperfield",
-    "author": "Charles Dickins",
+    "author": "Charles Dickens",
     "datePub": "1850",
     "categories": ["75"]
   },
   {
     "title": "Great Expectations",
-    "author": "Charles Dickins",
+    "author": "Charles Dickens",
     "datePub": "1861",
     "categories": ["25", "favourite"]
   },
