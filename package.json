@@ -30,7 +30,7 @@
     "prop-types": "15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "socket.io-parser": "^4.2.5"
+    "socket.io-parser": "^4.2.6"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.56.1",
