@@ -44,7 +44,7 @@ const PortfolioPage = () => {
 
       <ContentWidth bgColour="1">
         <section className="row">
-          <div colspan="2" className="column panel">
+          <div className="column panel" colSpan="2">
             <h2>Delivered an AI assistant</h2>
             <p className="padded">
               <em>Enabling users to get quick answers to their questions</em>
@@ -77,8 +77,8 @@ const PortfolioPage = () => {
           </div>
           <div className="column">
             <img
-              className="panel-images"
               alt="Screenshots showing the AI assistant"
+              className="panel-images"
               src={AI_assistant}
             />
             <p className="caption-text">
@@ -90,7 +90,7 @@ const PortfolioPage = () => {
 
       <ContentWidth bgColour="2">
         <section className="row">
-          <div colspan="2" className="column panel">
+          <div className="column panel" colSpan="2">
             <h2>Created a Figma plugin that checks content</h2>
             <p className="padded">
               <em>
@@ -103,8 +103,8 @@ const PortfolioPage = () => {
         <section className="row">
           <div className="column">
             <img
-              className="panel-images"
               alt="Screenshot of the content guidance section within the Carbon for IBM Products site"
+              className="panel-images"
               src={Figma_plugin}
             />
             <p className="caption-text">
@@ -145,7 +145,7 @@ const PortfolioPage = () => {
 
       <ContentWidth bgColour="3">
         <section className="row">
-          <div colspan="2" className="column panel">
+          <div className="column panel" colSpan="2">
             <h2>Writing UI content</h2>
             <p className="padded">
               <em>Working with product teams to deliver great content</em>
@@ -174,8 +174,8 @@ const PortfolioPage = () => {
                 I helped the team design a new set of{" "}
                 <a
                   href="https://www.ibm.com/products/event-streams"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   marketing pages
                 </a>{" "}
@@ -186,8 +186,8 @@ const PortfolioPage = () => {
                 separate external design award 🏆 for the{" "}
                 <a
                   href="https://ibm.github.io/event-automation/es/"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   docs site
                 </a>
@@ -197,8 +197,8 @@ const PortfolioPage = () => {
           </div>
           <div className="column">
             <img
-              className="panel-images"
               alt="Screenshot of the IBM Event Streams product UI"
+              className="panel-images"
               src={ES_UI_image}
             />
             <p className="caption-text">
@@ -210,7 +210,7 @@ const PortfolioPage = () => {
 
       <ContentWidth bgColour="2">
         <section className="row">
-          <div colspan="2" className="column panel">
+          <div className="column panel" colSpan="2">
             <h2>Setting content standards</h2>
             <p className="padded">
               <em>
@@ -223,8 +223,8 @@ const PortfolioPage = () => {
         <section className="row">
           <div className="column">
             <img
-              className="panel-images"
               alt="Screenshot of the content guidance section within the Carbon for IBM Products site"
+              className="panel-images"
               src={Carbon_image}
             />
             <p className="caption-text">
@@ -245,8 +245,8 @@ const PortfolioPage = () => {
                 written a little about this process in{" "}
                 <a
                   href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   this article
                 </a>
@@ -256,16 +256,16 @@ const PortfolioPage = () => {
                 When IBM started using the awesome{" "}
                 <a
                   href="https://www.carbondesignsystem.com/"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Carbon Design System
                 </a>{" "}
                 for all product UIs, I began contributing to both{" "}
                 <a
                   href="https://www.carbondesignsystem.com/guidelines/content/overview"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   the brief external
                 </a>{" "}
@@ -283,7 +283,7 @@ const PortfolioPage = () => {
 
       <ContentWidth bgColour="1">
         <section className="row">
-          <div colspan="2" className="column panel">
+          <div className="column panel" colSpan="2">
             <h2>Researching and testing terminology</h2>
             <p className="padded">
               <em>
@@ -325,8 +325,8 @@ const PortfolioPage = () => {
           </div>
           <div className="column">
             <img
-              className="panel-images"
               alt="Examples from the terminology cloze test that I ran"
+              className="panel-images"
               src={Terminology_research}
             />
             <p className="caption-text">
@@ -338,7 +338,7 @@ const PortfolioPage = () => {
 
       <ContentWidth bgColour="2">
         <section className="row">
-          <div colspan="2" className="column panel">
+          <div className="column panel" colSpan="2">
             <h2>Delivering content education</h2>
             <p className="padded">
               <em>Creating a UX writing course for all IBM designers</em>
@@ -348,8 +348,8 @@ const PortfolioPage = () => {
         <section className="row">
           <div className="column">
             <img
-              className="panel-images"
               alt="Screenshot of the IBM UX writing course"
+              className="panel-images"
               src={UX_writing_course_image}
             />
             <p className="caption-text">
@@ -387,7 +387,7 @@ const PortfolioPage = () => {
 
       <ContentWidth bgColour="3">
         <section className="row">
-          <div colspan="2" className="column panel">
+          <div className="column panel" colSpan="2">
             <h2>Providing content assessments</h2>
             <p className="padded">
               <em>Helping product teams to further improve their UI content</em>
@@ -421,8 +421,8 @@ const PortfolioPage = () => {
           </div>
           <div className="column">
             <img
-              className="panel-images"
               alt="Examples of the detailed content reviews I provide to product teams"
+              className="panel-images"
               src={Content_assessments}
             />
             <p className="caption-text">
@@ -435,7 +435,7 @@ const PortfolioPage = () => {
 
       <ContentWidth bgColour="2">
         <section className="row">
-          <div colspan="2" className="column panel">
+          <div className="column panel" colSpan="2">
             <h2>Helping to create a spark</h2>
             <p className="padded">
               <em>
@@ -448,8 +448,8 @@ const PortfolioPage = () => {
         <section className="row">
           <div className="column">
             <img
-              className="panel-images"
               alt="The website for the internal IBM Spark Design Festival 2023"
+              className="panel-images"
               src={Spark_image}
             />
             <p className="caption-text">
@@ -489,7 +489,7 @@ const PortfolioPage = () => {
 
       <ContentWidth bgColour="1">
         <section className="row">
-          <div colspan="2" className="column panel">
+          <div className="column panel" colSpan="2">
             <h2>Establishing a community of practice</h2>
             <p className="padded">
               <em>
@@ -510,8 +510,8 @@ const PortfolioPage = () => {
                 So I got together with the talented{" "}
                 <a
                   href="https://www.linkedin.com/in/marandabodas/"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Maranda Bodas
                 </a>{" "}
@@ -535,8 +535,8 @@ const PortfolioPage = () => {
                 community of practice in{" "}
                 <a
                   href="https://uxdesign.cc/building-a-community-of-practice-859db7950f77"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   this article
                 </a>
@@ -546,8 +546,8 @@ const PortfolioPage = () => {
           </div>
           <div className="column">
             <img
-              className="panel-images"
               alt="Screenshot of our IBM Content Design Guild Slack channel"
+              className="panel-images"
               src={CD_Guild_image}
             />
             <p className="caption-text">
@@ -572,7 +572,7 @@ export default PortfolioPage;
 
 export const Head = () => (
   <SEO
-    title="Tom Waterton's website: Portfolio"
     description="A brief version of my portfolio, showing some of my recent content design and UX writing work (tomwaterton.com)"
+    title="Tom Waterton's website: Portfolio"
   />
 );

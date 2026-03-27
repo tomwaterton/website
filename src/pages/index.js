@@ -12,9 +12,9 @@ const IndexPage = () => {
         <section className="homeBody">
           <img
             alt="Profile photo of Tom Waterton"
+            height="350px"
             src={TomPhoto}
             width="350px"
-            height="350px"
           />
 
           <h1 className="padding-bottom-small">Hi, I'm Tom Waterton</h1>
@@ -23,8 +23,8 @@ const IndexPage = () => {
             of experience, currently working for{" "}
             <a
               href="https://www.ibm.com/"
-              target="_blank"
               rel="noopener noreferrer"
+              target="_blank"
             >
               IBM
             </a>

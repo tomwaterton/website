@@ -38,8 +38,8 @@ const ExperiencePage = () => {
               <li>
                 <a
                   href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Confessions of a content designer
                 </a>{" "}
@@ -48,8 +48,8 @@ const ExperiencePage = () => {
               <li>
                 <a
                   href="https://workingincontent.com/resources/inside-content-design-at-ibm/"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Inside content design at IBM
                 </a>{" "}
@@ -175,7 +175,7 @@ export default ExperiencePage;
 
 export const Head = () => (
   <SEO
-    title="Tom Waterton's website: Experience and skills"
     description="Details about my work experience as a content designer and my related skills (tomwaterton.com)"
+    title="Tom Waterton's website: Experience and skills"
   />
 );

@@ -91,7 +91,7 @@ export default NotFoundPage;
 
 export const Head = () => (
   <SEO
-    title="404: Page not found"
     description="404: Page not found (tomwaterton.com)"
+    title="404: Page not found"
   />
 );

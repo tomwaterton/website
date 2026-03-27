@@ -24,8 +24,8 @@ const TestimonialsPage = () => {
                 Note that my{" "}
                 <a
                   href="https://www.linkedin.com/in/tomwaterton/"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   LinkedIn profile
                 </a>{" "}
@@ -39,8 +39,8 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              className="quote-mark hide-small"
               alt="Quotation mark image"
+              className="quote-mark hide-small"
               src={QuoteLeft}
             />
           </div>
@@ -84,8 +84,8 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/allisonbiesboer/"
-                target="_blank"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 LinkedIn profile
               </a>
@@ -93,8 +93,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark show-small"
               alt="Quotation mark image"
+              className="quote-mark show-small"
               src={QuoteLeft}
             />
           </div>
@@ -139,8 +139,8 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/jeremygburton/"
-                target="_blank"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 LinkedIn profile
               </a>
@@ -148,8 +148,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark"
               alt="Quotation mark image"
+              className="quote-mark"
               src={QuoteRight}
             />
           </div>
@@ -159,8 +159,8 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              className="quote-mark hide-small"
               alt="Quotation mark image"
+              className="quote-mark hide-small"
               src={QuoteLeft}
             />
           </div>
@@ -194,8 +194,8 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/marandabodas/"
-                target="_blank"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 LinkedIn profile
               </a>
@@ -203,8 +203,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark show-small"
               alt="Quotation mark image"
+              className="quote-mark show-small"
               src={QuoteLeft}
             />
           </div>
@@ -249,8 +249,8 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/peterloveland/"
-                target="_blank"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 LinkedIn profile
               </a>
@@ -258,8 +258,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark"
               alt="Quotation mark image"
+              className="quote-mark"
               src={QuoteRight}
             />
           </div>
@@ -269,8 +269,8 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              className="quote-mark hide-small"
               alt="Quotation mark image"
+              className="quote-mark hide-small"
               src={QuoteLeft}
             />
           </div>
@@ -301,8 +301,8 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/estebanjperez/"
-                target="_blank"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 LinkedIn profile
               </a>
@@ -310,8 +310,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark show-small"
               alt="Quotation mark image"
+              className="quote-mark show-small"
               src={QuoteLeft}
             />
           </div>
@@ -337,8 +337,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark"
               alt="Quotation mark image"
+              className="quote-mark"
               src={QuoteRight}
             />
           </div>
@@ -348,8 +348,8 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              className="quote-mark hide-small"
               alt="Quotation mark image"
+              className="quote-mark hide-small"
               src={QuoteLeft}
             />
           </div>
@@ -381,8 +381,8 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/janenefranke/"
-                target="_blank"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 LinkedIn profile
               </a>
@@ -390,8 +390,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark show-small"
               alt="Quotation mark image"
+              className="quote-mark show-small"
               src={QuoteLeft}
             />
           </div>
@@ -421,8 +421,8 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/madison-heck09/"
-                target="_blank"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 LinkedIn profile
               </a>
@@ -430,8 +430,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark"
               alt="Quotation mark image"
+              className="quote-mark"
               src={QuoteRight}
             />
           </div>
@@ -441,8 +441,8 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              className="quote-mark hide-small"
               alt="Quotation mark image"
+              className="quote-mark hide-small"
               src={QuoteLeft}
             />
           </div>
@@ -485,8 +485,8 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/hollyeking/"
-                target="_blank"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 LinkedIn profile
               </a>
@@ -494,8 +494,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark show-small"
               alt="Quotation mark image"
+              className="quote-mark show-small"
               src={QuoteLeft}
             />
           </div>
@@ -542,8 +542,8 @@ const TestimonialsPage = () => {
             <p className="attribution">
               <a
                 href="https://www.linkedin.com/in/shravanamin/"
-                target="_blank"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 LinkedIn profile
               </a>
@@ -551,8 +551,8 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              className="quote-mark"
               alt="Quotation mark image"
+              className="quote-mark"
               src={QuoteRight}
             />
           </div>
@@ -572,7 +572,7 @@ export default TestimonialsPage;
 
 export const Head = () => (
   <SEO
-    title="Tom Waterton's website: Testimonials"
     description="Some testimonials and references that I've received from colleagues past and present (tomwaterton.com)"
+    title="Tom Waterton's website: Testimonials"
   />
 );

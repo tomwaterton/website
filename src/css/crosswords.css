@@ -22,12 +22,12 @@
 
 .button {
   margin-top: 1rem;
-  padding: .3rem 1rem;
+  padding: 0.3rem 1rem;
   cursor: pointer;
   color: #fff;
   font-family: inherit;
   font-weight: 700;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   background-color: #3490dc;
   text-transform: none;
   display: inline-block;
@@ -37,7 +37,7 @@
 
 .button:hover {
   background-color: #2779bd;
-/*  outline: 3px auto -webkit-focus-ring-color; */
+  /*  outline: 3px auto -webkit-focus-ring-color; */
 }
 
 .button:active {

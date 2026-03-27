@@ -17,28 +17,28 @@ export const SEO = ({ title, author, description, pathname, children }) => {
     description: description || defaultDescription,
     author: author || defaultAuthor,
     image: `${siteUrl}${image}`,
-    url: `${siteUrl}${pathname || ``}`,
+    url: `${siteUrl}${pathname || ""}`,
     twitterUsername
   };
 
   return (
     <>
       <title>{seo.title}</title>
-      <meta name="description" content={seo.description} />
-      <meta name="author" content={seo.author} />
-      <meta name="image" content={seo.image} />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={seo.title} />
-      <meta name="twitter:url" content={seo.url} />
-      <meta name="twitter:description" content={seo.description} />
-      <meta name="twitter:image" content={seo.image} />
+      <meta content={seo.description} name="description" />
+      <meta content={seo.author} name="author" />
+      <meta content={seo.image} name="image" />
+      <meta content="summary_large_image" name="twitter:card" />
+      <meta content={seo.title} name="twitter:title" />
+      <meta content={seo.url} name="twitter:url" />
+      <meta content={seo.description} name="twitter:description" />
+      <meta content={seo.image} name="twitter:image" />
       <meta
-        name="twitter:image:alt"
         content="Screenshot of Tom Waterton's website homepage. The homepage features a profile photo of Tom and brief description of what can be found on the website."
+        name="twitter:image:alt"
       />
-      <meta name="twitter:creator" content={seo.twitterUsername} />
-      <meta name="twitter:creator:id" content="188022199" />
-      <link rel="icon" href={TypewriterIllustration} alt="Typewriter icon" />
+      <meta content={seo.twitterUsername} name="twitter:creator" />
+      <meta content="188022199" name="twitter:creator:id" />
+      <link alt="Typewriter icon" href={TypewriterIllustration} rel="icon" />
       {children}
     </>
   );

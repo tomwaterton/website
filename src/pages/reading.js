@@ -6,16 +6,16 @@ import ContentWidth from "../components/contentWidth";
 import bookshelves_photo from "../images/reading/bookshelves.jpeg";
 
 const ReadingFictionPage = ({ data }) => {
-  const [filter, setFilter] = useState(`all`);
+  const [filter, setFilter] = useState("all");
 
   const whichFictionToRender = () => {
     const allFiction = data.allFictionJson.nodes;
     let fictionToRenderArray;
-    if (filter === `all`) {
+    if (filter === "all") {
       fictionToRenderArray = allFiction;
     } else {
       fictionToRenderArray = allFiction.filter((fiction) =>
-        fiction.categories.includes(filter)
+        fiction.categories.includes(filter),
       );
     }
     return fictionToRenderArray;
@@ -43,8 +43,8 @@ const ReadingFictionPage = ({ data }) => {
               <li>
                 <a
                   href="https://tomwaterton.medium.com/why-i-read-d044f8a01015"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Why I read
                 </a>{" "}
@@ -69,17 +69,17 @@ const ReadingFictionPage = ({ data }) => {
         </section>
 
         <section className="row xs:hidden">
-          <div id="myBtnContainer" className="flex float-right">
+          <div className="flex float-right" id="myBtnContainer">
             <div className="filterButtonContainer">
               <button
-                className={`btn ${filter === `all` ? `active` : null}`}
-                onClick={() => setFilter(`all`)}
+                className={`btn ${filter === "all" ? "active" : null}`}
+                onClick={() => setFilter("all")}
               >
                 All fiction read
               </button>
               <button
-                className={`btn ${filter === `favourite` ? `active` : null}`}
-                onClick={() => setFilter(`favourite`)}
+                className={`btn ${filter === "favourite" ? "active" : null}`}
+                onClick={() => setFilter("favourite")}
               >
                 My favourites
               </button>
@@ -108,20 +108,20 @@ const ReadingFictionPage = ({ data }) => {
                 Favourites (51-75)
               </button> */}
               <button
-                className={`btn ${filter === `re-read` ? `active` : null}`}
-                onClick={() => setFilter(`re-read`)}
+                className={`btn ${filter === "re-read" ? "active" : null}`}
+                onClick={() => setFilter("re-read")}
               >
                 Read more than once
               </button>
               <button
-                className={`btn ${filter === `shorts` ? `active` : null}`}
-                onClick={() => setFilter(`shorts`)}
+                className={`btn ${filter === "shorts" ? "active" : null}`}
+                onClick={() => setFilter("shorts")}
               >
                 Short story collections
               </button>
               <button
-                className={`btn ${filter === `play` ? `active` : null}`}
-                onClick={() => setFilter(`play`)}
+                className={`btn ${filter === "play" ? "active" : null}`}
+                onClick={() => setFilter("play")}
               >
                 Plays
               </button>
@@ -165,8 +165,8 @@ export default ReadingFictionPage;
 
 export const Head = () => (
   <SEO
-    title="Tom Waterton's website: Reading fiction"
     description="Some of the novels, novellas, plays, and short story collections I've read (tomwaterton.com)"
+    title="Tom Waterton's website: Reading fiction"
   />
 );
 
@@ -174,10 +174,10 @@ class RenderFiction extends React.Component {
   render() {
     return this.props.fiction.map((fiction, i) => (
       <FictionList
-        key={fiction.title}
-        title={fiction.title}
         author={fiction.author}
         date={fiction.datePub}
+        key={fiction.title}
+        title={fiction.title}
       />
     ));
   }

@@ -143,8 +143,8 @@ const DogPage = () => {
                 I featured Tiffin in one of my content design articles:{" "}
                 <a
                   href="https://medium.com/design-ibm/6-content-design-principles-that-apply-to-puppy-training-3cd4a0ca507f"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   6 content design principles that apply to puppy training
                 </a>
@@ -154,8 +154,8 @@ const DogPage = () => {
                 Tiffin's pedigree and health checks can be seen on{" "}
                 <a
                   href="https://www.thekennelclub.org.uk/search/dog-profile/?dogId=252420fb-6c27-ec11-b6e6-000d3a0ca4aa"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   her profile page
                 </a>{" "}
@@ -209,7 +209,7 @@ export default DogPage;
 
 export const Head = () => (
   <SEO
-    title="Tom Waterton's website: Our dog"
     description="Information about our pet golden retriever dog, Tiffin (tomwaterton.com)"
+    title="Tom Waterton's website: Our dog"
   />
 );

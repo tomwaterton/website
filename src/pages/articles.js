@@ -14,7 +14,7 @@ const ArticlesPage = ({ data }) => {
       articlesToRenderArray = allArticles;
     } else {
       articlesToRenderArray = allArticles.filter((article) =>
-        article.categories.includes(filter)
+        article.categories.includes(filter),
       );
     }
     return articlesToRenderArray;
@@ -29,7 +29,7 @@ const ArticlesPage = ({ data }) => {
           </div>
         </section>
         <section className="row xs:hidden">
-          <div id="myBtnContainer" className="flex float-right">
+          <div className="flex float-right" id="myBtnContainer">
             <div className="filterButtonContainer">
               <button
                 className={`btn ${filter === "all" ? "active" : null}`}
@@ -107,8 +107,8 @@ export default ArticlesPage;
 
 export const Head = () => (
   <SEO
-    title="Tom Waterton's website: Articles"
     description="Articles about content design, communication, culture, and growth written by Tom Waterton"
+    title="Tom Waterton's website: Articles"
   />
 );
 

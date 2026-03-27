@@ -47,7 +47,7 @@ const ReadingNonFictionPage = () => {
 
         <section className="row">
           <div className="column books">
-            <div id="content" className="anchorLinkSpacer"></div>
+            <div className="anchorLinkSpacer" id="content"></div>
             <h2 id="content">Content design / writing books</h2>
             <ul>
               <li>
@@ -231,7 +231,7 @@ const ReadingNonFictionPage = () => {
 
         <section className="row">
           <div className="column books">
-            <div id="non-fiction" className="anchorLinkSpacer"></div>
+            <div className="anchorLinkSpacer" id="non-fiction"></div>
             <h2>Design / growth / leadership books</h2>
             <ul>
               <li>
@@ -366,9 +366,9 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="http://freakonomics.com/books/">Freakonomics</a> (2005)
-                and{" "}
-                <a href="http://freakonomics.com/books/">SuperFreakonomics</a>{" "}
+                <a href="https://freakonomics.com/books/">Freakonomics</a>{" "}
+                (2005) and{" "}
+                <a href="https://freakonomics.com/books/">SuperFreakonomics</a>{" "}
                 (2009)
                 <span className="black-text">
                   {" "}
@@ -530,7 +530,7 @@ export default ReadingNonFictionPage;
 
 export const Head = () => (
   <SEO
-    title="Tom Waterton's website: Recommended books"
     description="Some of the work-related content and design and leadership books I've benefitted from reading (tomwaterton.com)"
+    title="Tom Waterton's website: Recommended books"
   />
 );

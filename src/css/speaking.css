@@ -4,26 +4,28 @@
 
 .conference {
   font-weight: 500;
-  color: #D82286;
+  color: #d82286;
   font-size: 1.125rem;
 }
 
 .conferenceName {
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 
 .conferenceLocation {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .conf-images {
   border-radius: 6px;
-  box-shadow: 2px 4px 6px 2px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.2);
   max-height: 12rem;
 }
 
 /* Break point style to display the speaking images above correspoding text */
 @media only screen and (max-width: 879px) {
-  .reverse {flex-direction: column-reverse;}
+  .reverse {
+    flex-direction: column-reverse;
+  }
 }

@@ -67,7 +67,7 @@ export default [
       "public/**",
       ".cache/**",
       "static/**",
-      "*.config.js"
+      "*.config.{js,cjs}"
     ]
   }
 ];

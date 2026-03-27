@@ -36,9 +36,9 @@ function Layout(props) {
                     <a href="mailto:tomwaterton@gmail.com">
                       <img
                         alt="Email icon"
+                        height="32px"
                         src={email}
                         width="32px"
-                        height="32px"
                       />
                     </a>
                   </li>
@@ -53,7 +53,7 @@ function Layout(props) {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

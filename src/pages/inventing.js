@@ -7,16 +7,16 @@ import MI_certificate from "../images/inventing/MI_award_framed.png";
 import MI_digital_badge from "../images/inventing/IBM_Master_Inventor.png";
 
 const PatentsPage = ({ data }) => {
-  const [filter, setFilter] = useState(`all`);
+  const [filter, setFilter] = useState("all");
 
   const whichPatentsToRender = () => {
     const allPatents = data.allPatentsJson.nodes;
     let patentsToRenderArray;
-    if (filter === `all`) {
+    if (filter === "all") {
       patentsToRenderArray = allPatents;
     } else {
       patentsToRenderArray = allPatents.filter((patent) =>
-        patent.categories.includes(filter)
+        patent.categories.includes(filter),
       );
     }
     return patentsToRenderArray;
@@ -57,16 +57,16 @@ const PatentsPage = ({ data }) => {
 
         <section className="row">
           <div className="column">
-            <div id="patents" className="anchorLinkSpacer"></div>
+            <div className="anchorLinkSpacer" id="patents"></div>
             <h2>Patents</h2>
             <p>
               <em>
                 I currently have 19 issued patents, with a further 3 pending. My
-                Google Scholar profile can be found{` `}
+                Google Scholar profile can be found{" "}
                 <a
                   href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   here
                 </a>
@@ -87,7 +87,7 @@ const PatentsPage = ({ data }) => {
 
         <section className="row">
           <div className="column">
-            <div id="other-inventions" className="anchorLinkSpacer"></div>
+            <div className="anchorLinkSpacer" id="other-inventions"></div>
             <h2>Other (non-patented) inventions</h2>
             <p>
               <em>
@@ -95,7 +95,7 @@ const PatentsPage = ({ data }) => {
                 on <a href="https://ip.com/">IP.com</a>.
               </em>
             </p>
-            <ol reversed className="publish-list">
+            <ol className="publish-list" reversed>
               <li>
                 <a href="https://priorart.ip.com/IPCOM/00276414D">
                   System and method to aid a user with complex software
@@ -324,25 +324,24 @@ const PatentsPage = ({ data }) => {
 
         <section className="row">
           <div className="column">
-            <div id="master-inventor" className="anchorLinkSpacer"></div>
+            <div className="anchorLinkSpacer" id="master-inventor"></div>
             <h2>An IBM Master Inventor</h2>
             <p>
               <em>
                 In October 2021 I was awarded the honorary title of{" "}
                 <a
                   href="https://en.wikipedia.org/wiki/IBM_Master_Inventor"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   IBM Master Inventor
-                </a>
-                {` `}
+                </a>{" "}
                 in recognition of my ongoing contribution to IBM's patent
-                portfolio and inventing community. (Link to this{` `}
+                portfolio and inventing community. (Link to this{" "}
                 <a
                   href="https://www.credly.com/badges/6f04d3d0-ded1-43ba-a6a8-6253e6ee4bda"
-                  target="_blank"
                   rel="noopener noreferrer"
+                  target="_blank"
                 >
                   verified digital credential
                 </a>
@@ -385,8 +384,8 @@ export default PatentsPage;
 
 export const Head = () => (
   <SEO
-    title="Tom Waterton's website: Inventing"
     description="Information about my inventions, patents, and my IBM Master Inventor honorary title (tomwaterton.com)"
+    title="Tom Waterton's website: Inventing"
   />
 );
 
@@ -394,13 +393,13 @@ class RenderPatents extends React.Component {
   render() {
     return this.props.patents.map((patent, i) => (
       <PatentTile
+        date={patent.date}
+        image={patent.image}
         key={patent.title}
+        min={patent.min}
+        pending={patent.pending}
         title={patent.title}
         url={patent.url}
-        image={patent.image}
-        min={patent.min}
-        date={patent.date}
-        pending={patent.pending}
       />
     ));
   }
@@ -409,17 +408,17 @@ class RenderPatents extends React.Component {
 class PatentTile extends React.Component {
   render() {
     return (
-      <li key={this.props.key} className="c-tile-list__item">
+      <li className="c-tile-list__item" key={this.props.key}>
         <patent
           className="c-article-tile col3"
-          itemscope
-          itemtype="http://schema.org/Article"
+          itemScope
+          itemType="http://schema.org/Article"
         >
           <div className="c-article-tile__header">
             <a href={this.props.url}>
               <img
-                className="article-thumbnail"
                 alt="Patent thumbnail image"
+                className="article-thumbnail"
                 src={`../images/patents/${this.props.image}`}
               />
             </a>
@@ -427,7 +426,7 @@ class PatentTile extends React.Component {
 
           <div className="c-article-tile__body">
             <div>
-              <h2 className="c-article-tile__title" itemprop="headline">
+              <h2 className="c-article-tile__title" itemProp="headline">
                 <a href={this.props.url}>{this.props.title}</a>
               </h2>
               <span className="pending">{this.props.pending}</span>
@@ -435,11 +434,11 @@ class PatentTile extends React.Component {
           </div>
 
           <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time" itemprop="patentRef">
+            <span className="c-article-tile__read-time" itemProp="patentRef">
               {this.props.min}
             </span>
 
-            <span className="c-article-tile__date" itemprop="datePublished">
+            <span className="c-article-tile__date" itemProp="datePublished">
               {this.props.date}
             </span>
           </footer>

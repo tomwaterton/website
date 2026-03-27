@@ -105,7 +105,7 @@ const FamilyPage = () => {
         <section className="row">
           <div className="column">
             <p>
-              Also very much part of the family is{` `}
+              Also very much part of the family is{" "}
               <Link to="/dog">our dog</Link>, Tiffin.
             </p>
           </div>

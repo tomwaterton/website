@@ -4,7 +4,7 @@
 
 .filterDiv {
   float: left;
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: #ffffff;
   width: 100px;
   line-height: 100px;
@@ -32,14 +32,16 @@
 }
 
 /* Needed to get the active state grey to persist */
-.btn:focus, .btn:active {
+.btn:focus,
+.btn:active {
   outline: none;
   border: 1.5px solid grey;
   box-shadow: 3px 3px 4px -1px grey;
 }
 
 /* Needed to get the active state grey to persist */
-.active, .focus {
+.active,
+.focus {
   outline: none;
   border-color: #fbd38d !important;
   background-color: #f6e05e !important;
