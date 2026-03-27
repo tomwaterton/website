@@ -4,7 +4,6 @@ import React from "react";
 
 import Header from "./header";
 import linkedin from "../images/footer/linkedin.svg";
-import twitter from "../images/footer/twitter.svg";
 import email from "../images/footer/email.png";
 
 function Layout(props) {
@@ -33,11 +32,6 @@ function Layout(props) {
                       <img alt="LinkedIn icon" src={linkedin} />
                     </a>
                   </li>
-                  {/* <li>
-                    <a href="https://twitter.com/tomwaterton">
-                      <img alt="Twitter icon" src={twitter} />
-                    </a>
-                  </li> */}
                   <li>
                     <a href="mailto:tomwaterton@gmail.com">
                       <img
