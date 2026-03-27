@@ -2,7 +2,6 @@
   "name": "tom-waterton-website",
   "description": "Website for Tom Waterton",
   "version": "5.0.0",
-  "type": "module",
   "author": "Tom Waterton",
   "engines": {
     "node": ">=18.0.0",
