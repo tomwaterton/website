@@ -79,7 +79,7 @@ const ReadingNonFictionPage = () => {
                 (2012)
                 <span className="black-text"> by Kristina Halvorson</span>
                 <p>
-                  Content strategy, governance, steakholder management,
+                  Content strategy, governance, stakeholder management,
                   data-driven decision making, and much more besides.
                 </p>
               </li>
@@ -268,8 +268,9 @@ const ReadingNonFictionPage = () => {
               <li>
                 <a href="https://en.wikipedia.org/wiki/Quiet:_The_Power_of_Introverts_in_a_World_That_Can%27t_Stop_Talking">
                   Quiet
-                </a>
-                <span className="black-text"> by Susan Cain</span> (2012)
+                </a>{" "}
+                (2012)
+                <span className="black-text"> by Susan Cain</span>
                 <p>
                   A fresh and intelligent look at the introvert/extrovert aspect
                   of our personalities and the power of being, well, quiet.
@@ -458,7 +459,7 @@ const ReadingNonFictionPage = () => {
                 (2001)
                 <span className="black-text"> by Brian Tracy</span>
                 <p>
-                  A number of appraoches to help you stop procrastinating,
+                  A number of approaches to help you stop procrastinating,
                   prioritise what's important, and ultimately get more done.
                 </p>
               </li>

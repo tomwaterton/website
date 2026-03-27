@@ -14,6 +14,13 @@ const TestimonialsPage = () => {
             <h1>Testimonials</h1>
             <p>
               <em>
+                Some recommendations from colleagues across senior design,
+                engineering, and product leadership roles.
+              </em>
+            </p>
+            <p>
+              <em>
+                {" "}
                 Note that my{" "}
                 <a
                   href="https://www.linkedin.com/in/tomwaterton/"

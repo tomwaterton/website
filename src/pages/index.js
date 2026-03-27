@@ -19,8 +19,8 @@ const IndexPage = () => {
 
           <h1 className="padding-bottom-small">Hi, I'm Tom Waterton</h1>
           <p className="padding-bottom-small">
-            I'm a <strong>Senior Content Designer</strong>, with 10+ years of
-            experience, currently working for{" "}
+            I'm a <strong>Senior UX / Content Designer</strong>, with 15+ years
+            of experience, currently working for{" "}
             <a
               href="https://www.ibm.com/"
               target="_blank"
@@ -28,15 +28,18 @@ const IndexPage = () => {
             >
               IBM
             </a>
-            . I love designing and delivering clear, engaging, user-centered
-            content.
+            . I specialize in designing and delivering clear, engaging,
+            user-centered content. I also increasingly use AI tools to design,
+            analyse, and build delightful software solutions.
           </p>
           <p className="padding-bottom-small">
             This site contains a brief{" "}
             <Link to="/portfolio">portfolio of work</Link>, lists my{" "}
             <Link to="/experience">experience and skills</Link>, provides some{" "}
             <Link to="/testimonials">testimonials</Link>, and features some of
-            my <Link to="/articles">articles</Link>.
+            my <Link to="/articles">articles</Link>. Interested in working
+            together? Do <a href="mailto:tomwaterton@gmail.com">get in touch</a>
+            .
           </p>
           <p className="padding-bottom-small">
             Outside of work, I live in Hampshire (UK) with my wonderful{" "}

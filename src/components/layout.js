@@ -19,7 +19,7 @@ function Layout(props) {
           <div className="footerContainer2">
             <div className="footerContainer3">
               <div className="footerCopyright">
-                &copy; Tom Waterton, 2020–2026
+                &copy; Tom Waterton, 2020–{new Date().getFullYear()}
               </div>
               <div className="footerInfo">
                 <Link to="/about">About this site</Link>
@@ -33,11 +33,11 @@ function Layout(props) {
                       <img alt="LinkedIn icon" src={linkedin} />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://twitter.com/tomwaterton">
                       <img alt="Twitter icon" src={twitter} />
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="mailto:tomwaterton@gmail.com">
                       <img

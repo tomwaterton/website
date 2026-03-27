@@ -154,8 +154,8 @@ const ExperiencePage = () => {
           <div className="column-1-3">
             <p className="mock-h3">Tools and technologies 🧰</p>
             <ul className="ul-small">
-              <li>AI tools: Copilot, ChatGPT, IBM watsonx Orchestrate</li>
-              <li>AI LLMs: Granite, Llama, Mistral</li>
+              <li>AI tools: Copilot, ChatGPT, IBM Bob (daily use)</li>
+              <li>AI LLMs: Granite, Llama, Mistral, GPT</li>
               <li>CMS: Adobe Experience Manager</li>
               <li>Collaboration: Airtable, Mural, Slack</li>
               <li>Design: Figma, Sketch</li>
