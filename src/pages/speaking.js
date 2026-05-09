@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import microphone_image from "../images/speaking/microphone.png";
@@ -44,7 +44,7 @@ const SpeakingPage = () => {
           </div>
           <div className="column">
             <img
-              alt="Photo of a microphone with auditorium in the background"
+              alt="A microphone with auditorium in the background"
               className="block tilt-landscape-left"
               src={microphone_image}
             />
@@ -56,7 +56,7 @@ const SpeakingPage = () => {
         <section className="row">
           <div className="column">
             <img
-              alt="Image from IBM Spark Design Festival event"
+              alt="Session title slide from the IBM Spark Design Festival event"
               className="conf-images"
               src={spark_image}
             />
@@ -110,7 +110,7 @@ const SpeakingPage = () => {
           </div>
           <div className="column">
             <img
-              alt="Image from Product Content Strategy event"
+              alt="Session title slide from the Product Content Strategy event"
               className="conf-images"
               src={byte_image}
             />
@@ -122,7 +122,7 @@ const SpeakingPage = () => {
         <section className="row">
           <div className="column">
             <img
-              alt="Image from Button content conference"
+              alt="From the Button content conference"
               className="conf-images"
               src={button_image}
             />
@@ -164,7 +164,7 @@ const SpeakingPage = () => {
           </div>
           <div className="column">
             <img
-              alt="Image from Utterly content conference"
+              alt="From the Utterly content conference"
               className="conf-images"
               src={utterly_image}
             />
@@ -176,7 +176,7 @@ const SpeakingPage = () => {
         <section className="row">
           <div className="column">
             <img
-              alt="Image from ContentCon conference"
+              alt="From the ContentCon conference"
               className="conf-images"
               src={content_con_image}
             />
@@ -231,7 +231,7 @@ const SpeakingPage = () => {
           </div>
           <div className="column">
             <img
-              alt="Image from IBM Think conference"
+              alt="From the IBM Think conference"
               className="conf-images"
               src={think_image}
             />
@@ -243,7 +243,7 @@ const SpeakingPage = () => {
         <section className="row">
           <div className="column">
             <img
-              alt="Image from IBM Interconnect conference"
+              alt="From the IBM Interconnect conference"
               className="conf-images"
               src={inter_connect_image}
             />
@@ -280,7 +280,7 @@ const SpeakingPage = () => {
 export default SpeakingPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Details of some of the content design-related talks I've given (tomwaterton.com)"
     title="Tom Waterton's website: Speaking"
   />

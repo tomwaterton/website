@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -15,7 +15,7 @@ const ReadingFictionPage = ({ data }) => {
       fictionToRenderArray = allFiction;
     } else {
       fictionToRenderArray = allFiction.filter((fiction) =>
-        fiction.categories.includes(filter),
+        fiction.categories.includes(filter)
       );
     }
     return fictionToRenderArray;
@@ -30,8 +30,8 @@ const ReadingFictionPage = ({ data }) => {
             <p>
               <em>
                 For me, reading fiction is one of life's great pleasures. Here's
-                a record of the novels and short story collections that I've
-                enjoyed over recent years.
+                a record of the novels, plays, and short story collections that
+                I've enjoyed over recent years.
               </em>
             </p>
             <p>
@@ -61,14 +61,14 @@ const ReadingFictionPage = ({ data }) => {
           </div>
           <div className="column">
             <img
-              alt="Photo of some of our bookshelves at home"
+              alt="Some of our bookshelves at home"
               className="block tilt-landscape-left tom-on-books do-not-print"
               src={bookshelves_photo}
             />
           </div>
         </section>
 
-        <section className="row xs:hidden">
+        <section className="row">
           <div className="flex float-right" id="myBtnContainer">
             <div className="filterButtonContainer">
               <button
@@ -83,30 +83,6 @@ const ReadingFictionPage = ({ data }) => {
               >
                 My favourites
               </button>
-              {/* <button
-                className={`btn ${filter === "10" ? "active" : null}`}
-                onClick={() => setFilter("10")}
-              >
-                my top 10
-              </button>
-              <button
-                className={`btn ${filter === `25` ? `active` : null}`}
-                onClick={() => setFilter(`25`)}
-              >
-                Favourites (1-25)
-              </button>
-              <button
-                className={`btn ${filter === `50` ? `active` : null}`}
-                onClick={() => setFilter(`50`)}
-              >
-                Favourites (26-50)
-              </button>
-              <button
-                className={`btn ${filter === `75` ? `active` : null}`}
-                onClick={() => setFilter(`75`)}
-              >
-                Favourites (51-75)
-              </button> */}
               <button
                 className={`btn ${filter === "re-read" ? "active" : null}`}
                 onClick={() => setFilter("re-read")}
@@ -129,7 +105,7 @@ const ReadingFictionPage = ({ data }) => {
           </div>
         </section>
 
-        <section className="flex flex-col md:flex-row padding-bottom">
+        <section className="flex flex-col padding-bottom">
           <div className="fictionListContainer">
             <p>
               <em>Books are listed alphabetically by author.</em>
@@ -164,7 +140,7 @@ export const query = graphql`
 export default ReadingFictionPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Some of the novels, novellas, plays, and short story collections I've read (tomwaterton.com)"
     title="Tom Waterton's website: Reading fiction"
   />

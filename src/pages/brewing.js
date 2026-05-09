@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -45,7 +45,7 @@ const BrewingPage = () => {
           </div>
           <div className="column">
             <img
-              alt="Photo of a pint of homebrew"
+              alt="A pint of homebrew"
               className="block tilt-portrait-right"
               src={cheers_photo}
             />
@@ -73,7 +73,7 @@ const BrewingPage = () => {
                 sugars into carbon dioxide and alcohol.
               </p>
               <img
-                alt="Photo of my brewing kit"
+                alt="My brewing kit"
                 className="inTilePhoto"
                 src={brewing_kit_photo}
               />
@@ -97,7 +97,7 @@ const BrewingPage = () => {
                 berries, etc.).
               </p>
               <img
-                alt="Photo of adding hops to the wort"
+                alt="Adding hops to the wort"
                 className="inTilePhoto"
                 src={adding_hops_photo}
               />
@@ -118,7 +118,7 @@ const BrewingPage = () => {
               </p>
               <p>It's then onto the next brew...</p>
               <img
-                alt="Photo of beer glasses"
+                alt="Beer glasses"
                 className="inTilePhoto"
                 src={sharing_beer_photo}
               />
@@ -137,7 +137,7 @@ const BrewingPage = () => {
 export default BrewingPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Some information about my hobby of brewing beer and ale (tomwaterton.com)"
     title="Tom Waterton's website: Brewing"
   />

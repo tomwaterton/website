@@ -2,7 +2,7 @@ import React from "react";
 import { useSiteMetadata } from "../hooks/use-site-metadata";
 import TypewriterIllustration from "../images/favicon/typewriter.svg";
 
-export const SEO = ({ title, author, description, pathname, children }) => {
+export const Seo = ({ title, author, description, pathname, children }) => {
   const {
     title: defaultTitle,
     author: defaultAuthor,
@@ -33,7 +33,7 @@ export const SEO = ({ title, author, description, pathname, children }) => {
       <meta content={seo.description} name="twitter:description" />
       <meta content={seo.image} name="twitter:image" />
       <meta
-        content="Screenshot of Tom Waterton's website homepage. The homepage features a profile photo of Tom and brief description of what can be found on the website."
+        content="Screenshot of Tom Waterton's website homepage. The homepage features a profile image of Tom and brief description of what can be found on the website."
         name="twitter:image:alt"
       />
       <meta content={seo.twitterUsername} name="twitter:creator" />

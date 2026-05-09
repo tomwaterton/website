@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -14,7 +14,7 @@ const CrosswordsPage = ({ data }) => {
       crosswordsToRenderArray = allCrosswords;
     } else {
       crosswordsToRenderArray = allCrosswords.filter((crossword) =>
-        crossword.categories.includes(filter),
+        crossword.categories.includes(filter)
       );
     }
     return crosswordsToRenderArray;
@@ -62,7 +62,7 @@ export const query = graphql`
 export default CrosswordsPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Some cryptic crosswords that I've composed (tomwaterton.com)"
     title="Tom Waterton's website: Cryptic crosswords"
   />
@@ -95,7 +95,7 @@ class CrosswordTile extends React.Component {
           <div className="c-article-tile__header">
             <a href={this.props.url}>
               <img
-                alt="Cryptic crossword image"
+                alt="Cryptic crossword"
                 className="article-thumbnail"
                 src={`../images/crosswords/${this.props.image}`}
               />

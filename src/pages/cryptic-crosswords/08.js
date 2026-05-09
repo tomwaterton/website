@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../../components/seo";
+import { Seo } from "../../components/seo";
 import Layout from "../../components/layout";
 import ContentWidth from "../../components/contentWidth";
 import crossword_08 from "../../images/crosswords/cryptic_crossword_08.png";
@@ -50,7 +50,7 @@ const Crossword_08Page = () => {
 export default Crossword_08Page;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Cryptic crossword #08 by Meles aka Tom Waterton (tomwaterton.com)"
     title="Tom Waterton's website: Cryptic crossword #08"
   />

@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -72,7 +72,7 @@ const ExperiencePage = () => {
           </div>
           <div className="column">
             <img
-              alt="Photo of me working on some designs with colleagues"
+              alt="Me working on some designs with colleagues"
               className="block tilt-landscape-left"
               src={Tom_at_work_photo}
             />
@@ -174,7 +174,7 @@ const ExperiencePage = () => {
 export default ExperiencePage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Details about my work experience as a content designer and my related skills (tomwaterton.com)"
     title="Tom Waterton's website: Experience and skills"
   />

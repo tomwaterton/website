@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -571,7 +571,7 @@ const PortfolioPage = () => {
 export default PortfolioPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="A brief version of my portfolio, showing some of my recent content design and UX writing work (tomwaterton.com)"
     title="Tom Waterton's website: Portfolio"
   />

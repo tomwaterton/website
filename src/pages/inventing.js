@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { SEO } from "../components/seo";
-import { graphql, Link } from "gatsby";
+import { Seo } from "../components/seo";
+import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import MI_certificate from "../images/inventing/MI_award_framed.png";
@@ -16,7 +16,7 @@ const PatentsPage = ({ data }) => {
       patentsToRenderArray = allPatents;
     } else {
       patentsToRenderArray = allPatents.filter((patent) =>
-        patent.categories.includes(filter),
+        patent.categories.includes(filter)
       );
     }
     return patentsToRenderArray;
@@ -76,7 +76,7 @@ const PatentsPage = ({ data }) => {
           </div>
         </section>
 
-        <section className="flex flex-col md:flex-row padding-bottom">
+        <section className="flex flex-col padding-bottom">
           <ul className="c-tile-list">
             <RenderPatents patents={whichPatentsToRender()} />
           </ul>
@@ -383,7 +383,7 @@ export const query = graphql`
 export default PatentsPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Information about my inventions, patents, and my IBM Master Inventor honorary title (tomwaterton.com)"
     title="Tom Waterton's website: Inventing"
   />

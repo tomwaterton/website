@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -106,7 +106,7 @@ export const query = graphql`
 export default ArticlesPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Articles about content design, communication, culture, and growth written by Tom Waterton"
     title="Tom Waterton's website: Articles"
   />

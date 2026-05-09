@@ -238,6 +238,14 @@
     text-align: center;
   }
 
+  .caption-text-family {
+    font-size: 0.875rem;
+    font-style: italic;
+    color: #393939;
+    text-align: center;
+    padding: 2rem 4rem;
+  }
+
   .print-only {
     display: none;
   }

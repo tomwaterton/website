@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -38,7 +38,7 @@ const ReadingNonFictionPage = () => {
           </div>
           <div className="column">
             <img
-              alt="Photo of me reading, lying on a mass of books"
+              alt="Me reading, lying on a mass of books"
               className="block tilt-landscape-left tom-on-books do-not-print"
               src={Tom_on_books_photo}
             />
@@ -219,7 +219,7 @@ const ReadingNonFictionPage = () => {
         <section>
           <div className="column">
             <img
-              alt="Photo of some of the content design / writing books I've enjoyed reading recently"
+              alt="Some of the content design / writing books I've enjoyed reading recently"
               className="block panel-images do-not-print"
               src={Content_books}
             />
@@ -512,7 +512,7 @@ const ReadingNonFictionPage = () => {
         <section>
           <div className="column">
             <img
-              alt="Photo of some of the design / growth / leadership books I've enjoyed reading recently"
+              alt="Some of the design / growth / leadership books I've enjoyed reading recently"
               className="block panel-images do-not-print"
               src={Growth_books}
             />
@@ -529,7 +529,7 @@ const ReadingNonFictionPage = () => {
 export default ReadingNonFictionPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Some of the work-related content and design and leadership books I've benefitted from reading (tomwaterton.com)"
     title="Tom Waterton's website: Recommended books"
   />

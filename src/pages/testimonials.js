@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import QuoteLeft from "../images/testimonials/quotation-mark-left.svg";
@@ -39,7 +39,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -93,7 +93,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -147,11 +147,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt="Quotation mark image"
-              className="quote-mark"
-              src={QuoteRight}
-            />
+            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
@@ -159,7 +155,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -203,7 +199,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -257,11 +253,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt="Quotation mark image"
-              className="quote-mark"
-              src={QuoteRight}
-            />
+            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
@@ -269,7 +261,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -310,7 +302,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -336,11 +328,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt="Quotation mark image"
-              className="quote-mark"
-              src={QuoteRight}
-            />
+            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
@@ -348,7 +336,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -390,7 +378,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -429,11 +417,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt="Quotation mark image"
-              className="quote-mark"
-              src={QuoteRight}
-            />
+            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
@@ -441,7 +425,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -494,7 +478,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark image"
+              alt="Quotation mark"
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -550,11 +534,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt="Quotation mark image"
-              className="quote-mark"
-              src={QuoteRight}
-            />
+            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
@@ -571,7 +551,7 @@ const TestimonialsPage = () => {
 export default TestimonialsPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Some testimonials and references that I've received from colleagues past and present (tomwaterton.com)"
     title="Tom Waterton's website: Testimonials"
   />

@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import dog_photo_Poised from "../images/dog/Poised.jpeg";
@@ -40,7 +40,7 @@ const DogPage = () => {
           </div>
           <div className="column">
             <img
-              alt="Photo of our dog Tiffin in the woods"
+              alt="Our dog Tiffin in the woods"
               className="block tilt-landscape-left do-not-print"
               src={dog_photo_Poised}
             />
@@ -54,7 +54,7 @@ const DogPage = () => {
         <section className="row">
           <div className="column hide-small">
             <img
-              alt="Photo of our dog Tiffin lying in front of the wood burner"
+              alt="Our dog Tiffin lying in front of the wood burner"
               className="block tilt-landscape-right do-not-print"
               src={dog_photo_Fire}
             />
@@ -85,7 +85,7 @@ const DogPage = () => {
           </div>
           <div className="column show-small">
             <img
-              alt="Photo of our dog Tiffin lying in front of the wood burner"
+              alt="Our dog Tiffin lying in front of the wood burner"
               className="block tilt-landscape-right do-not-print"
               src={dog_photo_Fire}
             />
@@ -128,7 +128,7 @@ const DogPage = () => {
           </div>
           <div className="column">
             <img
-              alt="Photo of our dog Tiffin with a training dummy in her mouth"
+              alt="Our dog Tiffin with a training dummy in her mouth"
               className="block tilt-landscape-left do-not-print"
               src={dog_photo_Dummy}
             />
@@ -169,7 +169,7 @@ const DogPage = () => {
           <div className="column-1-3">
             <div className="dog-montage">
               <img
-                alt="Photo of our dog Tiffin with her lead in her mouth"
+                alt="Our dog Tiffin with her lead in her mouth"
                 className="block tilt-portrait-left-dog do-not-print"
                 src={dog_photo_Lead}
               />
@@ -179,7 +179,7 @@ const DogPage = () => {
           <div className="column-1-3">
             <div className="dog-montage">
               <img
-                alt="Photo of our dog Tiffin on some heathland"
+                alt="Our dog Tiffin on some heathland"
                 className="block tilt-portrait-right-dog do-not-print"
                 src={dog_photo_Heath}
               />
@@ -189,7 +189,7 @@ const DogPage = () => {
           <div className="column-1-3">
             <div className="dog-montage">
               <img
-                alt="Photo of our dog Tiffin with a soft toy duck in her mouth"
+                alt="Our dog Tiffin with a soft toy duck in her mouth"
                 className="block tilt-portrait-left-dog do-not-print"
                 src={dog_photo_Duck}
               />
@@ -208,7 +208,7 @@ const DogPage = () => {
 export default DogPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Information about our pet golden retriever dog, Tiffin (tomwaterton.com)"
     title="Tom Waterton's website: Our dog"
   />

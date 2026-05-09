@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -11,7 +11,7 @@ const IndexPage = () => {
       <ContentWidth>
         <section className="homeBody">
           <img
-            alt="Profile photo of Tom Waterton"
+            alt="Profile headshot of Tom Waterton"
             height="350px"
             src={TomPhoto}
             width="350px"
@@ -37,16 +37,15 @@ const IndexPage = () => {
             <Link to="/portfolio">portfolio of work</Link>, lists my{" "}
             <Link to="/experience">experience and skills</Link>, provides some{" "}
             <Link to="/testimonials">testimonials</Link>, and features some of
-            my <Link to="/articles">articles</Link>. Interested in working
+            my <Link to="/articles">articles</Link>.
+            {/* Interested in working
             together? Do <a href="mailto:tomwaterton@gmail.com">get in touch</a>
-            .
+            . */}
           </p>
           <p className="padding-bottom-small">
-            Outside of work, I live in Hampshire (UK) with my wonderful{" "}
-            <Link to="/family">family</Link> and <Link to="/dog">dog</Link>. I
-            also enjoy <Link to="/brewing">brewing</Link>,{" "}
-            <Link to="/cryptic-crosswords">compiling cryptic crosswords</Link>,
-            cricket, hiking, <Link to="/inventing">inventing</Link>, and always
+            Outside of work, I enjoy <Link to="/brewing">brewing</Link>,{" "}
+            <Link to="/cryptic-crosswords">cryptic crosswords</Link>, cricket,
+            hiking, <Link to="/inventing">inventing</Link>, and am always
             reading (both <Link to="/reading">fiction</Link> and{" "}
             <Link to="/recommended-books">non-fiction</Link>).
           </p>
@@ -58,4 +57,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <SEO title="Tom Waterton's website: Homepage" />;
+export const Head = () => <Seo title="Tom Waterton's website: Homepage" />;

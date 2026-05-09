@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -77,7 +77,7 @@ const NotFoundPage = () => {
           </div>
           <div className="column">
             <img
-              alt="Photo of a magnifying glass"
+              alt="A magnifying glass"
               className="block max-w-xs"
               src={MagnifyingGlassIllustration}
             />
@@ -90,7 +90,7 @@ const NotFoundPage = () => {
 export default NotFoundPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="404: Page not found (tomwaterton.com)"
     title="404: Page not found"
   />

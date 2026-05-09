@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
@@ -29,12 +29,17 @@ const FamilyPage = () => {
             <p>
               <em>
                 My wonderful wife and two amazing daughters mean everything to
-                me. They're my fellow adventurers in life — and they continue to
+                me. They're my fellow adventurers in life — and they continue to
                 surprise, delight, inspire, confuse, and amuse me.
               </em>
             </p>
             <p>
               <em>Here's to family!</em>
+            </p>
+            <p>&nbsp;</p>
+            <p>
+              Also very much part of the family is{" "}
+              <Link to="/dog">our dog</Link>, Tiffin.
             </p>
           </div>
           <div className="column">
@@ -43,7 +48,9 @@ const FamilyPage = () => {
               className="block tilt-portrait-left do-not-print"
               src={AI_family}
             />
-            <p className="caption-text">An AI-generated image of a family</p>
+            <p className="caption-text-family">
+              An AI-generated image of a mum, dad, two daughters, and a dog.
+            </p>
           </div>
         </section>
 
@@ -102,14 +109,14 @@ const FamilyPage = () => {
           </div>
         </section> */}
 
-        <section className="row">
+        {/* <section className="row">
           <div className="column">
             <p>
               Also very much part of the family is{" "}
               <Link to="/dog">our dog</Link>, Tiffin.
             </p>
           </div>
-        </section>
+        </section> */}
       </ContentWidth>
     </Layout>
   );
@@ -118,7 +125,7 @@ const FamilyPage = () => {
 export default FamilyPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Some brief information about my wonderful family (tomwaterton.com)"
     title="Tom Waterton's website: Family"
   />

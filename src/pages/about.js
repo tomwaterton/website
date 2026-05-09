@@ -1,5 +1,5 @@
 import React from "react";
-import { SEO } from "../components/seo";
+import { Seo } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import AboutIllustration from "../images/about/about.jpg";
@@ -102,7 +102,7 @@ const AboutPage = () => {
 export default AboutPage;
 
 export const Head = () => (
-  <SEO
+  <Seo
     description="Information about my website (tomwaterton.com)"
     title="Tom Waterton's website: About this site"
   />
