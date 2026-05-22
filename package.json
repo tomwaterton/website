@@ -39,7 +39,7 @@
     "body-parser": "^1.20.5",
     "cookie": "^1.1.1",
     "cssnano": "^7.1.9",
-    "engine.io": "^6.6.7",
+    "engine.io": "^6.6.8",
     "eslint": "9.39.2",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
