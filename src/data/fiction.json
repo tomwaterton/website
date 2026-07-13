@@ -948,9 +948,21 @@
     "categories": [""]
   },
   {
+    "title": "Montpelier Parade",
+    "author": "Karl Geary",
+    "datePub": "2017",
+    "categories": [""]
+  },
+  {
     "title": "Cold Comfort Farm",
     "author": "Stella Gibbons",
     "datePub": "1932",
+    "categories": [""]
+  },
+  {
+    "title": "Black Narcissus",
+    "author": "Rumer Godden",
+    "datePub": "1939",
     "categories": [""]
   },
   {
@@ -1305,7 +1317,7 @@
     "title": "Nocturnes",
     "author": "Kazuo Ishiguro",
     "datePub": "2009",
-    "categories": ["shorts"]
+    "categories": ["shorts", "re-read"]
   },
   {
     "title": "Klara and the Sun",

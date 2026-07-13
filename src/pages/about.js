@@ -1,99 +1,131 @@
 import React from "react";
 import { Seo } from "../components/seo";
+import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import AboutIllustration from "../images/about/about.jpg";
+import TomPhoto from "../images/index/Tom_Waterton2.png";
+import linkedin from "../images/footer/linkedin.svg";
+import email from "../images/footer/email.png";
+import github from "../images/footer/github.svg";
 
 const AboutPage = () => {
   return (
     <Layout>
       <ContentWidth>
-        <section className="row">
-          <div className="column">
-            <h1>About this site</h1>
+        <div className="about-grid">
+          {/* Row 1, col 1 — About me */}
+          <section className="about-section about-grid__about">
+            <h1>About me</h1>
+            <p>Hi, I'm Tom 👋</p>
             <p>
-              <em>
-                I'm not a formal web developer, but I like to learn new things.
-                So a few years back I set myself the challenge of creating my
-                own website from scratch, and this was the result — and I've
-                enjoyed tinkering with it ever since!
-              </em>
+              I'm a <strong>Senior UX / Content Designer</strong> at{" "}
+              <a
+                href="https://www.ibm.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                IBM
+              </a>
+              , with 15+ years of experience working on enterprise software
+              products and internal tools.
             </p>
-            <p>
-              <em>
-                Here you'll find some information about my work as a content
-                designer, as well as some of my thoughts, hobbies, and
-                interests.
-              </em>
-            </p>
-            <p className="padding-bottom-small">
-              <em>Enjoy!</em>
-            </p>
-          </div>
-          <div className="column">
-            <img
-              alt="Website construction illustration"
-              className="block tilt-landscape-left"
-              src={AboutIllustration}
-            />
-          </div>
-        </section>
-
-        <section className="row">
-          <div className="column"></div>
-        </section>
-
-        <section className="row">
-          <div className="column">
-            <h2>Technical details</h2>
-            <ul className="padding-bottom">
+            <p>My work spans three closely related areas:</p>
+            <ul className="ul-small padding-bottom-small">
               <li>
-                I built this site using the free and open source{" "}
-                <a href="https://www.gatsbyjs.org/">Gatsby</a> React framework.
+                <strong>AI tooling design</strong> — identifying workflows where
+                AI tools can bring the most benefit to users, and optimising
+                content so that it works well for both humans and AI to find,
+                scan, and understand.
               </li>
               <li>
-                I started by using the{" "}
-                <a href="https://tailwindcss.com/">Tailwind</a> utility-first
-                CSS framework and their{" "}
-                <a href="https://github.com/taylorbryant/gatsby-starter-tailwind">
-                  Gatsby starter theme
-                </a>
-                .
+                <strong>Content design</strong> — designing and delivering
+                clear, engaging, user-centred content across complex software
+                products and workflows.
               </li>
               <li>
-                I use <a href="https://github.com/">GitHub</a> as my source
-                repository.
-              </li>
-              <li>
-                I use <a href="https://pages.github.com/">GitHub Pages</a> to
-                host the site.
-              </li>
-              <li>
-                I use{" "}
-                <a href="https://www.google.com/analytics">Google Analytics</a>{" "}
-                to analyse site traffic.
+                <strong>UX design</strong> — applying design thinking and
+                research to deliver intuitive, well-structured user experiences.
               </li>
             </ul>
             <p>
-              Props to the talented{" "}
-              <a href="https://www.linkedin.com/in/peter-loveland-75a73294/">
-                Peter Loveland
-              </a>{" "}
-              🙌 &nbsp;for his initial Gatsby help (and puns) as I was
-              developing the site.
+              I work highly collaboratively — most commonly alongside other
+              designers, researchers, product managers, and engineers.
             </p>
+          </section>
+
+          {/* Row 2, col 1 — Outside of work (before photo so narrow order is correct) */}
+          <section className="about-section about-grid__outside">
+            <h2>Outside of work</h2>
             <p>
-              <br />
+              Outside of work I enjoy <Link to="/brewing">brewing</Link>,{" "}
+              <Link to="/cryptic-crosswords">cryptic crosswords</Link>, hiking,
+              reading (both <Link to="/reading">fiction</Link> and{" "}
+              <Link to="/recommended-books">non-fiction</Link>) and spending
+              time with my wonderful <Link to="/family">family</Link> and{" "}
+              <Link to="/dog">our dog</Link>.
             </p>
-            <p>
-              If you spot any bugs 🐛 or simply want to say hello, please do{" "}
-              <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20website">
-                get in touch
-              </a>{" "}
-              with me.
-            </p>
-          </div>
-        </section>
+          </section>
+
+          {/* Row 1, col 2 — Profile photo */}
+          <section className="about-section about-section--photo about-grid__photo">
+            <img
+              alt="Profile photo of Tom Waterton"
+              className="about-profile-photo"
+              src={TomPhoto}
+            />
+          </section>
+
+          {/* Row 2, col 2 — Contact details */}
+          <section className="about-section about-section--contact about-grid__contact">
+            <h2>Contact details</h2>
+            <ul className="about-contact-list">
+              <li>
+                <a
+                  href="mailto:tomwaterton@gmail.com"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    alt="Email icon"
+                    height="24px"
+                    src={email}
+                    width="24px"
+                  />
+                  tomwaterton@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/tomwaterton/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="LinkedIn icon"
+                    height="24px"
+                    src={linkedin}
+                    width="24px"
+                  />
+                  linkedin.com/in/tomwaterton
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/tomwaterton"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="GitHub icon"
+                    height="24px"
+                    src={github}
+                    width="24px"
+                  />
+                  github.com/tomwaterton
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
       </ContentWidth>
     </Layout>
   );
@@ -103,7 +135,7 @@ export default AboutPage;
 
 export const Head = () => (
   <Seo
-    description="Information about my website (tomwaterton.com)"
-    title="Tom Waterton's website: About this site"
+    description="About Tom Waterton — Senior UX / Content Designer at IBM, with experience in AI, content design, and UX design."
+    title="Tom Waterton: About me"
   />
 );

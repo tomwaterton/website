@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("./about.css");
 @import url("./crosswords.css");
 @import url("./dog.css");
 @import url("./family.css");
@@ -18,10 +19,6 @@
 
 /* This parent entry contains all on-screen styles */
 @media screen {
-  /* Without the following the style breaks on mobiles */
-  body {
-    min-width: fit-content;
-  }
 
   /* So when you resize screen, extra space is applied to main... */
   /* ...not to the header or footer */

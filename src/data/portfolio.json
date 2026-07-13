@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Delivered an AI assistant",
+    "subTitle": "Enabling users to get quick answers to their questions",
+    "image": "AI_assistant.png",
+    "imageAlt": "Screenshots showing the AI assistant",
+    "caption": "The release management AI assistant that I delivered",
+    "tags": ["ai-tooling-design"],
+    "bullets": [
+      "Some IBMers were struggling with the many internal IBM release management processes. To help such users, I configured and deployed an AI assistant.",
+      "I used the IBM watsonx Orchestrate platform to connect the assistant to a documentation set that I had written.",
+      "The AI assistant is embedded directly in the internal release management application that Product Managers and other colleagues already use.",
+      "The AI assistant responds to users' natural language questions, providing a summary response as well as links to further details."
+    ]
+  },
+  {
+    "title": "Created a Figma plugin that checks content",
+    "subTitle": "Helping IBM designers easily check and improve the written aspects of their designs",
+    "image": "Figma_plugin.png",
+    "imageAlt": "Screenshot of the content checker Figma plugin",
+    "caption": "The content checker Figma plugin that I helped create for IBM designers",
+    "tags": ["ai-tooling-design", "content-design"],
+    "bullets": [
+      "While we have good content guidelines at IBM, it's easy for designers to forget aspects, sometimes leading to poor UI content.",
+      "I came up with the idea of providing them with a way to check the written content of their product UI designs directly within Figma.",
+      "Some colleagues helped me get a prototype AI-powered Figma plugin running and I then worked on providing the content rules for the AI model to reference.",
+      "I iteratively tested the plugin on example Figma designs and refined the content guidelines and LLM settings until the plugin was ready to publish.",
+      "The Figma plugin is now being used by over 200 IBM designers, helping them perfect their UI content. 🎯"
+    ]
+  },
+  {
+    "title": "Writing UI content",
+    "subTitle": "Working with product teams to deliver great content",
+    "image": "Event_Streams_UI.png",
+    "imageAlt": "Screenshot of the IBM Event Streams product UI",
+    "caption": "An example: the IBM Event Streams product UI that I worked on",
+    "tags": ["content-design", "ux-design"],
+    "links": [
+      { "label": "marketing pages", "url": "https://www.ibm.com/products/event-streams" },
+      { "label": "docs site", "url": "https://ibm.github.io/event-automation/es/" }
+    ],
+    "bullets": [
+      "I work with lots of different IBM product teams. For example, I joined the IBM Event Streams team for a period of 5 months.",
+      "I ran a content audit to help the team review what content they had, what user needs it addressed, and what needed removing, updating, or creating.",
+      "After learning about the target users, I wrote all of the UI content for the new features the team were working on.",
+      "I helped the team design a new set of [[marketing pages|https://www.ibm.com/products/event-streams]] that articulated how the product addressed common user goals.",
+      "We won external design awards 🏆 for both the product itself and the [[docs site|https://ibm.github.io/event-automation/es/]]."
+    ]
+  },
+  {
+    "title": "Setting content standards",
+    "subTitle": "Providing guidance to IBM designers on all aspects of product content",
+    "image": "Carbon_guidance.png",
+    "imageAlt": "Screenshot of the content guidance section within the Carbon for IBM Products site",
+    "caption": "The content guidance section that I wrote and maintain",
+    "tags": ["content-design", "leadership"],
+    "links": [
+      { "label": "Carbon Design System", "url": "https://www.carbondesignsystem.com/" },
+      { "label": "external content guide", "url": "https://www.carbondesignsystem.com/guidelines/content/overview" },
+      { "label": "this article", "url": "https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04" }
+    ],
+    "bullets": [
+      "Back in 2016, I was asked to produce IBM Design's first voice and tone guide. I started with thorough research to understand what aspects of writing designers and engineers were struggling with. I've written about this process in [[this article|https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04]].",
+      "I then focused on how we could best design and deliver the guidance so that it would be fun, useful, and easy to use.",
+      "When IBM adopted the [[Carbon Design System|https://www.carbondesignsystem.com/]] for all product UIs, I began contributing to both [[the brief external|https://www.carbondesignsystem.com/guidelines/content/overview]] and more extensive internal content guides.",
+      "This is something that I and others continue to evolve — Carbon is used by hundreds of IBM product teams, as well as many outside of IBM."
+    ]
+  },
+  {
+    "title": "Researching and testing terminology",
+    "subTitle": "Ensuring that the words we use communicate clearly with our target users",
+    "image": "Terminology_research.png",
+    "imageAlt": "Examples from the terminology cloze test that I ran",
+    "caption": "Examples from the terminology cloze test that I ran",
+    "tags": ["ux-design", "content-design"],
+    "bullets": [
+      "One IBM product team was showing potential customers early product designs and noticed confusion around some of the terms being used.",
+      "The team were divided about which terms to use, so I was asked to help resolve these terminology issues.",
+      "I designed and ran a 'cloze test' research study where recruited target users were given a series of sentences and asked to supply missing words.",
+      "This research provided the team with empirical data showing which terms resonated with the target audience and which did not.",
+      "This enabled the team to make informed decisions about which terms to use, based on real evidence about their users' mental models."
+    ]
+  },
+  {
+    "title": "Delivering content education",
+    "subTitle": "Creating a UX writing course for all IBM designers",
+    "image": "ux_writing_course.png",
+    "imageAlt": "Screenshot of the IBM UX writing course",
+    "caption": "The IBM UX writing course that I published in late 2022",
+    "tags": ["content-design", "leadership"],
+    "bullets": [
+      "IBM has a community of over 3,000 designers. While we have dedicated content designers, many design teams don't have access to a content specialist.",
+      "In 2022, I was asked to create a self-service online course to help UX designers, visual designers, and design researchers improve their UX writing skills.",
+      "After getting input from a variety of design colleagues, I came up with a course outline that mapped to both our Carbon content guidelines and internal design review heuristics.",
+      "As I drafted each module I sought feedback from early adopters, enabling me to refine the content until it was ready for publication."
+    ]
+  },
+  {
+    "title": "Providing content assessments",
+    "subTitle": "Helping product teams to further improve their UI content",
+    "image": "Content_assessments.png",
+    "imageAlt": "Examples of the detailed content reviews I provide to product teams",
+    "caption": "Examples of the detailed content reviews I provide to product teams",
+    "tags": ["content-design"],
+    "bullets": [
+      "Sadly, many IBM product teams do not have a dedicated content specialist.",
+      "While they have content guidance to follow, their UI content often has scope for improvement.",
+      "Before being released, all products go through a formal 'Design & User Experience' review and I often provide the content-specific part of this assessment.",
+      "I assess the written parts of the product UI against a set of content heuristics and provide detailed feedback highlighting both strengths and areas for improvement, along with suggestions and supporting materials."
+    ]
+  },
+  {
+    "title": "Helping to create a spark",
+    "subTitle": "Writing the comms for the internal 2023 IBM Spark Design Festival",
+    "image": "Spark.png",
+    "imageAlt": "The website for the internal IBM Spark Design Festival 2023",
+    "caption": "The website for the internal IBM Spark Design Festival 2023",
+    "tags": ["content-design", "leadership"],
+    "bullets": [
+      "For the last few years, IBM has run a fantastic annual design festival featuring presentations, lightning talks, panel discussions, and workshops.",
+      "I joined the leadership committee in 2023, responsible for all festival content and communications.",
+      "I worked closely with committee members, speakers, and volunteers to ensure all festival information was communicated clearly and on-brand.",
+      "This involved writing website copy, event emails, and many Slack announcements before, during, and after the festival.",
+      "A colleague and I also started a monthly Spark blog, each edition exploring one design topic and featuring talks from the Spark archives."
+    ]
+  },
+  {
+    "title": "Establishing a community of practice",
+    "subTitle": "Bringing together colleagues who have a passion for great content",
+    "image": "CD_Guild_Slack.png",
+    "imageAlt": "Screenshot of our IBM Content Design Guild Slack channel",
+    "caption": "Our IBM Content Design Guild Slack channel",
+    "tags": ["content-design", "leadership"],
+    "links": [
+      { "label": "this article", "url": "https://uxdesign.cc/building-a-community-of-practice-859db7950f77" }
+    ],
+    "bullets": [
+      "Back in 2018, many people in IBM hadn't even heard of a content designer, let alone worked with one.",
+      "So I got together with the talented [[Maranda Bodas|https://www.linkedin.com/in/marandabodas/]] and a handful of others, and we formed a small community of practice: the IBM Content Design Guild.",
+      "From an initial meeting with just 7 of us, our community has grown month by month — we now have 50+ people at our monthly meetings and 500+ in our Slack channel.",
+      "At our lively meetings we share best practices and resources, run content crits, and learn about different aspects of content design and strategy.",
+      "You can read more about how we established this vibrant community in [[this article|https://uxdesign.cc/building-a-community-of-practice-859db7950f77]]."
+    ]
+  }
+]

@@ -35,7 +35,7 @@
 .siteLogoAndName {
   display: flex;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 1.5rem;
 }
 
 /* The following ensures the site name lines up with content in the main... */
@@ -56,12 +56,9 @@
   padding-left: 2rem;
 }
 
-/* Hiding the site name and vertical bar for smaller screen sizes */
+/* Hiding the site name for smaller screen sizes */
 @media only screen and (max-width: 767px) {
   .siteName {
-    display: none;
-  }
-  .verticalDivider {
     display: none;
   }
 }
@@ -74,10 +71,6 @@
 .siteName a:hover {
   color: #505050;
   text-decoration: none;
-}
-
-.verticalDivider {
-  color: #393939;
 }
 
 /* The top-left hand navigation menu*/
@@ -186,4 +179,69 @@
   .dropdown .dropbtn {
     padding: 16px 21px;
   }
+}
+
+/* ── Mobile nav ─────────────────────────────────────────── */
+
+/* Show hamburger / mobile panel only below 640px */
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: flex;
+}
+
+@media only screen and (max-width: 639px) {
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+.mobile-menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #393939;
+  padding: 0.5rem 0.75rem;
+  margin-left: auto;
+}
+
+.mobile-menu-btn:hover {
+  background-color: #f6e05e;
+}
+
+.mobile-nav {
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e7eb;
+  padding: 0.75rem 1.5rem 1.25rem;
+}
+
+.mobile-nav__heading {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #d82286;
+  padding: 0.75rem 0 0.25rem !important;
+  margin: 0;
+}
+
+.mobile-nav__link {
+  display: block;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  color: #393939;
+  text-decoration: none;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.mobile-nav__link:hover {
+  background-color: #f6e05e;
+  text-decoration: none;
 }

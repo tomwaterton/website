@@ -135,7 +135,7 @@ const ArticleTile = ({ title, subTitle, url, image, mins, date }) => {
         itemType="http://schema.org/Article"
       >
         <div className="c-article-tile__header">
-          <a href={url}>
+          <a href={url} rel="noopener noreferrer" target="_blank">
             <img
               alt="Article thumbnail"
               className="article-thumbnail"
@@ -147,7 +147,7 @@ const ArticleTile = ({ title, subTitle, url, image, mins, date }) => {
         <div className="c-article-tile__body">
           <div>
             <h2 className="c-article-tile__title" itemProp="headline">
-              <a href={url}>{title}</a>
+              <a href={url} rel="noopener noreferrer" target="_blank">{title}</a>
             </h2>
             <p className="article-subhead">{subTitle}</p>
           </div>

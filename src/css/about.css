@@ -1,0 +1,89 @@
+/* About me page — two-column grid */
+
+/*
+  Narrow (default): single column, sections flow in DOM order:
+    About me → Outside of work → profile photo → Contact details
+
+  Wide (≥ 720px): 2-column × 2-row grid.
+    Col 1, row 1: About me
+    Col 2, row 1: profile photo
+    Col 1, row 2: Outside of work
+    Col 2, row 2: Contact details  ← aligned with "Outside of work"
+*/
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.about-section {
+  padding: 10px;
+}
+
+/* Extra breathing room below h2 subheadings */
+.about-section h2 {
+  padding-bottom: 0.5rem;
+}
+
+.about-section--photo {
+  padding-top: 1rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: start;
+    column-gap: 2rem;
+  }
+
+  .about-grid__about   { grid-column: 1; grid-row: 1; }
+  .about-grid__photo   { grid-column: 2; grid-row: 1; }
+  .about-grid__outside { grid-column: 1; grid-row: 2; }
+  .about-grid__contact { grid-column: 2; grid-row: 2; }
+}
+
+/* About me page — profile photo (matches homepage hero style) */
+.about-profile-photo {
+  display: block;
+  max-width: 18rem;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #f6e05e;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
+
+@media only screen and (max-width: 639px) {
+  .about-profile-photo {
+    max-width: 12rem;
+  }
+}
+
+/* About me page — contact list */
+.about-contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-contact-list li {
+  margin-bottom: 0.4rem;
+}
+
+.about-contact-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  text-decoration: none;
+  color: #393939;
+}
+
+.about-contact-list a:hover {
+  text-decoration: underline;
+}
+
+.about-contact-list img {
+  flex-shrink: 0;
+}

@@ -20,31 +20,16 @@ const NotFoundPage = () => {
 
         <section className="row">
           <div className="column">
-            <p>
+            <p className="padding-bottom-small">
               <em>Perhaps you were looking for one of these pages:</em>
             </p>
-            <h4>General</h4>
+            <h4>About</h4>
             <ul className="ul-small">
               <li>
-                <Link to="/">Home page</Link>
-              </li>
-              <li>
-                <Link to="/about">About this site</Link>
+                <Link to="/about">About me</Link>
               </li>
               <li>
                 <Link to="/articles">Articles</Link>
-              </li>
-            </ul>
-            <h4>Content design</h4>
-            <ul className="ul-small">
-              <li>
-                <Link to="/experience">Experience and skills</Link>
-              </li>
-              <li>
-                <Link to="/portfolio">Portfolio of work</Link>
-              </li>
-              <li>
-                <Link to="/recommended-books">Recommended books</Link>
               </li>
               <li>
                 <Link to="/speaking">Speaking</Link>
@@ -53,7 +38,22 @@ const NotFoundPage = () => {
                 <Link to="/testimonials">Testimonials</Link>
               </li>
             </ul>
-            <h4>More...</h4>
+            <h4>Work</h4>
+            <ul className="ul-small">
+              <li>
+                <Link to="/experience">Experience and skills</Link>
+              </li>
+              <li>
+                <Link to="/portfolio">Portfolio</Link>
+              </li>
+              <li>
+                <Link to="/inventing">Inventing</Link>
+              </li>
+              <li>
+                <Link to="/recommended-books">Recommended books</Link>
+              </li>
+            </ul>
+            <h4>Fun</h4>
             <ul className="ul-small">
               <li>
                 <Link to="/brewing">Brewing</Link>
@@ -63,9 +63,6 @@ const NotFoundPage = () => {
               </li>
               <li>
                 <Link to="/family">Family</Link>
-              </li>
-              <li>
-                <Link to="/inventing">Inventing</Link>
               </li>
               <li>
                 <Link to="/dog">Our dog</Link>

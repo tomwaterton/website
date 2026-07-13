@@ -20,38 +20,38 @@
 
 /* Style the buttons */
 .btn {
-  border: solid 1px #dcdcdc;
-  border-radius: 12px;
+  border: 2px solid #d82286;
+  border-radius: 4px;
   outline: none;
-  padding: 4px 8px;
-  margin: 4px;
-  background-color: #f1f1f1;
+  padding: 0.35rem 0.85rem;
+  margin: 3px;
+  background-color: transparent;
+  color: #d82286;
   cursor: pointer;
-  font-size: 0.7rem;
-  font-weight: 300;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
-/* Needed to get the active state grey to persist */
-.btn:focus,
-.btn:active {
-  outline: none;
-  border: 1.5px solid grey;
-  box-shadow: 3px 3px 4px -1px grey;
+/* Focus ring for accessibility */
+.btn:focus {
+  outline: 2px solid #d82286;
+  outline-offset: 2px;
 }
 
-/* Needed to get the active state grey to persist */
+/* Active/selected filter — solid filled variant */
 .active,
 .focus {
+  background-color: #d82286 !important;
+  color: #ffffff !important;
+  border-color: #d82286 !important;
   outline: none;
-  border-color: #fbd38d !important;
-  background-color: #f6e05e !important;
-  box-shadow: 3px 3px 4px -1px grey;
+  box-shadow: none;
 }
 
-/* Add yellow background color and grey shadow on hover */
+/* Hover on unselected buttons */
 .btn:hover {
-  background-color: #f6e05e;
-  box-shadow: 3px 3px 4px -1px grey;
+  background-color: #fce8f3;
 }
 
 /* To display or hide article blocks */

@@ -152,7 +152,7 @@ class RenderFiction extends React.Component {
       <FictionList
         author={fiction.author}
         date={fiction.datePub}
-        key={fiction.title}
+        key={`${fiction.title}--${fiction.author}`}
         title={fiction.title}
       />
     ));
@@ -162,7 +162,7 @@ class RenderFiction extends React.Component {
 class FictionList extends React.Component {
   render() {
     return (
-      <li key={this.props.key}>
+      <li>
         <span className="fiction_title">{this.props.title} </span>
         <span className="fiction_date">({this.props.date}) by </span>
         <span className="fiction_author">{this.props.author} </span>

@@ -92,224 +92,224 @@ const PatentsPage = ({ data }) => {
             <p>
               <em>
                 I've also had a number of other technical inventions published
-                on <a href="https://ip.com/">IP.com</a>.
+                on <a href="https://ip.com/" rel="noopener noreferrer" target="_blank">IP.com</a>.
               </em>
             </p>
             <ol className="publish-list" reversed>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00276414D">
+                <a href="https://priorart.ip.com/IPCOM/00276414D" rel="noopener noreferrer" target="_blank">
                   System and method to aid a user with complex software
                   configuration decisions and their implications
                 </a>
                 <span className="date">(Jun 30, 2025)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00275400D">
+                <a href="https://priorart.ip.com/IPCOM/00275400D" rel="noopener noreferrer" target="_blank">
                   Using haptic feedback to warn users of potentially dangerous
                   links and actions within a UI
                 </a>
                 <span className="date">(Nov 22, 2024)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00275134D">
+                <a href="https://priorart.ip.com/IPCOM/00275134D" rel="noopener noreferrer" target="_blank">
                   Method to define conditions for the automatic approval of code
                   change requests
                 </a>
                 <span className="date">(Oct 02, 2024)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000273130">
+                <a href="https://priorart.ip.com/IPCOM/000273130" rel="noopener noreferrer" target="_blank">
                   Method to generate online collaboration prompts from
                   cloud-based document repositories
                 </a>
                 <span className="date">(Oct 25, 2023)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00272882D">
+                <a href="https://priorart.ip.com/IPCOM/00272882D" rel="noopener noreferrer" target="_blank">
                   Selective darkening of parts of a computer display based on
                   user behaviour...
                 </a>
                 <span className="date">(Aug 30, 2023)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000272549">
+                <a href="https://priorart.ip.com/IPCOM/000272549" rel="noopener noreferrer" target="_blank">
                   System and method for responsive UI elements that move in
                   response to a user's intent
                 </a>
                 <span className="date">(Jun 21, 2023)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00271786D">
+                <a href="https://priorart.ip.com/IPCOM/00271786D" rel="noopener noreferrer" target="_blank">
                   System to enhance messaging platform notification handling
                   based on the current locations of individual users
                 </a>
                 <span className="date">(Feb 09, 2023)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00271570D">
+                <a href="https://priorart.ip.com/IPCOM/00271570D" rel="noopener noreferrer" target="_blank">
                   A trusted personal assistant that augments questions and
                   responses to/from other third-party assistants...
                 </a>
                 <span className="date">(Jan 11, 2023)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00271404D">
+                <a href="https://priorart.ip.com/IPCOM/00271404D" rel="noopener noreferrer" target="_blank">
                   Automatically closing browser tabs that have become redundant
                   based on event metadata
                 </a>
                 <span className="date">(Dec 06, 2022)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00270899D">
+                <a href="https://priorart.ip.com/IPCOM/00270899D" rel="noopener noreferrer" target="_blank">
                   Method to automate closure of related tabs when a purchase is
                   made in a browser
                 </a>
                 <span className="date">(Sep 08, 2022)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00269942D">
+                <a href="https://priorart.ip.com/IPCOM/00269942D" rel="noopener noreferrer" target="_blank">
                   System and method for controlling access to the slides of a
                   presentation as it is being presented
                 </a>
                 <span className="date">(May 26, 2022)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000269748">
+                <a href="https://priorart.ip.com/IPCOM/000269748" rel="noopener noreferrer" target="_blank">
                   Method for verifying where a person lives using confidence
                   patterns against their historical location data
                 </a>
                 <span className="date">(May 10, 2022)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000267805">
+                <a href="https://priorart.ip.com/IPCOM/000267805" rel="noopener noreferrer" target="_blank">
                   Automatic assignment of conference call participants into
                   multiple rounds of sub-groups
                 </a>
                 <span className="date">(Nov 25, 2021)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000267785 ">
+                <a href="https://priorart.ip.com/IPCOM/000267785 " rel="noopener noreferrer" target="_blank">
                   System to help users activate clickable elements of a web page
                 </a>
                 <span className="date">(Nov 24, 2021)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000266297">
+                <a href="https://priorart.ip.com/IPCOM/000266297" rel="noopener noreferrer" target="_blank">
                   System and method for synchronizing annotated notes with
                   discussion from temporal media
                 </a>
                 <span className="date">(Jun 30, 2021)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00264642">
+                <a href="https://priorart.ip.com/IPCOM/00264642" rel="noopener noreferrer" target="_blank">
                   Automatically tag screen recording video output with
                   application metadata
                 </a>
                 <span className="date">(Jan 15, 2021)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/00263834">
+                <a href="https://priorart.ip.com/IPCOM/00263834" rel="noopener noreferrer" target="_blank">
                   Scheduling meetings containing multiple segments where some
                   attendees are only needed in some segments
                 </a>
                 <span className="date">(Oct 09, 2020)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000263471">
+                <a href="https://priorart.ip.com/IPCOM/000263471" rel="noopener noreferrer" target="_blank">
                   System to automatically identify when new IM messages might be
                   better suited to a thread
                 </a>
                 <span className="date">(Sep 02, 2020)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000263350">
+                <a href="https://priorart.ip.com/IPCOM/000263350" rel="noopener noreferrer" target="_blank">
                   Use of geolocation to enhance accuracy of social media handles
                   and hashtags suggested and used
                 </a>
                 <span className="date">(Aug 21, 2020)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000262489">
+                <a href="https://priorart.ip.com/IPCOM/000262489" rel="noopener noreferrer" target="_blank">
                   System to determine the relevance of social media posts based
                   on other users' responses
                 </a>
                 <span className="date">(Jun 05, 2020)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000262444">
+                <a href="https://priorart.ip.com/IPCOM/000262444" rel="noopener noreferrer" target="_blank">
                   Detection of password-like strings based on organizational
                   criteria
                 </a>
                 <span className="date">(Jun 01, 2020)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000260981">
+                <a href="https://priorart.ip.com/IPCOM/000260981" rel="noopener noreferrer" target="_blank">
                   Conference call quick join for co-located participants
                 </a>
                 <span className="date">(Jan 14, 2020)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000260980">
+                <a href="https://priorart.ip.com/IPCOM/000260980" rel="noopener noreferrer" target="_blank">
                   Method to share a link to an email with other recipients over
                   instant messaging
                 </a>
                 <span className="date">(Jan 14, 2020)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000259301">
+                <a href="https://priorart.ip.com/IPCOM/000259301" rel="noopener noreferrer" target="_blank">
                   Movement of autonomous vehicles to optimize availability of
                   parking
                 </a>
                 <span className="date">(Jul 26, 2019)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000257677">
+                <a href="https://priorart.ip.com/IPCOM/000257677" rel="noopener noreferrer" target="_blank">
                   Performance improvement to biometric authentication mechanisms
                 </a>
                 <span className="date">(Mar 01, 2019)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000257280">
+                <a href="https://priorart.ip.com/IPCOM/000257280" rel="noopener noreferrer" target="_blank">
                   Auto placement and resizing of images across slides in a
                   presentation software package
                 </a>
                 <span className="date">(Jan 29, 2019)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000255549">
+                <a href="https://priorart.ip.com/IPCOM/000255549" rel="noopener noreferrer" target="_blank">
                   A method to automatically detect potentially incorrect
                   hashtags
                 </a>
                 <span className="date">(Oct 01, 2018)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000255341">
+                <a href="https://priorart.ip.com/IPCOM/000255341" rel="noopener noreferrer" target="_blank">
                   Method for detecting co-located devices in a distributed audio
                   system
                 </a>
                 <span className="date">(Sep 18, 2018)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000253003">
+                <a href="https://priorart.ip.com/IPCOM/000253003" rel="noopener noreferrer" target="_blank">
                   Smart plug to control power flow to an electrical appliance,
                   based on user authentication
                 </a>
                 <span className="date">(Feb 27, 2018)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000245723">
+                <a href="https://priorart.ip.com/IPCOM/000245723" rel="noopener noreferrer" target="_blank">
                   Method for users to update an email that has been sent
                 </a>
                 <span className="date">(Apr 01, 2016)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000243008">
+                <a href="https://priorart.ip.com/IPCOM/000243008" rel="noopener noreferrer" target="_blank">
                   Enhanced file selection with keyword intelligence
                 </a>
                 <span className="date">(Sep 08, 2015)</span>
               </li>
               <li>
-                <a href="https://priorart.ip.com/IPCOM/000242984">
+                <a href="https://priorart.ip.com/IPCOM/000242984" rel="noopener noreferrer" target="_blank">
                   If keyboard locale has changed, warn user when they enter
                   their password
                 </a>
@@ -412,7 +412,7 @@ const PatentTile = ({ url, image, title, pending, min, date }) => {
         itemType="http://schema.org/Article"
       >
         <div className="c-article-tile__header">
-          <a href={url}>
+          <a href={url} rel="noopener noreferrer" target="_blank">
             <img
               alt="Patent thumbnail image"
               className="article-thumbnail"
@@ -424,7 +424,7 @@ const PatentTile = ({ url, image, title, pending, min, date }) => {
         <div className="c-article-tile__body">
           <div>
             <h2 className="c-article-tile__title" itemProp="headline">
-              <a href={url}>{title}</a>
+              <a href={url} rel="noopener noreferrer" target="_blank">{title}</a>
             </h2>
             <span className="pending">{pending}</span>
           </div>
