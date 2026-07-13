@@ -27,7 +27,7 @@ const PatentsPage = ({ data }) => {
       <ContentWidth>
         <section className="row">
           <div className="column">
-            <h1>Inventing</h1>
+            <h1 id="top">Inventing</h1>
             <p>
               <em>
                 I've always enjoyed problem solving and inventing. This page
@@ -81,7 +81,7 @@ const PatentsPage = ({ data }) => {
             <RenderPatents patents={whichPatentsToRender()} />
           </ul>
           <div className="backToTop">
-            <a href="#">&uarr; Back to top</a>
+            <a href="#top">&uarr; Back to top</a>
           </div>
         </section>
 
@@ -317,7 +317,7 @@ const PatentsPage = ({ data }) => {
               </li>
             </ol>
             <div className="backToTop">
-              <a href="#">&uarr; Back to top</a>
+              <a href="#top">&uarr; Back to top</a>
             </div>
           </div>
         </section>
@@ -356,7 +356,7 @@ const PatentsPage = ({ data }) => {
             />
 
             <div className="backToTop">
-              <a href="#">&uarr; Back to top</a>
+              <a href="#top">&uarr; Back to top</a>
             </div>
           </div>
         </section>
@@ -389,61 +389,57 @@ export const Head = () => (
   />
 );
 
-class RenderPatents extends React.Component {
-  render() {
-    return this.props.patents.map((patent, i) => (
-      <PatentTile
-        date={patent.date}
-        image={patent.image}
-        key={patent.title}
-        min={patent.min}
-        pending={patent.pending}
-        title={patent.title}
-        url={patent.url}
-      />
-    ));
-  }
-}
+const RenderPatents = ({ patents }) => {
+  return patents.map((patent) => (
+    <PatentTile
+      date={patent.date}
+      image={patent.image}
+      key={patent.title}
+      min={patent.min}
+      pending={patent.pending}
+      title={patent.title}
+      url={patent.url}
+    />
+  ));
+};
 
-class PatentTile extends React.Component {
-  render() {
-    return (
-      <li className="c-tile-list__item" key={this.props.key}>
-        <patent
-          className="c-article-tile col3"
-          itemScope
-          itemType="http://schema.org/Article"
-        >
-          <div className="c-article-tile__header">
-            <a href={this.props.url}>
-              <img
-                alt="Patent thumbnail image"
-                className="article-thumbnail"
-                src={`../images/patents/${this.props.image}`}
-              />
-            </a>
+const PatentTile = ({ url, image, title, pending, min, date }) => {
+  return (
+    <li className="c-tile-list__item">
+      <article
+        className="c-article-tile col3"
+        itemScope
+        itemType="http://schema.org/Article"
+      >
+        <div className="c-article-tile__header">
+          <a href={url}>
+            <img
+              alt="Patent thumbnail image"
+              className="article-thumbnail"
+              src={`../images/patents/${image}`}
+            />
+          </a>
+        </div>
+
+        <div className="c-article-tile__body">
+          <div>
+            <h2 className="c-article-tile__title" itemProp="headline">
+              <a href={url}>{title}</a>
+            </h2>
+            <span className="pending">{pending}</span>
           </div>
+        </div>
 
-          <div className="c-article-tile__body">
-            <div>
-              <h2 className="c-article-tile__title" itemProp="headline">
-                <a href={this.props.url}>{this.props.title}</a>
-              </h2>
-              <span className="pending">{this.props.pending}</span>
-            </div>
-          </div>
+        <footer className="c-article-tile__footer">
+          <span className="c-article-tile__read-time" itemProp="patentRef">
+            {min}
+          </span>
 
-          <footer className="c-article-tile__footer">
-            <span className="c-article-tile__read-time" itemProp="patentRef">
-              {this.props.min}
-            </span>
-
-            <span className="c-article-tile__date" itemProp="datePublished">
-              {this.props.date}
-            </span>
-          </footer>
-        </patent>
-      </li>
-    );
-  }
-}
+          <span className="c-article-tile__date" itemProp="datePublished">
+            {date}
+          </span>
+        </footer>
+      </article>
+    </li>
+  );
+};

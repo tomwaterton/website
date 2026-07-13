@@ -1,9 +1,8 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
-import React, { useState } from "react";
+import React from "react";
 import TypewriterIllustration from "../images/favicon/typewriter.svg";
 
 function Header() {
-  const [isExpanded, toggleExpansion] = useState(false);
   const { site } = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {

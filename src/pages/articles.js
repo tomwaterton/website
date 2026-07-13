@@ -139,7 +139,7 @@ const ArticleTile = ({ title, subTitle, url, image, mins, date }) => {
             <img
               alt="Article thumbnail"
               className="article-thumbnail"
-              src={`../images/articles/${image}`}
+              src={`/images/articles/${image}`}
             />
           </a>
         </div>
