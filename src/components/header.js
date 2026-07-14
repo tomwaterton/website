@@ -1,19 +1,9 @@
-import { graphql, useStaticQuery, Link } from "gatsby";
+import { Link } from "gatsby";
 import React, { useState } from "react";
 import TypewriterIllustration from "../images/favicon/typewriter.svg";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const { site } = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
 
   const closeMenu = () => setMenuOpen(false);
 

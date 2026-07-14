@@ -69,7 +69,7 @@ const AboutPage = () => {
           {/* Row 1, col 2 — Profile photo */}
           <section className="about-section about-section--photo about-grid__photo">
             <img
-              alt="Profile photo of Tom Waterton"
+              alt="Tom Waterton"
               className="about-profile-photo"
               src={TomPhoto}
             />
@@ -135,7 +135,7 @@ export default AboutPage;
 
 export const Head = () => (
   <Seo
-    description="About Tom Waterton — Senior UX / Content Designer at IBM, with experience in AI, content design, and UX design."
-    title="Tom Waterton: About me"
+    description="About Tom Waterton — Senior UX / Content Designer at IBM, with 15+ years of experience in AI tooling design, content design, and UX design."
+    title="About me – Tom Waterton"
   />
 );

@@ -26,7 +26,7 @@ const ReadingFictionPage = ({ data }) => {
       <ContentWidth>
         <section className="row">
           <div className="column books">
-            <h1>Reading fiction</h1>
+            <h1 id="reading-fiction">Reading fiction</h1>
             <p>
               <em>
                 For me, reading fiction is one of life's great pleasures. Here's
@@ -51,11 +51,9 @@ const ReadingFictionPage = ({ data }) => {
                 (article)
               </li>
               <li>
-                <a href="#content">
-                  <Link to="/recommended-books">
-                    Recommended non-fiction (writing / design related)
-                  </Link>
-                </a>
+                <Link to="/recommended-books">
+                  Recommended non-fiction (writing / design related)
+                </Link>
               </li>
             </ul>
           </div>
@@ -81,7 +79,7 @@ const ReadingFictionPage = ({ data }) => {
                 className={`btn ${filter === "favourite" ? "active" : null}`}
                 onClick={() => setFilter("favourite")}
               >
-                My favourites
+                My 25 favourites
               </button>
               <button
                 className={`btn ${filter === "re-read" ? "active" : null}`}
@@ -116,7 +114,7 @@ const ReadingFictionPage = ({ data }) => {
           </div>
 
           <div className="backToTop">
-            <a href="#">&uarr; Back to top</a>
+            <a href="#reading-fiction">&uarr; Back to top</a>
           </div>
         </section>
       </ContentWidth>
@@ -141,8 +139,8 @@ export default ReadingFictionPage;
 
 export const Head = () => (
   <Seo
-    description="Some of the novels, novellas, plays, and short story collections I've read (tomwaterton.com)"
-    title="Tom Waterton's website: Reading fiction"
+    description="A personal record of the novels, plays, and short story collections Tom Waterton has read and enjoyed over recent years."
+    title="Reading fiction – Tom Waterton"
   />
 );
 

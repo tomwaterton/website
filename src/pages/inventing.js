@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Seo } from "../components/seo";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
@@ -7,21 +7,6 @@ import MI_certificate from "../images/inventing/MI_award_framed.png";
 import MI_digital_badge from "../images/inventing/IBM_Master_Inventor.png";
 
 const PatentsPage = ({ data }) => {
-  const [filter, setFilter] = useState("all");
-
-  const whichPatentsToRender = () => {
-    const allPatents = data.allPatentsJson.nodes;
-    let patentsToRenderArray;
-    if (filter === "all") {
-      patentsToRenderArray = allPatents;
-    } else {
-      patentsToRenderArray = allPatents.filter((patent) =>
-        patent.categories.includes(filter)
-      );
-    }
-    return patentsToRenderArray;
-  };
-
   return (
     <Layout>
       <ContentWidth>
@@ -78,7 +63,7 @@ const PatentsPage = ({ data }) => {
 
         <section className="flex flex-col padding-bottom">
           <ul className="c-tile-list">
-            <RenderPatents patents={whichPatentsToRender()} />
+            <RenderPatents patents={data.allPatentsJson.nodes} />
           </ul>
           <div className="backToTop">
             <a href="#top">&uarr; Back to top</a>
@@ -257,7 +242,7 @@ const PatentsPage = ({ data }) => {
               </li>
               <li>
                 <a href="https://priorart.ip.com/IPCOM/000259301" rel="noopener noreferrer" target="_blank">
-                  Movement of autonomous vehicles to optimize availability of
+                  Movement of autonomous vehicles to optimise availability of
                   parking
                 </a>
                 <span className="date">(Jul 26, 2019)</span>
@@ -384,8 +369,8 @@ export default PatentsPage;
 
 export const Head = () => (
   <Seo
-    description="Information about my inventions, patents, and my IBM Master Inventor honorary title (tomwaterton.com)"
-    title="Tom Waterton's website: Inventing"
+    description="Tom Waterton's inventions and patents — including 19 issued patents, publications on IP.com, and the honorary IBM Master Inventor title awarded in 2021."
+    title="Inventing & Patents – Tom Waterton"
   />
 );
 
@@ -414,7 +399,7 @@ const PatentTile = ({ url, image, title, pending, min, date }) => {
         <div className="c-article-tile__header">
           <a href={url} rel="noopener noreferrer" target="_blank">
             <img
-              alt="Patent thumbnail image"
+              alt={`Thumbnail for: ${title}`}
               className="article-thumbnail"
               src={`../images/patents/${image}`}
             />

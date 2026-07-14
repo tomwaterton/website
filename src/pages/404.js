@@ -23,7 +23,7 @@ const NotFoundPage = () => {
             <p className="padding-bottom-small">
               <em>Perhaps you were looking for one of these pages:</em>
             </p>
-            <h4>About</h4>
+            <h2>About</h2>
             <ul className="ul-small">
               <li>
                 <Link to="/about">About me</Link>
@@ -38,7 +38,7 @@ const NotFoundPage = () => {
                 <Link to="/testimonials">Testimonials</Link>
               </li>
             </ul>
-            <h4>Work</h4>
+            <h2>Work</h2>
             <ul className="ul-small">
               <li>
                 <Link to="/experience">Experience and skills</Link>
@@ -53,7 +53,7 @@ const NotFoundPage = () => {
                 <Link to="/recommended-books">Recommended books</Link>
               </li>
             </ul>
-            <h4>Fun</h4>
+            <h2>Fun</h2>
             <ul className="ul-small">
               <li>
                 <Link to="/brewing">Brewing</Link>
@@ -88,7 +88,7 @@ export default NotFoundPage;
 
 export const Head = () => (
   <Seo
-    description="404: Page not found (tomwaterton.com)"
+    description="404: The page you're looking for can't be found."
     title="404: Page not found"
   />
 );

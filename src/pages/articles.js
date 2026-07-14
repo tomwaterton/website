@@ -14,7 +14,7 @@ const ArticlesPage = ({ data }) => {
       articlesToRenderArray = allArticles;
     } else {
       articlesToRenderArray = allArticles.filter((article) =>
-        article.categories.includes(filter),
+        article.categories.includes(filter)
       );
     }
     return articlesToRenderArray;
@@ -35,43 +35,43 @@ const ArticlesPage = ({ data }) => {
                 className={`btn ${filter === "all" ? "active" : null}`}
                 onClick={() => setFilter("all")}
               >
-                all articles
+                All articles
               </button>
               <button
                 className={`btn ${filter === "brewing" ? "active" : null}`}
                 onClick={() => setFilter("brewing")}
               >
-                brewing
+                Brewing
               </button>
               <button
                 className={`btn ${filter === "comms" ? "active" : null}`}
                 onClick={() => setFilter("comms")}
               >
-                communication
+                Communication
               </button>
               <button
                 className={`btn ${filter === "content" ? "active" : null}`}
                 onClick={() => setFilter("content")}
               >
-                content
+                Content
               </button>
               <button
                 className={`btn ${filter === "culture" ? "active" : null}`}
                 onClick={() => setFilter("culture")}
               >
-                culture
+                Culture
               </button>
               <button
                 className={`btn ${filter === "design" ? "active" : null}`}
                 onClick={() => setFilter("design")}
               >
-                design
+                Design
               </button>
               <button
                 className={`btn ${filter === "growth" ? "active" : null}`}
                 onClick={() => setFilter("growth")}
               >
-                growth
+                Growth
               </button>
             </div>
           </div>
@@ -107,8 +107,8 @@ export default ArticlesPage;
 
 export const Head = () => (
   <Seo
-    description="Articles about content design, communication, culture, and growth written by Tom Waterton"
-    title="Tom Waterton's website: Articles"
+    description="Articles about content design, communication, UX design, culture, growth, and brewing written by Tom Waterton."
+    title="Articles – Tom Waterton"
   />
 );
 
@@ -137,7 +137,7 @@ const ArticleTile = ({ title, subTitle, url, image, mins, date }) => {
         <div className="c-article-tile__header">
           <a href={url} rel="noopener noreferrer" target="_blank">
             <img
-              alt="Article thumbnail"
+              alt={`Thumbnail for: ${title}`}
               className="article-thumbnail"
               src={`/images/articles/${image}`}
             />
@@ -147,7 +147,9 @@ const ArticleTile = ({ title, subTitle, url, image, mins, date }) => {
         <div className="c-article-tile__body">
           <div>
             <h2 className="c-article-tile__title" itemProp="headline">
-              <a href={url} rel="noopener noreferrer" target="_blank">{title}</a>
+              <a href={url} rel="noopener noreferrer" target="_blank">
+                {title}
+              </a>
             </h2>
             <p className="article-subhead">{subTitle}</p>
           </div>

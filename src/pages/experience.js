@@ -63,7 +63,7 @@ const ExperiencePage = () => {
               <em>
                 2025: I now increasingly work on AI-related content projects.
                 This typically involves identifying workflows where AI tools can
-                bring the most benefit to users and then optimizing content so
+                bring the most benefit to users and then optimising content so
                 that it's great for both humans and AI to find, scan, and
                 understand.
               </em>{" "}
@@ -120,7 +120,7 @@ const ExperiencePage = () => {
             <ul className="ul-small">
               <li>Writing for humans and for AI</li>
               <li>Simplifying the complex</li>
-              <li>User-centered writing</li>
+              <li>User-centred writing</li>
               <li>Applying voice and tone</li>
               <li>Writing UI tours</li>
               <li>Writing UI copy</li>
@@ -175,7 +175,7 @@ export default ExperiencePage;
 
 export const Head = () => (
   <Seo
-    description="Details about my work experience as a content designer and my related skills (tomwaterton.com)"
-    title="Tom Waterton's website: Experience and skills"
+    description="Tom Waterton's work experience and skills as a Senior UX / Content Designer at IBM, covering content design, AI tooling design, and UX design."
+    title="Experience and skills – Tom Waterton"
   />
 );

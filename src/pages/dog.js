@@ -209,7 +209,7 @@ export default DogPage;
 
 export const Head = () => (
   <Seo
-    description="Information about our pet golden retriever dog, Tiffin (tomwaterton.com)"
-    title="Tom Waterton's website: Our dog"
+    description="Tiffin is Tom Waterton's working-line Golden Retriever — a much-loved family pet and enthusiastic gun dog trainee."
+    title="Our dog, Tiffin – Tom Waterton"
   />
 );

@@ -27,6 +27,13 @@ export const Seo = ({ title, author, description, pathname, children }) => {
       <meta content={seo.description} name="description" />
       <meta content={seo.author} name="author" />
       <meta content={seo.image} name="image" />
+      {/* Open Graph */}
+      <meta content={seo.title} property="og:title" />
+      <meta content={seo.description} property="og:description" />
+      <meta content={seo.image} property="og:image" />
+      <meta content={seo.url} property="og:url" />
+      <meta content="website" property="og:type" />
+      {/* Twitter Card */}
       <meta content="summary_large_image" name="twitter:card" />
       <meta content={seo.title} name="twitter:title" />
       <meta content={seo.url} name="twitter:url" />
@@ -38,7 +45,7 @@ export const Seo = ({ title, author, description, pathname, children }) => {
       />
       <meta content={seo.twitterUsername} name="twitter:creator" />
       <meta content="188022199" name="twitter:creator:id" />
-      <link alt="Typewriter icon" href={TypewriterIllustration} rel="icon" />
+      <link href={TypewriterIllustration} rel="icon" />
       {children}
     </>
   );

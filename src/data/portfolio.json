@@ -25,7 +25,7 @@
       "I came up with the idea of providing them with a way to check the written content of their product UI designs directly within Figma.",
       "Some colleagues helped me get a prototype AI-powered Figma plugin running and I then worked on providing the content rules for the AI model to reference.",
       "I iteratively tested the plugin on example Figma designs and refined the content guidelines and LLM settings until the plugin was ready to publish.",
-      "The Figma plugin is now being used by over 200 IBM designers, helping them perfect their UI content. 🎯"
+      "The Figma plugin is now being used by over 200 IBM designers, helping them perfect their UI content."
     ]
   },
   {
@@ -36,8 +36,14 @@
     "caption": "An example: the IBM Event Streams product UI that I worked on",
     "tags": ["content-design", "ux-design"],
     "links": [
-      { "label": "marketing pages", "url": "https://www.ibm.com/products/event-streams" },
-      { "label": "docs site", "url": "https://ibm.github.io/event-automation/es/" }
+      {
+        "label": "marketing pages",
+        "url": "https://www.ibm.com/products/event-streams"
+      },
+      {
+        "label": "docs site",
+        "url": "https://ibm.github.io/event-automation/es/"
+      }
     ],
     "bullets": [
       "I work with lots of different IBM product teams. For example, I joined the IBM Event Streams team for a period of 5 months.",
@@ -55,9 +61,18 @@
     "caption": "The content guidance section that I wrote and maintain",
     "tags": ["content-design", "leadership"],
     "links": [
-      { "label": "Carbon Design System", "url": "https://www.carbondesignsystem.com/" },
-      { "label": "external content guide", "url": "https://www.carbondesignsystem.com/guidelines/content/overview" },
-      { "label": "this article", "url": "https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04" }
+      {
+        "label": "Carbon Design System",
+        "url": "https://www.carbondesignsystem.com/"
+      },
+      {
+        "label": "external content guide",
+        "url": "https://www.carbondesignsystem.com/guidelines/content/overview"
+      },
+      {
+        "label": "this article",
+        "url": "https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04"
+      }
     ],
     "bullets": [
       "Back in 2016, I was asked to produce IBM Design's first voice and tone guide. I started with thorough research to understand what aspects of writing designers and engineers were struggling with. I've written about this process in [[this article|https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04]].",
@@ -132,7 +147,10 @@
     "caption": "Our IBM Content Design Guild Slack channel",
     "tags": ["content-design", "leadership"],
     "links": [
-      { "label": "this article", "url": "https://uxdesign.cc/building-a-community-of-practice-859db7950f77" }
+      {
+        "label": "this article",
+        "url": "https://uxdesign.cc/building-a-community-of-practice-859db7950f77"
+      }
     ],
     "bullets": [
       "Back in 2018, many people in IBM hadn't even heard of a content designer, let alone worked with one.",

@@ -1,6 +1,5 @@
 import React from "react";
 import { Seo } from "../components/seo";
-import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import cheers_photo from "../images/brewing/cheers.jpg";
@@ -36,9 +35,13 @@ const BrewingPage = () => {
             <p>
               <em>
                 For more details, see my article:{" "}
-                <Link to="/articles/Brewing_a_Mayflower_pale_ale.pdf">
-                  Brewing a Mayflower pale ale
-                </Link>
+                  <a
+                    href="/articles/Brewing_a_Mayflower_pale_ale.pdf"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Brewing a Mayflower pale ale
+                  </a>
                 .
               </em>
             </p>
@@ -65,7 +68,7 @@ const BrewingPage = () => {
                 activated, which turn the grains’ starches into sugars.
               </p>
               <p>
-                Different hops are then used to add bitterness, flavor, and
+                Different hops are then used to add bitterness, flavour, and
                 aroma to the beer.
               </p>
               <p>
@@ -138,7 +141,7 @@ export default BrewingPage;
 
 export const Head = () => (
   <Seo
-    description="Some information about my hobby of brewing beer and ale (tomwaterton.com)"
-    title="Tom Waterton's website: Brewing"
+    description="Tom Waterton's hobby of homebrewing — from English bitters and IPAs to porters, experimenting with hops and fruit additions."
+    title="Brewing – Tom Waterton"
   />
 );

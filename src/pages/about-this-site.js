@@ -103,7 +103,7 @@ export default AboutThisSitePage;
 
 export const Head = () => (
   <Seo
-    description="Information about my website (tomwaterton.com)"
-    title="Tom Waterton's website: About this site"
+    description="How Tom Waterton built this personal website — using Gatsby, React, and Tailwind CSS, hosted on GitHub Pages."
+    title="About this site – Tom Waterton"
   />
 );

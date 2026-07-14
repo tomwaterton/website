@@ -54,69 +54,6 @@ const FamilyPage = () => {
           </div>
         </section>
 
-        {/* <section className="row">
-          <div className="column-1-3">
-            <div className="orangeBorders">
-              <h2>Laura</h2>
-              <p className="familyNames">
-                (aka Lou-Lou, Louella, Mrs W., etc.)
-              </p>
-              <p>
-                Philosopher, poet, artist, chef, gardener, and all-round good
-                egg.
-              </p>
-              <p>
-                Laura is a great friend to many, and the one who keeps the rest
-                of us fed, clothed, sane, and loved.
-              </p>
-              <p>Often found: gardening.</p>
-            </div>
-          </div>
-
-          <div className="column-1-3">
-            <div className="orangeBorders">
-              <h2>Thea</h2>
-              <p className="familyNames">
-                (aka Thea-Pearl, Gorgeous-Chops, etc.)
-              </p>
-              <p>Thea is our thoughtful, caring, empathetic, daughter.</p>
-              <p>
-                She loves animals, listening to music, playing on the Switch,
-                and —  increasingly — going clothes shopping.
-              </p>
-              <p>Often found: drinking iced coffee.</p>
-            </div>
-          </div>
-
-          <div className="column-1-3">
-            <div className="orangeBorders">
-              <h2>Harriet</h2>
-              <p className="familyNames">(aka Hattie, Hats, Woo, etc.)</p>
-              <p>
-                Harriet is our quirky, artistic daughter who loves to draw and
-                write.
-              </p>
-              <p>
-                Harriet is also currently into anime, Snoopy, Roblox, and making
-                and playing with colourful, sparkly slime.
-              </p>
-              <p>Often found: drawing.</p>
-            </div>
-          </div>
-
-          <div className="column-1-3 hiddenSpacer2">
-            <p>&nbsp;</p>
-          </div>
-        </section> */}
-
-        {/* <section className="row">
-          <div className="column">
-            <p>
-              Also very much part of the family is{" "}
-              <Link to="/dog">our dog</Link>, Tiffin.
-            </p>
-          </div>
-        </section> */}
       </ContentWidth>
     </Layout>
   );
@@ -126,7 +63,7 @@ export default FamilyPage;
 
 export const Head = () => (
   <Seo
-    description="Some brief information about my wonderful family (tomwaterton.com)"
-    title="Tom Waterton's website: Family"
+    description="A brief page about Tom Waterton's family — his wife, two daughters, and their dog Tiffin."
+    title="Family – Tom Waterton"
   />
 );

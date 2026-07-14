@@ -552,7 +552,7 @@ export default TestimonialsPage;
 
 export const Head = () => (
   <Seo
-    description="Some testimonials and references that I've received from colleagues past and present (tomwaterton.com)"
-    title="Tom Waterton's website: Testimonials"
+    description="Testimonials and references for Tom Waterton from colleagues past and present."
+    title="Testimonials – Tom Waterton"
   />
 );

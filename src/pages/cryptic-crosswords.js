@@ -1,25 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { Seo } from "../components/seo";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 
 const CrosswordsPage = ({ data }) => {
-  const [filter, setFilter] = useState("all");
-
-  const whichCrosswordsToRender = () => {
-    const allCrosswords = data.allCrosswordsJson.nodes;
-    let crosswordsToRenderArray;
-    if (filter === "all") {
-      crosswordsToRenderArray = allCrosswords;
-    } else {
-      crosswordsToRenderArray = allCrosswords.filter((crossword) =>
-        crossword.categories.includes(filter)
-      );
-    }
-    return crosswordsToRenderArray;
-  };
-
   return (
     <Layout>
       <ContentWidth>
@@ -37,7 +22,7 @@ const CrosswordsPage = ({ data }) => {
 
         <section className="flex flex-col md:flex-row padding-bottom">
           <ul className="c-tile-list">
-            <RenderCrosswords crosswords={whichCrosswordsToRender()} />
+            <RenderCrosswords crosswords={data.allCrosswordsJson.nodes} />
           </ul>
         </section>
       </ContentWidth>
@@ -63,8 +48,8 @@ export default CrosswordsPage;
 
 export const Head = () => (
   <Seo
-    description="Some cryptic crosswords that I've composed (tomwaterton.com)"
-    title="Tom Waterton's website: Cryptic crosswords"
+    description="Cryptic crosswords composed by Tom Waterton under the pseudonym 'Meles'."
+    title="Cryptic crosswords – Tom Waterton"
   />
 );
 
@@ -86,16 +71,16 @@ class RenderCrosswords extends React.Component {
 class CrosswordTile extends React.Component {
   render() {
     return (
-      <li className="c-tile-list__item" key={this.props.key}>
-        <crossword
+      <li className="c-tile-list__item">
+        <article
           className="c-article-tile col3"
           itemScope
           itemType="http://schema.org/Article"
         >
           <div className="c-article-tile__header">
-            <a href={this.props.url}>
+            <a href={this.props.url} rel="noopener noreferrer" target="_blank">
               <img
-                alt="Cryptic crossword"
+                alt={this.props.title}
                 className="article-thumbnail"
                 src={`../images/crosswords/${this.props.image}`}
               />
@@ -105,7 +90,7 @@ class CrosswordTile extends React.Component {
           <div className="c-article-tile__body">
             <div>
               <h2 className="c-article-tile__title" itemProp="headline">
-                <a href={this.props.url}>{this.props.title}</a>
+                <a href={this.props.url} rel="noopener noreferrer" target="_blank">{this.props.title}</a>
               </h2>
             </div>
           </div>
@@ -119,7 +104,7 @@ class CrosswordTile extends React.Component {
               {this.props.date}
             </span>
           </footer>
-        </crossword>
+        </article>
       </li>
     );
   }

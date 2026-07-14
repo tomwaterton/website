@@ -20,7 +20,7 @@ const IndexPage = () => {
             </p>
             <h1 className="home-hero__name">Hi, I'm Tom 👋</h1>
             <p className="home-hero__intro">
-              I design clear, user-centered UI workflows. I have over 15 years
+              I design clear, user-centred UI workflows. I have over 15 years
               of experience working for an award-winning modern software
               development company (IBM), where I've honed my skills in content
               design, UX design, and more recently in AI tooling design.
@@ -39,7 +39,7 @@ const IndexPage = () => {
           </div>
           <div className="column home-hero__photo-col">
             <img
-              alt="Profile photo of Tom Waterton"
+              alt="Tom Waterton"
               className="home-hero__photo"
               src={TomPhoto}
             />
@@ -123,5 +123,8 @@ const IndexPage = () => {
 export default IndexPage;
 
 export const Head = () => (
-  <Seo title="Tom Waterton — Senior UX / Content Designer" />
+  <Seo
+    description="Tom Waterton is a Senior UX / Content Designer at IBM, with 15+ years of experience in AI tooling design, content design, and UX design."
+    title="Tom Waterton — Senior UX / Content Designer"
+  />
 );

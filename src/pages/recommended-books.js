@@ -13,7 +13,7 @@ const ReadingNonFictionPage = () => {
       <ContentWidth>
         <section className="row">
           <div className="column books">
-            <h1>Recommended books</h1>
+            <h1 id="recommended-books">Recommended books</h1>
             <p>
               <em>
                 Some of the work-related non-fiction that I've read over the
@@ -48,7 +48,7 @@ const ReadingNonFictionPage = () => {
         <section className="row">
           <div className="column books">
             <div className="anchorLinkSpacer" id="content"></div>
-            <h2 id="content">Content design / writing books</h2>
+            <h2>Content design / writing books</h2>
             <ul>
               <li>
                 <a href="https://abbycovert.com/make-sense/" rel="noopener noreferrer" target="_blank">
@@ -225,7 +225,7 @@ const ReadingNonFictionPage = () => {
             />
           </div>
           <div className="backToTop">
-            <a href="#">&uarr; Back to top</a>
+            <a href="#recommended-books">&uarr; Back to top</a>
           </div>
         </section>
 
@@ -284,7 +284,7 @@ const ReadingNonFictionPage = () => {
                 <span className="black-text"> by Ed Catmull</span>
                 <p>
                   Packed with insights about creating and maintaining a creative
-                  organization, written by a former president of Pixar.
+                  organisation, written by a former president of Pixar.
                 </p>
               </li>
               <li>
@@ -471,7 +471,7 @@ const ReadingNonFictionPage = () => {
                 <span className="black-text"> by Margaret Wheatley</span>
                 <p>
                   A book that challenges commonly-held perspectives on
-                  leadership, management, and how organizations best flourish.
+                  leadership, management, and how organisations best flourish.
                 </p>
               </li>
               <li>
@@ -518,7 +518,7 @@ const ReadingNonFictionPage = () => {
             />
           </div>
           <div className="backToTop">
-            <a href="#">&uarr; Back to top</a>
+            <a href="#recommended-books">&uarr; Back to top</a>
           </div>
         </section>
       </ContentWidth>
@@ -530,7 +530,7 @@ export default ReadingNonFictionPage;
 
 export const Head = () => (
   <Seo
-    description="Some of the work-related content and design and leadership books I've benefitted from reading (tomwaterton.com)"
-    title="Tom Waterton's website: Recommended books"
+    description="Non-fiction books recommended by Tom Waterton — covering content design, UX design, writing, and leadership."
+    title="Recommended books – Tom Waterton"
   />
 );

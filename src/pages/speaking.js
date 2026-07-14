@@ -193,7 +193,7 @@ const SpeakingPage = () => {
               This talk was focused on the need to think about a product user's
               end-to-end content experience, from marketing materials through to
               in-product copy, to support materials, etc. and how to best
-              collaborate across functional divides within an organization.
+              collaborate across functional divides within an organisation.
             </p>
           </div>
         </section>
@@ -281,7 +281,7 @@ export default SpeakingPage;
 
 export const Head = () => (
   <Seo
-    description="Details of some of the content design-related talks I've given (tomwaterton.com)"
-    title="Tom Waterton's website: Speaking"
+    description="Talks and conference presentations by Tom Waterton on content design, design thinking, voice and tone, and content strategy — including IBM Think, Button, and Utterly."
+    title="Speaking – Tom Waterton"
   />
 );
