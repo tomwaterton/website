@@ -28,7 +28,7 @@ const ArticlesPage = ({ data }) => {
             <h1>Articles</h1>
           </div>
         </section>
-        <section className="row xs:hidden">
+        <section className="row">
           <div className="flex float-right" id="myBtnContainer">
             <div className="filterButtonContainer">
               <button

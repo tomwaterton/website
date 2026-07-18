@@ -19,27 +19,21 @@ const SpeakingPage = () => {
           <div className="column">
             <h1>Speaking</h1>
             <p>
-              <em>
-                I am a firm believer in the value of good content design, in
-                design thinking, and in rapid prototyping, which allows you to
-                quickly try things, get feedback, fail fast, learn, and improve.
-              </em>
+              I am a firm believer in the value of good content design, in
+              design thinking, and in rapid prototyping, which allows you to
+              quickly try things, get feedback, fail fast, learn, and improve.
             </p>
             <p>
-              <em>
-                I've had the privilege of speaking on these topics at a few
-                conferences and events over the last few years.
-              </em>
+              I've had the privilege of speaking on these topics at a few
+              conferences and events over the last few years.
             </p>
             <p>
-              <em>
-                If you think I might be able to bring something to an event you
-                are planning, do{" "}
-                <a href="mailto:tomwaterton@gmail.com?Subject=Hello">
-                  get in touch
-                </a>
-                .
-              </em>
+              If you think I might be able to bring something to an event you
+              are planning, do{" "}
+              <a href="mailto:tomwaterton@gmail.com?Subject=Hello">
+                get in touch
+              </a>
+              .
             </p>
           </div>
           <div className="column">
@@ -52,7 +46,7 @@ const SpeakingPage = () => {
         </section>
       </ContentWidth>
 
-      <ContentWidth bgColour="3">
+      <ContentWidth>
         <section className="row">
           <div className="column">
             <img
@@ -89,7 +83,7 @@ const SpeakingPage = () => {
         </section>
       </ContentWidth>
 
-      <ContentWidth bgColour="2">
+      <ContentWidth>
         <section className="row reverse">
           <div className="column">
             <p className="conference">The impact of product voice and tone</p>
@@ -118,7 +112,7 @@ const SpeakingPage = () => {
         </section>
       </ContentWidth>
 
-      <ContentWidth bgColour="1">
+      <ContentWidth>
         <section className="row">
           <div className="column">
             <img
@@ -145,7 +139,7 @@ const SpeakingPage = () => {
         </section>
       </ContentWidth>
 
-      <ContentWidth bgColour="2">
+      <ContentWidth>
         <section className="row reverse">
           <div className="column">
             <p className="conference">
@@ -172,7 +166,7 @@ const SpeakingPage = () => {
         </section>
       </ContentWidth>
 
-      <ContentWidth bgColour="3">
+      <ContentWidth>
         <section className="row">
           <div className="column">
             <img
@@ -199,7 +193,7 @@ const SpeakingPage = () => {
         </section>
       </ContentWidth>
 
-      <ContentWidth bgColour="2">
+      <ContentWidth>
         <section className="row reverse">
           <div className="column">
             <p className="conference">
@@ -239,7 +233,7 @@ const SpeakingPage = () => {
         </section>
       </ContentWidth>
 
-      <ContentWidth bgColour="1">
+      <ContentWidth>
         <section className="row">
           <div className="column">
             <img
@@ -262,14 +256,6 @@ const SpeakingPage = () => {
               some hints and tips about how to approach developing such a design
               language yourself.
             </p>
-          </div>
-        </section>
-      </ContentWidth>
-
-      <ContentWidth bgColour="2">
-        <section className="row">
-          <div className="column">
-            <p className="">&nbsp;</p>
           </div>
         </section>
       </ContentWidth>

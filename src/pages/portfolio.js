@@ -42,7 +42,7 @@ const PortfolioPage = ({ data, location }) => {
       <ContentWidth>
         <section>
           <div className="column">
-            <h1>Portfolio of work</h1>
+            <h1>Portfolio</h1>
             <p>
               My work spans three main areas: <strong>AI tooling design</strong>
               , <strong>content design</strong>, and <strong>UX design</strong>.
@@ -51,11 +51,15 @@ const PortfolioPage = ({ data, location }) => {
               scale good practice across large organisations.
             </p>
             <p>
+              The examples below represent a range of project types and scales,
+              from individual product work to tools and programmes used across
+              IBM's entire design community.
+            </p>
+            <p>
               <em>
-                Related content:{" "}
-                <Link to="/experience">experience and skills</Link>,{" "}
-                <Link to="/testimonials">testimonials</Link>, and{" "}
-                <Link to="/articles">articles</Link>.
+                See also: my <Link to="/experience">experience and skills</Link>
+                , <Link to="/articles">articles</Link>, and{" "}
+                <Link to="/testimonials">testimonials</Link>.
               </em>
             </p>
           </div>

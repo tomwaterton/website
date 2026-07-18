@@ -3,7 +3,7 @@ import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import TomPhoto from "../images/index/Tom_Waterton2.png";
+import TomPhoto from "../images/about/Tom-outdoors.jpeg";
 import linkedin from "../images/footer/linkedin.svg";
 import email from "../images/footer/email.png";
 import github from "../images/footer/github.svg";
@@ -29,13 +29,13 @@ const AboutPage = () => {
               , with 15+ years of experience working on enterprise software
               products and internal tools.
             </p>
-            <p>My work spans three closely related areas:</p>
+            <p>My work spans three closely-related areas:</p>
             <ul className="ul-small padding-bottom-small">
               <li>
                 <strong>AI tooling design</strong> — identifying workflows where
-                AI tools can bring the most benefit to users, and optimising
-                content so that it works well for both humans and AI to find,
-                scan, and understand.
+                AI tools can bring the most benefit to users and then optimising
+                the content and design so that it's great for both humans and AI
+                to find, scan, and understand.
               </li>
               <li>
                 <strong>Content design</strong> — designing and delivering
@@ -44,12 +44,16 @@ const AboutPage = () => {
               </li>
               <li>
                 <strong>UX design</strong> — applying design thinking and
-                research to deliver intuitive, well-structured user experiences.
+                research to deliver intuitive, well-structured, modern user
+                experiences.
               </li>
             </ul>
             <p>
-              I work highly collaboratively — most commonly alongside other
-              designers, researchers, product managers, and engineers.
+              <em>
+                For more information, see my{" "}
+                <Link to="/experience">experience and skills</Link> and{" "}
+                <Link to="/portfolio">portfolio</Link>.
+              </em>
             </p>
           </section>
 
@@ -57,7 +61,8 @@ const AboutPage = () => {
           <section className="about-section about-grid__outside">
             <h2>Outside of work</h2>
             <p>
-              Outside of work I enjoy <Link to="/brewing">brewing</Link>,{" "}
+              Outside of work I enjoy <Link to="/brewing">brewing</Link>,
+              tackling and writing{" "}
               <Link to="/cryptic-crosswords">cryptic crosswords</Link>, hiking,
               reading (both <Link to="/reading">fiction</Link> and{" "}
               <Link to="/recommended-books">non-fiction</Link>) and spending
@@ -69,8 +74,8 @@ const AboutPage = () => {
           {/* Row 1, col 2 — Profile photo */}
           <section className="about-section about-section--photo about-grid__photo">
             <img
-              alt="Tom Waterton"
-              className="about-profile-photo"
+              alt="Tom Waterton outdoors"
+              className="block tilt-portrait-right"
               src={TomPhoto}
             />
           </section>

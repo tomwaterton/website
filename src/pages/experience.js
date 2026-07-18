@@ -13,29 +13,27 @@ const ExperiencePage = () => {
           <div className="column">
             <h1>Experience and skills</h1>
             <p>
-              <em>
-                I'm an experienced content designer, having been one of the
-                first employed by IBM. If you're not familiar with this term,
-                think of me as a designer with a specialism in writing and
-                communication.
-              </em>
+              I was one of the first content designers employed by IBM Design,
+              and have spent 15+ years building expertise across content design,
+              UX design, and — more recently — AI tooling design. Over time I've
+              progressed to broader roles, taking on UX responsibilities and
+              working on IBM Software-wide projects.
+            </p>
+            <p>
+              I work highly collaboratively, typically alongside designers,
+              researchers, product managers, and engineers — often with
+              colleagues across the globe.
+            </p>
+            <p>
+              From 2025 onwards I've increasingly focused on AI-related projects
+              and tools — identifying workflows where AI can bring the most
+              benefit to users, and optimising content and design so that it
+              works well for both humans and AI to find, scan, and understand.
+              🤖👨‍💻
             </p>
             <p>
               <em>
-                I'm used to working highly collaboratively (with colleagues
-                around the globe), most commonly with other designers,
-                researchers, and engineers. To my mind, content and design are
-                as inseparable as tea and biscuits.
-              </em>
-            </p>
-            <p>
-              <em>
-                You can read more about what I do and what I've learned along
-                the way in the following articles and links:
-              </em>
-            </p>
-            <ul>
-              <li>
+                See also:{" "}
                 <a
                   href="https://medium.com/design-ibm/confessions-of-a-content-designer-9be86daca04"
                   rel="noopener noreferrer"
@@ -43,9 +41,7 @@ const ExperiencePage = () => {
                 >
                   Confessions of a content designer
                 </a>{" "}
-                (article)
-              </li>
-              <li>
+                (article),{" "}
                 <a
                   href="https://workingincontent.com/resources/inside-content-design-at-ibm/"
                   rel="noopener noreferrer"
@@ -53,21 +49,8 @@ const ExperiencePage = () => {
                 >
                   Inside content design at IBM
                 </a>{" "}
-                (interview article)
-              </li>
-              <li className="padding-bottom-small">
-                Or see my <Link to="/portfolio">portfolio of work</Link>
-              </li>
-            </ul>
-            <p>
-              <em>
-                2025: I now increasingly work on AI-related content projects.
-                This typically involves identifying workflows where AI tools can
-                bring the most benefit to users and then optimising content so
-                that it's great for both humans and AI to find, scan, and
-                understand.
-              </em>{" "}
-              🤖👨‍💻
+                (interview), or my <Link to="/portfolio">portfolio</Link>.
+              </em>
             </p>
           </div>
           <div className="column">
@@ -89,16 +72,25 @@ const ExperiencePage = () => {
           <div className="column">
             <ul className="ul-small">
               <li>
+                <strong>Senior UX / Content Designer, AI Tooling</strong>, IBM
+                (working on internal AI tooling for IBM Software; Jul 2026 –
+                present)
+              </li>
+              <li>
+                <strong>Senior UX / Content Designer</strong>, IBM (working for
+                IBM Software's Product Excellence Office; Apr 2024 – Jun 2026)
+              </li>
+              <li>
                 <strong>Senior Content Designer</strong>, IBM (working across
-                IBM Software; May 2022 – present)
+                IBM Software; May 2022 – Feb 2024)
               </li>
               <li>
                 <strong>Senior Content Designer</strong>, IBM (working in one
-                business unit; Feb 2019 – Apr 2022)
+                part of IBM Software; Feb 2019 – Apr 2022)
               </li>
               <li>
-                <strong>Content Designer</strong>, IBM (working in one business
-                unit; Aug 2016 – Jan 2019)
+                <strong>Content Designer</strong>, IBM (working in one part of
+                IBM Software; Aug 2016 – Jan 2019)
               </li>
               <li>
                 <strong>Tech Writer</strong> then <strong>Editor</strong> then{" "}
@@ -110,12 +102,12 @@ const ExperiencePage = () => {
 
         <section className="row">
           <div className="column">
-            <h2>What I actually do</h2>
+            <h2>My day-to-day work</h2>
           </div>
         </section>
 
         <section className="row">
-          <div className="column-1-3">
+          <div className="column-1-2">
             <p className="mock-h3">Content design 📝</p>
             <ul className="ul-small">
               <li>Writing for humans and for AI</li>
@@ -127,40 +119,40 @@ const ExperiencePage = () => {
               <li>Technical / doc writing</li>
             </ul>
           </div>
-          <div className="column-1-3">
-            <p className="mock-h3">Strategy 🙇‍♂️</p>
+          <div className="column-1-2">
+            <p className="mock-h3">UX design 👨‍💻</p>
             <ul className="ul-small">
-              <li>Setting content strategy</li>
-              <li>Defining voice and tone</li>
-              <li>Writing content guidance</li>
-              <li>Using AI to surface content</li>
-              <li>Running content audits</li>
-              <li>Establishing terminology</li>
-              <li>Setting information architecture</li>
+              <li>Research and analysis</li>
+              <li>Information architecture</li>
+              <li>Wireframing and prototyping</li>
+              <li>Interaction design</li>
+              <li>Usability testing</li>
+              <li>Design strategy</li>
+              <li>Storytelling and communication</li>
             </ul>
           </div>
-          <div className="column-1-3">
+          <div className="column-1-2">
             <p className="mock-h3">Other 👨‍🏫</p>
             <ul className="ul-small">
               <li>Coaching</li>
               <li>Leading teams</li>
               <li>Facilitating workshops</li>
               <li>Applying design thinking</li>
-              <li>UX design</li>
               <li>Writing articles</li>
+              <li>
+                Coming up with <s>bad</s> great puns
+              </li>
               <li>Drinking copious cups of tea 🫖</li>
             </ul>
           </div>
-          <div className="column-1-3">
+          <div className="column-1-2">
             <p className="mock-h3">Tools and technologies 🧰</p>
             <ul className="ul-small">
-              <li>AI tools: Copilot, ChatGPT, IBM Bob (daily use)</li>
-              <li>AI LLMs: Granite, Llama, Mistral, GPT</li>
+              <li>AI tools: IBM Bob (daily), Copilot, ChatGPT, Figma Make</li>
               <li>CMS: Adobe Experience Manager</li>
               <li>Collaboration: Airtable, Mural, Slack</li>
               <li>Design: Figma, Sketch</li>
               <li>Doc source: DITA, Markdown</li>
-              <li>Source control: GitHub</li>
               <li>Web: HTML, CSS, Carbon, Gatsby, Jekyll</li>
               <li>Work management: GitHub, Jira, Monday.com</li>
             </ul>

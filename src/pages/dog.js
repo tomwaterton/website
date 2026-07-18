@@ -13,7 +13,7 @@ const DogPage = () => {
   return (
     <Layout>
       <ContentWidth>
-        <section className="row">
+        <section className="row padding-bottom">
           <div className="column">
             <h1>Our dog</h1>
             <p>
@@ -47,11 +47,7 @@ const DogPage = () => {
           </div>
         </section>
 
-        <section className="row">
-          <div className="column"></div>
-        </section>
-
-        <section className="row">
+        <section className="row padding-top-medium">
           <div className="column hide-small">
             <img
               alt="Our dog Tiffin lying in front of the wood burner"
@@ -92,11 +88,7 @@ const DogPage = () => {
           </div>
         </section>
 
-        <section className="row">
-          <div className="column"></div>
-        </section>
-
-        <section className="row">
+        <section className="row padding-top-medium">
           <div className="column">
             <h2>A working-line retriever</h2>
             <p>

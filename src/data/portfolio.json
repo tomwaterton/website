@@ -9,7 +9,7 @@
     "bullets": [
       "Some IBMers were struggling with the many internal IBM release management processes. To help such users, I configured and deployed an AI assistant.",
       "I used the IBM watsonx Orchestrate platform to connect the assistant to a documentation set that I had written.",
-      "The AI assistant is embedded directly in the internal release management application that Product Managers and other colleagues already use.",
+      "The AI assistant is embedded directly in the internal release management application that product managers and other colleagues already use.",
       "The AI assistant responds to users' natural language questions, providing a summary response as well as links to further details."
     ]
   },

@@ -8,7 +8,7 @@ const AboutThisSitePage = () => {
   return (
     <Layout>
       <ContentWidth>
-        <section className="row">
+        <section className="row padding-bottom">
           <div className="column">
             <h1>About this site</h1>
             <p>
@@ -21,9 +21,8 @@ const AboutThisSitePage = () => {
             </p>
             <p>
               <em>
-                Here you'll find some information about my work as a content
-                designer, as well as some of my thoughts, hobbies, and
-                interests.
+                Here you'll find some information about my work as a designer,
+                as well as some of my thoughts, hobbies, and interests.
               </em>
             </p>
             <p className="padding-bottom-small">
@@ -40,50 +39,84 @@ const AboutThisSitePage = () => {
         </section>
 
         <section className="row">
-          <div className="column"></div>
-        </section>
-
-        <section className="row">
           <div className="column">
             <h2>Technical details</h2>
             <ul className="padding-bottom">
               <li>
                 I built this site using the free and open source{" "}
-                <a href="https://www.gatsbyjs.org/" rel="noopener noreferrer" target="_blank">Gatsby</a> React framework.
+                <a
+                  href="https://www.gatsbyjs.org/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Gatsby
+                </a>{" "}
+                React framework.
               </li>
               <li>
                 I started by using the{" "}
-                <a href="https://tailwindcss.com/" rel="noopener noreferrer" target="_blank">Tailwind</a> utility-first
-                CSS framework and their{" "}
-                <a href="https://github.com/taylorbryant/gatsby-starter-tailwind" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://tailwindcss.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Tailwind
+                </a>{" "}
+                utility-first CSS framework and their{" "}
+                <a
+                  href="https://github.com/taylorbryant/gatsby-starter-tailwind"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Gatsby starter theme
                 </a>
                 .
               </li>
               <li>
-                I use <a href="https://github.com/" rel="noopener noreferrer" target="_blank">GitHub</a> as my source
-                repository.
-              </li>
-              <li>
-                I use <a href="https://pages.github.com/" rel="noopener noreferrer" target="_blank">GitHub Pages</a> to
-                host the site.
+                I use{" "}
+                <a
+                  href="https://github.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>{" "}
+                as my source repository.
               </li>
               <li>
                 I use{" "}
-                <a href="https://www.google.com/analytics" rel="noopener noreferrer" target="_blank">Google Analytics</a>{" "}
+                <a
+                  href="https://pages.github.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub Pages
+                </a>{" "}
+                to host the site.
+              </li>
+              <li>
+                I use{" "}
+                <a
+                  href="https://www.google.com/analytics"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Google Analytics
+                </a>{" "}
                 to analyse site traffic.
               </li>
             </ul>
-            <p>
+            <p className="padding-bottom-small">
               Props to the talented{" "}
-              <a href="https://www.linkedin.com/in/peter-loveland-75a73294/" rel="noopener noreferrer" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/peter-loveland-75a73294/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 Peter Loveland
               </a>{" "}
               🙌 &nbsp;for his initial Gatsby help (and puns) as I was
               developing the site.
-            </p>
-            <p>
-              <br />
             </p>
             <p>
               If you spot any bugs 🐛 or simply want to say hello, please do{" "}

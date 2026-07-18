@@ -11,7 +11,7 @@ const BrewingPage = () => {
   return (
     <Layout>
       <ContentWidth>
-        <section className="row">
+        <section className="row padding-bottom">
           <div className="column">
             <h1>Brewing</h1>
             <p>
@@ -53,10 +53,6 @@ const BrewingPage = () => {
               src={cheers_photo}
             />
           </div>
-        </section>
-
-        <section className="row">
-          <div className="column"></div>
         </section>
 
         <section className="row">

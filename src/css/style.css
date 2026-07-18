@@ -142,6 +142,10 @@
     padding-bottom: 1rem;
   }
 
+  .padding-top-medium {
+    padding-top: 2rem;
+  }
+
   /* To provide the full-width row and split column layouts */
   .row {
     display: flex;
@@ -156,6 +160,12 @@
     min-width: 20rem;
   }
 
+  .column-1-2 {
+    flex: 50%;
+    padding: 12px 8px;
+    min-width: 16rem;
+  }
+
   .column-1-3 {
     flex: 33%;
     padding: 12px 8px;
@@ -166,8 +176,10 @@
   .column > .tilt-landscape-left,
   .column > .tilt-landscape-right,
   .column > .tilt-portrait-left,
-  .column > .tilt-portrait-right {
-    margin-top: 1rem;
+  .column > .tilt-portrait-right,
+  .about-section--photo > .tilt-portrait-left,
+  .about-section--photo > .tilt-portrait-right {
+    margin-top: 2rem;
   }
 
   /* Used on the Experience page*/

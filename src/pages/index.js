@@ -20,10 +20,11 @@ const IndexPage = () => {
             </p>
             <h1 className="home-hero__name">Hi, I'm Tom 👋</h1>
             <p className="home-hero__intro">
-              I design clear, user-centred UI workflows. I have over 15 years
-              of experience working for an award-winning modern software
-              development company (IBM), where I've honed my skills in content
-              design, UX design, and more recently in AI tooling design.
+              I design clear, user-centred UI workflows. I have over{" "}
+              <Link to="/experience">15 years of experience</Link> working for
+              an award-winning modern software development company (IBM), where
+              I've honed my skills in content design, UX design, and more
+              recently in AI tooling design.
             </p>
             <p className="home-hero__links">
               <Link className="home-hero__cta" to="/portfolio">
@@ -68,7 +69,10 @@ const IndexPage = () => {
                   Designing AI-powered tools, configuring assistants, and
                   optimising content for both humans and AI.
                 </p>
-                <Link className="home-card__link" to="/portfolio/?filter=ai-tooling-design">
+                <Link
+                  className="home-card__link"
+                  to="/portfolio/?filter=ai-tooling-design"
+                >
                   View AI examples →
                 </Link>
               </div>
@@ -88,7 +92,10 @@ const IndexPage = () => {
                   Crafting clear, user-centred writing, covering UI copy,
                   content strategy, voice, and content systems.
                 </p>
-                <Link className="home-card__link" to="/portfolio/?filter=content-design">
+                <Link
+                  className="home-card__link"
+                  to="/portfolio/?filter=content-design"
+                >
                   View content design examples →
                 </Link>
               </div>
@@ -108,7 +115,10 @@ const IndexPage = () => {
                   Shaping intuitive, well-structured user experiences through
                   design thinking, research, and collaboration.
                 </p>
-                <Link className="home-card__link" to="/portfolio/?filter=ux-design">
+                <Link
+                  className="home-card__link"
+                  to="/portfolio/?filter=ux-design"
+                >
                   View UX design examples →
                 </Link>
               </div>
