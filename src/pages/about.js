@@ -3,7 +3,7 @@ import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import TomPhoto from "../images/about/Tom-outdoors.jpeg";
+import TomWaterPhoto from "../images/about/Tom-on-water.jpg";
 import linkedin from "../images/footer/linkedin.svg";
 import email from "../images/footer/email.png";
 import github from "../images/footer/github.svg";
@@ -65,8 +65,9 @@ const AboutPage = () => {
               tackling and writing{" "}
               <Link to="/cryptic-crosswords">cryptic crosswords</Link>, hiking,
               reading (both <Link to="/reading">fiction</Link> and{" "}
-              <Link to="/recommended-books">non-fiction</Link>) and spending
-              time with my wonderful <Link to="/family">family</Link> and{" "}
+              <Link to="/recommended-books">non-fiction</Link>), following the
+              cricket, and spending time with my wonderful{" "}
+              <Link to="/family">family</Link> and{" "}
               <Link to="/dog">our dog</Link>.
             </p>
           </section>
@@ -74,9 +75,9 @@ const AboutPage = () => {
           {/* Row 1, col 2 — Profile photo */}
           <section className="about-section about-section--photo about-grid__photo">
             <img
-              alt="Tom Waterton outdoors"
+              alt="Tom Waterton on the water"
               className="block tilt-portrait-right"
-              src={TomPhoto}
+              src={TomWaterPhoto}
             />
           </section>
 

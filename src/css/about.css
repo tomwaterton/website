@@ -30,6 +30,11 @@
   padding-top: 1rem;
 }
 
+/* Override the shared tilt-portrait max-height for the About page photo only */
+.about-section--photo > .tilt-portrait-right {
+  max-height: 20rem;
+}
+
 @media only screen and (min-width: 720px) {
   .about-grid {
     grid-template-columns: 1fr 1fr;
@@ -41,7 +46,7 @@
   .about-grid__about   { grid-column: 1; grid-row: 1; }
   .about-grid__photo   { grid-column: 2; grid-row: 1; }
   .about-grid__outside { grid-column: 1; grid-row: 2; }
-  .about-grid__contact { grid-column: 2; grid-row: 2; }
+  .about-grid__contact { grid-column: 2; grid-row: 2; padding-left: 2rem; }
 }
 
 /* About me page — profile photo (matches homepage hero style) */
