@@ -72,31 +72,29 @@ const ExperiencePage = () => {
           <div className="column">
             <ul className="ul-small">
               <li>
-                <strong>Senior UX / Content Designer, AI Tooling</strong>, IBM
-                (working on internal AI tooling for IBM Software; Jul 2026 –
-                present)
+                <strong>Design Lead for AI Productivity</strong>, IBM (Jul 2026
+                – present)
               </li>
               <li>
-                <strong>Senior UX / Content Designer</strong>, IBM (working for
-                IBM Software's Product Excellence Office; Apr 2024 – Jun 2026)
+                <strong>Senior UX / Content Designer</strong>, IBM (Apr 2024 –
+                Jun 2026)
               </li>
               <li>
-                <strong>Senior Content Designer</strong>, IBM (working across
-                IBM Software; May 2022 – Feb 2024)
+                <strong>Senior Content Designer</strong>, IBM (Feb 2019 – Mar
+                2024)
               </li>
               <li>
-                <strong>Senior Content Designer</strong>, IBM (working in one
-                part of IBM Software; Feb 2019 – Apr 2022)
-              </li>
-              <li>
-                <strong>Content Designer</strong>, IBM (working in one part of
-                IBM Software; Aug 2016 – Jan 2019)
+                <strong>Content Designer</strong>, IBM (Aug 2016 – Jan 2019)
               </li>
               <li>
                 <strong>Tech Writer</strong> then <strong>Editor</strong> then{" "}
                 <strong>Content Team Manager</strong>, IBM (Apr 2010 – Jul 2016)
               </li>
             </ul>
+            <p>
+              I also held the honorary title of{" "}
+              <strong>IBM Master Inventor</strong> (since Oct 2021).
+            </p>
           </div>
         </section>
 
