@@ -29,7 +29,7 @@ const AboutPage = () => {
               , with 15+ years of experience working on enterprise software
               products and internal tools.
             </p>
-            <p>My work spans three closely-related areas:</p>
+            <p>My work spans three closely-related domains:</p>
             <ul className="ul-small padding-bottom-small">
               <li>
                 <strong>AI tooling design</strong> — identifying workflows where
@@ -38,20 +38,20 @@ const AboutPage = () => {
                 to find, scan, and understand.
               </li>
               <li>
-                <strong>Content design</strong> — designing and delivering
-                clear, engaging, user-centred content across complex software
-                products and workflows.
-              </li>
-              <li>
                 <strong>UX design</strong> — applying design thinking and
                 research to deliver intuitive, well-structured, modern user
                 experiences.
+              </li>
+              <li>
+                <strong>Content design</strong> — designing and delivering
+                clear, engaging, user-centred content across complex software
+                products and workflows.
               </li>
             </ul>
             <p>
               <em>
                 For more information, see my{" "}
-                <Link to="/experience">experience and skills</Link> and{" "}
+                <Link to="/experience">experience and skills</Link> and my{" "}
                 <Link to="/portfolio">portfolio</Link>.
               </em>
             </p>
@@ -141,7 +141,7 @@ export default AboutPage;
 
 export const Head = () => (
   <Seo
-    description="About Tom Waterton — Senior UX / Content Designer at IBM, with 15+ years of experience in AI tooling design, content design, and UX design."
+    description="About Tom Waterton — Senior UX / Content Designer at IBM, with 15+ years of experience in AI tooling design, UX design, and content design."
     title="About me – Tom Waterton"
   />
 );

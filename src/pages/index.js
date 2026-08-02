@@ -20,15 +20,21 @@ const IndexPage = () => {
             </p>
             <h1 className="home-hero__name">Hi, I'm Tom 👋</h1>
             <p className="home-hero__intro">
-              I design clear, user-centred UI workflows. I have over{" "}
-              <Link to="/experience">15 years of experience</Link> working for
-              an award-winning modern software development company (IBM), where
-              I've honed my skills in content design, UX design, and more
-              recently in AI tooling design.
+              I design clear, user-centred digital products and experiences. I
+              have over <Link to="/experience">15 years of experience</Link>{" "}
+              working for one of the world's leading enterprise software
+              companies (IBM), where I've honed my skills in content design, UX
+              design, and more recently in AI tooling design.
             </p>
             <p className="home-hero__links">
               <Link className="home-hero__cta" to="/portfolio">
                 See my work
+              </Link>
+              <Link
+                className="home-hero__cta home-hero__cta--secondary"
+                to="/experience"
+              >
+                My experience
               </Link>
               <Link
                 className="home-hero__cta home-hero__cta--secondary"
@@ -82,29 +88,6 @@ const IndexPage = () => {
           <div className="column-1-3">
             <div className="home-card">
               <img
-                alt="Screenshot of content design guidance"
-                className="home-card__image"
-                src={ContentImage}
-              />
-              <div className="home-card__body">
-                <h3 className="home-card__title">Content design</h3>
-                <p className="home-card__desc">
-                  Crafting clear, user-centred writing, covering UI copy,
-                  content strategy, voice, and content systems.
-                </p>
-                <Link
-                  className="home-card__link"
-                  to="/portfolio/?filter=content-design"
-                >
-                  View content design examples →
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="column-1-3">
-            <div className="home-card">
-              <img
                 alt="Screenshot of a UX design project"
                 className="home-card__image"
                 src={UXImage}
@@ -124,6 +107,29 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
+
+          <div className="column-1-3">
+            <div className="home-card">
+              <img
+                alt="Screenshot of content design guidance"
+                className="home-card__image"
+                src={ContentImage}
+              />
+              <div className="home-card__body">
+                <h3 className="home-card__title">Content design</h3>
+                <p className="home-card__desc">
+                  Crafting clear, user-centred writing, covering UI copy,
+                  content strategy, voice, and content systems.
+                </p>
+                <Link
+                  className="home-card__link"
+                  to="/portfolio/?filter=content-design"
+                >
+                  View content design examples →
+                </Link>
+              </div>
+            </div>
+          </div>
         </section>
       </ContentWidth>
     </Layout>
@@ -134,7 +140,7 @@ export default IndexPage;
 
 export const Head = () => (
   <Seo
-    description="Tom Waterton is a Senior UX / Content Designer at IBM, with 15+ years of experience in AI tooling design, content design, and UX design."
+    description="Tom Waterton is a Senior UX / Content Designer at IBM, with 15+ years of experience in AI tooling design, UX design, and content design."
     title="Tom Waterton — Senior UX / Content Designer"
   />
 );

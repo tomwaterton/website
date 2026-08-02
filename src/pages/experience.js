@@ -92,8 +92,9 @@ const ExperiencePage = () => {
               </li>
             </ul>
             <p>
-              I also held the honorary title of{" "}
-              <strong>IBM Master Inventor</strong> (since Oct 2021).
+              Since 2021, I've also held the honorary title of{" "}
+              <strong>IBM Master Inventor</strong>. For more info, see the{" "}
+              <Link to="/inventing">inventing</Link> page.
             </p>
           </div>
         </section>
@@ -106,15 +107,15 @@ const ExperiencePage = () => {
 
         <section className="row">
           <div className="column-1-2">
-            <p className="mock-h3">Content design 📝</p>
+            <p className="mock-h3">AI tooling design 🤖</p>
             <ul className="ul-small">
-              <li>Writing for humans and for AI</li>
-              <li>Simplifying the complex</li>
-              <li>User-centred writing</li>
-              <li>Applying voice and tone</li>
-              <li>Writing UI tours</li>
-              <li>Writing UI copy</li>
-              <li>Technical / doc writing</li>
+              <li>AI literacy</li>
+              <li>Building agent skills</li>
+              <li>Prompting approaches and techniques</li>
+              <li>Designing for the human-AI loop</li>
+              <li>AI for collaborative team contexts</li>
+              <li>Memory and context systems</li>
+              <li>Transparency and trustworthy AI</li>
             </ul>
           </div>
           <div className="column-1-2">
@@ -127,6 +128,18 @@ const ExperiencePage = () => {
               <li>Usability testing</li>
               <li>Design strategy</li>
               <li>Storytelling and communication</li>
+            </ul>
+          </div>
+          <div className="column-1-2">
+            <p className="mock-h3">Content design 📝</p>
+            <ul className="ul-small">
+              <li>Writing for humans and for AI</li>
+              <li>Simplifying the complex</li>
+              <li>User-centred writing</li>
+              <li>Applying voice and tone</li>
+              <li>Writing UI tours</li>
+              <li>Writing UI copy</li>
+              <li>Technical / doc writing</li>
             </ul>
           </div>
           <div className="column-1-2">
@@ -165,7 +178,7 @@ export default ExperiencePage;
 
 export const Head = () => (
   <Seo
-    description="Tom Waterton's work experience and skills as a Senior UX / Content Designer at IBM, covering content design, AI tooling design, and UX design."
+    description="Tom Waterton's work experience and skills as a Senior UX / Content Designer at IBM, covering AI tooling design, UX design, and content design."
     title="Experience and skills – Tom Waterton"
   />
 );

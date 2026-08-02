@@ -8,8 +8,8 @@ import ContentWidth from "../components/contentWidth";
 const FILTERS = [
   { key: "all", label: "All examples" },
   { key: "ai-tooling-design", label: "AI tooling design" },
-  { key: "content-design", label: "Content design" },
   { key: "ux-design", label: "UX design" },
+  { key: "content-design", label: "Content design" },
   { key: "leadership", label: "Leadership" }
 ];
 
@@ -45,15 +45,10 @@ const PortfolioPage = ({ data, location }) => {
             <h1>Portfolio</h1>
             <p>
               My work spans three main areas: <strong>AI tooling design</strong>
-              , <strong>content design</strong>, and <strong>UX design</strong>.
+              , <strong>UX design</strong>, and <strong>content design</strong>.
               Many projects also involve a <strong>leadership</strong> dimension
               — setting standards, building communities, or creating tools that
               scale good practice across large organisations.
-            </p>
-            <p>
-              The examples below represent a range of project types and scales,
-              from individual product work to tools and programmes used across
-              IBM's entire design community.
             </p>
             <p>
               <em>
@@ -156,7 +151,7 @@ export default PortfolioPage;
 
 export const Head = () => (
   <Seo
-    description="Portfolio of AI tooling design, content design, and UX design work by Tom Waterton, Senior UX / Content Designer at IBM."
+    description="Portfolio of AI tooling design, UX design, and content design work by Tom Waterton, Senior UX / Content Designer at IBM."
     title="Portfolio – Tom Waterton"
   />
 );
