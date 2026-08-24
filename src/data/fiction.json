@@ -2232,6 +2232,12 @@
     "categories": [""]
   },
   {
+    "title": "Busman's Honeymoon",
+    "author": "Dorothy L. Sayers",
+    "datePub": "1937",
+    "categories": [""]
+  },
+  {
     "title": "The Tobacconist",
     "author": "Robert Seethaler",
     "datePub": "2012",
@@ -2553,6 +2559,12 @@
     "title": "Slaughterhouse 5",
     "author": "Kurt Vonnegut",
     "datePub": "1969",
+    "categories": [""]
+  },
+  {
+    "title": "All the King's Men",
+    "author": "Robert Penn Warren",
+    "datePub": "1946",
     "categories": [""]
   },
   {
