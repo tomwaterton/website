@@ -16,7 +16,7 @@ const IndexPage = () => {
         <section className="home-hero row">
           <div className="column">
             <p className="home-hero__eyebrow">
-              Senior UX / Content Designer · IBM
+              Senior AI / UX / Content Designer · IBM
             </p>
             <h1 className="home-hero__name">Hi, I'm Tom 👋</h1>
             <p className="home-hero__intro">

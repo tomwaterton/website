@@ -618,12 +618,6 @@
     "categories": [""]
   },
   {
-    "title": "Paddy Clark, Ha Ha Ha",
-    "author": "Roddy Doyle",
-    "datePub": "1993",
-    "categories": [""]
-  },
-  {
     "title": "The Sign of Four",
     "author": "Arthur Conan Doyle",
     "datePub": "1890",
@@ -633,6 +627,12 @@
     "title": "The Hound of the Baskervilles",
     "author": "Arthur Conan Doyle",
     "datePub": "1902",
+    "categories": [""]
+  },
+  {
+    "title": "Paddy Clark, Ha Ha Ha",
+    "author": "Roddy Doyle",
+    "datePub": "1993",
     "categories": [""]
   },
   {
@@ -1302,7 +1302,7 @@
     "categories": ["25", "re-read", "favourite"]
   },
   {
-    "title": "When We Were Orphens",
+    "title": "When We Were Orphans",
     "author": "Kazuo Ishiguro",
     "datePub": "2000",
     "categories": [""]
@@ -1455,6 +1455,12 @@
     "title": "The Unbearable Lightness of Being",
     "author": "Milan Kundera",
     "datePub": "1984",
+    "categories": [""]
+  },
+  {
+    "title": "Creation Lake",
+    "author": "Rachel Kushner",
+    "datePub": "2024",
     "categories": [""]
   },
   {
@@ -1753,13 +1759,13 @@
   },
   {
     "title": "The Bell",
-    "author": "Iris Murdock",
+    "author": "Iris Murdoch",
     "datePub": "1958",
     "categories": [""]
   },
   {
     "title": "The Black Prince",
-    "author": "Iris Murdock",
+    "author": "Iris Murdoch",
     "datePub": "1973",
     "categories": [""]
   },
@@ -2551,7 +2557,7 @@
   },
   {
     "title": "The Enchanted April",
-    "author": "Elizabeth Von Armin",
+    "author": "Elizabeth Von Arnim",
     "datePub": "1922",
     "categories": [""]
   },
@@ -2638,6 +2644,12 @@
     "author": "Oscar Wilde",
     "datePub": "1895",
     "categories": ["play"]
+  },
+  {
+    "title": "The Bridge of San Luis Rey",
+    "author": "Thornton Wilder",
+    "datePub": "1927",
+    "categories": [""]
   },
   {
     "title": "Stoner",
