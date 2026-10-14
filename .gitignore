@@ -12,3 +12,6 @@ yarn-error.log
 
 # deployment-specific configs
 now.json
+
+# IBM Bob AI assistant config (machine-local, not for version control)
+.bob/
