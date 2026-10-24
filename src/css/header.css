@@ -128,11 +128,19 @@
   font-size: inherit;
 }
 
-/* Adds background color to top level nav items on hover */
+/* Adds background color to top level nav items on hover (or when open) */
 .navbar a:hover,
 .dropdown:hover .dropbtn,
+.dropdown.is-open .dropbtn,
 .dropdown-content a:hover {
   background-color: #f6e05e;
+}
+
+/* Visible keyboard focus (the button's default outline is removed above) */
+.dropbtn:focus-visible,
+.dropdown-content a:focus-visible {
+  outline: 2px solid #d82286;
+  outline-offset: -2px;
 }
 
 /* To ensure the yellow background remains at the point of clicking */
@@ -149,8 +157,16 @@
   background-color: unset;
 }
 
-.dropdown:hover .dropdown-content {
+/* Open via click / tap / keyboard */
+.dropdown.is-open .dropdown-content {
   display: block;
+}
+
+/* Open on hover only where hover is genuinely supported (not touch devices) */
+@media (hover: hover) {
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 }
 
 .header-spacer {
