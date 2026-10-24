@@ -17,12 +17,12 @@
 
 .publish-list {
   padding-top: 0.5rem;
-  padding-left: 2rem;
-  list-style: decimal-leading-zero;
+  padding-left: 30px;
+  list-style-type: "– ";
 }
 
 .publish-list li {
-  padding-left: 0.5rem;
+  color: #6f6f6f;
 }
 
 .masterInventor {
@@ -32,7 +32,7 @@
 }
 
 .pending {
-  color: grey;
+  color: #6f6f6f;
   font-style: italic;
   font-weight: 400;
 }

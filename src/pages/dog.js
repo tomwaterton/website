@@ -130,7 +130,7 @@ const DogPage = () => {
         <section className="row">
           <div className="column">
             <h2>Additional links</h2>
-            <ul>
+            <ul className="ul-dash">
               <li>
                 I featured Tiffin in one of my content design articles:{" "}
                 <a

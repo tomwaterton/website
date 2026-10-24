@@ -41,7 +41,7 @@ const AboutThisSitePage = () => {
         <section className="row">
           <div className="column">
             <h2>Technical details</h2>
-            <ul className="padding-bottom">
+            <ul className="ul-dash padding-bottom">
               <li>
                 I built this site using the free and open source{" "}
                 <a

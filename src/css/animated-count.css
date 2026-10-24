@@ -1,0 +1,26 @@
+/* Styles for the AnimatedCount component (src/components/animatedCount.js) */
+
+.itemCount {
+  color: #6f6f6f;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.animatedCount {
+  color: #37816b;
+  font-size: 2rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

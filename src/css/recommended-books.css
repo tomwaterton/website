@@ -2,7 +2,10 @@
   padding-top: 1.5rem;
 }
 
-.books li {
+.books ul,
+.booksToRead ul {
+  list-style-type: "– ";
+  padding-left: 30px;
 }
 
 .books a {
@@ -26,7 +29,7 @@
 }
 
 .booksToRead h3 {
-  color: gray;
+  color: #6f6f6f;
 }
 
 .booksToRead li {

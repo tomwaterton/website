@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url("./about.css");
+@import url("./animated-count.css");
 @import url("./crosswords.css");
 @import url("./dog.css");
 @import url("./family.css");
@@ -121,10 +122,15 @@
     padding-left: 40px;
   }
 
+  .ul-dash {
+    list-style-type: "– ";
+    padding-left: 30px;
+  }
+
   .ul-small {
     display: block;
-    list-style-type: disc;
-    padding: 10px 0 16px 40px;
+    list-style-type: "– ";
+    padding: 10px 0 16px 30px;
   }
 
   .bullet-header {

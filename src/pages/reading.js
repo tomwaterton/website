@@ -3,6 +3,7 @@ import { Seo } from "../components/seo";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
+import AnimatedCount from "../components/animatedCount";
 import bookshelves_photo from "../images/reading/bookshelves.jpeg";
 
 const ReadingFictionPage = ({ data }) => {
@@ -20,6 +21,8 @@ const ReadingFictionPage = ({ data }) => {
     }
     return fictionToRenderArray;
   };
+
+  const fictionToRender = whichFictionToRender();
 
   return (
     <Layout>
@@ -57,7 +60,7 @@ const ReadingFictionPage = ({ data }) => {
               </li>
             </ul>
           </div>
-          <div className="column">
+          <div className="column reading-photo-column">
             <img
               alt="Some of our bookshelves at home"
               className="block tilt-landscape-left tom-on-books do-not-print"
@@ -105,12 +108,16 @@ const ReadingFictionPage = ({ data }) => {
 
         <section className="flex flex-col padding-bottom">
           <div className="fictionListContainer">
+            <p aria-live="polite" className="itemCount">
+              <AnimatedCount value={fictionToRender.length} />{" "}
+              {fictionToRender.length === 1 ? "title" : "titles"}
+            </p>
             <p>
               <em>Books are listed alphabetically by author.</em>
             </p>
-            <ol>
-              <RenderFiction fiction={whichFictionToRender()} />
-            </ol>
+            <ul>
+              <RenderFiction fiction={fictionToRender} />
+            </ul>
           </div>
 
           <div className="backToTop">

@@ -1,3 +1,10 @@
+/* Hide the bookcase photo once the columns wrap (two 20rem columns + 2rem container padding) */
+@media only screen and (max-width: 671px) {
+  .reading-photo-column {
+    display: none;
+  }
+}
+
 .filterButtonContainer {
   margin-left: 6px;
 }
@@ -7,13 +14,13 @@
   text-align: justify;
 }
 
-.fictionListContainer > ol {
-  list-style: auto;
-  padding-left: 40px;
+.fictionListContainer > ul {
+  list-style-type: "– ";
+  padding-left: 30px;
 }
 
-.fictionListContainer > ol > li {
-  color: grey;
+.fictionListContainer > ul > li {
+  color: #6f6f6f;
 }
 
 .fiction_title {
@@ -24,7 +31,7 @@
 }
 
 .fiction_misc {
-  color: grey;
+  color: #6f6f6f;
 }
 
 .fiction_author {
@@ -33,5 +40,5 @@
 }
 
 .fiction_date {
-  color: grey;
+  color: #6f6f6f;
 }
