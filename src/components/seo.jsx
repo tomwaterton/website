@@ -1,8 +1,10 @@
+import { useLocation } from "@gatsbyjs/reach-router";
 import React from "react";
 import { useSiteMetadata } from "../hooks/use-site-metadata";
 import TypewriterIllustration from "../images/favicon/typewriter.svg";
 
 export const Seo = ({ title, author, description, pathname, children }) => {
+  const location = useLocation();
   const {
     title: defaultTitle,
     author: defaultAuthor,
@@ -17,13 +19,14 @@ export const Seo = ({ title, author, description, pathname, children }) => {
     description: description || defaultDescription,
     author: author || defaultAuthor,
     image: `${siteUrl}${image}`,
-    url: `${siteUrl}${pathname || ""}`,
+    url: `${siteUrl}${pathname || location.pathname}`,
     twitterUsername
   };
 
   return (
     <>
       <title>{seo.title}</title>
+      <link href={seo.url} rel="canonical" />
       <meta content={seo.description} name="description" />
       <meta content={seo.author} name="author" />
       <meta content={seo.image} name="image" />
