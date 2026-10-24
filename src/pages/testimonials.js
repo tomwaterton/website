@@ -39,7 +39,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -93,7 +93,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -147,7 +147,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
+            <img alt="" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
@@ -155,7 +155,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -199,7 +199,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -253,7 +253,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
+            <img alt="" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
@@ -261,7 +261,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -302,7 +302,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -328,7 +328,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
+            <img alt="" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
@@ -336,7 +336,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -378,7 +378,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -417,7 +417,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
+            <img alt="" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
@@ -425,7 +425,7 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark hide-small"
               src={QuoteLeft}
             />
@@ -478,7 +478,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column-no-padding">
             <img
-              alt="Quotation mark"
+              alt=""
               className="quote-mark show-small"
               src={QuoteLeft}
             />
@@ -534,7 +534,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img alt="Quotation mark" className="quote-mark" src={QuoteRight} />
+            <img alt="" className="quote-mark" src={QuoteRight} />
           </div>
         </section>
 
