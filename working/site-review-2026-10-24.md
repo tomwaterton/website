@@ -128,11 +128,9 @@ The site is in good shape. The content is distinctive, the testimonials are stro
 - **Social preview image** — `static/images/site_preview.png` was a 2023 screenshot of an old version of the site. Replaced with a new 1200 × 630 homepage screenshot, compressed from 314KB to 84KB with `sharp` (flattened transparency, 256-colour palette). `twitter:image:alt` in `src/components/seo.jsx` now describes the new image. Previews are cached by LinkedIn and others, so a refresh via LinkedIn's Post Inspector may be needed after deploying.
 - **Dead Google Optimize placeholder** — removed `optimize_id: "OPT_CONTAINER_ID"` from the `gatsby-plugin-google-gtag` config in `gatsby-config.js`. Google Optimize was shut down in 2023, so the setting did nothing.
 - **`ContentWidth` rendering `"fullWidth null"`** — removed the unused `bgColour` prop and its `bleed` class logic from `src/components/contentWidth.js`. No page passed `bgColour` and no CSS targeted `bleed`, so the wrapper now renders `class="fullWidth"` (verified in the built HTML). It is still a class component; converting it to a function component, as the review also suggested, was left as an optional separate change.
+- **Empty nav caret `<i>` elements** — the `<i className="fa fa-caret-down">` in the `Dropdown` button (`src/components/header.js`) rendered nothing because Font Awesome isn't loaded, so the empty element was deleted. A CSS caret was tried and previewed, but the owner preferred the cleaner look without one, so the nav labels stay plain text. Screen readers still get the open/closed state from `aria-expanded`.
 
 ### Still to do
-
-**Quick**
-- Replace the nav `fa fa-caret-down` icons (Font Awesome is not loaded, so nothing renders) with a CSS or SVG caret.
 
 **Medium**
 - Resolve the ESLint errors (98 errors, mostly `react/no-unescaped-entities` and `react/prop-types`) and the 14 files Prettier flags; add browser globals to the ESLint config.

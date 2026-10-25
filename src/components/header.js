@@ -61,7 +61,6 @@ function Dropdown({ children, label }) {
         type="button"
       >
         {label}
-        <i className="fa fa-caret-down"></i>
       </button>
       <div className="dropdown-content">{children}</div>
     </div>
