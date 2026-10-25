@@ -13,7 +13,7 @@ const ExperiencePage = () => {
           <div className="column">
             <h1>Experience and skills</h1>
             <p>
-              I was one of the first content designers employed by IBM Design,
+              I was one of the first Content Designers employed by IBM Design,
               and have spent 15+ years building expertise across content design,
               UX design, and — more recently — AI tooling design. Over time I've
               progressed to broader roles, taking on UX responsibilities and

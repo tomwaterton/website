@@ -58,7 +58,7 @@ const ReadingNonFictionPage = () => {
                 <span className="black-text"> by Abby Covert</span>
                 <p>
                   A nice introduction to some of the main approaches we can use
-                  when organizing information.
+                  when organising information.
                 </p>
               </li>
               <li>

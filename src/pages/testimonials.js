@@ -56,7 +56,7 @@ const TestimonialsPage = () => {
             <p className="testimonial">
               Tom would regularly pull in top thought leaders from the industry
               to speak in our guild, develop workshops, invite internal experts,
-              and more. Tom has incredibly deep knowledge as a content designer.
+              and more. Tom has incredibly deep knowledge as a Content Designer.
             </p>
             <p className="testimonial">
               I consider myself incredibly lucky to have been able to work with
@@ -116,7 +116,7 @@ const TestimonialsPage = () => {
             </p>
             <p className="testimonial">
               And on top of all that, I can say that Tom is an impressively
-              thoughtful content designer who works from a great wellspring of
+              thoughtful Content Designer who works from a great wellspring of
               knowledge and experience about his craft. He was always generous
               with his time when I'd seek advice or collaboration. I'd work with
               Tom again — and follow his lead — in a heartbeat.&rdquo;
@@ -162,7 +162,7 @@ const TestimonialsPage = () => {
           </div>
           <div className="column">
             <p className="testimonial">
-              &ldquo;As one of the first official content designers at IBM, Tom
+              &ldquo;As one of the first official Content Designers at IBM, Tom
               helped build the practice from the ground up, constantly finding
               ways to elevate the craft and advocate for content design as a
               strategic partner. He has an incredible way of developing and
@@ -434,7 +434,7 @@ const TestimonialsPage = () => {
             <p className="testimonial">
               &ldquo;I have worked with Tom for many years on and off and on
               many content firsts at IBM from the Content Design Guild to
-              starting a new role of content designer in our business unit. He
+              starting a new role of Content Designer in our business unit. He
               has been someone I look up to for content knowledge and advice and
               I'm always excited to work with him on any content projects,
               especially those focused on broader initiatives.
