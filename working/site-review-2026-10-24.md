@@ -126,11 +126,11 @@ The site is in good shape. The content is distinctive, the testimonials are stro
 
 - **Job title consistency** — the homepage eyebrow now reads "Senior Designer" (the dot and "IBM" removed; the existing CSS uppercases it). The page title and meta descriptions in `index.js`, `about.js`, `portfolio.js` and `experience.js`, and the About page sentence, were updated to match (text edits made by the site owner). The Experience job history was deliberately left as the factual record ("Senior UX / Content Designer", Apr 2024 – Jun 2026).
 - **Social preview image** — `static/images/site_preview.png` was a 2023 screenshot of an old version of the site. Replaced with a new 1200 × 630 homepage screenshot, compressed from 314KB to 84KB with `sharp` (flattened transparency, 256-colour palette). `twitter:image:alt` in `src/components/seo.jsx` now describes the new image. Previews are cached by LinkedIn and others, so a refresh via LinkedIn's Post Inspector may be needed after deploying.
+- **Dead Google Optimize placeholder** — removed `optimize_id: "OPT_CONTAINER_ID"` from the `gatsby-plugin-google-gtag` config in `gatsby-config.js`. Google Optimize was shut down in 2023, so the setting did nothing.
 
 ### Still to do
 
 **Quick**
-- Remove the dead `optimize_id: "OPT_CONTAINER_ID"` placeholder in `gatsby-config.js`.
 - Fix `ContentWidth` rendering the class `"fullWidth null"`; remove the unused `bgColour` prop.
 - Replace the nav `fa fa-caret-down` icons (Font Awesome is not loaded, so nothing renders) with a CSS or SVG caret.
 
