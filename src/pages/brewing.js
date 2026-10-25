@@ -16,32 +16,32 @@ const BrewingPage = () => {
             <h1>Brewing</h1>
             <p>
               <em>
-                I've always enjoyed the richness and variety of different beers.
-                I love a traditional English bitter in the springtime, a light,
-                hoppy IPA in the summer, an amber ale in the autumn, and a
-                hearty porter or stout in the winter.
+                I&apos;ve always enjoyed the richness and variety of different
+                beers. I love a traditional English bitter in the springtime, a
+                light, hoppy IPA in the summer, an amber ale in the autumn, and
+                a hearty porter or stout in the winter.
               </em>
             </p>
             <p>
               <em>
                 I also like learning and discovering how things are made, and so
-                a few years back I started learning how to brew beer myself. I'm
-                far from being a master brewer, but I do enjoy the challenge. I
-                also love the sociable side of brewing. I often brew with others
-                and enjoy being able to share the results with friends and
-                family.
+                a few years back I started learning how to brew beer myself.
+                I&apos;m far from being a master brewer, but I do enjoy the
+                challenge. I also love the sociable side of brewing. I often
+                brew with others and enjoy being able to share the results with
+                friends and family.
               </em>
             </p>
             <p>
               <em>
                 For more details, see my article:{" "}
-                  <a
-                    href="/articles/Brewing_a_Mayflower_pale_ale.pdf"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    Brewing a Mayflower pale ale
-                  </a>
+                <a
+                  href="/articles/Brewing_a_Mayflower_pale_ale.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Brewing a Mayflower pale ale
+                </a>
                 .
               </em>
             </p>
@@ -111,11 +111,11 @@ const BrewingPage = () => {
                 condition, the time finally comes to test your latest creation.
               </p>
               <p>
-                There's nothing better than getting together with friends,
+                There&apos;s nothing better than getting together with friends,
                 family, or colleagues and being able to hand out some home brew
                 for everyone to try.
               </p>
-              <p>It's then onto the next brew...</p>
+              <p>It&apos;s then onto the next brew...</p>
               <img
                 alt="Beer glasses"
                 className="inTilePhoto"

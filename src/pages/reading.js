@@ -32,9 +32,9 @@ const ReadingFictionPage = ({ data }) => {
             <h1 id="reading-fiction">Reading fiction</h1>
             <p>
               <em>
-                For me, reading fiction is one of life's great pleasures. Here's
-                a record of the novels, plays, and short story collections that
-                I've enjoyed over recent years.
+                For me, reading fiction is one of life&apos;s great pleasures.
+                Here&apos;s a record of the novels, plays, and short story
+                collections that I&apos;ve enjoyed over recent years.
               </em>
             </p>
             <p>
@@ -153,7 +153,7 @@ export const Head = () => (
 
 class RenderFiction extends React.Component {
   render() {
-    return this.props.fiction.map((fiction, i) => (
+    return this.props.fiction.map((fiction) => (
       <FictionList
         author={fiction.author}
         date={fiction.datePub}

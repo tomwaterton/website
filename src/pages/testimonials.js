@@ -38,11 +38,7 @@ const TestimonialsPage = () => {
         {/* Start of Allison's reference (RIGHT) */}
         <section className="row bottom-border">
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark hide-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark hide-small" src={QuoteLeft} />
           </div>
           <div className="column">
             <p className="testimonial">
@@ -92,11 +88,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark show-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark show-small" src={QuoteLeft} />
           </div>
         </section>
 
@@ -107,7 +99,7 @@ const TestimonialsPage = () => {
               &ldquo;It was my utmost honor to work with and learn from Tom
               during my time at IBM. I was constantly in awe of how much Tom
               accomplished as he worked diligently to establish standards,
-              practices, and culture of IBM's content design program.
+              practices, and culture of IBM&apos;s content design program.
             </p>
             <p className="testimonial">
               A true catalyst, Tom had a knack for bringing people along with
@@ -118,8 +110,8 @@ const TestimonialsPage = () => {
               And on top of all that, I can say that Tom is an impressively
               thoughtful Content Designer who works from a great wellspring of
               knowledge and experience about his craft. He was always generous
-              with his time when I'd seek advice or collaboration. I'd work with
-              Tom again — and follow his lead — in a heartbeat.&rdquo;
+              with his time when I&apos;d seek advice or collaboration. I&apos;d
+              work with Tom again — and follow his lead — in a heartbeat.&rdquo;
             </p>
             <p className="attribution-name">— Jeremy Burton</p>
             <p className="attribution">
@@ -154,11 +146,7 @@ const TestimonialsPage = () => {
         {/* Start of Maranda's reference (RIGHT) */}
         <section className="row bottom-border">
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark hide-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark hide-small" src={QuoteLeft} />
           </div>
           <div className="column">
             <p className="testimonial">
@@ -170,9 +158,9 @@ const TestimonialsPage = () => {
               community as a mentor.
             </p>
             <p className="testimonial">
-              I don't think I'd be where I'm at in my career if it weren't for
-              Tom's incredible leadership, support, and passion for the
-              craft.&rdquo;
+              I don&apos;t think I&apos;d be where I&apos;m at in my career if
+              it weren&apos;t for Tom&apos;s incredible leadership, support, and
+              passion for the craft.&rdquo;
             </p>
             <p className="attribution-name">— Maranda Bodas</p>
             <p className="attribution">
@@ -198,11 +186,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark show-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark show-small" src={QuoteLeft} />
           </div>
         </section>
 
@@ -210,13 +194,13 @@ const TestimonialsPage = () => {
         <section className="row bottom-border">
           <div className="column">
             <p className="testimonial">
-              &ldquo;It's very rare to find someone so knowledgeable in their
-              field and so willing to share. I have had the pleasure of working
-              with Tom on a number of complex enterprise products and I was
-              constantly impressed by his drive for consistent, personable, and
-              professional UX copy. He was always quick to share his thinking
-              and knowledge, and I'm not sure he's even aware of how many of his
-              teachings I use on a daily basis.
+              &ldquo;It&apos;s very rare to find someone so knowledgeable in
+              their field and so willing to share. I have had the pleasure of
+              working with Tom on a number of complex enterprise products and I
+              was constantly impressed by his drive for consistent, personable,
+              and professional UX copy. He was always quick to share his
+              thinking and knowledge, and I&apos;m not sure he&apos;s even aware
+              of how many of his teachings I use on a daily basis.
             </p>
             <p className="testimonial">
               Not only is Tom a fantastic beacon for his own craft, he
@@ -225,8 +209,8 @@ const TestimonialsPage = () => {
               development. This makes it super easy to communicate quickly and
               directly on source files resulting in a very productive working
               relationship. Tom does all this, whilst honestly being one of the
-              kindest people I've met in this industry! I highly recommend Tom
-              as a colleague, mentor, and friend.&rdquo;
+              kindest people I&apos;ve met in this industry! I highly recommend
+              Tom as a colleague, mentor, and friend.&rdquo;
             </p>
             <p className="attribution-name">— Peter Loveland</p>
             <p className="attribution">
@@ -260,11 +244,7 @@ const TestimonialsPage = () => {
         {/* Start of Esteban's reference (RIGHT) */}
         <section className="row bottom-border">
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark hide-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark hide-small" src={QuoteLeft} />
           </div>
           <div className="column">
             <p className="testimonial">
@@ -301,11 +281,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark show-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark show-small" src={QuoteLeft} />
           </div>
         </section>
 
@@ -314,8 +290,8 @@ const TestimonialsPage = () => {
           <div className="column">
             <p className="testimonial">
               &ldquo;Tom is truly outstanding. A man of deep integrity and sound
-              judgement, who always maintains a positive attitude. He's one of
-              the best enablers I know. He gathers the right people for a
+              judgement, who always maintains a positive attitude. He&apos;s one
+              of the best enablers I know. He gathers the right people for a
               project, encourages them to say and do what they believe to be
               best for the project, and works harder than anyone else on the
               project to clear obstacles, keep focus, create momentum and
@@ -335,11 +311,7 @@ const TestimonialsPage = () => {
         {/* Start of Janene's reference (RIGHT) */}
         <section className="row bottom-border">
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark hide-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark hide-small" src={QuoteLeft} />
           </div>
           <div className="column">
             <p className="testimonial">
@@ -347,9 +319,9 @@ const TestimonialsPage = () => {
               time and talent you have dedicated to helping me learn more about
               content design, contributing to the visibility of and
               opportunities for content professionals at IBM, and (most
-              importantly) improving our clients' experience with our content. I
-              appreciate your positivity, collaboration style, and ability to
-              cut through the noise!&rdquo;
+              importantly) improving our clients&apos; experience with our
+              content. I appreciate your positivity, collaboration style, and
+              ability to cut through the noise!&rdquo;
             </p>
             <p className="attribution-name">— Janene Franke</p>
             <p className="attribution">
@@ -377,11 +349,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark show-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark show-small" src={QuoteLeft} />
           </div>
         </section>
 
@@ -390,7 +358,7 @@ const TestimonialsPage = () => {
           <div className="column">
             <p className="testimonial">
               &ldquo;Thank you Tom for always pushing the boundaries of what
-              we're doing from a content, strategy, and offering
+              we&apos;re doing from a content, strategy, and offering
               perspective.&rdquo;
             </p>
             <p className="attribution-name">— Madison Heck</p>
@@ -424,11 +392,7 @@ const TestimonialsPage = () => {
         {/* Start of Holly's reference (RIGHT) */}
         <section className="row bottom-border">
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark hide-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark hide-small" src={QuoteLeft} />
           </div>
           <div className="column">
             <p className="testimonial">
@@ -436,7 +400,7 @@ const TestimonialsPage = () => {
               many content firsts at IBM from the Content Design Guild to
               starting a new role of Content Designer in our business unit. He
               has been someone I look up to for content knowledge and advice and
-              I'm always excited to work with him on any content projects,
+              I&apos;m always excited to work with him on any content projects,
               especially those focused on broader initiatives.
             </p>
             <p className="testimonial">
@@ -445,19 +409,19 @@ const TestimonialsPage = () => {
               fresh and plentiful thoughts to the table along with realistic
               expectations and practical plans for what we can actually get
               done. He is definitely a doer and I appreciate working with him
-              because there's always something tangible delivered out of any
-              effort.
+              because there&apos;s always something tangible delivered out of
+              any effort.
             </p>
             <p className="testimonial">
               Personally, working with Tom has always been great - he is kind,
               engaging, respectful, and supportive as a colleague and always
-              gives his all to whatever he's involved with. His deep expertise
-              on IBM content guidelines and style rules has made him one of our
-              content leaders. I frequently reference the UX copy educational
-              course and content guidance website he created. Both are essential
-              resources in my day-to-day not only for the information they
-              provide, but the excellent and easy-to-follow way in which they
-              were written and organized.&rdquo;
+              gives his all to whatever he&apos;s involved with. His deep
+              expertise on IBM content guidelines and style rules has made him
+              one of our content leaders. I frequently reference the UX copy
+              educational course and content guidance website he created. Both
+              are essential resources in my day-to-day not only for the
+              information they provide, but the excellent and easy-to-follow way
+              in which they were written and organized.&rdquo;
             </p>
             <p className="attribution-name">— Holly King</p>
             <p className="attribution">
@@ -477,11 +441,7 @@ const TestimonialsPage = () => {
             </p>
           </div>
           <div className="column-no-padding">
-            <img
-              alt=""
-              className="quote-mark show-small"
-              src={QuoteLeft}
-            />
+            <img alt="" className="quote-mark show-small" src={QuoteLeft} />
           </div>
         </section>
 
@@ -520,7 +480,9 @@ const TestimonialsPage = () => {
             </p>
             <p className="attribution">
               Now{" "}
-              <span className="attribution-role-name">Founder's Associate</span>{" "}
+              <span className="attribution-role-name">
+                Founder&apos;s Associate
+              </span>{" "}
               at <span className="attribution-role-company">Nokular.com</span>
             </p>
             <p className="attribution">

@@ -13,8 +13,8 @@ const CrosswordsPage = ({ data }) => {
             <h1>Cryptic crosswords</h1>
             <p>
               <em>
-                Some cryptic crosswords that I've composed (under the pseudonym
-                'Meles').
+                Some cryptic crosswords that I&apos;ve composed (under the
+                pseudonym &apos;Meles&apos;).
               </em>
             </p>
           </div>
@@ -55,7 +55,7 @@ export const Head = () => (
 
 class RenderCrosswords extends React.Component {
   render() {
-    return this.props.crosswords.map((crossword, i) => (
+    return this.props.crosswords.map((crossword) => (
       <CrosswordTile
         date={crossword.date}
         image={crossword.image}
@@ -90,7 +90,13 @@ class CrosswordTile extends React.Component {
           <div className="c-article-tile__body">
             <div>
               <h2 className="c-article-tile__title" itemProp="headline">
-                <a href={this.props.url} rel="noopener noreferrer" target="_blank">{this.props.title}</a>
+                <a
+                  href={this.props.url}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {this.props.title}
+                </a>
               </h2>
             </div>
           </div>

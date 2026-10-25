@@ -16,9 +16,9 @@ const AboutPage = () => {
           {/* Row 1, col 1 — About me */}
           <section className="about-section about-grid__about">
             <h1>About me</h1>
-            <p>Hi, I'm Tom 👋</p>
+            <p>Hi, I&apos;m Tom 👋</p>
             <p>
-              I'm a <strong>Senior Designer</strong> at{" "}
+              I&apos;m a <strong>Senior Designer</strong> at{" "}
               <a
                 href="https://www.ibm.com/"
                 rel="noopener noreferrer"
@@ -34,8 +34,8 @@ const AboutPage = () => {
               <li>
                 <strong>AI tooling design</strong> — identifying workflows where
                 AI tools can bring the most benefit to users and then optimising
-                the content and design so that it's great for both humans and AI
-                to find, scan, and understand.
+                the content and design so that it&apos;s great for both humans
+                and AI to find, scan, and understand.
               </li>
               <li>
                 <strong>UX design</strong> — applying design thinking and

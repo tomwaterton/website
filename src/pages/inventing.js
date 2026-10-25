@@ -21,9 +21,9 @@ const PatentsPage = ({ data }) => {
             <h1 id="top">Inventing</h1>
             <p>
               <em>
-                I've always enjoyed problem solving and inventing. This page
-                lists some of my technical inventions. My Google Scholar profile
-                can be found{" "}
+                I&apos;ve always enjoyed problem solving and inventing. This
+                page lists some of my technical inventions. My Google Scholar
+                profile can be found{" "}
                 <a
                   href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en"
                   rel="noopener noreferrer"
@@ -82,8 +82,16 @@ const PatentsPage = ({ data }) => {
             <h2>Other (non-patented) inventions</h2>
             <p>
               <em>
-                I've also had a number of other technical inventions published
-                on <a href="https://ip.com/" rel="noopener noreferrer" target="_blank">IP.com</a>.
+                I&apos;ve also had a number of other technical inventions
+                published on{" "}
+                <a
+                  href="https://ip.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  IP.com
+                </a>
+                .
               </em>
             </p>
             <p className="itemCount">
@@ -113,7 +121,7 @@ const PatentsPage = ({ data }) => {
                 >
                   IBM Master Inventor
                 </a>{" "}
-                in recognition of my ongoing contribution to IBM's patent
+                in recognition of my ongoing contribution to IBM&apos;s patent
                 portfolio and inventing community. Link to this{" "}
                 <a
                   href="https://www.credly.com/badges/6f04d3d0-ded1-43ba-a6a8-6253e6ee4bda"
@@ -219,7 +227,9 @@ const PatentTile = ({ url, image, title, pending, min, date }) => {
         <div className="c-article-tile__body">
           <div>
             <h2 className="c-article-tile__title" itemProp="headline">
-              <a href={url} rel="noopener noreferrer" target="_blank">{title}</a>
+              <a href={url} rel="noopener noreferrer" target="_blank">
+                {title}
+              </a>
             </h2>
             <span className="pending">{pending}</span>
           </div>

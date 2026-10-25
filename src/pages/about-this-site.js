@@ -13,16 +13,17 @@ const AboutThisSitePage = () => {
             <h1>About this site</h1>
             <p>
               <em>
-                I'm not a formal web developer, but I like to learn new things.
-                So a few years back I set myself the challenge of creating my
-                own website from scratch, and this was the result — and I've
-                enjoyed tinkering with it ever since!
+                I&apos;m not a formal web developer, but I like to learn new
+                things. So a few years back I set myself the challenge of
+                creating my own website from scratch, and this was the result —
+                and I&apos;ve enjoyed tinkering with it ever since!
               </em>
             </p>
             <p>
               <em>
-                Here you'll find some information about my work as a designer,
-                as well as some of my thoughts, hobbies, and interests.
+                Here you&apos;ll find some information about my work as a
+                designer, as well as some of my thoughts, hobbies, and
+                interests.
               </em>
             </p>
             <p className="padding-bottom-small">

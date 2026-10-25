@@ -43,10 +43,23 @@
     column-gap: 2rem;
   }
 
-  .about-grid__about   { grid-column: 1; grid-row: 1; }
-  .about-grid__photo   { grid-column: 2; grid-row: 1; }
-  .about-grid__outside { grid-column: 1; grid-row: 2; }
-  .about-grid__contact { grid-column: 2; grid-row: 2; padding-left: 2rem; }
+  .about-grid__about {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .about-grid__photo {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .about-grid__outside {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .about-grid__contact {
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 2rem;
+  }
 }
 
 /* About me page — profile photo (matches homepage hero style) */

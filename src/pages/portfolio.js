@@ -64,8 +64,8 @@ const PortfolioPage = ({ data, location }) => {
           <div className="filterButtonContainer" id="myBtnContainer">
             {FILTERS.map(({ key, label }) => (
               <button
-                key={key}
                 className={`btn ${filter === key ? "active" : ""}`}
+                key={key}
                 onClick={() => setFilter(key)}
               >
                 {label}
@@ -76,7 +76,7 @@ const PortfolioPage = ({ data, location }) => {
 
         <section className="portfolio-grid">
           {visibleItems.map((item) => (
-            <PortfolioCard key={item.title} item={item} />
+            <PortfolioCard item={item} key={item.title} />
           ))}
         </section>
       </ContentWidth>
@@ -91,7 +91,7 @@ const renderBullet = (text) => {
     const match = part.match(/^\[\[(.+?)\|(.+?)\]\]$/);
     if (match) {
       return (
-        <a key={i} href={match[2]} rel="noopener noreferrer" target="_blank">
+        <a href={match[2]} key={i} rel="noopener noreferrer" target="_blank">
           {match[1]}
         </a>
       );
@@ -114,7 +114,7 @@ const PortfolioCard = ({ item }) => {
       <div className="portfolio-card__body">
         <div className="portfolio-card__tags">
           {item.tags.map((tag) => (
-            <span key={tag} className={`portfolio-tag portfolio-tag--${tag}`}>
+            <span className={`portfolio-tag portfolio-tag--${tag}`} key={tag}>
               {TAG_LABELS[tag]}
             </span>
           ))}

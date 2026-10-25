@@ -15,9 +15,9 @@ const ExperiencePage = () => {
             <p>
               I was one of the first Content Designers employed by IBM Design,
               and have spent 15+ years building expertise across content design,
-              UX design, and — more recently — AI tooling design. Over time I've
-              progressed to broader roles, taking on UX responsibilities and
-              working on IBM Software-wide projects.
+              UX design, and — more recently — AI tooling design. Over time
+              I&apos;ve progressed to broader roles, taking on UX
+              responsibilities and working on IBM Software-wide projects.
             </p>
             <p>
               I work highly collaboratively, typically alongside designers,
@@ -25,11 +25,11 @@ const ExperiencePage = () => {
               colleagues across the globe.
             </p>
             <p>
-              From 2025 onwards I've increasingly focused on AI-related projects
-              and tools — identifying workflows where AI can bring the most
-              benefit to users, and optimising content and design so that it
-              works well for both humans and AI to find, scan, and understand.
-              🤖👨‍💻
+              From 2025 onwards I&apos;ve increasingly focused on AI-related
+              projects and tools — identifying workflows where AI can bring the
+              most benefit to users, and optimising content and design so that
+              it works well for both humans and AI to find, scan, and
+              understand. 🤖👨‍💻
             </p>
             <p>
               <em>
@@ -92,7 +92,7 @@ const ExperiencePage = () => {
               </li>
             </ul>
             <p>
-              Since 2021, I've also held the honorary title of{" "}
+              Since 2021, I&apos;ve also held the honorary title of{" "}
               <strong>IBM Master Inventor</strong>. For more info, see the{" "}
               <Link to="/inventing">inventing</Link> page.
             </p>

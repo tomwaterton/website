@@ -49,10 +49,7 @@ function Dropdown({ children, label }) {
   }, [open]);
 
   return (
-    <div
-      className={`dropdown${open ? " is-open" : ""}`}
-      ref={containerRef}
-    >
+    <div className={`dropdown${open ? " is-open" : ""}`} ref={containerRef}>
       <button
         aria-expanded={open}
         className="dropbtn"
@@ -69,7 +66,7 @@ function Dropdown({ children, label }) {
 
 Dropdown.propTypes = {
   children: PropTypes.node.isRequired,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired
 };
 
 function Header() {
@@ -87,7 +84,9 @@ function Header() {
             </Link>
           </div>
           <div className="siteName">
-            <Link onClick={closeMenu} to="/">tomwaterton.com</Link>
+            <Link onClick={closeMenu} to="/">
+              tomwaterton.com
+            </Link>
           </div>
         </div>
 
@@ -125,7 +124,9 @@ function Header() {
         {/* Mobile hamburger button */}
         <button
           aria-expanded={menuOpen}
-          aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-label={
+            menuOpen ? "Close navigation menu" : "Open navigation menu"
+          }
           className="mobile-menu-btn mobile-only"
           onClick={() => setMenuOpen((o) => !o)}
         >
@@ -137,23 +138,73 @@ function Header() {
       {menuOpen && (
         <nav aria-label="Site navigation" className="mobile-nav mobile-only">
           <p className="mobile-nav__heading">About</p>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/about">About me</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/articles">Articles</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/speaking">Speaking</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/testimonials">Testimonials</Link>
+          <Link className="mobile-nav__link" onClick={closeMenu} to="/about">
+            About me
+          </Link>
+          <Link className="mobile-nav__link" onClick={closeMenu} to="/articles">
+            Articles
+          </Link>
+          <Link className="mobile-nav__link" onClick={closeMenu} to="/speaking">
+            Speaking
+          </Link>
+          <Link
+            className="mobile-nav__link"
+            onClick={closeMenu}
+            to="/testimonials"
+          >
+            Testimonials
+          </Link>
 
           <p className="mobile-nav__heading">Work</p>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/experience">Experience and skills</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/portfolio">Portfolio</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/inventing">Inventing</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/recommended-books">Recommended books</Link>
+          <Link
+            className="mobile-nav__link"
+            onClick={closeMenu}
+            to="/experience"
+          >
+            Experience and skills
+          </Link>
+          <Link
+            className="mobile-nav__link"
+            onClick={closeMenu}
+            to="/portfolio"
+          >
+            Portfolio
+          </Link>
+          <Link
+            className="mobile-nav__link"
+            onClick={closeMenu}
+            to="/inventing"
+          >
+            Inventing
+          </Link>
+          <Link
+            className="mobile-nav__link"
+            onClick={closeMenu}
+            to="/recommended-books"
+          >
+            Recommended books
+          </Link>
 
           <p className="mobile-nav__heading">Fun</p>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/brewing">Brewing</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/cryptic-crosswords">Cryptic crosswords</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/family">Family</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/dog">Our dog</Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/reading">Reading fiction</Link>
+          <Link className="mobile-nav__link" onClick={closeMenu} to="/brewing">
+            Brewing
+          </Link>
+          <Link
+            className="mobile-nav__link"
+            onClick={closeMenu}
+            to="/cryptic-crosswords"
+          >
+            Cryptic crosswords
+          </Link>
+          <Link className="mobile-nav__link" onClick={closeMenu} to="/family">
+            Family
+          </Link>
+          <Link className="mobile-nav__link" onClick={closeMenu} to="/dog">
+            Our dog
+          </Link>
+          <Link className="mobile-nav__link" onClick={closeMenu} to="/reading">
+            Reading fiction
+          </Link>
         </nav>
       )}
     </header>

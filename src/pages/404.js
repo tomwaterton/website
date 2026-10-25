@@ -11,7 +11,7 @@ const NotFoundPage = () => {
       <ContentWidth>
         <section className="row">
           <div className="column">
-            <h1>Hmm, we can't seem to find that page...</h1>
+            <h1>Hmm, we can&apos;t seem to find that page...</h1>
             <p>
               <em>Error: 404</em>
             </p>

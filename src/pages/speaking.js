@@ -24,7 +24,7 @@ const SpeakingPage = () => {
               quickly try things, get feedback, fail fast, learn, and improve.
             </p>
             <p>
-              I've had the privilege of speaking on these topics at a few
+              I&apos;ve had the privilege of speaking on these topics at a few
               conferences and events over the last few years.
             </p>
             <p>
@@ -64,9 +64,9 @@ const SpeakingPage = () => {
             <p className="">
               I co-presented with my awesome colleague Maranda Bodas on the
               ongoing content design transformation within IBM, and in
-              particular how we've grown a grass-roots content design community
-              of practice that has helped bring together content practitioners
-              and advocates from across the company.
+              particular how we&apos;ve grown a grass-roots content design
+              community of practice that has helped bring together content
+              practitioners and advocates from across the company.
             </p>
             <p>
               You can read more about this topic in{" "}
@@ -97,9 +97,9 @@ const SpeakingPage = () => {
               At this online event for product designers, strategists, owners,
               and managers I presented on the importance of having a suitable,
               engaging, and consistent voice and tone. I also shared a fun
-              exercise that I've used in the past to help product teams see for
-              themselves just what a huge impact the voice and tone of a product
-              has on the overall user experience.
+              exercise that I&apos;ve used in the past to help product teams see
+              for themselves just what a huge impact the voice and tone of a
+              product has on the overall user experience.
             </p>
           </div>
           <div className="column">
@@ -184,10 +184,11 @@ const SpeakingPage = () => {
               <em>Hursley, UK, Oct 2019</em>
             </p>
             <p className="">
-              This talk was focused on the need to think about a product user's
-              end-to-end content experience, from marketing materials through to
-              in-product copy, to support materials, etc. and how to best
-              collaborate across functional divides within an organisation.
+              This talk was focused on the need to think about a product
+              user&apos;s end-to-end content experience, from marketing
+              materials through to in-product copy, to support materials, etc.
+              and how to best collaborate across functional divides within an
+              organisation.
             </p>
           </div>
         </section>

@@ -16,9 +16,9 @@ const ReadingNonFictionPage = () => {
             <h1 id="recommended-books">Recommended books</h1>
             <p>
               <em>
-                Some of the work-related non-fiction that I've read over the
-                last few years. For each book I’ve provided a link to further
-                information and written a one-sentence description.
+                Some of the work-related non-fiction that I&apos;ve read over
+                the last few years. For each book I’ve provided a link to
+                further information and written a one-sentence description.
               </em>
             </p>
             <ul className="ul-small do-not-print">
@@ -51,7 +51,11 @@ const ReadingNonFictionPage = () => {
             <h2>Content design / writing books</h2>
             <ul>
               <li>
-                <a href="https://abbycovert.com/make-sense/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://abbycovert.com/make-sense/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   How to Make Sense of Any Mess
                 </a>{" "}
                 (2014)
@@ -62,7 +66,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://abookapart.com/products/cultivating-content-design" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://abookapart.com/products/cultivating-content-design"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Cultivating Content Design
                 </a>{" "}
                 (2021)
@@ -73,7 +81,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://www.contentstrategy.com/content-strategy-for-the-web" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.contentstrategy.com/content-strategy-for-the-web"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Content Strategy for the Web
                 </a>{" "}
                 (2012)
@@ -84,7 +96,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/On_Writing:_A_Memoir_of_the_Craft" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/On_Writing:_A_Memoir_of_the_Craft"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   On Writing: A Memoir of the Craft
                 </a>{" "}
                 (2000; revised 2020)
@@ -95,7 +111,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://www.penguinrandomhouse.com/books/93789/several-short-sentences-about-writing-by-verlyn-klinkenborg/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.penguinrandomhouse.com/books/93789/several-short-sentences-about-writing-by-verlyn-klinkenborg/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Several short sentences about writing
                 </a>{" "}
                 (2012)
@@ -106,7 +126,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://www.amazon.co.uk/Why-need-content-team-build/dp/1720128448/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.amazon.co.uk/Why-need-content-team-build/dp/1720128448/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Why you need a content team and how to build one
                 </a>{" "}
                 (2018)
@@ -117,7 +141,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://rosenfeldmedia.com/books/writing-is-designing/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://rosenfeldmedia.com/books/writing-is-designing/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Writing is Designing
                 </a>{" "}
                 (2020)
@@ -131,7 +159,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://learning.oreilly.com/library/view/strategic-writing-for/9781492049388/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://learning.oreilly.com/library/view/strategic-writing-for/9781492049388/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Strategic Writing for UX
                 </a>{" "}
                 (2019)
@@ -142,7 +174,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://contentdesign.london/store/the-content-design-book/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://contentdesign.london/store/the-content-design-book/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Content Design
                 </a>{" "}
                 (2017)
@@ -153,7 +189,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/The_Elements_of_Style" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/The_Elements_of_Style"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   The Elements of Style
                 </a>{" "}
                 (1918; revised 2018)
@@ -164,7 +204,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/Eats,_Shoots_%26_Leaves" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/Eats,_Shoots_%26_Leaves"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Eats, Shoots & Leaves
                 </a>{" "}
                 (2003)
@@ -175,7 +219,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://www.amazon.co.uk/Information-Anxiety-2-Hayden-Que/dp/0789724103" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.amazon.co.uk/Information-Anxiety-2-Hayden-Que/dp/0789724103"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Information Anxiety 2
                 </a>{" "}
                 (2001)
@@ -198,7 +246,7 @@ const ReadingNonFictionPage = () => {
 
         <section>
           <div className="booksToRead">
-            <h3>And on my "to-read" pile...</h3>
+            <h3>And on my &quot;to-read&quot; pile...</h3>
             <ul>
               <li>
                 <em>The Content Strategy Toolkit</em> (2015) by Meghan Casey
@@ -235,7 +283,11 @@ const ReadingNonFictionPage = () => {
             <h2>Design / growth / leadership books</h2>
             <ul>
               <li>
-                <a href="https://arbinger.com/Landing/LeadershipAndSelfDeception.html" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://arbinger.com/Landing/LeadershipAndSelfDeception.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Leadership and Self-Deception
                 </a>{" "}
                 (2000)
@@ -246,15 +298,27 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://www.amazon.co.uk/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592408419" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.amazon.co.uk/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592408419"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Daring Greatly
                 </a>{" "}
                 (2012),{" "}
-                <a href="https://www.amazon.co.uk/Rising-Strong-Bren%C3%A9-Brown/dp/0091955033" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.amazon.co.uk/Rising-Strong-Bren%C3%A9-Brown/dp/0091955033"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Rising Strong
                 </a>{" "}
                 (2015), and{" "}
-                <a href="https://www.amazon.co.uk/Dare-Lead-Brave-Conversations-Hearts-ebook/dp/B07CZ4H1BQ/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.amazon.co.uk/Dare-Lead-Brave-Conversations-Hearts-ebook/dp/B07CZ4H1BQ/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Dare to Lead
                 </a>{" "}
                 (2018)
@@ -266,7 +330,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/Quiet:_The_Power_of_Introverts_in_a_World_That_Can%27t_Stop_Talking" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/Quiet:_The_Power_of_Introverts_in_a_World_That_Can%27t_Stop_Talking"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Quiet
                 </a>{" "}
                 (2012)
@@ -277,7 +345,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/Creativity,_Inc." rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/Creativity,_Inc."
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Creativity, Inc
                 </a>{" "}
                 (2014)
@@ -288,7 +360,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   The 7 Habits of Highly Successful People
                 </a>{" "}
                 (1989)
@@ -299,7 +375,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/The_Tipping_Point" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/The_Tipping_Point"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   The Tipping Point
                 </a>{" "}
                 (2000)
@@ -310,7 +390,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/David_and_Goliath_(book)" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/David_and_Goliath_(book)"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   David and Goliath
                 </a>{" "}
                 (2013)
@@ -321,7 +405,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://www.amazon.co.uk/Dialogue-Art-Thinking-Together-Communicating/dp/0385479999" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.amazon.co.uk/Dialogue-Art-Thinking-Together-Communicating/dp/0385479999"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Dialogue and the Art of Thinking Together
                 </a>{" "}
                 (1999)
@@ -332,18 +420,27 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Thinking, Fast and Slow
                 </a>{" "}
                 (2011)
                 <span className="black-text"> by Daniel Kahneman</span>
                 <p>
-                  An exploration into the different modes of thinking ("fast"
-                  and "slow") and the cognitive biases associated with each.
+                  An exploration into the different modes of thinking
+                  (&quot;fast&quot; and &quot;slow&quot;) and the cognitive
+                  biases associated with each.
                 </p>
               </li>
               <li>
-                <a href="https://itrevolution.com/book/the-phoenix-project/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://itrevolution.com/book/the-phoenix-project/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   The Phoenix Project
                 </a>{" "}
                 (2013)
@@ -357,7 +454,14 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://www.thesprintbook.com/" rel="noopener noreferrer" target="_blank">Sprint</a> (2016)
+                <a
+                  href="https://www.thesprintbook.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Sprint
+                </a>{" "}
+                (2016)
                 <span className="black-text"> by Jake Knapp</span>
                 <p>
                   How to approach opportunities and challenges by ideating,
@@ -366,9 +470,21 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://freakonomics.com/books/" rel="noopener noreferrer" target="_blank">Freakonomics</a>{" "}
+                <a
+                  href="https://freakonomics.com/books/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Freakonomics
+                </a>{" "}
                 (2005) and{" "}
-                <a href="https://freakonomics.com/books/" rel="noopener noreferrer" target="_blank">SuperFreakonomics</a>{" "}
+                <a
+                  href="https://freakonomics.com/books/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  SuperFreakonomics
+                </a>{" "}
                 (2009)
                 <span className="black-text">
                   {" "}
@@ -381,7 +497,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   The Design of Everyday Things
                 </a>{" "}
                 (1988)
@@ -392,7 +512,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/12_Rules_for_Life" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/12_Rules_for_Life"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   12 Rules for Life: An Antidote to Chaos
                 </a>{" "}
                 (2018)
@@ -403,7 +527,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://www.dummies.com/book/body-mind-spirit/emotional-health-psychology/psychology/neurolinguistic-programming/neuro-linguistic-programming-for-dummies-3rd-edition-281592/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.dummies.com/book/body-mind-spirit/emotional-health-psychology/psychology/neurolinguistic-programming/neuro-linguistic-programming-for-dummies-3rd-edition-281592/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Neuro-linguistic Programming For Dummies
                 </a>{" "}
                 (2015)
@@ -417,7 +545,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/Factfulness:_Ten_Reasons_We're_Wrong_About_the_World_%E2%80%93_and_Why_Things_Are_Better_Than_You_Think" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/Factfulness:_Ten_Reasons_We're_Wrong_About_the_World_%E2%80%93_and_Why_Things_Are_Better_Than_You_Think"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Factfulness
                 </a>{" "}
                 (2018)
@@ -431,7 +563,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/The_Lean_Startup" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/The_Lean_Startup"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   The Lean Startup
                 </a>{" "}
                 (2011)
@@ -442,29 +578,42 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://en.wikipedia.org/wiki/Start_with_Why" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://en.wikipedia.org/wiki/Start_with_Why"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Start with Why
                 </a>{" "}
                 (2009)
                 <span className="black-text"> by Simon Sinek</span>
                 <p>
-                  How being really clear about your "why" helps you to better
-                  communicate with and inspire others.
+                  How being really clear about your &quot;why&quot; helps you to
+                  better communicate with and inspire others.
                 </p>
               </li>
               <li>
-                <a href="https://www.amazon.co.uk/Eat-That-Frog-Important-Things/dp/1444765426" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.amazon.co.uk/Eat-That-Frog-Important-Things/dp/1444765426"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Eat that Frog!
                 </a>{" "}
                 (2001)
                 <span className="black-text"> by Brian Tracy</span>
                 <p>
                   A number of approaches to help you stop procrastinating,
-                  prioritise what's important, and ultimately get more done.
+                  prioritise what&apos;s important, and ultimately get more
+                  done.
                 </p>
               </li>
               <li>
-                <a href="https://margaretwheatley.com/books-products/books/leadership-new-science/" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://margaretwheatley.com/books-products/books/leadership-new-science/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Leadership and the New Science
                 </a>{" "}
                 (2006)
@@ -475,7 +624,11 @@ const ReadingNonFictionPage = () => {
                 </p>
               </li>
               <li>
-                <a href="https://www.performanceconsultants.com/coaching-for-performance-book" rel="noopener noreferrer" target="_blank">
+                <a
+                  href="https://www.performanceconsultants.com/coaching-for-performance-book"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   Coaching for Performance
                 </a>{" "}
                 (2017)
@@ -491,7 +644,7 @@ const ReadingNonFictionPage = () => {
 
         <section>
           <div className="booksToRead">
-            <h3>And on my "to-read" pile...</h3>
+            <h3>And on my &quot;to-read&quot; pile...</h3>
             <ul>
               <li>
                 <em>Getting Things Done</em> (2001) by David Allen

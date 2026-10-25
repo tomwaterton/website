@@ -16,13 +16,13 @@ const IndexPage = () => {
         <section className="home-hero row">
           <div className="column">
             <p className="home-hero__eyebrow">Senior Designer</p>
-            <h1 className="home-hero__name">Hi, I'm Tom 👋</h1>
+            <h1 className="home-hero__name">Hi, I&apos;m Tom 👋</h1>
             <p className="home-hero__intro">
               I design clear, user-centred digital products and experiences. I
               have over <Link to="/experience">15 years of experience</Link>{" "}
-              working for one of the world's leading enterprise software
-              companies (IBM), where I've honed my skills in content design, UX
-              design, and more recently in AI tooling design.
+              working for one of the world&apos;s leading enterprise software
+              companies (IBM), where I&apos;ve honed my skills in content
+              design, UX design, and more recently in AI tooling design.
             </p>
             <p className="home-hero__links">
               <Link className="home-hero__cta" to="/portfolio">

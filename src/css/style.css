@@ -20,7 +20,6 @@
 
 /* This parent entry contains all on-screen styles */
 @media screen {
-
   /* So when you resize screen, extra space is applied to main... */
   /* ...not to the header or footer */
   main {

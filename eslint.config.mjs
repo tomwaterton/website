@@ -24,6 +24,7 @@ export default [
       globals: {
         window: "readonly",
         document: "readonly",
+        URLSearchParams: "readonly",
         navigator: "readonly",
         console: "readonly",
         process: "readonly",
@@ -52,7 +53,7 @@ export default [
       ...jsxA11y.configs.recommended.rules,
       quotes: ["error", "double"],
       "react/jsx-sort-props": ["error"],
-      "react/prop-types": "warn",
+      "react/prop-types": "off",
       "react/react-in-jsx-scope": "off"
     },
     settings: {

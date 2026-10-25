@@ -14,9 +14,9 @@ const FamilyPage = () => {
             <h1>Family</h1>
             <p>
               <em>
-                Family. There's nothing quite like it. A collection of people
-                closely connected by genetics, name, home life, and all manner
-                of endearing eccentricities.
+                Family. There&apos;s nothing quite like it. A collection of
+                people closely connected by genetics, name, home life, and all
+                manner of endearing eccentricities.
               </em>
             </p>
             <p>
@@ -29,12 +29,12 @@ const FamilyPage = () => {
             <p>
               <em>
                 My wonderful wife and two amazing daughters mean everything to
-                me. They're my fellow adventurers in life — and they continue to
-                surprise, delight, inspire, confuse, and amuse me.
+                me. They&apos;re my fellow adventurers in life — and they
+                continue to surprise, delight, inspire, confuse, and amuse me.
               </em>
             </p>
             <p>
-              <em>Here's to family!</em>
+              <em>Here&apos;s to family!</em>
             </p>
             <p>&nbsp;</p>
             <p>
@@ -53,7 +53,6 @@ const FamilyPage = () => {
             </p>
           </div>
         </section>
-
       </ContentWidth>
     </Layout>
   );
