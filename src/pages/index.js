@@ -4,9 +4,6 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
 import TomPhoto from "../images/index/Tom_Waterton2.png";
-import AIImage from "../images/portfolio/AI_assistant.png";
-import ContentImage from "../images/portfolio/Carbon_guidance.png";
-import UXImage from "../images/portfolio/Event_Streams_UI.png";
 
 const IndexPage = () => {
   return (
@@ -65,7 +62,7 @@ const IndexPage = () => {
               <img
                 alt="Screenshot of an AI assistant interface"
                 className="home-card__image"
-                src={AIImage}
+                src="/images/portfolio/AI_assistant.png"
               />
               <div className="home-card__body">
                 <h3 className="home-card__title">AI tooling design</h3>
@@ -88,7 +85,7 @@ const IndexPage = () => {
               <img
                 alt="Screenshot of a UX design project"
                 className="home-card__image"
-                src={UXImage}
+                src="/images/portfolio/Event_Streams_UI.png"
               />
               <div className="home-card__body">
                 <h3 className="home-card__title">UX design</h3>
@@ -111,7 +108,7 @@ const IndexPage = () => {
               <img
                 alt="Screenshot of content design guidance"
                 className="home-card__image"
-                src={ContentImage}
+                src="/images/portfolio/Carbon_guidance.png"
               />
               <div className="home-card__body">
                 <h3 className="home-card__title">Content design</h3>
