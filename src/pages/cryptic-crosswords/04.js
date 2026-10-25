@@ -52,6 +52,6 @@ export default Crossword_04Page;
 export const Head = () => (
   <Seo
     description="Cryptic crossword #04 by Meles aka Tom Waterton (tomwaterton.com)"
-    title="Tom Waterton's website: Cryptic crossword #04"
+    title="Cryptic crossword #04 – Tom Waterton"
   />
 );

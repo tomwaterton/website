@@ -136,6 +136,21 @@ export default IndexPage;
 export const Head = () => (
   <Seo
     description="Tom Waterton is a Senior Designer at IBM, with 15+ years of experience in AI tooling design, UX design, and content design."
-    title="Tom Waterton — Senior Designer"
-  />
+    title="Tom Waterton – Senior Designer"
+  >
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Tom Waterton",
+        jobTitle: "Senior Designer",
+        url: "https://tomwaterton.com",
+        sameAs: [
+          "https://www.linkedin.com/in/tomwaterton/",
+          "https://twitter.com/tomwaterton",
+          "https://github.com/tomwaterton"
+        ]
+      })}
+    </script>
+  </Seo>
 );

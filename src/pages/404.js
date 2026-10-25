@@ -89,6 +89,6 @@ export default NotFoundPage;
 export const Head = () => (
   <Seo
     description="404: The page you're looking for can't be found."
-    title="404: Page not found"
+    title="404: Page not found – Tom Waterton"
   />
 );

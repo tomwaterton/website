@@ -176,9 +176,30 @@ export default PatentsPage;
 
 export const Head = () => (
   <Seo
-    description="Tom Waterton's inventions and patents — including 19 issued patents, publications on IP.com, and the honorary IBM Master Inventor title awarded in 2021."
-    title="Inventing & Patents – Tom Waterton"
-  />
+    description="Tom Waterton's inventions and patents — including multiple issued patents, publications on IP.com, and the honorary IBM Master Inventor title awarded in 2021."
+    title="Patents and inventions – Tom Waterton"
+  >
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://tomwaterton.com"
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Patents and inventions",
+            item: "https://tomwaterton.com/inventing/"
+          }
+        ]
+      })}
+    </script>
+  </Seo>
 );
 
 const RenderOtherInventions = ({ inventions }) => {

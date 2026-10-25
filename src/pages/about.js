@@ -143,5 +143,40 @@ export const Head = () => (
   <Seo
     description="About Tom Waterton — Senior Designer, with 15+ years of experience at IBM, working in AI tooling design, UX design, and content design."
     title="About me – Tom Waterton"
-  />
+  >
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Tom Waterton",
+        jobTitle: "Senior Designer",
+        url: "https://tomwaterton.com",
+        sameAs: [
+          "https://www.linkedin.com/in/tomwaterton/",
+          "https://twitter.com/tomwaterton",
+          "https://github.com/tomwaterton"
+        ]
+      })}
+    </script>
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://tomwaterton.com"
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "About me",
+            item: "https://tomwaterton.com/about/"
+          }
+        ]
+      })}
+    </script>
+  </Seo>
 );

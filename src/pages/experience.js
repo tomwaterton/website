@@ -180,5 +180,26 @@ export const Head = () => (
   <Seo
     description="Tom Waterton's work experience and skills as a Senior Designer working at IBM, covering AI tooling design, UX design, and content design."
     title="Experience and skills – Tom Waterton"
-  />
+  >
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://tomwaterton.com"
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Experience and skills",
+            item: "https://tomwaterton.com/experience/"
+          }
+        ]
+      })}
+    </script>
+  </Seo>
 );

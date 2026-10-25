@@ -34,21 +34,30 @@ export const Seo = ({ title, author, description, pathname, children }) => {
       <meta content={seo.title} property="og:title" />
       <meta content={seo.description} property="og:description" />
       <meta content={seo.image} property="og:image" />
+      <meta
+        content="Screenshot of Tom Waterton's website homepage, showing the heading 'Senior Designer', a short introduction, a profile photo of Tom, and cards for AI tooling design, UX design, and content design."
+        property="og:image:alt"
+      />
       <meta content={seo.url} property="og:url" />
       <meta content="website" property="og:type" />
+      <meta content="Tom Waterton" property="og:site_name" />
+      <meta content="en_GB" property="og:locale" />
       {/* Twitter Card */}
       <meta content="summary_large_image" name="twitter:card" />
       <meta content={seo.title} name="twitter:title" />
       <meta content={seo.url} name="twitter:url" />
       <meta content={seo.description} name="twitter:description" />
       <meta content={seo.image} name="twitter:image" />
+      {/* Describes the single shared site preview image — update if the image changes */}
       <meta
         content="Screenshot of Tom Waterton's website homepage, showing the heading 'Senior Designer', a short introduction, a profile photo of Tom, and cards for AI tooling design, UX design, and content design."
         name="twitter:image:alt"
       />
+      <meta content={seo.twitterUsername} name="twitter:site" />
       <meta content={seo.twitterUsername} name="twitter:creator" />
       <meta content="188022199" name="twitter:creator:id" />
-      <link href={TypewriterIllustration} rel="icon" />
+      <link href="/favicon.ico" rel="icon" sizes="32x32" />
+      <link href={TypewriterIllustration} rel="icon" type="image/svg+xml" />
       {children}
     </>
   );
