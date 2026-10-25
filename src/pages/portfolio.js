@@ -151,7 +151,7 @@ export default PortfolioPage;
 
 export const Head = () => (
   <Seo
-    description="Portfolio of AI tooling design, UX design, and content design work by Tom Waterton, Senior UX / Content Designer at IBM."
+    description="Portfolio of AI tooling design, UX design, and content design work by Tom Waterton, Senior Designer."
     title="Portfolio – Tom Waterton"
   />
 );

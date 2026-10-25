@@ -148,8 +148,8 @@ const ReadingNonFictionPage = () => {
                 (2017)
                 <span className="black-text"> by Sarah Richards</span>
                 <p>
-                  I work as a Content Designer, so it’s perhaps no surprise that
-                  I’m a big fan of this little book.
+                  I spent several years working as a Content Designer, so it’s
+                  perhaps no surprise that I’m a big fan of this little book.
                 </p>
               </li>
               <li>

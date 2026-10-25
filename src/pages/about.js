@@ -18,7 +18,7 @@ const AboutPage = () => {
             <h1>About me</h1>
             <p>Hi, I'm Tom 👋</p>
             <p>
-              I'm a <strong>Senior UX / Content Designer</strong> at{" "}
+              I'm a <strong>Senior Designer</strong> at{" "}
               <a
                 href="https://www.ibm.com/"
                 rel="noopener noreferrer"
@@ -141,7 +141,7 @@ export default AboutPage;
 
 export const Head = () => (
   <Seo
-    description="About Tom Waterton — Senior UX / Content Designer at IBM, with 15+ years of experience in AI tooling design, UX design, and content design."
+    description="About Tom Waterton — Senior Designer, with 15+ years of experience at IBM, working in AI tooling design, UX design, and content design."
     title="About me – Tom Waterton"
   />
 );

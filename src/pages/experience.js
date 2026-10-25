@@ -178,7 +178,7 @@ export default ExperiencePage;
 
 export const Head = () => (
   <Seo
-    description="Tom Waterton's work experience and skills as a Senior UX / Content Designer at IBM, covering AI tooling design, UX design, and content design."
+    description="Tom Waterton's work experience and skills as a Senior Designer working at IBM, covering AI tooling design, UX design, and content design."
     title="Experience and skills – Tom Waterton"
   />
 );

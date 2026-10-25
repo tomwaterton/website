@@ -15,9 +15,7 @@ const IndexPage = () => {
         {/* Hero */}
         <section className="home-hero row">
           <div className="column">
-            <p className="home-hero__eyebrow">
-              Senior AI / UX / Content Designer · IBM
-            </p>
+            <p className="home-hero__eyebrow">Senior Designer</p>
             <h1 className="home-hero__name">Hi, I'm Tom 👋</h1>
             <p className="home-hero__intro">
               I design clear, user-centred digital products and experiences. I
@@ -140,7 +138,7 @@ export default IndexPage;
 
 export const Head = () => (
   <Seo
-    description="Tom Waterton is a Senior UX / Content Designer at IBM, with 15+ years of experience in AI tooling design, UX design, and content design."
-    title="Tom Waterton — Senior UX / Content Designer"
+    description="Tom Waterton is a Senior Designer at IBM, with 15+ years of experience in AI tooling design, UX design, and content design."
+    title="Tom Waterton — Senior Designer"
   />
 );

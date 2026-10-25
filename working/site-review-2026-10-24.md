@@ -122,10 +122,14 @@ The site is in good shape. The content is distinctive, the testimonials are stro
 - **Grey text contrast** — plain `grey`/`gray` (`#808080`, 3.95:1) changed to `#6f6f6f` (5.02:1) in `reading.css`, `inventing.css`, `animated-count.css` and `recommended-books.css`. Checked in the dev build by the site owner.
 - **Dash-style lists** — unordered lists on `/about`, `/experience`, `/inventing`, `/recommended-books`, `/dog` and `/about-this-site` now use the same "– " marker as `/reading` (earlier in the session; a `.ul-dash` utility class was added).
 
+### Fixed (session of 2026-10-25)
+
+- **Job title consistency** — the homepage eyebrow now reads "Senior Designer" (the dot and "IBM" removed; the existing CSS uppercases it). The page title and meta descriptions in `index.js`, `about.js`, `portfolio.js` and `experience.js`, and the About page sentence, were updated to match (text edits made by the site owner). The Experience job history was deliberately left as the factual record ("Senior UX / Content Designer", Apr 2024 – Jun 2026).
+- **Social preview image** — `static/images/site_preview.png` was a 2023 screenshot of an old version of the site. Replaced with a new 1200 × 630 homepage screenshot, compressed from 314KB to 84KB with `sharp` (flattened transparency, 256-colour palette). `twitter:image:alt` in `src/components/seo.jsx` now describes the new image. Previews are cached by LinkedIn and others, so a refresh via LinkedIn's Post Inspector may be needed after deploying.
+
 ### Still to do
 
 **Quick**
-- Make the job title consistent across the site (homepage eyebrow, titles/meta descriptions, Experience page).
 - Remove the dead `optimize_id: "OPT_CONTAINER_ID"` placeholder in `gatsby-config.js`.
 - Fix `ContentWidth` rendering the class `"fullWidth null"`; remove the unused `bgColour` prop.
 - Replace the nav `fa fa-caret-down` icons (Font Awesome is not loaded, so nothing renders) with a CSS or SVG caret.

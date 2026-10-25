@@ -43,7 +43,7 @@ export const Seo = ({ title, author, description, pathname, children }) => {
       <meta content={seo.description} name="twitter:description" />
       <meta content={seo.image} name="twitter:image" />
       <meta
-        content="Screenshot of Tom Waterton's website homepage. The homepage features a profile image of Tom and brief description of what can be found on the website."
+        content="Screenshot of Tom Waterton's website homepage, showing the heading 'Senior Designer', a short introduction, a profile photo of Tom, and cards for AI tooling design, UX design, and content design."
         name="twitter:image:alt"
       />
       <meta content={seo.twitterUsername} name="twitter:creator" />
