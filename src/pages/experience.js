@@ -15,7 +15,7 @@ const ExperiencePage = () => {
             <p>
               I was one of the first Content Designers employed by IBM Design,
               and have spent 15+ years building expertise across content design,
-              UX design, and — more recently — AI tooling design. Over time
+              UX design, and, more recently, AI tooling design. Over time
               I&apos;ve progressed to broader roles, taking on UX
               responsibilities and working on IBM Software-wide projects.
             </p>
