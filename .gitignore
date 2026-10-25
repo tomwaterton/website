@@ -15,3 +15,6 @@ now.json
 
 # IBM Bob AI assistant config (machine-local, not for version control)
 .bob/
+
+# Local site-review working files (not for the public repo)
+/working/
