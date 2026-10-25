@@ -91,35 +91,37 @@ function Header() {
         </div>
 
         {/* Desktop nav */}
-        <div className="navbar desktop-only">
-          <Dropdown label="About">
-            <Link to="/about">About me</Link>
-            <Link to="/articles">Articles</Link>
-            <Link to="/speaking">Speaking</Link>
-            <Link to="/testimonials">Testimonials</Link>
-          </Dropdown>
-        </div>
+        <nav aria-label="Site navigation" className="desktop-only">
+          <div className="navbar">
+            <Dropdown label="About">
+              <Link to="/about">About me</Link>
+              <Link to="/articles">Articles</Link>
+              <Link to="/speaking">Speaking</Link>
+              <Link to="/testimonials">Testimonials</Link>
+            </Dropdown>
+          </div>
 
-        <div className="navbar desktop-only">
-          <Dropdown label="Work">
-            <Link to="/experience">Experience and skills</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/inventing">Inventing</Link>
-            <Link to="/recommended-books">Recommended books</Link>
-          </Dropdown>
-        </div>
+          <div className="navbar">
+            <Dropdown label="Work">
+              <Link to="/experience">Experience and skills</Link>
+              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/inventing">Inventing</Link>
+              <Link to="/recommended-books">Recommended books</Link>
+            </Dropdown>
+          </div>
 
-        <div className="navbar desktop-only">
-          <Dropdown label="Fun">
-            <Link to="/brewing">Brewing</Link>
-            <Link to="/cryptic-crosswords">Cryptic crosswords</Link>
-            <Link to="/family">Family</Link>
-            <Link to="/dog">Our dog</Link>
-            <Link to="/reading">Reading fiction</Link>
-          </Dropdown>
-        </div>
+          <div className="navbar">
+            <Dropdown label="Fun">
+              <Link to="/brewing">Brewing</Link>
+              <Link to="/cryptic-crosswords">Cryptic crosswords</Link>
+              <Link to="/family">Family</Link>
+              <Link to="/dog">Our dog</Link>
+              <Link to="/reading">Reading fiction</Link>
+            </Dropdown>
+          </div>
 
-        <div className="header-spacer desktop-only">&nbsp;</div>
+          <div className="header-spacer">&nbsp;</div>
+        </nav>
 
         {/* Mobile hamburger button */}
         <button

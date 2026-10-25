@@ -26,6 +26,10 @@
     flex-grow: 1;
   }
 
+  main:focus {
+    outline: none;
+  }
+
   .pageWrapper {
     display: flex;
     flex-direction: column;

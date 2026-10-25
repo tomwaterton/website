@@ -10,9 +10,15 @@ import github from "../images/footer/github.svg";
 function Layout(props) {
   return (
     <div className="pageWrapper">
+      <a className="skip-link do-not-print" href="#main-content">
+        Skip to main content
+      </a>
+
       <Header />
 
-      <main>{props.children}</main>
+      <main id="main-content" tabIndex="-1">
+        {props.children}
+      </main>
 
       <footer className="footer do-not-print">
         <div className="footerContainer">
