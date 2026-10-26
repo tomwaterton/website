@@ -2,7 +2,7 @@ import React from "react";
 import { Seo } from "../components/seo";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import AboutIllustration from "../images/about-this-site/about.jpg";
+import AboutIllustration from "../images/about-this-site/IDE.png";
 
 const AboutThisSitePage = () => {
   return (
@@ -13,17 +13,17 @@ const AboutThisSitePage = () => {
             <h1>About this site</h1>
             <p>
               <em>
-                I&apos;m not a formal web developer, but I like to learn new
-                things. So a few years back I set myself the challenge of
-                creating my own website from scratch, and this was the result —
-                and I&apos;ve enjoyed tinkering with it ever since!
+                A few years back I set myself the challenge of creating my own
+                website from scratch, and this was the result — and I&apos;ve
+                enjoyed tinkering with it ever since.
               </em>
             </p>
             <p>
               <em>
-                Here you&apos;ll find some information about my work as a
-                designer, as well as some of my thoughts, hobbies, and
-                interests.
+                You&apos;ll find some information <a href="/about">about me</a>,
+                my <a href="/experience">experience and skills</a>, my{" "}
+                <a href="/portfolio">portfolio</a>, as well as some of my{" "}
+                <a href="/articles">articles</a>, hobbies, and interests.
               </em>
             </p>
             <p className="padding-bottom-small">
@@ -32,7 +32,7 @@ const AboutThisSitePage = () => {
           </div>
           <div className="column">
             <img
-              alt="Website construction illustration"
+              alt="Screenshot of my IDE"
               className="block tilt-landscape-left"
               src={AboutIllustration}
             />
@@ -44,7 +44,7 @@ const AboutThisSitePage = () => {
             <h2>Technical details</h2>
             <ul className="ul-dash padding-bottom">
               <li>
-                I built this site using the free and open source{" "}
+                I built this site using the open source{" "}
                 <a
                   href="https://www.gatsbyjs.org/"
                   rel="noopener noreferrer"
@@ -52,26 +52,18 @@ const AboutThisSitePage = () => {
                 >
                   Gatsby
                 </a>{" "}
-                React framework.
+                React-based web development framework.
               </li>
               <li>
-                I started by using the{" "}
+                More recently, I&apos;ve started using AI tools such as{" "}
                 <a
-                  href="https://tailwindcss.com/"
+                  href="https://bob.ibm.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Tailwind
+                  IBM Bob
                 </a>{" "}
-                utility-first CSS framework and their{" "}
-                <a
-                  href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Gatsby starter theme
-                </a>
-                .
+                when further developing the site.
               </li>
               <li>
                 I use{" "}
@@ -104,21 +96,9 @@ const AboutThisSitePage = () => {
                 >
                   Google Analytics
                 </a>{" "}
-                to analyse site traffic.
+                to analyse site traffic. (Thanks to both my visitors 😉)
               </li>
             </ul>
-            <p className="padding-bottom-small">
-              Props to the talented{" "}
-              <a
-                href="https://www.linkedin.com/in/peter-loveland-75a73294/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Peter Loveland
-              </a>{" "}
-              🙌 &nbsp;for his initial Gatsby help (and puns) as I was
-              developing the site.
-            </p>
             <p>
               If you spot any bugs 🐛 or simply want to say hello, please do{" "}
               <a href="mailto:tomwaterton@gmail.com?Subject=Re%20your%20website">
