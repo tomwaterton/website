@@ -40,7 +40,8 @@
   "overrides": {
     "msgpackr": "^1.11.14",
     "lodash": "^4.18.1",
-    "serialize-javascript": "^7.1.3"
+    "serialize-javascript": "^7.1.3",
+    "tmp": "^0.2.6"
   },
   "keywords": [
     "articles",
