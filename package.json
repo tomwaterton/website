@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "gatsby": "^5.16.1",
-    "gatsby-cli": "^5.14.0",
     "gatsby-plugin-cname": "^1.0.0",
     "gatsby-plugin-google-gtag": "^5.16.0",
     "gatsby-plugin-manifest": "^5.16.0",
@@ -20,8 +19,6 @@
     "gatsby-source-filesystem": "^5.16.0",
     "gatsby-transformer-json": "^5.16.0",
     "graphql": "^16.14.2",
-    "immutable": "^4.3.9",
-    "parse-url": "^9.2.0",
     "prop-types": "15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -30,27 +27,16 @@
     "@babel/core": "^7.29.7",
     "@babel/eslint-parser": "^7.29.9",
     "@babel/preset-react": "^7.29.7",
-    "@typescript-eslint/eslint-plugin": "^8.72.0",
-    "@typescript-eslint/parser": "^8.72.0",
-    "ajv": "^8.20.0",
-    "body-parser": "^1.20.9",
-    "cookie": "^1.1.1",
     "cssnano": "^7.1.9",
-    "engine.io": "^6.6.11",
     "eslint": "9.39.2",
-    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.1.0",
     "gh-pages": "^6.3.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
-    "minimatch": "^10.2.6",
     "prettier": "^3.9.10",
-    "semver": "^7.8.5",
-    "sharp": "^0.35.5",
-    "tailwindcss": "^3.4.19",
-    "typescript": "^5.9.3"
+    "tailwindcss": "^3.4.19"
   },
   "overrides": {
     "msgpackr": "^1.11.14"
