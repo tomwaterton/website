@@ -36,7 +36,7 @@ const SpeakingPage = () => {
               .
             </p>
           </div>
-          <div className="column">
+          <div className="column speaking-photo-column">
             <img
               alt="A microphone with auditorium in the background"
               className="block tilt-landscape-left"

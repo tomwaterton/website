@@ -70,6 +70,7 @@
     "analyze:prettier": "prettier --check .",
     "analyze": "npm run analyze:lint && npm run analyze:prettier",
     "build": "gatsby build",
+    "clean": "gatsby clean",
     "dev": "gatsby develop",
     "fix:lint": "eslint . --fix",
     "fix:prettier": "prettier --write .",

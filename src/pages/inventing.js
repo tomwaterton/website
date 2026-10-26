@@ -46,7 +46,7 @@ const PatentsPage = ({ data }) => {
               </li>
             </ul>
           </div>
-          <div className="column">
+          <div className="column inventing-photo-column">
             <img
               alt="My IBM Master Inventor framed certificate"
               className="block tilt-portrait-right"

@@ -1,3 +1,10 @@
+/* Hide the microphone photo once the columns wrap (two 20rem columns + 2rem container padding) */
+@media only screen and (max-width: 671px) {
+  .speaking-photo-column {
+    display: none;
+  }
+}
+
 .speaking li {
   padding-bottom: 0.5rem;
 }

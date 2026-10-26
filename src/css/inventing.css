@@ -1,3 +1,10 @@
+/* Hide the MI certificate photo once the columns wrap (two 20rem columns + 2rem container padding) */
+@media only screen and (max-width: 671px) {
+  .inventing-photo-column {
+    display: none;
+  }
+}
+
 .date {
   font-style: italic;
   font-size: 0.9rem;
