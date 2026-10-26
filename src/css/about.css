@@ -14,11 +14,11 @@
 .about-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 0;
+  row-gap: 2rem;
 }
 
 .about-section {
-  padding: 10px;
+  padding: 0 10px;
 }
 
 /* Extra breathing room below h2 subheadings */
@@ -26,8 +26,10 @@
   padding-bottom: 0.5rem;
 }
 
+/* Padding on the photo container to counteract the tilt border and shadow extending beyond the layout box */
 .about-section--photo {
-  padding-top: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 /* Override the shared tilt-portrait max-height for the About page photo only */
@@ -36,11 +38,22 @@
 }
 
 @media only screen and (min-width: 720px) {
+  /* Keeps photo top-aligned to heading in column 1 on desktop */
+  .about-section--photo > .tilt-portrait-left,
+  .about-section--photo > .tilt-portrait-right {
+    margin-top: 2rem;
+  }
+
   .about-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     align-items: start;
     column-gap: 2rem;
+    row-gap: 2rem;
+  }
+
+  .about-section {
+    padding: 10px;
   }
 
   .about-grid__about {

@@ -185,9 +185,7 @@
   .column > .tilt-landscape-left,
   .column > .tilt-landscape-right,
   .column > .tilt-portrait-left,
-  .column > .tilt-portrait-right,
-  .about-section--photo > .tilt-portrait-left,
-  .about-section--photo > .tilt-portrait-right {
+  .column > .tilt-portrait-right {
     margin-top: 2rem;
   }
 
