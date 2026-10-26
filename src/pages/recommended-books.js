@@ -17,9 +17,14 @@ const ReadingNonFictionPage = () => {
             <p>
               <em>
                 Some of the work-related non-fiction that I&apos;ve read over
-                the last few years. For each book I’ve provided a link to
-                further information and written a one-sentence description.
+                the last few years. For each book I&apos;ve provided a link to
+                further information and written a one-sentence description. (For
+                non-work / leisure book recommendations, see my{" "}
+                <Link to="/reading">reading fiction</Link> page.)
               </em>
+            </p>
+            <p>
+              <em>On this page:</em>
             </p>
             <ul className="ul-small do-not-print">
               <li>
@@ -29,12 +34,6 @@ const ReadingNonFictionPage = () => {
                 <a href="#non-fiction">Design / growth / leadership books</a>
               </li>
             </ul>
-            <p>
-              <em>
-                If you also enjoy reading fiction, do check out{" "}
-                <Link to="/reading">this page</Link>.
-              </em>
-            </p>
           </div>
           <div className="column">
             <img
