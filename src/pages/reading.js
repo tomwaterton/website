@@ -73,32 +73,42 @@ const ReadingFictionPage = ({ data }) => {
           <div className="flex float-right" id="myBtnContainer">
             <div className="filterButtonContainer">
               <button
-                className={`btn ${filter === "all" ? "active" : null}`}
+                aria-pressed={filter === "all"}
+                className={filter === "all" ? "btn active" : "btn"}
                 onClick={() => setFilter("all")}
+                type="button"
               >
                 All fiction read
               </button>
               <button
-                className={`btn ${filter === "favourite" ? "active" : null}`}
+                aria-pressed={filter === "favourite"}
+                className={filter === "favourite" ? "btn active" : "btn"}
                 onClick={() => setFilter("favourite")}
+                type="button"
               >
                 My 25 favourites
               </button>
               <button
-                className={`btn ${filter === "re-read" ? "active" : null}`}
+                aria-pressed={filter === "re-read"}
+                className={filter === "re-read" ? "btn active" : "btn"}
                 onClick={() => setFilter("re-read")}
+                type="button"
               >
                 Read more than once
               </button>
               <button
-                className={`btn ${filter === "shorts" ? "active" : null}`}
+                aria-pressed={filter === "shorts"}
+                className={filter === "shorts" ? "btn active" : "btn"}
                 onClick={() => setFilter("shorts")}
+                type="button"
               >
                 Short story collections
               </button>
               <button
-                className={`btn ${filter === "play" ? "active" : null}`}
+                aria-pressed={filter === "play"}
+                className={filter === "play" ? "btn active" : "btn"}
                 onClick={() => setFilter("play")}
+                type="button"
               >
                 Plays
               </button>

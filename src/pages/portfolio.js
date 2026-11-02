@@ -64,9 +64,11 @@ const PortfolioPage = ({ data, location }) => {
           <div className="filterButtonContainer" id="myBtnContainer">
             {FILTERS.map(({ key, label }) => (
               <button
-                className={`btn ${filter === key ? "active" : ""}`}
+                aria-pressed={filter === key}
+                className={filter === key ? "btn active" : "btn"}
                 key={key}
                 onClick={() => setFilter(key)}
+                type="button"
               >
                 {label}
               </button>

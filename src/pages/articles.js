@@ -32,44 +32,58 @@ const ArticlesPage = ({ data }) => {
           <div className="flex float-right" id="myBtnContainer">
             <div className="filterButtonContainer">
               <button
-                className={`btn ${filter === "all" ? "active" : null}`}
+                aria-pressed={filter === "all"}
+                className={filter === "all" ? "btn active" : "btn"}
                 onClick={() => setFilter("all")}
+                type="button"
               >
                 All articles
               </button>
               <button
-                className={`btn ${filter === "brewing" ? "active" : null}`}
+                aria-pressed={filter === "brewing"}
+                className={filter === "brewing" ? "btn active" : "btn"}
                 onClick={() => setFilter("brewing")}
+                type="button"
               >
                 Brewing
               </button>
               <button
-                className={`btn ${filter === "comms" ? "active" : null}`}
+                aria-pressed={filter === "comms"}
+                className={filter === "comms" ? "btn active" : "btn"}
                 onClick={() => setFilter("comms")}
+                type="button"
               >
                 Communication
               </button>
               <button
-                className={`btn ${filter === "content" ? "active" : null}`}
+                aria-pressed={filter === "content"}
+                className={filter === "content" ? "btn active" : "btn"}
                 onClick={() => setFilter("content")}
+                type="button"
               >
                 Content
               </button>
               <button
-                className={`btn ${filter === "culture" ? "active" : null}`}
+                aria-pressed={filter === "culture"}
+                className={filter === "culture" ? "btn active" : "btn"}
                 onClick={() => setFilter("culture")}
+                type="button"
               >
                 Culture
               </button>
               <button
-                className={`btn ${filter === "design" ? "active" : null}`}
+                aria-pressed={filter === "design"}
+                className={filter === "design" ? "btn active" : "btn"}
                 onClick={() => setFilter("design")}
+                type="button"
               >
                 Design
               </button>
               <button
-                className={`btn ${filter === "growth" ? "active" : null}`}
+                aria-pressed={filter === "growth"}
+                className={filter === "growth" ? "btn active" : "btn"}
                 onClick={() => setFilter("growth")}
+                type="button"
               >
                 Growth
               </button>
