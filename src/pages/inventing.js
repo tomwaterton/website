@@ -22,14 +22,13 @@ const PatentsPage = ({ data }) => {
             <p>
               <em>
                 I&apos;ve always enjoyed problem solving and inventing. This
-                page lists some of my technical inventions. My Google Scholar
-                profile can be found{" "}
+                page lists some of my technical inventions. You can also view my{" "}
                 <a
                   href="https://scholar.google.com/citations?user=9tBYOcgAAAAJ&hl=en"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  here
+                  Google Scholar profile
                 </a>
                 .
               </em>
