@@ -114,15 +114,9 @@ const PatentsPage = ({ data }) => {
             <p>
               <em>
                 In October 2021 I was awarded the honorary title of{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/IBM_Master_Inventor"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  IBM Master Inventor
-                </a>{" "}
-                in recognition of my ongoing contribution to IBM&apos;s patent
-                portfolio and inventing community. Link to this{" "}
+                <strong>IBM Master Inventor</strong> in recognition of my
+                ongoing contribution to IBM&apos;s patent portfolio and
+                inventing community. Link to this{" "}
                 <a
                   href="https://www.credly.com/badges/6f04d3d0-ded1-43ba-a6a8-6253e6ee4bda"
                   rel="noopener noreferrer"

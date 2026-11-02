@@ -81,7 +81,7 @@ const ReadingNonFictionPage = () => {
               </li>
               <li>
                 <a
-                  href="https://www.contentstrategy.com/content-strategy-for-the-web"
+                  href="https://www.oreilly.com/library/view/content-strategy-for/9780132883269/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -609,7 +609,7 @@ const ReadingNonFictionPage = () => {
               </li>
               <li>
                 <a
-                  href="https://margaretwheatley.com/books-products/books/leadership-new-science/"
+                  href="https://margaretwheatley.com/books/leadership-and-the-new-science/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
