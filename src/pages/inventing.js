@@ -33,6 +33,9 @@ const PatentsPage = ({ data }) => {
                 .
               </em>
             </p>
+            <p>
+              <em>On this page:</em>
+            </p>
             <ul className="ul-small do-not-print">
               <li>
                 <a href="#patents">Patents</a>

@@ -88,6 +88,21 @@
     text-decoration: underline;
   }
 
+  /* Subtle dotted underline for inline links within text blocks */
+  p a,
+  .ul-dash a,
+  .portfolio-card__bullets a {
+    text-decoration: underline dotted #94a3b8;
+    text-underline-offset: 3px;
+  }
+
+  p a:hover,
+  .ul-dash a:hover,
+  .portfolio-card__bullets a:hover {
+    text-decoration-style: solid;
+    text-decoration-color: #004fcc;
+  }
+
   h1 {
     font-size: 2rem;
     font-weight: 500;
