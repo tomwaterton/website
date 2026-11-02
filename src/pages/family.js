@@ -3,7 +3,7 @@ import { Seo } from "../components/seo";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import ContentWidth from "../components/contentWidth";
-import AI_family from "../images/family/AI-family.png";
+import AI_family from "../images/family/AI-family.jpg";
 
 const FamilyPage = () => {
   return (

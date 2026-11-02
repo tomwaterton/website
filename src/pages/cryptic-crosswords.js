@@ -82,7 +82,11 @@ class CrosswordTile extends React.Component {
               <img
                 alt={this.props.title}
                 className="article-thumbnail"
+                decoding="async"
+                height="500"
+                loading="lazy"
                 src={`../images/crosswords/${this.props.image}`}
+                width="1000"
               />
             </a>
           </div>

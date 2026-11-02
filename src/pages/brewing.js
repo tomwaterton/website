@@ -74,6 +74,8 @@ const BrewingPage = () => {
               <img
                 alt="My brewing kit"
                 className="inTilePhoto"
+                decoding="async"
+                loading="lazy"
                 src={brewing_kit_photo}
               />
             </div>
@@ -98,6 +100,8 @@ const BrewingPage = () => {
               <img
                 alt="Adding hops to the wort"
                 className="inTilePhoto"
+                decoding="async"
+                loading="lazy"
                 src={adding_hops_photo}
               />
             </div>
@@ -119,6 +123,8 @@ const BrewingPage = () => {
               <img
                 alt="Beer glasses"
                 className="inTilePhoto"
+                decoding="async"
+                loading="lazy"
                 src={sharing_beer_photo}
               />
             </div>

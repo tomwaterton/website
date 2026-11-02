@@ -153,7 +153,11 @@ const ArticleTile = ({ title, subTitle, url, image, mins, date }) => {
             <img
               alt={`Thumbnail for: ${title}`}
               className="article-thumbnail"
+              decoding="async"
+              height="500"
+              loading="lazy"
               src={`/images/articles/${image}`}
+              width="1000"
             />
           </a>
         </div>

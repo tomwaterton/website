@@ -109,6 +109,8 @@ const PortfolioCard = ({ item }) => {
         <img
           alt={item.imageAlt}
           className="portfolio-card__image"
+          decoding="async"
+          loading="lazy"
           src={`/images/portfolio/${item.image}`}
         />
       </div>

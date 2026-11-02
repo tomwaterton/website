@@ -38,13 +38,20 @@ const PatentsPage = ({ data }) => {
             </p>
             <ul className="ul-small do-not-print">
               <li>
-                <a href="#patents">Patents</a>
+                <a href="#patents">
+                  Patents <span aria-hidden="true">&darr;</span>
+                </a>
               </li>
               <li>
-                <a href="#other-inventions">Other (non-patented) inventions</a>
+                <a href="#other-inventions">
+                  Other (non-patented) inventions{" "}
+                  <span aria-hidden="true">&darr;</span>
+                </a>
               </li>
               <li>
-                <a href="#master-inventor">An IBM Master Inventor</a>
+                <a href="#master-inventor">
+                  An IBM Master Inventor <span aria-hidden="true">&darr;</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -133,6 +140,8 @@ const PatentsPage = ({ data }) => {
             <img
               alt="My IBM Master Inventor digital badge"
               className="masterInventor do-not-print"
+              decoding="async"
+              loading="lazy"
               src={MI_digital_badge}
             />
 
@@ -236,7 +245,11 @@ const PatentTile = ({ url, image, title, pending, min, date }) => {
             <img
               alt={`Thumbnail for: ${title}`}
               className="article-thumbnail"
+              decoding="async"
+              height="500"
+              loading="lazy"
               src={`../images/patents/${image}`}
+              width="1000"
             />
           </a>
         </div>

@@ -62,6 +62,8 @@ const IndexPage = () => {
               <img
                 alt="Screenshot of an AI assistant interface"
                 className="home-card__image"
+                decoding="async"
+                loading="lazy"
                 src="/images/portfolio/AI_assistant.png"
               />
               <div className="home-card__body">
@@ -85,6 +87,8 @@ const IndexPage = () => {
               <img
                 alt="Screenshot of a UX design project"
                 className="home-card__image"
+                decoding="async"
+                loading="lazy"
                 src="/images/portfolio/Event_Streams_UI.png"
               />
               <div className="home-card__body">
@@ -108,6 +112,8 @@ const IndexPage = () => {
               <img
                 alt="Screenshot of content design guidance"
                 className="home-card__image"
+                decoding="async"
+                loading="lazy"
                 src="/images/portfolio/Carbon_guidance.png"
               />
               <div className="home-card__body">

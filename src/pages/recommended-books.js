@@ -28,10 +28,16 @@ const ReadingNonFictionPage = () => {
             </p>
             <ul className="ul-small do-not-print">
               <li>
-                <a href="#content">Content design / writing books</a>
+                <a href="#content">
+                  Content design / writing books{" "}
+                  <span aria-hidden="true">&darr;</span>
+                </a>
               </li>
               <li>
-                <a href="#non-fiction">Design / growth / leadership books</a>
+                <a href="#non-fiction">
+                  Design / growth / leadership books{" "}
+                  <span aria-hidden="true">&darr;</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -268,6 +274,8 @@ const ReadingNonFictionPage = () => {
             <img
               alt="Some of the content design / writing books I've enjoyed reading recently"
               className="block panel-images do-not-print"
+              decoding="async"
+              loading="lazy"
               src={Content_books}
             />
           </div>
@@ -666,6 +674,8 @@ const ReadingNonFictionPage = () => {
             <img
               alt="Some of the design / growth / leadership books I've enjoyed reading recently"
               className="block panel-images do-not-print"
+              decoding="async"
+              loading="lazy"
               src={Growth_books}
             />
           </div>

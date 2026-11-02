@@ -106,6 +106,8 @@ const SpeakingPage = () => {
             <img
               alt="Session title slide from the Product Content Strategy event"
               className="conf-images"
+              decoding="async"
+              loading="lazy"
               src={byte_image}
             />
           </div>
@@ -118,6 +120,8 @@ const SpeakingPage = () => {
             <img
               alt="From the Button content conference"
               className="conf-images"
+              decoding="async"
+              loading="lazy"
               src={button_image}
             />
           </div>
@@ -160,6 +164,8 @@ const SpeakingPage = () => {
             <img
               alt="From the Utterly content conference"
               className="conf-images"
+              decoding="async"
+              loading="lazy"
               src={utterly_image}
             />
           </div>
@@ -172,6 +178,8 @@ const SpeakingPage = () => {
             <img
               alt="From the ContentCon conference"
               className="conf-images"
+              decoding="async"
+              loading="lazy"
               src={content_con_image}
             />
           </div>
@@ -228,6 +236,8 @@ const SpeakingPage = () => {
             <img
               alt="From the IBM Think conference"
               className="conf-images"
+              decoding="async"
+              loading="lazy"
               src={think_image}
             />
           </div>
@@ -240,6 +250,8 @@ const SpeakingPage = () => {
             <img
               alt="From the IBM Interconnect conference"
               className="conf-images"
+              decoding="async"
+              loading="lazy"
               src={inter_connect_image}
             />
           </div>

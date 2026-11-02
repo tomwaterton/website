@@ -52,6 +52,8 @@ const DogPage = () => {
             <img
               alt="Our dog Tiffin lying in front of the wood burner"
               className="block tilt-landscape-right do-not-print"
+              decoding="async"
+              loading="lazy"
               src={dog_photo_Fire}
             />
           </div>
@@ -83,6 +85,8 @@ const DogPage = () => {
             <img
               alt="Our dog Tiffin lying in front of the wood burner"
               className="block tilt-landscape-right do-not-print"
+              decoding="async"
+              loading="lazy"
               src={dog_photo_Fire}
             />
           </div>
@@ -123,6 +127,8 @@ const DogPage = () => {
             <img
               alt="Our dog Tiffin with a training dummy in her mouth"
               className="block tilt-landscape-left do-not-print"
+              decoding="async"
+              loading="lazy"
               src={dog_photo_Dummy}
             />
           </div>
@@ -164,6 +170,8 @@ const DogPage = () => {
               <img
                 alt="Our dog Tiffin with her lead in her mouth"
                 className="block tilt-portrait-left-dog do-not-print"
+                decoding="async"
+                loading="lazy"
                 src={dog_photo_Lead}
               />
             </div>
@@ -174,6 +182,8 @@ const DogPage = () => {
               <img
                 alt="Our dog Tiffin on some heathland"
                 className="block tilt-portrait-right-dog do-not-print"
+                decoding="async"
+                loading="lazy"
                 src={dog_photo_Heath}
               />
             </div>
@@ -184,6 +194,8 @@ const DogPage = () => {
               <img
                 alt="Our dog Tiffin with a soft toy duck in her mouth"
                 className="block tilt-portrait-left-dog do-not-print"
+                decoding="async"
+                loading="lazy"
                 src={dog_photo_Duck}
               />
             </div>

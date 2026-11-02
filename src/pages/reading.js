@@ -39,11 +39,7 @@ const ReadingFictionPage = ({ data }) => {
             </p>
             <p>
               <em>
-                You might also be interested in the following related links:
-              </em>
-            </p>
-            <ul className="ul-small do-not-print">
-              <li>
+                You might also be interested in the following:{" "}
                 <a
                   href="https://tomwaterton.medium.com/why-i-read-d044f8a01015"
                   rel="noopener noreferrer"
@@ -51,14 +47,12 @@ const ReadingFictionPage = ({ data }) => {
                 >
                   Why I read
                 </a>{" "}
-                (article)
-              </li>
-              <li>
-                <Link to="/recommended-books">
-                  Recommended non-fiction (writing / design related)
-                </Link>
-              </li>
-            </ul>
+                (article) and the{" "}
+                <Link to="/recommended-books">recommended non-fiction</Link>{" "}
+                page, which covers writing- and design-related books I&apos;ve
+                read.
+              </em>
+            </p>
           </div>
           <div className="column reading-photo-column">
             <img
