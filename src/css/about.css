@@ -107,12 +107,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.625rem;
-  text-decoration: none;
   color: #393939;
-}
-
-.about-contact-list a:hover {
-  text-decoration: underline;
 }
 
 .about-contact-list img {
