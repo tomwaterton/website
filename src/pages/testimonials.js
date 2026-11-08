@@ -8,7 +8,7 @@ import testimonials from "../data/testimonials.json";
 
 const TestimonialsPage = () => {
   return (
-    <Layout fullWidth={true}>
+    <Layout>
       <ContentWidth>
         <section className="row">
           <div className="column">

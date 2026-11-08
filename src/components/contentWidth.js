@@ -1,11 +1,9 @@
 import React from "react";
 
-export default class ContentWidth extends React.Component {
-  render() {
-    return (
-      <div className="fullWidth">
-        <div className="contentContainer">{this.props.children}</div>
-      </div>
-    );
-  }
-}
+const ContentWidth = ({ children }) => (
+  <div className="fullWidth">
+    <div className="contentContainer">{children}</div>
+  </div>
+);
+
+export default ContentWidth;

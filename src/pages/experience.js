@@ -7,7 +7,7 @@ import Tom_at_work_photo from "../images/experience/Tom_at_work.jpg";
 
 const ExperiencePage = () => {
   return (
-    <Layout fullWidth={true}>
+    <Layout>
       <ContentWidth>
         <section className="row">
           <div className="column">

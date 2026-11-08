@@ -90,12 +90,7 @@ const AboutPage = () => {
                   href="mailto:tomwaterton@gmail.com"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    alt="Email icon"
-                    height="24px"
-                    src={email}
-                    width="24px"
-                  />
+                  <img alt="" height="24px" src={email} width="24px" />
                   tomwaterton@gmail.com
                 </a>
               </li>
@@ -105,12 +100,7 @@ const AboutPage = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <img
-                    alt="LinkedIn icon"
-                    height="24px"
-                    src={linkedin}
-                    width="24px"
-                  />
+                  <img alt="" height="24px" src={linkedin} width="24px" />
                   linkedin.com/in/tomwaterton
                 </a>
               </li>
@@ -120,12 +110,7 @@ const AboutPage = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <img
-                    alt="GitHub icon"
-                    height="24px"
-                    src={github}
-                    width="24px"
-                  />
+                  <img alt="" height="24px" src={github} width="24px" />
                   github.com/tomwaterton
                 </a>
               </li>

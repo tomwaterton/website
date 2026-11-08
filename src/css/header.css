@@ -102,7 +102,7 @@
 
 /* The top-left hand navigation menu*/
 .navbar {
-  margin: 0 !important;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -210,7 +210,7 @@
     padding: 12px 12px;
   }
   .headerContainer {
-    justify-content: unset !important;
+    justify-content: unset;
   }
 }
 
@@ -240,7 +240,7 @@
     display: block;
   }
   .desktop-only {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -271,7 +271,7 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #d82286;
-  padding: 0.75rem 0 0.25rem !important;
+  padding: 0.75rem 0 0.25rem;
   margin: 0;
 }
 

@@ -1,23 +1,3 @@
-.container {
-  overflow: hidden;
-}
-
-.filterDiv {
-  float: left;
-  background-color: #2196f3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  display: none; /* Hidden by default */
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
 /* Style the buttons */
 .btn {
   border: 2px solid #d82286;
@@ -42,8 +22,7 @@
 }
 
 /* Active/selected filter — solid filled variant */
-.active,
-.focus {
+.active {
   background-color: #d82286 !important;
   color: #ffffff !important;
   border-color: #d82286 !important;
@@ -54,45 +33,4 @@
 /* Hover on unselected buttons */
 .btn:hover {
   background-color: #fce8f3;
-}
-
-/* To display or hide article blocks */
-.container .filterDiv {
-  display: none;
-}
-
-.container.all .filterDiv {
-  display: block;
-}
-
-.container.digital .digital {
-  display: block;
-}
-
-.container.print .print {
-  display: block;
-}
-
-.container.brewing .brewing {
-  display: block;
-}
-
-.container.comms .comms {
-  display: block;
-}
-
-.container.content .content {
-  display: block;
-}
-
-.container.culture .culture {
-  display: block;
-}
-
-.container.design .design {
-  display: block;
-}
-
-.container.pers-dev .pers-dev {
-  display: block;
 }

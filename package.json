@@ -73,7 +73,7 @@
     "fix": "npm run fix:lint && npm run fix:prettier",
     "serve": "gatsby serve",
     "start": "npm run dev",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "test": "npm run analyze",
     "deploy": "npm run analyze && gatsby build --prefix-paths && gh-pages -d public",
     "prepare": "husky"
   },

@@ -14,7 +14,7 @@ The site uses **British English** (for example "organising", "behaviour", "centr
 
 ## Attribution
 
-I built this site using the Gatsby React framework and the Tailwind starter theme.
+I built this site using the Gatsby React framework and the Tailwind CSS framework.
 
 - **Gatsby** is a free and open source framework based on React that helps developers build blazing fast websites and apps. See: https://www.gatsbyjs.org/
 - **Tailwind** is a utility-first CSS framework for rapidly building custom user interfaces. See https://tailwindcss.com

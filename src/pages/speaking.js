@@ -13,7 +13,7 @@ import inter_connect_image from "../images/speaking/inter_connect.jpeg";
 
 const SpeakingPage = () => {
   return (
-    <Layout fullWidth={true}>
+    <Layout>
       <ContentWidth>
         <section className="row">
           <div className="column">
@@ -56,7 +56,7 @@ const SpeakingPage = () => {
             />
           </div>
           <div className="column">
-            <p className="conference">Building a community of practice</p>
+            <h2 className="conference">Building a community of practice</h2>
             <p className="conferenceName">IBM Spark Design Festival</p>
             <p className="conferenceLocation">
               <em>Online, May 2021</em>
@@ -86,7 +86,7 @@ const SpeakingPage = () => {
       <ContentWidth>
         <section className="row reverse">
           <div className="column">
-            <p className="conference">The impact of product voice and tone</p>
+            <h2 className="conference">The impact of product voice and tone</h2>
             <p className="conferenceName">
               Product content strategy event organised by 383 Project
             </p>
@@ -126,7 +126,7 @@ const SpeakingPage = () => {
             />
           </div>
           <div className="column">
-            <p className="conference">Breaking down content silos</p>
+            <h2 className="conference">Breaking down content silos</h2>
             <p className="conferenceName">Button content conference</p>
             <p className="conferenceLocation">
               <em>Online, Oct 2020</em>
@@ -146,9 +146,9 @@ const SpeakingPage = () => {
       <ContentWidth>
         <section className="row reverse">
           <div className="column">
-            <p className="conference">
+            <h2 className="conference">
               Building a content design practice in the enterprise
-            </p>
+            </h2>
             <p className="conferenceName">Utterly content conference</p>
             <p className="conferenceLocation">
               <em>Online, Oct 2020</em>
@@ -184,9 +184,9 @@ const SpeakingPage = () => {
             />
           </div>
           <div className="column">
-            <p className="conference">
+            <h2 className="conference">
               Establishing end-to-end content collaboration squads
-            </p>
+            </h2>
             <p className="conferenceName">IBM ContentCon conference</p>
             <p className="conferenceLocation">
               <em>Hursley, UK, Oct 2019</em>
@@ -205,10 +205,10 @@ const SpeakingPage = () => {
       <ContentWidth>
         <section className="row reverse">
           <div className="column">
-            <p className="conference">
+            <h2 className="conference">
               Failing fast, using feedback loops, and the benefits of iterative
               design
-            </p>
+            </h2>
             <p className="conferenceName">IBM Think conference</p>
             <p className="conferenceLocation">
               <em>Las Vegas, USA, Mar 2018</em>
@@ -256,9 +256,9 @@ const SpeakingPage = () => {
             />
           </div>
           <div className="column">
-            <p className="conference">
+            <h2 className="conference">
               Achieving a consistent design language across your portfolio
-            </p>
+            </h2>
             <p className="conferenceName">IBM InterConnect conference</p>
             <p className="conferenceLocation">
               <em>Las Vegas, USA, Mar 2017</em>

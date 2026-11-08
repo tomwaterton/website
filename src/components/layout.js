@@ -37,7 +37,7 @@ function Layout(props) {
                   <li>
                     <a href="mailto:tomwaterton@gmail.com">
                       <img
-                        alt="Email icon"
+                        alt="Email Tom"
                         height="32px"
                         src={email}
                         width="32px"
@@ -50,7 +50,7 @@ function Layout(props) {
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      <img alt="LinkedIn icon" src={linkedin} />
+                      <img alt="Tom on LinkedIn" src={linkedin} />
                     </a>
                   </li>
                   <li>
@@ -60,7 +60,7 @@ function Layout(props) {
                       target="_blank"
                     >
                       <img
-                        alt="GitHub icon"
+                        alt="Tom on GitHub"
                         height="32px"
                         src={github}
                         width="32px"
