@@ -72,8 +72,8 @@ const ExperiencePage = () => {
           <div className="column">
             <ul className="ul-small">
               <li>
-                <strong>Design Lead for AI Productivity</strong>, IBM (Jul 2026
-                – present)
+                <strong>Design Lead for AI Tooling</strong>, IBM (Jul 2026 –
+                present)
               </li>
               <li>
                 <strong>Senior UX / Content Designer</strong>, IBM (Apr 2024 –

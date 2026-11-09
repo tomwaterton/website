@@ -60,11 +60,11 @@ const IndexPage = () => {
           <div className="column-1-3">
             <div className="home-card">
               <img
-                alt="Screenshot of an AI assistant interface"
-                className="home-card__image"
+                alt="Screenshot of the content checker plugin in Figma"
+                className="home-card__image home-card__image--top-right"
                 decoding="async"
                 loading="lazy"
-                src="/images/portfolio/AI_assistant.png"
+                src="/images/portfolio/Figma_plugin.png"
               />
               <div className="home-card__body">
                 <h3 className="home-card__title">AI tooling design</h3>

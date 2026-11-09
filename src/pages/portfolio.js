@@ -106,15 +106,19 @@ const PortfolioCard = ({ item }) => {
   return (
     <article className="portfolio-card">
       <div className="portfolio-card__image-wrap">
-        <img
-          alt={item.imageAlt}
-          className="portfolio-card__image"
-          decoding="async"
-          loading="lazy"
-          src={`/images/portfolio/${item.image}`}
-        />
+        {item.image && (
+          <img
+            alt={item.imageAlt}
+            className="portfolio-card__image"
+            decoding="async"
+            loading="lazy"
+            src={`/images/portfolio/${item.image}`}
+          />
+        )}
       </div>
-      <p className="portfolio-card__caption">{item.caption}</p>
+      {item.caption && (
+        <p className="portfolio-card__caption">{item.caption}</p>
+      )}
       <div className="portfolio-card__body">
         <div className="portfolio-card__tags">
           {item.tags.map((tag) => (

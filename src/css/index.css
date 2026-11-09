@@ -114,6 +114,10 @@
   object-position: top left;
 }
 
+.home-card__image--top-right {
+  object-position: top right;
+}
+
 .home-card__body {
   padding: 1rem 1.1rem 1.25rem;
   display: flex;

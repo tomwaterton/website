@@ -1,5 +1,35 @@
 [
   {
+    "title": "Design Lead for AI tooling",
+    "subTitle": "Designing an AI tooling extension used by IBM Software",
+    "image": "AI_tooling.png",
+    "imageAlt": "Screenshot of the Automations page in the AI tooling extension, showing a list of scheduled tasks and a Create automation button",
+    "caption": "A sample page within the AI tooling extension that I'm the Design Lead for",
+    "tags": ["ai-tooling-design", "ux-design", "leadership"],
+    "bullets": [
+      "I work on an AI tooling extension for [[IBM Bob|https://bob.ibm.com/]]. The extension helps IBM Software product team members use Bob for AI-native product development lifecycle (PDLC) work.",
+      "As one of the product's leads, I influence our roadmap, define design priorities, plan user research, and verify that features are implemented as designed.",
+      "Users can quickly connect Bob to the tools they already use, such as Amplitude, GitHub, and Jira. Bob can then retrieve information, pull in context, and take action on the user's behalf, without them having to switch between apps.",
+      "The extension also lets users create scheduled automations, publish and share prototypes, sites, and docs with built-in commenting, invoke skills with chat shortcuts, and control which MCP servers and skills Bob loads.",
+      "The extension has over 4,000 weekly active users."
+    ]
+  },
+  {
+    "title": "AI course design",
+    "subTitle": "Helped deliver an AI course for 25,000 IBM employees",
+    "image": "AI_course.png",
+    "imageAlt": "Screenshot of the Introduction to AI-native principles module in the AI Academy Foundations course",
+    "caption": "A module from the AI Academy Foundations course that I helped deliver",
+    "tags": ["ai-tooling-design", "leadership"],
+    "bullets": [
+      "AI-native product development only works when everyone on a team shares the same foundation. In 2026 I helped design and deliver a course for IBM Software that builds that common ground for all employees, whatever their role.",
+      "I was one of four people on the core team. The course, AI Academy Foundations, is hands-on and takes about 5 hours. Its three modules cover AI-native principles, AI tooling, and AI-native product development in practice.",
+      "The course has three role-specific tracks, for product managers, designers, and engineers. Each learner is assigned the track that best matches their role, and is encouraged to explore the others, since AI enables teams to work more collaboratively across disciplines.",
+      "We built the course using the AI-native approach it teaches, and iterated on it using feedback from a pilot and 47 user research engagements with product managers, designers, and engineers.",
+      "The course was rolled out to approximately 25,000 employees across IBM Software, and has a completion rate of over 90%."
+    ]
+  },
+  {
     "title": "Delivered an AI assistant",
     "subTitle": "Enabling users to get quick answers to their questions",
     "image": "AI_assistant.png",
