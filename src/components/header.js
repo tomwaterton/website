@@ -96,15 +96,15 @@ function Header() {
             <Dropdown label="About">
               <Link to="/about">About me</Link>
               <Link to="/articles">Articles</Link>
-              <Link to="/speaking">Speaking</Link>
               <Link to="/testimonials">Testimonials</Link>
             </Dropdown>
           </div>
 
           <div className="navbar">
             <Dropdown label="Work">
-              <Link to="/experience">Experience and skills</Link>
               <Link to="/portfolio">Portfolio</Link>
+              <Link to="/experience">Experience and skills</Link>
+              <Link to="/speaking">Speaking</Link>
               <Link to="/inventing">Inventing</Link>
               <Link to="/recommended-books">Recommended books</Link>
             </Dropdown>
@@ -146,9 +146,6 @@ function Header() {
           <Link className="mobile-nav__link" onClick={closeMenu} to="/articles">
             Articles
           </Link>
-          <Link className="mobile-nav__link" onClick={closeMenu} to="/speaking">
-            Speaking
-          </Link>
           <Link
             className="mobile-nav__link"
             onClick={closeMenu}
@@ -161,16 +158,19 @@ function Header() {
           <Link
             className="mobile-nav__link"
             onClick={closeMenu}
-            to="/experience"
+            to="/portfolio"
           >
-            Experience and skills
+            Portfolio
           </Link>
           <Link
             className="mobile-nav__link"
             onClick={closeMenu}
-            to="/portfolio"
+            to="/experience"
           >
-            Portfolio
+            Experience and skills
+          </Link>
+          <Link className="mobile-nav__link" onClick={closeMenu} to="/speaking">
+            Speaking
           </Link>
           <Link
             className="mobile-nav__link"

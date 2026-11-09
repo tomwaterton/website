@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import { Seo } from "../components/seo";
 import Layout from "../components/layout";
@@ -25,7 +26,9 @@ const SpeakingPage = () => {
             </p>
             <p>
               I&apos;ve had the privilege of speaking on these topics at a few
-              conferences and events over the last few years.
+              conferences and events over the last few years. You can also read
+              my writing on these and related topics in my{" "}
+              <Link to="/articles">articles</Link>.
             </p>
             <p>
               If you think I might be able to bring something to an event you

@@ -32,19 +32,19 @@ const NotFoundPage = () => {
                 <Link to="/articles">Articles</Link>
               </li>
               <li>
-                <Link to="/speaking">Speaking</Link>
-              </li>
-              <li>
                 <Link to="/testimonials">Testimonials</Link>
               </li>
             </ul>
             <h2>Work</h2>
             <ul className="ul-small">
               <li>
+                <Link to="/portfolio">Portfolio</Link>
+              </li>
+              <li>
                 <Link to="/experience">Experience and skills</Link>
               </li>
               <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/speaking">Speaking</Link>
               </li>
               <li>
                 <Link to="/inventing">Inventing</Link>
