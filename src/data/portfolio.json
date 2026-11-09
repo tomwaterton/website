@@ -1,6 +1,6 @@
 [
   {
-    "title": "Design Lead for AI tooling",
+    "title": "Leading design for AI tooling",
     "subTitle": "Designing an AI tooling extension used by IBM Software",
     "image": "AI_tooling.png",
     "imageAlt": "Screenshot of the Automations page in the AI tooling extension, showing a list of scheduled tasks and a Create automation button",
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "title": "AI course design",
+    "title": "Designing an AI course",
     "subTitle": "Helped deliver an AI course for 25,000 IBM employees",
     "image": "AI_course.png",
     "imageAlt": "Screenshot of the Introduction to AI-native principles module in the AI Academy Foundations course",
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "title": "Delivered an AI assistant",
+    "title": "Delivering an AI assistant",
     "subTitle": "Enabling users to get quick answers to their questions",
     "image": "AI_assistant.png",
     "imageAlt": "Screenshots showing the AI assistant",
@@ -40,11 +40,12 @@
       "Some IBMers were struggling with the many internal IBM release management processes. To help such users, I configured and deployed an AI assistant.",
       "I used the IBM watsonx Orchestrate platform to connect the assistant to a documentation set that I had written.",
       "The AI assistant is embedded directly in the internal release management application that product managers and other colleagues already use.",
-      "The AI assistant responds to users' natural language questions, providing a summary response as well as links to further details."
+      "The AI assistant responds to users' natural language questions, providing a summary response as well as links to further details.",
+      "The assistant helps users quickly find answers to many questions without needing to ask colleagues or search internal web pages."
     ]
   },
   {
-    "title": "Created a Figma plugin that checks content",
+    "title": "Creating a Figma plugin that checks content",
     "subTitle": "Helping IBM designers easily check and improve the written aspects of their designs",
     "image": "Figma_plugin.png",
     "imageAlt": "Screenshot of the content checker Figma plugin",
@@ -55,7 +56,7 @@
       "I came up with the idea of providing them with a way to check the written content of their product UI designs directly within Figma.",
       "Some colleagues helped me get a prototype AI-powered Figma plugin running and I then worked on providing the content rules for the AI model to reference.",
       "I iteratively tested the plugin on example Figma designs and refined the content guidelines and LLM settings until the plugin was ready to publish.",
-      "The Figma plugin is now being used by over 200 IBM designers, helping them perfect their UI content."
+      "The Figma plugin is now being used by over 250 IBM designers, helping them perfect their UI content."
     ]
   },
   {
@@ -91,7 +92,7 @@
     "title": "Researching and testing terminology",
     "subTitle": "Ensuring that the words we use communicate clearly with our target users",
     "image": "Terminology_research.png",
-    "imageAlt": "Examples from the terminology cloze test that I ran",
+    "imageAlt": "Three survey pages: an open cloze test with a blank to fill in, a closed cloze test with a list of word options, and a page asking users to define terms such as Integrate, Connector, and API",
     "caption": "Examples from the terminology cloze test that I ran",
     "tags": ["ux-design", "content-design"],
     "bullets": [
@@ -113,28 +114,30 @@
       "IBM has a community of over 3,000 designers. While we have dedicated content designers, many design teams don't have access to a content specialist.",
       "In 2022, I was asked to create a self-service online course to help UX designers, visual designers, and design researchers improve their UX writing skills.",
       "After getting input from a variety of design colleagues, I came up with a course outline that mapped to both our Carbon content guidelines and internal design review heuristics.",
-      "As I drafted each module I sought feedback from early adopters, enabling me to refine the content until it was ready for publication."
+      "As I drafted each module I sought feedback from early adopters, enabling me to refine the content until it was ready for publication.",
+      "Since it was published, the UX writing course has been accessed thousands of times."
     ]
   },
   {
     "title": "Providing content assessments",
     "subTitle": "Helping product teams to further improve their UI content",
     "image": "Content_assessments.png",
-    "imageAlt": "Examples of the detailed content reviews I provide to product teams",
+    "imageAlt": "Pages from a content assessment report, showing an overall grade, section ratings for terminology and help content, and written feedback on an error message",
     "caption": "Examples of the detailed content reviews I provide to product teams",
     "tags": ["content-design"],
     "bullets": [
       "Sadly, many IBM product teams do not have a dedicated content specialist.",
       "While they have content guidance to follow, their UI content often has scope for improvement.",
       "Before being released, all products go through a formal 'Design & User Experience' review and I often provide the content-specific part of this assessment.",
-      "I assess the written parts of the product UI against a set of content heuristics and provide detailed feedback highlighting both strengths and areas for improvement, along with suggestions and supporting materials."
+      "I assess the written parts of the product UI against a set of content heuristics and provide detailed feedback highlighting both strengths and areas for improvement, along with suggestions and supporting materials.",
+      "Over time, the content quality of IBM Software products has demonstrably improved over successive product reviews, as teams receive tracked content feedback and make improvements for their next release."
     ]
   },
   {
-    "title": "Helping to create a spark",
+    "title": "Writing for the Spark Design Festival",
     "subTitle": "Writing the comms for the internal 2023 IBM Spark Design Festival",
     "image": "Spark.png",
-    "imageAlt": "The website for the internal IBM Spark Design Festival 2023",
+    "imageAlt": "Festival website homepage with a purple background, yellow starburst graphics, and the dates September 26 to 29, 2023",
     "caption": "The website for the internal IBM Spark Design Festival 2023",
     "tags": ["content-design", "leadership"],
     "bullets": [
